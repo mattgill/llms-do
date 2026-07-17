@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.7-code",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254000-Lm1kzV5RPybTLTt1BcWV",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 3293,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01665224,
+  "execution_duration_sec": 56.238,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:07:34.799261+00:00",
+  "reasoning_tokens": 4486
+}

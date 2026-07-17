@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-27b",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784255198-XNYDuKJ0uxaq1uGs1x9y",
+  "provider_served": "Morph",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 3043,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.008343022,
+  "execution_duration_sec": 55.771,
+  "raw_response": "\n\n{\n  \"file_type\": \"python\",\n  \"line_count\": 421,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"__future__\",\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"Async-heavy FastAPI application utilizing SQLAlchemy ORM for database interactions and Pydantic for request/response validation. Implements JWT-based authentication via dependency injection, a custom WebSocket manager for real-time broadcasting, and background tasks for async notifications. Pagination logic employs subquery counting for efficiency. Centralized error handling and clear separation of concerns between models, schemas, and routes.\"\n}",
+  "ran_at": "2026-07-17T02:27:32.420837+00:00",
+  "reasoning_tokens": 2336
+}

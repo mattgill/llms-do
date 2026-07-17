@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.3-chat",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258015-RRFFcEX5ukoXBmBxu8uk",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5872,
+  "output_tokens_billed": 170,
+  "reasoning_tokens": 64,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.012656,
+  "execution_duration_sec": 2.608,
+  "raw_response": "{\"file_type\":\"text\",\"line_count\":430,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Structured specification document defining an autonomous software engineering agent. Contains multiple clearly delineated sections (core principles, tool descriptions, coding standards, security rules, framework-specific guidance, review checklist, anti-patterns, and operational constraints). Highly detailed procedural and policy-oriented content with strict rules, hierarchical organization, and extensive constraints. No executable code present.\"}",
+  "ran_at": "2026-07-17T03:13:37.908587+00:00"
+}

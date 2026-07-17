@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.3-chat",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258013-YIl8U6QtFuCYqpUTxX47",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 210,
+  "reasoning_tokens": 64,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0208705,
+  "execution_duration_sec": 3.624,
+  "raw_response": "{\"file_type\":\"technical_documentation\",\"line_count\":950,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is a large-scale system architecture document describing a real-time collaborative platform. It includes multiple subsystems (API gateway, WebSocket services, CRDT-based collaboration engine, message broker, persistence layer), detailed database schemas, distributed systems design (multi-region, sharding, replication), and operational concerns (monitoring, scaling, disaster recovery). The document also embeds pseudocode (CRDT merge algorithm), API specifications, and infrastructure configurations. Overall complexity is very high due to concurrency handling, consistency guarantees (CRDTs), and distributed coordination across services and regions.\"}",
+  "ran_at": "2026-07-17T03:13:36.440830+00:00"
+}

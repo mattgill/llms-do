@@ -1,0 +1,17 @@
+{
+  "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254104-45ZM8TCJ0B9yBYZAMN7o",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 11080,
+  "output_tokens_billed": 542,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0067068,
+  "execution_duration_sec": 5.17,
+  "raw_response": "{\n  \"file_type\": \"technical_document\",\n  \"line_count\": 942,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Markdown-formatted technical architecture document for CollabSync real-time collaboration platform (v2.4.0). Contains 10 major sections: System Overview, High-Level Architecture, Data Model, CRDT Conflict Resolution Algorithm, API Design (REST + WebSocket), Authentication/Authorization, Infrastructure (Kubernetes, PostgreSQL, Redis, S3, Pulsar), Performance Benchmarks & Scaling, Disaster Recovery, and Monitoring/Observability. Includes numerous tables, ASCII architecture diagrams, code snippets (TypeScript, JSON, SQL, PromQL, Bash), and configuration examples. Document is highly structured with cross-references, detailed schemas, and operational procedures.\"\n}",
+  "ran_at": "2026-07-17T02:08:27.200923+00:00",
+  "reasoning_tokens": 414
+}

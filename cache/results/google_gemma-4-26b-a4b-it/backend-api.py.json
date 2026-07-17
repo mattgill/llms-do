@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-26b-a4b-it",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784256146-OeCX8nOHsNCXyI91te35",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 4209,
+  "output_tokens_billed": 384,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00042519,
+  "execution_duration_sec": 14.046,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 356,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"ConnectionManager.connect\",\n    \"ConnectionManager.disconnect\",\n    \"ConnectionManager.broadcast\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\"\n  ],\n  \"complexity_notes\": \"The file implements a full FastAPI backend including asynchronous SQLAlchemy ORM models, JWT authentication, Pydantic schemas for validation, a WebSocket connection manager for real-time broadcasting, and CRUD endpoints with pagination and background tasks. It uses an asynchronous architecture throughout.\"\n}",
+  "ran_at": "2026-07-17T02:42:40.200500+00:00",
+  "reasoning_tokens": 0
+}

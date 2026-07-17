@@ -1,0 +1,17 @@
+{
+  "model_id": "stepfun/step-3.7-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254260-YDS5ejXLwmk3iNkxxu5r",
+  "provider_served": "Ambient",
+  "input_tokens_billed": 10526,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00665146,
+  "execution_duration_sec": 36.449,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:11:35.528441+00:00",
+  "reasoning_tokens": 3754
+}

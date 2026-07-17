@@ -1,0 +1,17 @@
+{
+  "model_id": "~anthropic/claude-sonnet-latest",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254769-UKJgeC9yTAVBV31jWdrf",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 5043,
+  "output_tokens_billed": 956,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.019646,
+  "execution_duration_sec": 14.142,
+  "raw_response": "```json\n{\n  \"file_type\": \"TypeScript/TSX (React component module)\",\n  \"line_count\": 211,\n  \"functions\": [\n    {\"name\": \"useDebounce\", \"type\": \"generic hook\", \"purpose\": \"debounces a value by a delay in ms\"},\n    {\"name\": \"useDataFetch\", \"type\": \"generic hook\", \"purpose\": \"manages sorting, debounced filters, pagination, and abortable async data fetching\"},\n    {\"name\": \"useTableSelection\", \"type\": \"hook\", \"purpose\": \"accesses SelectionContext, throws if used outside <DataTable>\"},\n    {\"name\": \"compareValues\", \"type\": \"generic utility function\", \"purpose\": \"generic comparator for sorting rows by column value and direction\"},\n    {\"name\": \"DataTableComponent\", \"type\": \"generic React functional component\", \"purpose\": \"renders sortable, selectable, paginated data grid with loading/error states\"},\n    {\"name\": \"handleSort\", \"type\": \"inline callback (useCallback)\", \"purpose\": \"toggles sort direction/column on header interaction\"},\n    {\"name\": \"body\", \"type\": \"inline render helper\", \"purpose\": \"renders table rows for loading/error/empty/data states\"},\n    {\"name\": \"ariaSort/sortMark\", \"type\": \"inline helper functions\", \"purpose\": \"compute ARIA sort state and visual sort indicator\"}\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from \\\"react\\\"\"\n  ],\n  \"complexity_notes\": \"Generic, type-parameterized React module implementing a reusable data table. Contains multiple exported hooks (useDataFetch with abortable fetch via AbortController and debounced filters, useTableSelection via React Context), a generic sorting comparator supporting custom sortFn per column, and a complex functional component handling selection state (Set-based), memoized sorting, keyboard-accessible sortable headers (ARIA attributes), pagination controls with windowed page-number rendering, and distinct render paths for loading/error/empty/populated states. Moderate-to-high cyclomatic complexity concentrated in DataTableComponent (render body function, pagination button generation) and useDataFetch's async effect (race condition guarding via closure flag 'ok' and AbortController). No classes; relies on TypeScript generics extensively (TData, TColumn, TFilters) for type safety across hooks and props interfaces.\"\n}\n```",
+  "ran_at": "2026-07-17T02:19:41.055876+00:00",
+  "reasoning_tokens": 0
+}

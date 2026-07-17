@@ -1,0 +1,17 @@
+{
+  "model_id": "xiaomi/mimo-v2.5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784255552-yDATiyZPB7nWBvLHsBjs",
+  "provider_served": "DigitalOcean",
+  "input_tokens_billed": 3295,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001485463,
+  "execution_duration_sec": 182.079,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:35:33.280682+00:00",
+  "reasoning_tokens": 4022
+}

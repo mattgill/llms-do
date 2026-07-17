@@ -1,0 +1,17 @@
+{
+  "model_id": "~moonshotai/kimi-latest",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254627-jnhXDhHbKNpkQNzysrRQ",
+  "provider_served": "Moonshot AI",
+  "input_tokens_billed": 9983,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.091389,
+  "execution_duration_sec": 128.757,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:19:14.877202+00:00",
+  "reasoning_tokens": 4093
+}

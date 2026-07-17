@@ -1,0 +1,17 @@
+{
+  "model_id": "nvidia/nemotron-3-super-120b-a12b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257828-3VKLpxWfgVnXoCJ77hAa",
+  "provider_served": "Nebius",
+  "input_tokens_billed": 11080,
+  "output_tokens_billed": 2462,
+  "reasoning_tokens": 2521,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0055398,
+  "execution_duration_sec": 9.35,
+  "raw_response": "\n\n{\"file_type\": \"markdown\", \"line_count\": 295, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"A detailed technical architecture document written in Markdown format. It contains 10 major sections covering system overview, architecture, data model, conflict resolution algorithm, API design, authentication, infrastructure, performance benchmarks, disaster recovery, and monitoring. The document includes ASCII diagrams, tables, code snippets (TypeScript and SQL), and structured specifications. It describes a real-time collaboration platform using CRDTs for conflict resolution.\"}",
+  "ran_at": "2026-07-17T03:10:35.937924+00:00"
+}

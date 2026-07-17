@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-plus-20260420",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254844-JHmRF6TXFQIHT3bCuJvc",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 3601,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0097872,
+  "execution_duration_sec": 66.069,
+  "raw_response": "{\n  \"file_type\": \"markdown_technical_documentation\",\n  \"line_count\": 798,\n  \"functions\": [\n    \"applyOperation (CRDT merge logic)\",\n    \"binarySearchByPosition\",\n    \"mergeAttributes\",\n    \"splicePositions\",\n    \"findPositionIndex\"\n  ],\n  \"classes\": [\n    \"CRDTState\",\n    \"PositionID\",\n    \"InsertOp\",\n    \"DeleteOp\",\n    \"FormatOp\",\n    \"MoveOp\"\n  ],\n  \"imports\": [\n    \"Apache Pulsar\",\n    \"PostgreSQL\",\n    \"Redis\",\n    \"Envoy\",\n    \"OpenTelemetry\",\n    \"Prometheus\",\n    \"Kubernetes/EKS\",\n    \"S3/MinIO\",\n    \"Elasticsearch\",\n    \"ClickHouse\"\n  ],\n  \"complexity_notes\": \"The document outlines a highly complex, distributed real-time collaboration system. Key complexity drivers include: 1) CRDT-based conflict resolution using RGA/LSEQ algorithms requiring deterministic merge logic and anti-entropy protocols. 2) Multi-region active-active architecture with consistent hashing for dynamic sharding of collaboration engines. 3) Sophisticated observability stack (OpenTelemetry, Prometheus, structured logging) with tail-based sampling and multi-dimensional business metrics. 4) Strict latency (<100ms P99) and durability (11 nines) requirements necessitating WAL-backed op logs, Redis pub/sub for presence, and Pulsar for event streaming. 5) Comprehensive disaster recovery with RPO/RTO targets, chaos engineering practices, and automated failover procedures.\"\n}",
+  "ran_at": "2026-07-17T02:21:46.866086+00:00",
+  "reasoning_tokens": 3235
+}

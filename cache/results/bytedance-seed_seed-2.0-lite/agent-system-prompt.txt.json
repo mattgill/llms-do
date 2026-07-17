@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2.0-lite",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257877-8kaOKgDBLF8wmaePVwVG",
+  "provider_served": "Seed",
+  "input_tokens_billed": 6392,
+  "output_tokens_billed": 1295,
+  "reasoning_tokens": 1080,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.004188,
+  "execution_duration_sec": 18.979,
+  "raw_response": "{\"file_type\": \"Plain text AI agent operation specification document\", \"line_count\": 718, \"top_level_sections\": [\"DevBot purpose and core mandate\", \"CORE PRINCIPLES\", \"TOOL DESCRIPTIONS\", \"CODE STYLE GUIDELINES\", \"SECURITY RULES\", \"FRAMEWORK-SPECIFIC INSTRUCTIONS\", \"PRE-SUBMIT REVIEW CHECKLIST\", \"OUTPUT FORMAT REQUIREMENTS\", \"FALLBACK BEHAVIORS FOR AMBIGUITY\", \"COMMON ANTI-PATTERNS TO AVOID\", \"SESSION METADATA\", \"FINAL REMINDER\"], \"content_purpose\": \"Defines mandatory rules, guardrails, and workflows for an autonomous AI software engineering agent (DevBot) that translates natural language task descriptions into working, tested code changes\", \"complexity_notes\": \"The document uses a clear hierarchical section structure with prescriptive, linear rules; no ambiguous or recursive logic, all requirements are explicit and scoped to agent behavior during code development tasks\"}",
+  "ran_at": "2026-07-17T03:11:32.325720+00:00"
+}

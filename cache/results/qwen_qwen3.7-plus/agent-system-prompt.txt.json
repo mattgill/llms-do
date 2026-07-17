@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-plus",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254157-6Pob4aKVe6y61ck2XIYx",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 2061,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00460448,
+  "execution_duration_sec": 38.252,
+  "raw_response": "{\n  \"file_type\": \"system_prompt\",\n  \"line_count\": 428,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The content is a non-code text document serving as a comprehensive system prompt and operational guideline for an autonomous AI software engineering agent. The text structure is highly organized and hierarchical, utilizing text headings and separator lines to divide the document into major sections. These sections include Core Principles, Tool Descriptions, Code Style Guidelines, Security Rules, Framework-Specific Instructions, Review Checklists, Output Format Requirements, Fallback Behaviors, Common Anti-Patterns, and Session Metadata. The document is dense with technical constraints, rules, and instructional directives, containing no executable code, functions, classes, or imports.\"\n}",
+  "ran_at": "2026-07-17T02:09:54.059477+00:00",
+  "reasoning_tokens": 1887
+}

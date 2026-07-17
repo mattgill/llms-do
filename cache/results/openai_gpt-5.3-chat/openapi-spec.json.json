@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.3-chat",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258009-6EKo95mcW8NE3ZiDkuXq",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5528,
+  "output_tokens_billed": 151,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.011788,
+  "execution_duration_sec": 5.94,
+  "raw_response": "{\"file_type\":\"OpenAPI JSON specification\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Large, production-grade OpenAPI 3.1 specification defining a REST API for task management. Contains multiple endpoints with nested schemas, reusable components, authentication schemes, pagination, filtering, batch operations, and detailed request/response structures. High structural complexity due to deep nesting, references ($ref), and extensive schema definitions.\"}",
+  "ran_at": "2026-07-17T03:13:32.511774+00:00"
+}

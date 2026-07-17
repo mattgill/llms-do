@@ -1,0 +1,17 @@
+{
+  "model_id": "~anthropic/claude-sonnet-latest",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254756-ZcV5kQkMv8cMSkSPpe4E",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 16131,
+  "output_tokens_billed": 854,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.040802,
+  "execution_duration_sec": 9.582,
+  "raw_response": "```json\n{\n  \"file_type\": \"technical documentation (Markdown)\",\n  \"line_count\": 552,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is not source code but a comprehensive technical architecture document for 'CollabSync', a real-time collaboration platform. It contains embedded code-like artifacts including: (1) TypeScript type definitions for CRDT operation types (InsertOp, DeleteOp, FormatOp, MoveOp), (2) a pseudocode 'applyOperation' merge function implementing RGA/LSEQ CRDT logic with switch-case handling for insert/delete/format/move operations, (3) SQL-like table schema definitions for workspaces, documents, users, memberships, operations, snapshots, and document_presence, (4) REST API endpoint listings, (5) WebSocket JSON message protocol examples, (6) PromQL monitoring queries, (7) a k6 load-test JS config object, and (8) bash/AWS CLI disaster recovery commands. The document covers 10 major sections: system overview, architecture, data model, CRDT conflict resolution algorithm, API design, auth/authorization, infrastructure (Kubernetes/AWS), performance benchmarks, disaster recovery, and observability. Structural complexity is high due to nested ASCII diagrams (system topology, k8s cluster, multi-region setup, auth sequence diagram) and multiple markdown tables (20+) specifying schemas, SLAs, rate limits, and alerting rules.\",\n  \"document_structure\": {\n    \"title\": \"CollabSync: Real-Time Collaboration Platform \u2014 Technical Architecture\",\n    \"version\": \"2.4.0\",\n    \"sections\": [\n      \"1. System Overview and Design Goals\",\n      \"2. High-Level Architecture\",\n      \"3. Data Model\",\n      \"4. Conflict Resolution: CRDT Algorithm\",\n      \"5. API Design\",\n      \"6. Authentication and Authorization\",\n      \"7. Infrastructure\",\n      \"8. Performance Benchmarks and Scaling Strategy\",\n      \"9. Disaster Recovery and Backup Strategy\",\n      \"10. Monitoring and Observability\"\n    ],\n    \"diagram_count\": 7,\n    \"table_count\": 24,\n    \"code_block_languages\": [\"plaintext (ASCII diagrams)\", \"typescript\", \"pseudocode\", \"json/jsonc\", \"promql\", \"javascript (k6)\", \"bash\", \"sql-like markdown tables\"]\n  }\n}\n```",
+  "ran_at": "2026-07-17T02:19:24.460270+00:00",
+  "reasoning_tokens": 0
+}

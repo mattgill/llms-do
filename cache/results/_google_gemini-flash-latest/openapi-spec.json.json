@@ -1,0 +1,17 @@
+{
+  "model_id": "~google/gemini-flash-latest",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254726-oaISPHQcNKlHWfk78ffz",
+  "provider_served": "Google",
+  "input_tokens_billed": 5918,
+  "output_tokens_billed": 109,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.009858,
+  "execution_duration_sec": 1.625,
+  "raw_response": "{\n  \"file_type\": \"openapi\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The file is a single-line JSON document containing an OpenAPI 3.1.0 specification for a Task Manager API. It defines 8 endpoints with various HTTP methods (GET, POST, PATCH, DELETE), supports pagination, search, and batch operations, and includes detailed schemas and error responses.\"\n}",
+  "ran_at": "2026-07-17T02:18:46.234246+00:00",
+  "reasoning_tokens": 0
+}

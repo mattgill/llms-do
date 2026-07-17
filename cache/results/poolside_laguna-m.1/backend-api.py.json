@@ -1,0 +1,17 @@
+{
+  "model_id": "poolside/laguna-m.1",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254604-XK2pU46DsSJrxagnXZUM",
+  "provider_served": "Poolside",
+  "input_tokens_billed": 3575,
+  "output_tokens_billed": 1105,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0011454,
+  "execution_duration_sec": 12.922,
+  "raw_response": "\n{\n  \"file_type\": \"Python\",\n  \"line_count\": 207,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\",\n    \"global_exception_handler\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime (UTC, datetime, timedelta)\",\n    \"enum (StrEnum)\",\n    \"typing (Annotated, Any, Sequence)\",\n    \"jwt\",\n    \"fastapi (BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status)\",\n    \"fastapi.encoders (jsonable_encoder)\",\n    \"fastapi.middleware.cors (CORSMiddleware)\",\n    \"passlib.context (CryptContext)\",\n    \"pydantic (BaseModel, ConfigDict, Field)\",\n    \"sqlalchemy (Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select)\",\n    \"sqlalchemy.ext.asyncio (AsyncSession, create_async_engine)\",\n    \"sqlalchemy.orm (DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker)\",\n    \"fastapi.responses (JSONResponse)\"\n  ],\n  \"complexity_notes\": \"A well-structured FastAPI application implementing a project management system with JWT authentication, SQLAlchemy async ORM for database operations, WebSocket support for real-time updates, and background task processing. Features include CRUD operations on projects with pagination and filtering, user authentication, and a connection manager for broadcasting messages to WebSocket clients. The code demonstrates good separation of concerns with models, schemas, and route handlers.\"\n}\n",
+  "ran_at": "2026-07-17T02:16:54.578188+00:00",
+  "reasoning_tokens": 631
+}

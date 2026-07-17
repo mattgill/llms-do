@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.6-sol",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253339-V82zmMsz2UfuGBQIJTNt",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 3848,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.17947375,
+  "execution_duration_sec": 53.831,
+  "raw_response": "{\"file_type\":\"Markdown technical architecture document with embedded TypeScript, JSON/JSONC, Bash, PromQL, configuration snippets, tables, and ASCII diagrams\",\"line_count\":924,\"functions\":[{\"name\":\"applyOperation\",\"language\":\"TypeScript-like pseudocode\",\"purpose\":\"Deterministically applies insert, delete, format, and move CRDT operations while enforcing idempotency and advancing the Lamport clock\"}],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Large, highly structured production architecture specification with 10 numbered sections. It covers system goals, service topology, relational data models, an RGA/LSEQ-based CRDT merge algorithm, REST and WebSocket APIs, authentication and authorization, Kubernetes and datastore infrastructure, scaling and multi-region deployment, disaster recovery, and observability. The document contains numerous Markdown tables, ASCII architecture and sequence diagrams, API examples, operational commands, PromQL queries, and one substantial pseudocode function. Key complexity areas include distributed consistency, deterministic conflict resolution, dynamic sharding, cross-region replication, state synchronization, failover, and multi-tier monitoring.\"}",
+  "ran_at": "2026-07-17T01:56:30.360951+00:00",
+  "reasoning_tokens": 3624
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-max-preview",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784255073-qr1HWBpm3uEoBy91CB5B",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 1727,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01660568,
+  "execution_duration_sec": 44.491,
+  "raw_response": "{\"file_type\":\"OpenAPI Specification (JSON)\",\"line_count\":1,\"functions\":[\"listTasks\",\"createTask\",\"getTask\",\"updateTask\",\"deleteTask\",\"assignTask\",\"listComments\",\"createComment\",\"listAttachments\",\"uploadAttachment\",\"searchTasks\",\"batchTasks\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"Comprehensive OpenAPI 3.1.0 specification for a Task Manager REST API. Defines 12 operations across 7 path templates, 12 reusable component schemas, JWT and API Key security schemes, standardized error responses, and advanced capabilities including pagination, full-text search, and batch processing. Provided as a single-line minified JSON document.\"}",
+  "ran_at": "2026-07-17T02:25:15.370956+00:00",
+  "reasoning_tokens": 1555
+}

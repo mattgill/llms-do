@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-max",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254361-BeQM0Pa22yFeaZqyY4xj",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 1622,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0234289,
+  "execution_duration_sec": 31.094,
+  "raw_response": "{\n  \"file_type\": \"technical_architecture_document\",\n  \"line_count\": 681,\n  \"sections\": [\n    \"System Overview and Design Goals\",\n    \"High-Level Architecture\",\n    \"Data Model\",\n    \"Conflict Resolution: CRDT Algorithm\",\n    \"API Design\",\n    \"Authentication and Authorization\",\n    \"Infrastructure\",\n    \"Performance Benchmarks and Scaling Strategy\",\n    \"Disaster Recovery and Backup Strategy\",\n    \"Monitoring and Observability\"\n  ],\n  \"structural_elements\": [\n    \"markdown_tables\",\n    \"ascii_topology_diagrams\",\n    \"text_based_entity_relationship_diagrams\",\n    \"typescript_code_blocks\",\n    \"json_code_blocks\",\n    \"bash_code_blocks\",\n    \"promql_code_blocks\"\n  ],\n  \"summary\": \"A comprehensive technical architecture document for 'CollabSync', a real-time collaboration platform. It details system design goals, high-level service topology, PostgreSQL data models, CRDT-based conflict resolution algorithms, REST and WebSocket API designs, JWT authentication flows, Kubernetes infrastructure, scaling strategies, disaster recovery procedures, and observability metrics.\"\n}",
+  "ran_at": "2026-07-17T02:13:10.860414+00:00",
+  "reasoning_tokens": 1371
+}

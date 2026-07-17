@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253662-fptqmIp4BI9rLOvRHrzL",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 5043,
+  "output_tokens_billed": 768,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.017766,
+  "execution_duration_sec": 9.138,
+  "raw_response": "```json\n{\n  \"file_type\": \"TypeScript/TSX (React component module)\",\n  \"line_count\": 199,\n  \"functions\": [\n    {\"name\": \"useDebounce\", \"type\": \"generic hook\", \"purpose\": \"debounce a value by delay ms\"},\n    {\"name\": \"useDataFetch\", \"type\": \"generic hook\", \"purpose\": \"manages sort/filter/pagination state and async abortable fetch, with debounced filters\"},\n    {\"name\": \"useTableSelection\", \"type\": \"hook\", \"purpose\": \"access SelectionContext, throws if used outside DataTable\"},\n    {\"name\": \"compareValues\", \"type\": \"generic utility function\", \"purpose\": \"generic comparator for sorting values by type (string/number/fallback) and direction\"},\n    {\"name\": \"DataTableComponent\", \"type\": \"generic React functional component\", \"purpose\": \"renders table with sorting, selection, pagination, loading/error states\"},\n    {\"name\": \"body (inner function in DataTableComponent)\", \"purpose\": \"renders table rows based on loading/error/empty/data states\"},\n    {\"name\": \"handleSort (inner callback)\", \"purpose\": \"toggles sort state (asc -> desc -> none) for a column\"},\n    {\"name\": \"ariaSort / sortMark (inner helpers)\", \"purpose\": \"compute aria-sort attribute and visual sort indicator\"}\n  ],\n  \"classes\": [],\n  \"imports\": [\n    {\"module\": \"react\", \"items\": [\"React\", \"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\"]}\n  ],\n  \"complexity_notes\": \"Moderate-to-high complexity generic TypeScript/React module implementing a reusable data table. Uses advanced generics (TData, TColumn, TFilters), React Context for selection state sharing, custom hooks with debouncing and AbortController-based cancellation for async fetches, memoized sorting/derived state, and accessible ARIA attributes for grid/pagination semantics. Contains multiple closures and conditional rendering branches (loading/error/empty/data), and exports both a default composite component (with attached static hooks) and named exports. No classes; fully functional/hooks-based architecture. Type safety intentionally loosened in places (e.g., casting to Record<string, unknown> for default sort extractor).\"\n}\n```",
+  "ran_at": "2026-07-17T02:01:09.892607+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-35b-a3b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255061-4rImE1BtLZybIhXLhK8E",
+  "provider_served": "AkashML",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00455478,
+  "execution_duration_sec": 24.653,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:24:44.022406+00:00",
+  "reasoning_tokens": 3111
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2-her",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784259328-HYUEDqbLMaJwFXzlt7cW",
+  "provider_served": "Minimax",
+  "input_tokens_billed": 10067,
+  "output_tokens_billed": 610,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0037521,
+  "execution_duration_sec": 5.295,
+  "raw_response": "```json\n{\n  \"file_type\": \"text\",\n  \"line_count\": 3000,\n  \"structure\": [\n    \"Title: CollabSync Real-Time Collaboration Platform - Technical Architecture\",\n    \"1. System Overview and Design Goals\",\n    \"1.1 Core Design Goals\",\n    \"1.2 Non-Functional Requirements\",\n    \"2. High-Level Architecture\",\n    \"2.1 System Topology\",\n    \"2.2 Service Descriptions\",\n    \"3. Data Model\",\n    \"3.1 Entity-Relationship Overview\",\n    \"3.2 Table Definitions\",\n    \"4. Conflict Resolution: CRDT Algorithm\",\n    \"4.1 RGA/LSEQ Core Concepts\",\n    \"4.2 Operation Types\",\n    \"4.3 Merge Algorithm\",\n    \"4.4 Anti-Entropy Protocol\",\n    \"4.5 Interleaving Guarantee\",\n    \"5. API Design\",\n    \"5.1 REST API Endpoints\",\n    \"5.2 WebSocket Protocol\",\n    \"5.3 Rate Limits\",\n    \"6. Authentication and Authorization\",\n    \"6.1 JWT Token Architecture\",\n    \"6.2 Authentication Flow\",\n    \"6.3 Authorization Model\",\n    \"6.4 SSO Integration\",\n    \"7. Infrastructure\",\n    \"7.1 Kubernetes Cluster Topology\",\n    \"7.2 Data Store Configuration\",\n    \"8. Performance Benchmarks and Scaling Strategy\",\n    \"8.1 Benchmarks\",\n    \"8.2 Load Test Profile\",\n    \"8.3 Horizontal Scaling Strategy\",\n    \"8.4 Dynamic Sharding\",\n    \"8.5 Multi-Region Active-Active\",\n    \"9. Disaster Recovery and Backup Strategy\",\n    \"9.1 RPO and RTO Targets\",\n    \"9.2 Backup Schedule\",\n    \"9.3 Recovery Procedure (PostgreSQL)\",\n    \"9.4 Chaos Engineering\",\n    \"10. Monitoring and Observability\",\n    \"10.1 Metrics\",\n    \"10.2 Distributed Tracing\",\n    \"10.3 Logging\",\n    \"10.4 Alerting Rules\",\n    \"10.5 Dashboards\"\n  ],\n  \"complexity_notes\": \"Contains a comprehensive technical documentation describing architecture, data model, algorithms, APIs, security, infrastructure, performance, and monitoring strategies. It's primarily textual information structured into sections, with no explicit code blocks. If the user expects a JSON with functions/classes/imports, this file is not code but structured documentation.\"\n}\n```\nThe output consists of a JSON object. `file_type`: 'text' indicates it's a text file, not source code. `line_count`: 3000, a rough estimate for a document of this length. `structure`: An array of strings, each representing a major section or heading found in the document, providing an overview of its content. `complexity_notes`: A text description explaining why the other code-specific JSON fields (functions, classes, imports) are absent, as this file is documentation.",
+  "ran_at": "2026-07-17T03:35:32.292189+00:00"
+}

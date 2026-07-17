@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-fable-5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254075-2Af1OiV6JZXibTrSOZzA",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 9387,
+  "output_tokens_billed": 919,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.13982,
+  "execution_duration_sec": 16.031,
+  "raw_response": "{\"file_type\": \"OpenAPI 3.1.0 specification (JSON, minified)\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"api_summary\": {\"title\": \"Task Manager API\", \"version\": \"2.4.1\", \"servers\": [\"https://api.taskmanager.io/v2 (Production)\", \"https://staging.taskmanager.io/v2 (Staging)\", \"http://localhost:8080/v2 (Local development)\"], \"security_schemes\": [\"bearerAuth (HTTP bearer, JWT)\", \"apiKey (header X-API-Key)\"], \"tags\": [\"Tasks\", \"Assignments\", \"Comments\", \"Attachments\", \"Search & Batch\"], \"paths\": [\"/tasks\", \"/tasks/{task_id}\", \"/tasks/{task_id}/assign\", \"/tasks/{task_id}/comments\", \"/tasks/{task_id}/attachments\", \"/tasks/search\", \"/tasks/batch\"], \"operations\": [{\"operationId\": \"listTasks\", \"method\": \"GET\", \"path\": \"/tasks\"}, {\"operationId\": \"createTask\", \"method\": \"POST\", \"path\": \"/tasks\"}, {\"operationId\": \"getTask\", \"method\": \"GET\", \"path\": \"/tasks/{task_id}\"}, {\"operationId\": \"updateTask\", \"method\": \"PATCH\", \"path\": \"/tasks/{task_id}\"}, {\"operationId\": \"deleteTask\", \"method\": \"DELETE\", \"path\": \"/tasks/{task_id}\"}, {\"operationId\": \"assignTask\", \"method\": \"PATCH\", \"path\": \"/tasks/{task_id}/assign\"}, {\"operationId\": \"listComments\", \"method\": \"GET\", \"path\": \"/tasks/{task_id}/comments\"}, {\"operationId\": \"createComment\", \"method\": \"POST\", \"path\": \"/tasks/{task_id}/comments\"}, {\"operation",
+  "ran_at": "2026-07-17T02:08:08.810162+00:00",
+  "reasoning_tokens": 70
+}

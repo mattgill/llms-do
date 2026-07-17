@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3-max-thinking",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784259033-Hn3Fy3CqIND7GiveKVZa",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5602,
+  "output_tokens_billed": 179,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00506766,
+  "execution_duration_sec": 4.311,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a single-line JSON file containing a complete OpenAPI 3.1.0 specification for a Task Manager API. Despite being on one line, it defines a complex REST API with 6 main resource paths (/tasks, /tasks/{task_id}, /tasks/{task_id}/assign, /tasks/{task_id}/comments, /tasks/{task_id}/attachments, /tasks/search, /tasks/batch), 5 tags, comprehensive security schemes (bearerAuth, apiKey), detailed schemas (Task, User, Comment, Attachment, etc.), and standardized error responses. The specification supports advanced features like pagination, full-text search, batch operations, and file uploads.\"\n}",
+  "ran_at": "2026-07-17T03:30:35.582478+00:00"
+}

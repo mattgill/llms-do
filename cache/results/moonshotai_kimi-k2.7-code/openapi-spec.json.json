@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.7-code",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253991-4ZtMpYbV4SwW7esDuERh",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 5348,
+  "output_tokens_billed": 616,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00600656,
+  "execution_duration_sec": 6.218,
+  "raw_response": " {\"file_type\": \"OpenAPI 3.1.0 specification (JSON)\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Large, deeply nested API contract defining 7 paths, 12 operations, 12 reusable schemas, 2 security schemes, 4 reusable responses, and 5 tags. High structural complexity due to extensive $ref cross-references, inline examples, and nested request/response payloads.\"}",
+  "ran_at": "2026-07-17T02:06:36.082775+00:00",
+  "reasoning_tokens": 529
+}

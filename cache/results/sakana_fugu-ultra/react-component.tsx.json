@@ -1,0 +1,17 @@
+{
+  "model_id": "sakana/fugu-ultra",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253818-pcSWPvwQpzTr55jLNFPY",
+  "provider_served": "Sakana AI",
+  "input_tokens_billed": 18643,
+  "output_tokens_billed": 15563,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.552671,
+  "execution_duration_sec": 178.665,
+  "raw_response": "{\"file_type\":\"TypeScript React component/module (TSX)\",\"line_count\":252,\"functions\":[{\"name\":\"useDebounce\",\"line_start\":41,\"line_end\":45,\"exported\":true,\"description\":\"Custom React hook that debounces a value using useState, useEffect, setTimeout, and cleanup.\"},{\"name\":\"useDataFetch\",\"line_start\":52,\"line_end\":86,\"exported\":true,\"description\":\"Custom React hook that manages sort, filter, pagination, loading, error, data state, debounced filters, and abortable async fetching.\"},{\"name\":\"useTableSelection\",\"line_start\":102,\"line_end\":106,\"exported\":true,\"description\":\"Custom hook that reads SelectionContext and throws if used outside the DataTable provider.\"},{\"name\":\"compareValues\",\"line_start\":112,\"line_end\":122,\"exported\":false,\"description\":\"Generic comparator handling nullish values, strings, numbers, fallback string comparison, and ascending/descending order.\"},{\"name\":\"DataTableComponent\",\"line_start\":145,\"line_end\":245,\"exported\":true,\"description\":\"Generic React data table component exported via the DataTable default export; implements sorting, selection, pagination controls, loading/error/empty states, and accessibility attributes.\"},{\"name\":\"body\",\"line_start\":183,\"line_end\":201,\"exported\":false,\"description\":\"Nested render helper inside DataTableComponent that renders table body states and mapped data rows.\"}],\"classes\":[],\"imports\":[{\"module\":\"react\",\"line\":7,\"default_import\":\"React\",\"named_imports\":[\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"]}],\"complexity_notes\":\"Moderate complexity. The file defines generic TypeScript types/interfaces, three exported hooks, a selection context, a comparator, and a generic TSX data table component. Complexity comes from abortable async fetching with debounced filters, pagination state, memoized sorting, row-selection state stored in context, conditional rendering for error/loading/empty states, inline event handlers, and accessibility-focused table markup. No classes are defined.\"}",
+  "ran_at": "2026-07-17T02:06:36.318095+00:00",
+  "reasoning_tokens": 3479
+}

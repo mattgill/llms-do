@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-max-preview",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784255079-MRtmGePdEOFSbnTOPjtG",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 1795,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.02265952,
+  "execution_duration_sec": 49.83,
+  "raw_response": "{\"file_type\": \"Markdown / Technical Architecture Document\", \"line_count\": 575, \"functions\": [\"applyOperation\"], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Highly structured technical document divided into 10 sections covering system goals, architecture topology, database schemas, CRDT conflict resolution algorithms, API specifications, authentication flows, Kubernetes infrastructure, performance benchmarks, disaster recovery, and observability. Features ASCII system diagrams, relational table definitions, TypeScript-style pseudocode for state merging, REST/WebSocket message formats, JWT claim structures, PromQL queries, and structured logging schemas. Organized hierarchically with extensive use of tables, code blocks, and bullet points for technical clarity.\"}",
+  "ran_at": "2026-07-17T02:25:29.005582+00:00",
+  "reasoning_tokens": 1645
+}

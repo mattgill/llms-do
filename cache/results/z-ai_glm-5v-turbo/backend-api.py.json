@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5v-turbo",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784256319-R2F9RjbDdIXOdEFA4Bvl",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 3256,
+  "output_tokens_billed": 711,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00664944,
+  "execution_duration_sec": 14.136,
+  "raw_response": "{\n  \"file_type\": \"Python (FastAPI Backend)\",\n  \"line_count\": 296,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\"\n  ],\n  \"complexity_notes\": \"High complexity due to asynchronous database operations (SQLAlchemy 2.0), JWT authentication implementation, real-time WebSocket management via a custom ConnectionManager class, and background task scheduling for notifications.\"\n}",
+  "ran_at": "2026-07-17T02:45:32.491639+00:00",
+  "reasoning_tokens": 428
+}

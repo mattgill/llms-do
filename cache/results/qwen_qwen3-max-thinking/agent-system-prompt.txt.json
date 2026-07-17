@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3-max-thinking",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784259043-legfXRePIHvLXNDGXghQ",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5925,
+  "output_tokens_billed": 104,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0050271,
+  "execution_duration_sec": 6.01,
+  "raw_response": "{\n  \"file_type\": \"text\",\n  \"line_count\": 437,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a system prompt defining the behavior, principles, tools, and constraints for an AI software engineering agent named DevBot. It contains no executable code, but rather operational guidelines, style rules, security policies, and output formatting instructions. The content is structured as documentation with sections delineated by comment-like headers.\"\n}",
+  "ran_at": "2026-07-17T03:30:45.898679+00:00"
+}

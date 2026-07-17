@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784257704-dsnqe0ZUD7srHaILXkdh",
+  "provider_served": "xAI",
+  "input_tokens_billed": 5426,
+  "output_tokens_billed": 126,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0069631,
+  "execution_duration_sec": 1.138,
+  "raw_response": "{\n  \"file_type\": \"openapi\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is an OpenAPI 3.1.0 specification document defining a Task Manager REST API. It includes 5 tags, 9 path groups with multiple HTTP methods (GET, POST, PATCH, DELETE), 20+ operationIds, comprehensive schemas (Task, User, Comment, Attachment, etc.), security schemes, and standardized error responses. The document is highly structured with extensive examples, pagination support, and batch operations.\"\n}",
+  "ran_at": "2026-07-17T03:08:23.097139+00:00"
+}

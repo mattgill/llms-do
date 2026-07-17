@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-26b-a4b-it",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784256133-ZNJKSHr5s9kFkeoaHevC",
+  "provider_served": "DekaLLM",
+  "input_tokens_billed": 11050,
+  "output_tokens_billed": 196,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00072768,
+  "execution_duration_sec": 3.093,
+  "raw_response": "{\n  \"file_type\": \"technical_architecture_document\",\n  \"line_count\": 685,\n  \"functions\": [\n    \"applyOperation(docState, op)\",\n    \"binarySearchByPosition(positions, position)\",\n    \"findPositionIndex(positions, pos)\",\n    \"mergeAttributes(attr1, attr2)\",\n    \"splicePositions(docState, positions)\"\n  ],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The document describes a highly complex distributed system utilizing CRDT (RGA/LSEQ) for conflict resolution, a multi-tier microservices architecture, and a sophisticated data persistence layer involving PostgreSQL, Redis, S3, and Apache Pulsar. It includes detailed schema definitions, API specifications (REST and WebSocket), infrastructure topology (Kubernetes/EKS), and comprehensive observability/disaster recovery strategies.\"\n}",
+  "ran_at": "2026-07-17T02:42:14.090194+00:00",
+  "reasoning_tokens": 0
+}

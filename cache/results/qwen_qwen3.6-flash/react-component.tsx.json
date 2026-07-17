@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255009-iJ1i2u5AteFui9AfjqzY",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 6256,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0076524375,
+  "execution_duration_sec": 48.814,
+  "raw_response": "{\n  \"file_type\": \"tsx\",\n  \"line_count\": 244,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"react\"\n  ],\n  \"complexity_notes\": \"Moderate to high complexity. Implements a fully-featured generic data table with sorting, filtering, pagination, row selection, and async data fetching. Uses advanced TypeScript generics, React hooks for state/side-effects (debouncing, abort controllers), and React Context for cross-component selection state. Includes comprehensive accessibility (ARIA) support and keyboard navigation. No ES6 classes; purely functional component architecture.\"\n}",
+  "ran_at": "2026-07-17T02:24:15.251404+00:00",
+  "reasoning_tokens": 6080
+}

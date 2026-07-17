@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-4.6",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784259054-TEJ68EvrZuJqGGj587nB",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 6564,
+  "output_tokens_billed": 649,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.049045,
+  "execution_duration_sec": 10.14,
+  "raw_response": "```json\n{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Large single-line OpenAPI 3.1.0 specification defining a Task Manager API (v2.4.1). Contains 7 path endpoints across 12 operations: GET/POST /tasks, GET/PATCH/DELETE /tasks/{task_id}, PATCH /tasks/{task_id}/assign, GET/POST /tasks/{task_id}/comments, GET/POST /tasks/{task_id}/attachments, POST /tasks/search, POST /tasks/batch. Defines 14 component schemas (TaskStatus, Priority, User, Task, TaskCreateRequest, TaskUpdateRequest, Comment, Attachment, Pagination, ErrorResponse, TaskListResponse, CommentListResponse). Uses 2 security schemes (JWT bearer auth and API key). Supports pagination, full-text search, and batch operations (up to 50 items). Includes 4 reusable error responses (BadRequest, Unauthorized, NotFound, InternalError). 5 tags organize endpoints: Tasks, Assignments, Comments, Attachments, Search & Batch. 3 server environments defined (Production, Staging, Local).\",\n  \"structure\": {\n    \"openapi_version\": \"3.1.0\",\n    \"api_title\": \"Task Manager API\",\n    \"api_version\": \"2.4.1\",\n    \"servers\": 3,\n    \"tags\": [\"Tasks\", \"Assignments\", \"Comments\", \"Attachments\", \"Search & Batch\"],\n    \"paths\": {\n      \"/tasks\": [\"GET\", \"POST\"],\n      \"/tasks/{task_id}\": [\"GET\", \"PATCH\", \"DELETE\"],\n      \"/tasks/{task_id}/assign\": [\"PATCH\"],\n      \"/tasks/{task_id}/comments\": [\"GET\", \"POST\"],\n      \"/tasks/{task_id}/attachments\": [\"GET\", \"POST\"],\n      \"/tasks/search\": [\"POST\"],\n      \"/tasks/batch\": [\"POST\"]\n    },\n    \"total_operations\": 12,\n    \"component_schemas\": [\n      \"TaskStatus\",\n      \"Priority\",\n      \"User\",\n      \"Task\",\n      \"TaskCreateRequest\",\n      \"TaskUpdateRequest\",\n      \"Comment\",\n      \"Attachment\",\n      \"Pagination\",\n      \"ErrorResponse\",\n      \"TaskListResponse\",\n      \"CommentListResponse\"\n    ],\n    \"security_schemes\": [\"bearerAuth (JWT)\", \"apiKey (X-API-Key header)\"],\n    \"reusable_responses\": [\"BadRequest\", \"Unauthorized\", \"NotFound\", \"InternalError\"]\n  }\n}\n```",
+  "ran_at": "2026-07-17T03:31:03.271184+00:00"
+}

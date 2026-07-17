@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-max-preview",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255126-9GuOqCsLSOWJGlDTRcCE",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 5656,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.03870152,
+  "execution_duration_sec": 120.216,
+  "raw_response": "{\"file_type\":\"TypeScript/React\",\"line_count\":246,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from \\\"react\\\"\"],\"complexity_notes\":\"Moderate to high complexity. Integrates multiple advanced React patterns including custom hooks for debounced async data fetching with AbortController, context-driven row selection, memoized sorting and pagination logic, and comprehensive ARIA accessibility attributes. State and side-effects are tightly coordinated, requiring careful dependency management and race-condition handling.\"}",
+  "ran_at": "2026-07-17T02:27:25.146393+00:00",
+  "reasoning_tokens": 5522
+}

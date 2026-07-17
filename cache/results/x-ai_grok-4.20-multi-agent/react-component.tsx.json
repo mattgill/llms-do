@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20-multi-agent",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257704-WsrCMgNyWjFn0gRmtTFY",
+  "provider_served": "xAI",
+  "input_tokens_billed": 122635,
+  "output_tokens_billed": 11586,
+  "reasoning_tokens": 11462,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.09073235,
+  "execution_duration_sec": 36.179,
+  "raw_response": "{\n  \"file_type\": \"tsx\",\n  \"line_count\": 198,\n  \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\"],\n  \"classes\": [],\n  \"imports\": [\"react\"],\n  \"complexity_notes\": \"Medium-high complexity: multiple custom hooks with effects, abort controllers, debouncing, context for selection, memoized sorting/comparisons, large functional component with extensive JSX for accessible table/pagination, generics, and controlled props pattern.\"\n}",
+  "ran_at": "2026-07-17T03:08:58.215331+00:00"
+}

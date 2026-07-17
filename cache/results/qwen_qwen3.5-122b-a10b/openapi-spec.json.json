@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-122b-a10b",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258391-cUyBnXdKT9fG9q5kLGjp",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 3935,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00997698,
+  "execution_duration_sec": 95.716,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:21:26.147940+00:00"
+}

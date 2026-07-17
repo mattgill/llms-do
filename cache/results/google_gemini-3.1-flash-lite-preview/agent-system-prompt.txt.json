@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.1-flash-lite-preview",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258023-vQwaexsARkN5BDeEwfVe",
+  "provider_served": "Google AI Studio",
+  "input_tokens_billed": 6300,
+  "output_tokens_billed": 99,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0017235,
+  "execution_duration_sec": 0.826,
+  "raw_response": "{\n  \"file_type\": \"text/markdown\",\n  \"line_count\": 355,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This file is a system prompt/instructional document defining the operational parameters, core principles, tool definitions, coding standards, security rules, and framework-specific patterns for an autonomous AI software engineering agent. It contains no executable code.\"\n}",
+  "ran_at": "2026-07-17T03:13:42.892743+00:00"
+}

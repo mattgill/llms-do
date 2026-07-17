@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258943-JPPOIEiHXEUXLzIDsMo2",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 3318,
+  "output_tokens_billed": 979,
+  "reasoning_tokens": 552,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0013676,
+  "execution_duration_sec": 10.862,
+  "raw_response": "{\"file_type\": \"python\", \"line_count\": 328, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\", \"global_exception_handler\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"__future__.annotations\", \"asyncio\", \"logging\", \"datetime.UTC\", \"datetime.datetime\", \"datetime.timedelta\", \"enum.StrEnum\", \"typing.Annotated\", \"typing.Any\", \"typing.Sequence\", \"jwt\", \"fastapi.BackgroundTasks\", \"fastapi.Depends\", \"fastapi.FastAPI\", \"fastapi.HTTPException\", \"fastapi.Query\", \"fastapi.Request\", \"fastapi.WebSocket\", \"fastapi.WebSocketDisconnect\", \"fastapi.status\", \"fastapi.encoders.jsonable_encoder\", \"fastapi.middleware.cors.CORSMiddleware\", \"fastapi.responses.JSONResponse\", \"passlib.context.CryptContext\", \"pydantic.BaseModel\", \"pydantic.ConfigDict\", \"pydantic.Field\", \"sqlalchemy.Boolean\", \"sqlalchemy.Column\", \"sqlalchemy.DateTime\", \"sqlalchemy.Enum\", \"sqlalchemy.ForeignKey\", \"sqlalchemy.Integer\", \"sqlalchemy.String\", \"sqlalchemy.Text\", \"sqlalchemy.create_engine\", \"sqlalchemy.select\", \"sqlalchemy.ext.asyncio.AsyncSession\", \"sqlalchemy.ext.asyncio.create_async_engine\", \"sqlalchemy.orm.DeclarativeBase\", \"sqlalchemy.orm.Mapped\", \"sqlalchemy.orm.declared_attr\", \"sqlalchemy.orm.mapped_column\", \"sqlalchemy.orm.relationship\", \"sqlalchemy.orm.sessionmaker\"], \"complexity_notes\": \"FastAPI backend with async SQLAlchemy ORM, JWT authentication, WebSocket support for real-time project updates, background tasks for notifications, CORS middleware, global exception handler, and full CRUD operations for projects with pagination and filtering. Uses bcrypt for password hashing. Moderate complexity with multiple layers: database models, Pydantic schemas, authentication dependency, WebSocket connection manager, and RESTful endpoints.\"}",
+  "ran_at": "2026-07-17T03:29:10.815252+00:00"
+}

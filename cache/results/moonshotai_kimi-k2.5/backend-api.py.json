@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784259233-VpTKZIUMCGBcHaBiJAbo",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3292,
+  "output_tokens_billed": 10016,
+  "reasoning_tokens": 9516,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.02882088,
+  "execution_duration_sec": 266.406,
+  "raw_response": "{\"file_type\": \"python\", \"line_count\": 334, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"__future__.annotations\", \"asyncio\", \"logging\", \"datetime.UTC\", \"datetime.datetime\", \"datetime.timedelta\", \"enum.StrEnum\", \"typing.Annotated\", \"typing.Any\", \"typing.Sequence\", \"jwt\", \"fastapi.BackgroundTasks\", \"fastapi.Depends\", \"fastapi.FastAPI\", \"fastapi.HTTPException\", \"fastapi.Query\", \"fastapi.Request\", \"fastapi.WebSocket\", \"fastapi.WebSocketDisconnect\", \"fastapi.status\", \"fastapi.encoders.jsonable_encoder\", \"fastapi.middleware.cors.CORSMiddleware\", \"passlib.context.CryptContext\", \"pydantic.BaseModel\", \"pydantic.ConfigDict\", \"pydantic.Field\", \"sqlalchemy.Boolean\", \"sqlalchemy.Column\", \"sqlalchemy.DateTime\", \"sqlalchemy.Enum\", \"sqlalchemy.ForeignKey\", \"sqlalchemy.Integer\", \"sqlalchemy.String\", \"sqlalchemy.Text\", \"sqlalchemy.create_engine\", \"sqlalchemy.select\", \"sqlalchemy.ext.asyncio.AsyncSession\", \"sqlalchemy.ext.asyncio.create_async_engine\", \"sqlalchemy.orm.DeclarativeBase\", \"sqlalchemy.orm.Mapped\", \"sqlalchemy.orm.declared_attr\", \"sqlalchemy.orm.mapped_column\", \"sqlalchemy.orm.relationship\", \"sqlalchemy.orm.sessionmaker\", \"fastapi.responses.JSONResponse\"], \"complexity_notes\": \"Monolithic FastAPI application file containing database models (SQLAlchemy 2.0 style with Mapped/mapped_column), Pydantic schemas, JWT authentication helpers, CRUD endpoints with pagination/filtering, background task processing, and WebSocket real-time broadcasting. Uses async/await patterns throughout. Implements an in-memory ConnectionManager for WebSockets (not horizontally scalable). Single-file architecture violates separation of concerns but provides high cohesion for a small service. Includes global exception handling and CORS middleware configuration.\"}",
+  "ran_at": "2026-07-17T03:38:17.838947+00:00"
+}

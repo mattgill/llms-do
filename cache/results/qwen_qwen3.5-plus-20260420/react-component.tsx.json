@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-plus-20260420",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254910-kb4RpVCdnpinjTSnTKOY",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 7359,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0142293,
+  "execution_duration_sec": 133.484,
+  "raw_response": "{\n  \"file_type\": \"TypeScript/React\",\n  \"line_count\": 239,\n  \"functions\": [\n    \"useDebounce<T>(value: T, delay: number): T\",\n    \"useDataFetch<TData, TFilters>(opts: UseDataFetchOptions<TData, TFilters>)\",\n    \"useTableSelection(): SelectionCtx\",\n    \"compareValues<T>(a: T, b: T, col: string, dir: SortDirection, extract: (row: T, c: string) => unknown): number\",\n    \"DataTableComponent<TData, TColumn>(props: DataTableProps<TData, TColumn>)\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"react\"\n  ],\n  \"complexity_notes\": \"The file implements a production-grade, generic React data table component with sorting, filtering, pagination, row selection, and async data fetching. It leverages TypeScript generics extensively for type safety, React hooks for state management and performance optimization, and a custom context for selection state. The useDataFetch hook incorporates AbortController for race condition prevention and debouncing for filter inputs. Accessibility is prioritized with ARIA attributes and keyboard navigation. The code is well-structured but moderately complex due to generic typing, state synchronization, and UI/UX logic.\"\n}",
+  "ran_at": "2026-07-17T02:24:00.350486+00:00",
+  "reasoning_tokens": 7068
+}

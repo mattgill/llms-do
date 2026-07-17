@@ -1,0 +1,17 @@
+{
+  "model_id": "tencent/hy3-preview",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784255354-OUeg0bou3v2swewOg7Ii",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 6003,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001238349,
+  "execution_duration_sec": 67.928,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:30:21.192608+00:00",
+  "reasoning_tokens": 4096
+}

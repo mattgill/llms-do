@@ -1,0 +1,17 @@
+{
+  "model_id": "~anthropic/claude-sonnet-latest",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254747-NAePvhcQ676TxoRNV00i",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 9387,
+  "output_tokens_billed": 937,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.028144,
+  "execution_duration_sec": 10.583,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI 3.1.0 specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks (GET /tasks)\",\n    \"createTask (POST /tasks)\",\n    \"getTask (GET /tasks/{task_id})\",\n    \"updateTask (PATCH /tasks/{task_id})\",\n    \"deleteTask (DELETE /tasks/{task_id})\",\n    \"assignTask (PATCH /tasks/{task_id}/assign)\",\n    \"listComments (GET /tasks/{task_id}/comments)\",\n    \"createComment (POST /tasks/{task_id}/comments)\",\n    \"listAttachments (GET /tasks/{task_id}/attachments)\",\n    \"uploadAttachment (POST /tasks/{task_id}/attachments)\",\n    \"searchTasks (POST /tasks/search)\",\n    \"batchTasks (POST /tasks/batch)\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a JSON document defining an OpenAPI 3.1.0 REST API specification, not executable source code, so 'functions' and 'classes' are mapped to API operations (operationId) and reusable schema components respectively, and 'imports' is not applicable (empty). The spec defines 12 endpoints across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch), 12 reusable schemas, 2 security schemes (bearer JWT and API key), and 4 shared response templates (BadRequest, Unauthorized, NotFound, InternalError) referenced via $ref throughout. Structural complexity arises from heavy use of $ref indirection, nested oneOf schemas (in batch operation results), multipart/form-data for file uploads, and multiple example payloads per operation, requiring a resolving parser to fully flatten the schema graph.\"\n}",
+  "ran_at": "2026-07-17T02:19:17.868142+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "writer/palmyra-x5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784259374-vRxlfkGnYkIqubNax8vD",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 5599,
+  "output_tokens_billed": 154,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0042834,
+  "execution_duration_sec": 2.34,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI Specification\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The content is a complete OpenAPI 3.1.0 specification for a Task Manager API. It defines 10 endpoints across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch), with detailed request/response schemas, security schemes (bearerAuth, apiKey), and comprehensive examples. The spec includes 8 reusable schemas (e.g., Task, User, ErrorResponse) and 4 standard responses. Despite being minified (1 line), it represents high complexity due to nested structures, validation rules, and rich documentation.\"\n}",
+  "ran_at": "2026-07-17T03:36:14.248622+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253652-xpEVs7ZqNRtj5BI9iJ10",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 16131,
+  "output_tokens_billed": 896,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.041222,
+  "execution_duration_sec": 9.24,
+  "raw_response": "```json\n{\n  \"file_type\": \"technical documentation (Markdown)\",\n  \"line_count\": 507,\n  \"functions\": [\n    {\n      \"name\": \"applyOperation\",\n      \"language\": \"TypeScript/pseudocode\",\n      \"signature\": \"applyOperation(docState: CRDTState, op: Operation): CRDTState\",\n      \"description\": \"Deterministic CRDT merge algorithm handling insert, delete, format, and move operations with idempotency via op hashing\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [],\n  \"type_definitions\": [\n    \"InsertOp\",\n    \"DeleteOp\",\n    \"FormatOp\",\n    \"MoveOp\",\n    \"PositionID (sequence_number, site_id, offset)\"\n  ],\n  \"sections\": [\n    \"System Overview and Design Goals\",\n    \"High-Level Architecture\",\n    \"Data Model\",\n    \"Conflict Resolution: CRDT Algorithm\",\n    \"API Design\",\n    \"Authentication and Authorization\",\n    \"Infrastructure\",\n    \"Performance Benchmarks and Scaling Strategy\",\n    \"Disaster Recovery and Backup Strategy\",\n    \"Monitoring and Observability\"\n  ],\n  \"database_tables\": [\n    \"workspaces\",\n    \"documents\",\n    \"users\",\n    \"memberships\",\n    \"operations\",\n    \"snapshots\",\n    \"document_presence\"\n  ],\n  \"code_blocks_present\": [\n    \"ASCII architecture diagrams\",\n    \"TypeScript type definitions\",\n    \"pseudocode merge algorithm\",\n    \"JSON/JSONC WebSocket message schemas\",\n    \"PromQL queries\",\n    \"bash/AWS CLI recovery commands\",\n    \"k6 load test config\",\n    \"JSON log schema example\"\n  ],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document (not executable source code) describing a real-time collaborative editing platform. It combines prose, tables, ASCII diagrams, and multiple embedded code snippets across different languages (TypeScript-like pseudocode, SQL-adjacent table definitions, PromQL, bash/AWS CLI, JSON). The only true 'function' is the illustrative applyOperation CRDT merge pseudocode, which is not meant to be directly executed but demonstrates algorithmic logic (RGA/LSEQ-based conflict resolution). No actual imports or class definitions exist since this is documentation rather than a source file. Structural complexity arises from the breadth of covered domains: system architecture, data modeling, distributed consensus (CRDT), API/protocol design, security, infrastructure-as-code references, DR procedures, and observability configuration.\"\n}\n```",
+  "ran_at": "2026-07-17T02:01:00.754371+00:00",
+  "reasoning_tokens": 0
+}

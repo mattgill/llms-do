@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253380-CWc8fXUDoWmv9pgmJl6b",
+  "provider_served": "xAI",
+  "input_tokens_billed": 6826,
+  "output_tokens_billed": 243,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.014918,
+  "execution_duration_sec": 2.543,
+  "raw_response": "{\"file_type\": \"OpenAPI 3.1.0 Specification (JSON)\", \"line_count\": 1, \"functions\": [\"listTasks\", \"createTask\", \"getTask\", \"updateTask\", \"deleteTask\", \"assignTask\", \"listComments\", \"createComment\", \"listAttachments\", \"uploadAttachment\", \"searchTasks\", \"batchTasks\"], \"classes\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"imports\": [], \"complexity_notes\": \"Production-grade REST API for Task Manager v2.4.1. Defines 8 path groups covering Tasks CRUD, Assignments, Comments, Attachments, Search, and Batch ops. Dual auth (JWT bearer + API key). Rich schemas with enums, pagination, validation constraints, multipart upload (25MB limit), full-text search, and batch ops (max 50). Shared error responses (400/401/404/500) plus 409 conflict and 413 payload-too-large. Extensive examples throughout.\"}",
+  "ran_at": "2026-07-17T01:56:22.539321+00:00",
+  "reasoning_tokens": 0
+}

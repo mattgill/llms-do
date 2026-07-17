@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254930-xXLAeBrcwWU7z38ptMs4",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 2665,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.005064,
+  "execution_duration_sec": 12.519,
+  "raw_response": "{\"file_type\": \"markdown\", \"line_count\": 742, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Technical architecture specification document structured into 10 major sections covering system overview, high-level topology, data models, CRDT conflict resolution, API design, authentication flows, Kubernetes infrastructure, performance benchmarks, disaster recovery, and observability. Contains ASCII diagrams, SQL schemas, TypeScript types, pseudo-code, PromQL queries, and bash scripts. Primarily documentation rather than executable source code.\"}",
+  "ran_at": "2026-07-17T02:22:20.619991+00:00",
+  "reasoning_tokens": 2549
+}

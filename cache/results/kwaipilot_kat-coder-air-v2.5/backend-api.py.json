@@ -1,0 +1,17 @@
+{
+  "model_id": "kwaipilot/kat-coder-air-v2.5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784253298-uixaNNEAvB5V89ipQTpN",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 1051,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00116262,
+  "execution_duration_sec": 5.848,
+  "raw_response": "\n\n```json\n{\n  \"file_type\": \"Python source code (FastAPI backend)\",\n  \"line_count\": 372,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\",\n    \"global_exception_handler\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime.UTC\",\n    \"datetime.datetime\",\n    \"datetime.timedelta\",\n    \"enum.StrEnum\",\n    \"typing.Annotated\",\n    \"typing.Any\",\n    \"typing.Sequence\",\n    \"jwt\",\n    \"fastapi.BackgroundTasks\",\n    \"fastapi.Depends\",\n    \"fastapi.FastAPI\",\n    \"fastapi.HTTPException\",\n    \"fastapi.Query\",\n    \"fastapi.Request\",\n    \"fastapi.WebSocket\",\n    \"fastapi.WebSocketDisconnect\",\n    \"fastapi.status\",\n    \"fastapi.encoders.jsonable_encoder\",\n    \"fastapi.middleware.cors.CORSMiddleware\",\n    \"passlib.context.CryptContext\",\n    \"pydantic.BaseModel\",\n    \"pydantic.ConfigDict\",\n    \"pydantic.Field\",\n    \"sqlalchemy.Boolean\",\n    \"sqlalchemy.Column\",\n    \"sqlalchemy.DateTime\",\n    \"sqlalchemy.Enum\",\n    \"sqlalchemy.ForeignKey\",\n    \"sqlalchemy.Integer\",\n    \"sqlalchemy.String\",\n    \"sqlalchemy.Text\",\n    \"sqlalchemy.create_engine\",\n    \"sqlalchemy.select\",\n    \"sqlalchemy.ext.asyncio.AsyncSession\",\n    \"sqlalchemy.ext.asyncio.create_async_engine\",\n    \"sqlalchemy.orm.DeclarativeBase\",\n    \"sqlalchemy.orm.Mapped\",\n    \"sqlalchemy.orm.declared_attr\",\n    \"sqlalchemy.orm.mapped_column\",\n    \"sqlalchemy.orm.relationship\",\n    \"sqlalchemy.orm.sessionmaker\",\n    \"fastapi.responses.JSONResponse\"\n  ],\n  \"complexity_notes\": \"Well-structured FastAPI application (~370 lines) with async SQLAlchemy ORM, JWT authentication, WebSocket broadcasting, and full CRUD for projects. Uses dependency injection (Depends), background tasks, pagination, and a global exception handler. ConnectionManager is an in-memory WebSocket broadcaster (not persisting across restarts). No external database schema migrations or seed data included.\"\n}\n```",
+  "ran_at": "2026-07-17T01:55:02.260838+00:00",
+  "reasoning_tokens": 415
+}

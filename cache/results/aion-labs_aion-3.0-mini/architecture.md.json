@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-3.0-mini",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253495-mWqIcW7oqIcpHPe0833X",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 10512,
+  "output_tokens_billed": 4252,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0133112,
+  "execution_duration_sec": 65.059,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 612,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a technical architecture document (Markdown) for the CollabSync real-time collaboration platform. It contains 10 major sections covering system overview, architecture, data model, CRDT algorithm, API design, authentication, infrastructure, performance, disaster recovery, and monitoring. The document includes ASCII diagrams, tables, code blocks (TypeScript, SQL, JSON, PromQL, Bash), and detailed specifications. No executable functions, classes, or imports are present. The complexity is high due to the breadth of topics and depth of technical detail.\"\n}",
+  "ran_at": "2026-07-17T01:59:18.944853+00:00",
+  "reasoning_tokens": 5462
+}

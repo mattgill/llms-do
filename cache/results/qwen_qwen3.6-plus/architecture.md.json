@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-plus",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784256182-XXvdZRNLQWdEwbsIPU0Y",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 2934,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00930215,
+  "execution_duration_sec": 52.824,
+  "raw_response": "{\"file_type\":\"markdown/technical_architecture_document\",\"line_count\":765,\"functions\":[\"applyOperation\",\"binarySearchByPosition\",\"findPositionIndex\",\"mergeAttributes\",\"splicePositions\"],\"classes\":[\"PositionID\",\"InsertOp\",\"DeleteOp\",\"FormatOp\",\"MoveOp\",\"CRDTState\"],\"imports\":[],\"complexity_notes\":\"High-complexity distributed system architecture document detailing a real-time collaborative platform. Covers multi-region active-active topology, CRDT-based conflict resolution (RGA/LSEQ), consistent hashing for state sharding, event-driven messaging via Apache Pulsar, and Kubernetes-based orchestration. Includes detailed relational data models, REST/WebSocket API specifications, dual-token authentication flows, performance benchmarks, disaster recovery procedures, and comprehensive observability strategies. The system targets sub-100ms latency, 99.99% availability, and causal consistency across millions of concurrent users with offline-first capabilities.\"}",
+  "ran_at": "2026-07-17T02:43:54.625216+00:00",
+  "reasoning_tokens": 2745
+}

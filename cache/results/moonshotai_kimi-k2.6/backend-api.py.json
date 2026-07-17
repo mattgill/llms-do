@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.6",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784255786-akQFdNXaO1wrwfubux1y",
+  "provider_served": "Baidu",
+  "input_tokens_billed": 3293,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.015140772,
+  "execution_duration_sec": 107.934,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:38:13.503107+00:00",
+  "reasoning_tokens": 4096
+}

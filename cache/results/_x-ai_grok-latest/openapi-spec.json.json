@@ -1,0 +1,17 @@
+{
+  "model_id": "~x-ai/grok-latest",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253401-e4OuwUadDcBVQmb6x8hs",
+  "provider_served": "xAI",
+  "input_tokens_billed": 6826,
+  "output_tokens_billed": 994,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00944,
+  "execution_duration_sec": 13.306,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1.0 Specification (JSON)\",\"line_count\":1,\"functions\":[\"listTasks\",\"createTask\",\"getTask\",\"updateTask\",\"deleteTask\",\"assignTask\",\"listComments\",\"createComment\",\"listAttachments\",\"uploadAttachment\",\"searchTasks\",\"batchTasks\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"Production-grade OpenAPI document defining a Task Manager REST API. Structure includes info/servers/security/tags, 8 path groups covering CRUD for tasks plus assignments/comments/attachments/search/batch, dual auth schemes (JWT bearer + API key), 12 reusable schemas with enums/patterns/validation, 4 shared error responses, pagination, filtering, multipart uploads, batch ops (max 50), and extensive examples. High nesting depth and cross-references via $ref; not executable code but a dense declarative API contract.\"}",
+  "ran_at": "2026-07-17T01:56:52.574613+00:00",
+  "reasoning_tokens": 773
+}

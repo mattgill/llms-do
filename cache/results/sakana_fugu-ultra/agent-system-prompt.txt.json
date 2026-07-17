@@ -1,0 +1,17 @@
+{
+  "model_id": "sakana/fugu-ultra",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784253715-2UjBp7crbj0RVn6XKDcy",
+  "provider_served": "Sakana AI",
+  "input_tokens_billed": 33823,
+  "output_tokens_billed": 6860,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.374915,
+  "execution_duration_sec": 93.805,
+  "raw_response": "{\n  \"file_type\": \"plain-text specification (AI agent system prompt / operating instructions; not executable source code)\",\n  \"line_count\": 412,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The content is natural-language documentation, not source code, so there are no code-level functions, classes, or import statements to extract. The eight named items previously reported as 'functions' (read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs) are documented tool/API descriptions within the spec, not code definitions, and are therefore not listed as functions. Structural complexity is high for a document: it is organized into ASCII-delimited sections with dense nested lists, numbered rules, labeled anti-patterns, and parameter tables, but it contains no control flow, dependency graph, or executable logic. Line count is an approximate whole-document estimate including blank lines and separator rules; exact counting was not performed against the raw file.\",\n  \"text_structure\": {\n    \"primary_type\": \"structured agent specification / prompt\",\n    \"major_sections\": [\n      \"Persona / Introduction\",\n      \"CORE PRINCIPLES\",\n      \"TOOL DESCRIPTIONS\",\n      \"CODE STYLE GUIDELINES\",\n      \"SECURITY RULES\",\n      \"FRAMEWORK-SPECIFIC INSTRUCTIONS\",\n      \"REVIEW CHECKLIST BEFORE SUBMITTING CODE\",\n      \"OUTPUT FORMAT REQUIREMENTS\",\n      \"FALLBACK BEHAVIORS FOR AMBIGUITY\",\n      \"COMMON ANTI-PATTERNS TO AVOID\",\n      \"SESSION METADATA\",\n      \"FINAL REMINDER\"\n    ],\n    \"documented_tools_count\": 8,\n    \"core_principles_count\": 7,\n    \"anti_patterns_count\": 17,\n    \"ambiguity_resolution_steps\": 5\n  }\n}",
+  "ran_at": "2026-07-17T02:03:29.225753+00:00",
+  "reasoning_tokens": 1253
+}

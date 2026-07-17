@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-plus-02-15",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258761-Cwe91Jqky6CeF7qyMdz5",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 825,
+  "reasoning_tokens": 369,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00415168,
+  "execution_duration_sec": 11.467,
+  "raw_response": "{\n  \"file_type\": \"markdown/documentation\",\n  \"line_count\": 847,\n  \"functions\": [\n    \"applyOperation (CRDT merge algorithm)\",\n    \"binarySearchByPosition\",\n    \"findPositionIndex\",\n    \"splicePositions\",\n    \"mergeAttributes\"\n  ],\n  \"classes\": [\n    \"workspaces (table)\",\n    \"documents (table)\",\n    \"users (table)\",\n    \"memberships (table)\",\n    \"operations (table)\",\n    \"snapshots (table)\",\n    \"document_presence (table)\",\n    \"InsertOp (type)\",\n    \"DeleteOp (type)\",\n    \"FormatOp (type)\",\n    \"MoveOp (type)\"\n  ],\n  \"imports\": [\n    \"PostgreSQL 16\",\n    \"Redis (ElastiCache)\",\n    \"Apache Pulsar\",\n    \"S3/MinIO\",\n    \"Elasticsearch\",\n    \"Kubernetes (EKS 1.30)\",\n    \"Envoy (API Gateway)\",\n    \"CloudFront/Fastly/Cloudflare (CDN)\",\n    \"OpenTelemetry\",\n    \"Prometheus\",\n    \"ClickHouse/Kafka\",\n    \"etcd\",\n    \"Route53\"\n  ],\n  \"complexity_notes\": \"Comprehensive technical architecture document (v2.4.0) for CollabSync real-time collaboration platform. Contains 10 major sections covering system overview, high-level architecture with ASCII diagrams, data model with 7 database tables, CRDT conflict resolution algorithm (RGA/LSEQ), REST and WebSocket API design, JWT authentication flow, Kubernetes infrastructure topology, performance benchmarks, disaster recovery procedures, and monitoring/observability configuration. Document includes multiple code blocks (TypeScript, JSON, SQL, PromQL, bash), 15+ tables with specifications, and detailed service descriptions for 6+ microservices. Architecture supports 10M concurrent users with sub-100ms latency targets, multi-region active-active deployment, and CRDT-based offline-first synchronization.\"\n}",
+  "ran_at": "2026-07-17T03:26:10.969700+00:00"
+}

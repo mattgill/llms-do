@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5-turbo",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257795-eSfSMqHu9xzWrCOf7ScZ",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 10316,
+  "output_tokens_billed": 619,
+  "reasoning_tokens": 172,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0148552,
+  "execution_duration_sec": 19.524,
+  "raw_response": "```json\n{\n  \"file_type\": \"markdown\",\n  \"line_count\": 598,\n  \"functions\": [\n    {\n      \"name\": \"applyOperation\",\n      \"language\": \"typescript\",\n      \"line_range\": \"approximately 195-230\",\n      \"notes\": \"Pseudocode CRDT merge function demonstrating insert, delete, format, and move operation handling\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document (Markdown) for a real-time collaboration platform called CollabSync. It is structured into 10 major sections: (1) System Overview and Design Goals with performance targets and NFRs, (2) High-Level Architecture with ASCII system topology diagrams and service descriptions for 6 components, (3) Data Model with 7 relational table definitions including partitioning and indexing details, (4) CRDT Conflict Resolution algorithm (RGA/LSEQ) with TypeScript type definitions and a pseudocode merge function, (5) API Design covering REST endpoints (auth, workspaces, documents, search) and a WebSocket protocol with JSON message schemas and rate limits, (6) Authentication and Authorization detailing JWT dual-token architecture, auth flow diagrams, RBAC permission matrix, and SSO integration, (7) Infrastructure specifying Kubernetes (EKS 1.30) cluster topology with node groups, and data store configurations for PostgreSQL, Redis, S3, and Apache Pulsar, (8) Performance Benchmarks with measured P50/P99 metrics, k6 load test profiles, horizontal scaling strategies, dynamic sharding via consistent hashing, and multi-region active-active deployment, (9) Disaster Recovery with RPO/RTO targets, backup schedules, a PostgreSQL recovery procedure in Bash, and chaos engineering practices, (10) Monitoring and Observability covering RED metrics with PromQL queries, business/infrastructure metrics, OpenTelemetry distributed tracing with span hierarchies, structured JSON logging pipeline, alerting rules with severity levels, and three dashboard definitions. The document contains multiple embedded code snippets in TypeScript, JSON, JSONC, Bash, and PromQL, plus extensive ASCII art diagrams.\"\n}\n```",
+  "ran_at": "2026-07-17T03:10:13.543097+00:00"
+}

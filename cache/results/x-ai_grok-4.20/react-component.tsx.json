@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257712-U30lSnmEaqIS7s6YoC6k",
+  "provider_served": "xAI",
+  "input_tokens_billed": 3297,
+  "output_tokens_billed": 168,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00440685,
+  "execution_duration_sec": 1.151,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 238,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"Contains multiple custom React hooks (useDebounce, useDataFetch, useTableSelection), a generic DataTable component with sorting/pagination/selection logic, and several internal utility functions. High complexity due to extensive use of hooks, memoization, context, and TypeScript generics.\"\n}",
+  "ran_at": "2026-07-17T03:08:33.451774+00:00"
+}

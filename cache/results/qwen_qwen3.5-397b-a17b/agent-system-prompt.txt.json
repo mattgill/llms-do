@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-397b-a17b",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258865-YoLGI6kq0TvsO1VLXbAg",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 436,
+  "reasoning_tokens": 241,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00341679,
+  "execution_duration_sec": 7.105,
+  "raw_response": "{\n  \"file_type\": \"documentation/instructions\",\n  \"line_count\": 487,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a system instruction document for an AI software engineering agent (DevBot). Structure includes: 10 major sections separated by delimiter lines (Core Principles, Tool Descriptions, Code Style Guidelines, Security Rules, Framework-Specific Instructions, Review Checklist, Output Format Requirements, Fallback Behaviors, Common Anti-Patterns, Session Metadata). Contains 13 tool descriptions with parameters and behaviors, 17 anti-pattern definitions (AP-01 through AP-17), multiple code style conventions for different languages (JS/TS, Python, Go, Rust), security mandates, and framework-specific patterns for React and FastAPI. No executable code present - this is operational guidance documentation.\"\n}",
+  "ran_at": "2026-07-17T03:27:50.304195+00:00"
+}

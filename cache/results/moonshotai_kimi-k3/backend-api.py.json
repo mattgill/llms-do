@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k3",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784253180-2lPD5wSNpy26i8cTJAtD",
+  "provider_served": "Moonshot AI",
+  "input_tokens_billed": 3377,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.071571,
+  "execution_duration_sec": 124.291,
+  "raw_response": null,
+  "ran_at": "2026-07-17T01:55:04.133925+00:00",
+  "reasoning_tokens": 4093
+}

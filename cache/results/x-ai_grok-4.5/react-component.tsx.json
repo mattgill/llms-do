@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253391-9ul2yaVxUO5pbVZy3FaH",
+  "provider_served": "xAI",
+  "input_tokens_billed": 3502,
+  "output_tokens_billed": 4667,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.034814,
+  "execution_duration_sec": 38.333,
+  "raw_response": "{\"file_type\":\"TypeScript/React (TSX)\",\"line_count\":252,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"react\"],\"complexity_notes\":\"Generic production-style DataTable module: hooks for debounced filters and abortable async fetch (useDataFetch/useDebounce), selection context, client-side sort with custom comparators, pagination UI, and ARIA-rich table rendering. Heavy use of TypeScript generics, useMemo/useCallback, and controlled props; no class components.\"}",
+  "ran_at": "2026-07-17T01:57:08.695089+00:00",
+  "reasoning_tokens": 4536
+}

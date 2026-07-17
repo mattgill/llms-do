@@ -1,0 +1,17 @@
+{
+  "model_id": "stepfun/step-3.5-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784259086-CsOymwTWdY7BXC8LunAr",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 10526,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4355,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0022814,
+  "execution_duration_sec": 68.622,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:32:34.353827+00:00"
+}

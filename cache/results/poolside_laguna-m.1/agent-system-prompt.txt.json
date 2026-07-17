@@ -1,0 +1,17 @@
+{
+  "model_id": "poolside/laguna-m.1",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254601-7I78lsKQ3luAPgdiJxXR",
+  "provider_served": "Poolside",
+  "input_tokens_billed": 6029,
+  "output_tokens_billed": 292,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001311,
+  "execution_duration_sec": 2.958,
+  "raw_response": "\n{\"file_type\": \"documentation\", \"line_count\": 327, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is a comprehensive set of instructions and guidelines for an AI software engineering agent. It contains multiple sections: core principles (7 items), tool descriptions (10 tools), code style guidelines (naming, imports, error handling, testing), security rules (secrets, input validation, output sanitization), framework-specific patterns (React, FastAPI, database migrations), review checklist (10 items), fallback behaviors for ambiguity, common anti-patterns to avoid (17 items), and session metadata. The document is structured with clear section headers and bullet points, serving as a system prompt for autonomous code generation with emphasis on correctness, security, and maintainability.\"}\n",
+  "ran_at": "2026-07-17T02:16:41.655422+00:00",
+  "reasoning_tokens": 127
+}

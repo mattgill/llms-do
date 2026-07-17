@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-max",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254347-CCRLvOICYW7l1yoloxY4",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 1463,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01474115,
+  "execution_duration_sec": 24.81,
+  "raw_response": "{\n  \"file_type\": \"openapi_json\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"OpenAPI 3.1.0 specification for a production-grade Task Manager REST API. Defines 12 endpoint operations across 5 logical tags (Tasks, Assignments, Comments, Attachments, Search & Batch). Features JWT and API Key security schemes, 12 data schemas, 4 standardized error responses, pagination, full-text search, batch processing, and multipart file uploads.\"\n}",
+  "ran_at": "2026-07-17T02:12:52.103935+00:00",
+  "reasoning_tokens": 1184
+}

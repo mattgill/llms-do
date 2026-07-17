@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5v-turbo",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784256294-PXZ7CpmZPqG2Ow74NZP0",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 10320,
+  "output_tokens_billed": 659,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01491824,
+  "execution_duration_sec": 25.428,
+  "raw_response": "```json\n{\n  \"file_type\": \"Markdown Documentation\",\n  \"line_count\": 685,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document for a real-time collaboration platform (CollabSync). It features high structural complexity including: 1) Multiple ASCII-based system topology and infrastructure diagrams; 2) Detailed relational data models with SQL-style table definitions; 3) Algorithmic pseudocode and TypeScript type definitions for CRDT conflict resolution; 4) Extensive API specifications covering REST and WebSocket protocols with JSON message schemas; 5) Infrastructure configuration details (Kubernetes, AWS services); 6) Operational procedures including disaster recovery bash scripts and Prometheus monitoring queries (PromQL). The document spans ten major sections ranging from high-level design goals to specific observability alerting rules.\"\n}\n```",
+  "ran_at": "2026-07-17T02:45:18.354899+00:00",
+  "reasoning_tokens": 476
+}

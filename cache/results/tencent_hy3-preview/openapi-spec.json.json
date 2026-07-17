@@ -1,0 +1,17 @@
+{
+  "model_id": "tencent/hy3-preview",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784255353-VE9FW5k2fsq27kTWguks",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 5855,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001229025,
+  "execution_duration_sec": 69.785,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:30:21.881267+00:00",
+  "reasoning_tokens": 4096
+}

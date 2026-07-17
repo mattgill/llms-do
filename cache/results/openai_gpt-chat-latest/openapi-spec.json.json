@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-chat-latest",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254569-FMaHtWhD98HSTiV4jdIM",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5528,
+  "output_tokens_billed": 162,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0325,
+  "execution_duration_sec": 2.05,
+  "raw_response": "{\"file_type\":\"OpenAPI JSON specification\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Single-line JSON document containing an OpenAPI 3.1.0 REST API specification rather than source code. Structure includes API metadata, 3 server definitions, 2 security schemes, 5 tags, multiple resource paths (tasks, assignments, comments, attachments, search, batch), reusable components (schemas, responses, security schemes), extensive request/response schemas, examples, pagination, validation constraints, and error models. High structural complexity due to deeply nested objects, references, and comprehensive endpoint definitions.\"}",
+  "ran_at": "2026-07-17T02:16:08.606694+00:00",
+  "reasoning_tokens": 0
+}

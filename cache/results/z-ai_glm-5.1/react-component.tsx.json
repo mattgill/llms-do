@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.1",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784256101-HikIJEUyuwt6v1pf3ccG",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3026,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.015358572,
+  "execution_duration_sec": 70.735,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:42:49.580315+00:00",
+  "reasoning_tokens": 4096
+}

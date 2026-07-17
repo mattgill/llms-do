@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-26b-a4b-it",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784256122-KnOIyttGcXa3J4Or3yqG",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 5937,
+  "output_tokens_billed": 279,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00051045,
+  "execution_duration_sec": 10.485,
+  "raw_response": "{\n  \"file_type\": \"openapi_specification\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"The file is a comprehensive OpenAPI 3.1.0 specification for a 'Task Manager API'. It defines a complex RESTful interface including multiple resource paths (/tasks, /tasks/{id}/assign, /tasks/{id}/comments, etc.), advanced features like full-text search and batch operations, multiple security schemes (JWT and API Key), and a robust set of reusable schemas and error responses.\"\n}",
+  "ran_at": "2026-07-17T02:42:10.995536+00:00",
+  "reasoning_tokens": 0
+}

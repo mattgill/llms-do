@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-1t",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784255348-cT3QSI7GQ7nClqLNP9rc",
+  "provider_served": "Novita",
+  "input_tokens_billed": 3865,
+  "output_tokens_billed": 526,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000618625,
+  "execution_duration_sec": 3.821,
+  "raw_response": "{\n  \"file_type\": \"Python FastAPI application\",\n  \"line_count\": 344,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"__future__\",\n    \"asyncio\",\n    \"logging\",\n    \"UTC\",\n    \"datetime\",\n    \"timedelta\",\n    \"StrEnum\",\n    \"Annotated\",\n    \"Any\",\n    \"Sequence\",\n    \"jwt\",\n    \"BackgroundTasks\",\n    \"Depends\",\n    \"FastAPI\",\n    \"HTTPException\",\n    \"Query\",\n    \"Request\",\n    \"WebSocket\",\n    \"WebSocketDisconnect\",\n    \"status\",\n    \"jsonable_encoder\",\n    \"CORSMiddleware\",\n    \"CryptContext\",\n    \"BaseModel\",\n    \"ConfigDict\",\n    \"Field\",\n    \"Boolean\",\n    \"Column\",\n    \"DateTime\",\n    \"Enum\",\n    \"ForeignKey\",\n    \"Integer\",\n    \"String\",\n    \"Text\",\n    \"create_engine\",\n    \"select\",\n    \"AsyncSession\",\n    \"create_async_engine\",\n    \"DeclarativeBase\",\n    \"Mapped\",\n    \"declared_attr\",\n    \"mapped_column\",\n    \"relationship\",\n    \"sessionmaker\",\n    \"JSONResponse\"\n  ],\n  \"complexity_notes\": \"Moderate complexity: includes async database layer (SQLAlchemy async), JWT authentication, paginated queries with filters, background tasks, WebSocket broadcasting, and global error handling. Separation into configuration, models, schemas, helpers, and route handlers keeps structure clear; ConnectionManager provides in-memory pub/sub for real-time updates.\"\n}",
+  "ran_at": "2026-07-17T02:29:12.094805+00:00",
+  "reasoning_tokens": 0
+}

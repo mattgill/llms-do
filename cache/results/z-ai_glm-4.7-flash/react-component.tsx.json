@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-4.7-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784259432-GDdJ5jYsVhf0NUwRp1ED",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 3026,
+  "output_tokens_billed": 1739,
+  "reasoning_tokens": 1497,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00087396,
+  "execution_duration_sec": 17.864,
+  "raw_response": "```json\n{\n  \"file_type\": \"TypeScript React Component\",\n  \"line_count\": 210,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"useTableSelection\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The file implements a complex, production-grade data table component. It combines multiple state management concerns (sorting, filtering, pagination, row selection) into a single component. It uses custom hooks (`useDataFetch`, `useDebounce`) for data fetching and filtering logic, and `createContext` for managing selection state across the table. The code is generic over data types (`TData`) and column types (`TColumn`), offering high reusability. It includes accessibility features (ARIA labels, roles) and handles abortable async requests to prevent memory leaks.\"\n}\n```",
+  "ran_at": "2026-07-17T03:37:28.541346+00:00"
+}

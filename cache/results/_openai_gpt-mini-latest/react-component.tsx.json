@@ -1,0 +1,17 @@
+{
+  "model_id": "~openai/gpt-mini-latest",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254626-CDrqSQY71yc69LmghvaB",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 123,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00290025,
+  "execution_duration_sec": 1.462,
+  "raw_response": "{\"file_type\":\"TypeScript React module\",\"line_count\":225,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"react\"],\"complexity_notes\":\"A moderately complex generic React data table module. It includes custom hooks for debouncing and abortable async fetching, a selection context, client-side sorting with optional custom comparators, and accessible pagination/rendering logic. Complexity is increased by generic type parameters, memoization, conditional rendering paths, keyboard/accessibility handling, and dual selection/sort state coordination.\"}",
+  "ran_at": "2026-07-17T02:17:06.119253+00:00",
+  "reasoning_tokens": 0
+}

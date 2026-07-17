@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-9b",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784257962-eOQr13RcVoTohGA9DAjj",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 1321,
+  "reasoning_tokens": 866,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00055795,
+  "execution_duration_sec": 35.847,
+  "raw_response": "```json\n{\n  \"file_type\": \"Python\",\n  \"line_count\": 328,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\",\n    \"global_exception_handler\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"User\",\n    \"Project\",\n    \"ProjectStatus\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"from __future__ import annotations\",\n    \"import asyncio\",\n    \"import logging\",\n    \"from datetime import UTC, datetime, timedelta\",\n    \"from enum import StrEnum\",\n    \"from typing import Annotated, Any, Sequence\",\n    \"import jwt\",\n    \"from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\",\n    \"from fastapi.encoders import jsonable_encoder\",\n    \"from fastapi.middleware.cors import CORSMiddleware\",\n    \"from passlib.context import CryptContext\",\n    \"from pydantic import BaseModel, ConfigDict, Field\",\n    \"from sqlalchemy import Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\",\n    \"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\",\n    \"from sqlalchemy.orm import DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\",\n    \"from fastapi.responses import JSONResponse\"\n  ],\n  \"complexity_notes\": \"Single-file FastAPI backend with multiple concerns (auth, CRUD, WebSocket, database). Uses async SQLAlchemy with asyncpg. Contains JWT authentication, pagination, WebSocket real-time updates, and background tasks. Global exception handler catches all exceptions which may mask underlying issues. ConnectionManager uses in-memory storage (not suitable for production). Code is well-structured with clear section comments but mixing multiple architectural concerns in one file increases maintenance complexity.\"\n}\n```",
+  "ran_at": "2026-07-17T03:13:16.425533+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.1",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784256080-swdZ8eE02PioBk80aTHq",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 5368,
+  "output_tokens_billed": 1047,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00836418,
+  "execution_duration_sec": 18.557,
+  "raw_response": "```json\n{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"A comprehensive OpenAPI 3.1.0 specification for a Task Manager API (v2.4.1). It defines 12 API operations (mapped as functions) across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch) and 12 data models (mapped as classes). The spec includes detailed request/response examples, parameter validation constraints (regex, ranges), pagination, 2 security schemes (Bearer JWT, API Key), 3 server environments, and 4 reusable error responses.\"\n}\n```",
+  "ran_at": "2026-07-17T02:41:38.844353+00:00",
+  "reasoning_tokens": 771
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "ibm-granite/granite-4.1-8b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254591-jsbZLSBrwyQ2oIHFEad1",
+  "provider_served": "WandB",
+  "input_tokens_billed": 3466,
+  "output_tokens_billed": 187,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000192,
+  "execution_duration_sec": 1.616,
+  "raw_response": "{\n  \"file_type\": \"JavaScript (React module)\",\n  \"line_count\": 151,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The file defines a comprehensive DataTable component with sorting, filtering, pagination, and row selection capabilities. It includes debounced data fetching, a selection context, and utility functions for sorting. The complexity arises from the combination of state management, asynchronous data handling, and conditional rendering logic. The use of hooks and context providers adds to the functional complexity but maintains a modular structure.\"\n}",
+  "ran_at": "2026-07-17T02:16:32.018955+00:00",
+  "reasoning_tokens": 0
+}

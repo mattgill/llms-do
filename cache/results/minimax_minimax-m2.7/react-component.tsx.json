@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.7",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257775-KsEeBxYnAr3y0QYXkpkO",
+  "provider_served": "Minimax",
+  "input_tokens_billed": 3163,
+  "output_tokens_billed": 633,
+  "reasoning_tokens": 400,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0017085,
+  "execution_duration_sec": 15.218,
+  "raw_response": "{\"file_type\":\"tsx\",\"line_count\":232,\"functions\":[\"useDebounce\",\"useDataFetch\",\"compareValues\",\"DataTableComponent\",\"body\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"Complex React component implementing a full-featured data table with: 1) Sorting with custom sort functions and multi-direction support (asc/desc/none), 2) Debounced filtering via custom useDebounce hook with configurable delay, 3) Pagination with page size control and windowed page number display (max 5 pages shown), 4) Row selection with individual checkbox toggles and select-all functionality managed via React Context, 5) Abortable async data fetching using AbortController with error handling, 6) Type-safe generics for data types and column identifiers. The component exports a composite DataTable object combining the component with utility hooks (useDataFetch, useTableSelection, useDebounce). Notable patterns: early-return flag pattern for cleanup handling, memoized callbacks and computed values, ARIA attributes for accessibility.\"}",
+  "ran_at": "2026-07-17T03:09:47.300635+00:00"
+}

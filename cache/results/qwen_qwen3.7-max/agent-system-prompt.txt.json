@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-max",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254364-PM0Tbqc94TZfeSjZokGp",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 1107,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01396235,
+  "execution_duration_sec": 22.321,
+  "raw_response": "{\n  \"file_type\": \"text\",\n  \"line_count\": 342,\n  \"functions\": [\n    \"read_file\",\n    \"write_file\",\n    \"search_codebase\",\n    \"run_tests\",\n    \"git_commit\",\n    \"deploy_preview\",\n    \"query_database\",\n    \"fetch_docs\"\n  ],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The text is a comprehensive system prompt and operational guideline document for an autonomous AI software engineering agent named DevBot. It structures the agent's behavior through core principles, tool interfaces, code style guidelines, strict security rules, framework-specific patterns, review checklists, and a list of anti-patterns to avoid.\"\n}",
+  "ran_at": "2026-07-17T02:13:04.737318+00:00",
+  "reasoning_tokens": 940
+}

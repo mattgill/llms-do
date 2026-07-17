@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.2",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253939-P0YK2C9jKjfUtnylzFuu",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3033,
+  "output_tokens_billed": 3980,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01240385155,
+  "execution_duration_sec": 62.399,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 254,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"body\",\n    \"ariaSort\",\n    \"sortMark\",\n    \"handleSort\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The file implements a generic, production-grade React data table component with sorting, filtering, pagination, and row selection. It utilizes several custom hooks (`useDebounce`, `useDataFetch`, `useTableSelection`) to manage state and side effects. The `useDataFetch` hook is particularly complex, handling debounced filters and abortable async requests using `AbortController`. The main `DataTableComponent` features complex conditional rendering logic for table headers, body rows, and pagination controls, alongside React Context for managing selection state.\"\n}",
+  "ran_at": "2026-07-17T02:06:38.560071+00:00",
+  "reasoning_tokens": 3743
+}

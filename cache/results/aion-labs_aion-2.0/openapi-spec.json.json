@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-2.0",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258638-E1R9Q1VKlI2WfhRCW1wh",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 5871,
+  "output_tokens_billed": 1120,
+  "reasoning_tokens": 1026,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0064888,
+  "execution_duration_sec": 18.007,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI Specification\",\n  \"line_count\": 1,\n  \"structure\": {\n    \"openapi_version\": \"3.1.0\",\n    \"title\": \"Task Manager API\",\n    \"version\": \"2.4.1\",\n    \"paths_count\": 8,\n    \"schemas_count\": 12,\n    \"operations_count\": 12,\n    \"security_schemes\": [\"bearerAuth\", \"apiKey\"],\n    \"tags\": [\"Tasks\", \"Assignments\", \"Comments\", \"Attachments\", \"Search & Batch\"]\n  },\n  \"complexity_notes\": \"The specification defines a REST API with 8 paths, 12 operations, and 12 schemas. It includes security schemes, pagination, and batch operations. The content is a single-line JSON object.\"\n}",
+  "ran_at": "2026-07-17T03:24:14.003218+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-27b",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258281-u0BrTfDRTFs4tVVE1kxR",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 638,
+  "reasoning_tokens": 361,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.002193555,
+  "execution_duration_sec": 8.387,
+  "raw_response": "{\n  \"file_type\": \"system_prompt\",\n  \"line_count\": 312,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is not executable code but a comprehensive system prompt/instruction document for an AI software engineering agent (DevBot). The document contains 10 major sections: CORE PRINCIPLES (7 items), TOOL DESCRIPTIONS (7 tools with parameters and behaviors), CODE STYLE GUIDELINES (naming, imports, error handling, testing), SECURITY RULES (4 subsections), FRAMEWORK-SPECIFIC INSTRUCTIONS (React, FastAPI, Database), REVIEW CHECKLIST (12 items), OUTPUT FORMAT REQUIREMENTS, FALLBACK BEHAVIORS FOR AMBIGUITY (5-tier hierarchy), COMMON ANTI-PATTERNS TO AVOID (17 patterns), and SESSION METADATA. The document establishes strict operational constraints including: no placeholder code, deterministic output, mandatory testing, security validation requirements, and specific output formatting. It defines tool interfaces for file operations, code search, testing, git commits, deployment, database queries, and documentation fetching. The instruction set is designed to ensure production-ready code generation with comprehensive error handling, security validation, and adherence to industry best practices across multiple frameworks and languages.\"\n}",
+  "ran_at": "2026-07-17T03:18:09.356527+00:00"
+}

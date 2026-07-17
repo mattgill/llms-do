@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ring-2.6-1t",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254529-j3VeZW8FnnwNW5RTyKvF",
+  "provider_served": "Novita",
+  "input_tokens_billed": 6023,
+  "output_tokens_billed": 1431,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0013461,
+  "execution_duration_sec": 9.201,
+  "raw_response": "\n\n```json\n{\n  \"file_type\": \"OpenAPI 3.1.0 Specification (JSON)\",\n  \"line_count\": 468,\n  \"functions\": [\n    \"listTasks (GET /tasks)\",\n    \"createTask (POST /tasks)\",\n    \"getTask (GET /tasks/{task_id})\",\n    \"updateTask (PATCH /tasks/{task_id})\",\n    \"deleteTask (DELETE /tasks/{task_id})\",\n    \"assignTask (PATCH /tasks/{task_id}/assign)\",\n    \"listComments (GET /tasks/{task_id}/comments)\",\n    \"createComment (POST /tasks/{task_id}/comments)\",\n    \"listAttachments (GET /tasks/{task_id}/attachments)\",\n    \"uploadAttachment (POST /tasks/{task_id}/attachments)\",\n    \"searchTasks (POST /tasks/search)\",\n    \"batchTasks (POST /tasks/batch)\"\n  ],\n  \"classes\": [\n    \"TaskStatus (enum: open, in_progress, in_review, blocked, done, cancelled)\",\n    \"Priority (enum: low, medium, high, critical)\",\n    \"User (object: id, name, email, avatar_url)\",\n    \"Task (object: id, title, description, status, priority, assignee, created_by, tags, due_date, created_at, updated_at, comment_count, attachment_count)\",\n    \"TaskCreateRequest (object: title, description, priority, assignee_id, tags, due_date)\",\n    \"TaskUpdateRequest (object: title, description, status, priority, assignee_id, tags, due_date)\",\n    \"Comment (object: id, task_id, parent_id, body, body_html, author, created_at, updated_at)\",\n    \"Attachment (object: id, task_id, filename, mime_type, size_bytes, description, uploaded_by, created_at, url)\",\n    \"Pagination (object: page, per_page, total, total_pages)\",\n    \"ErrorResponse (object: error with code, message, request_id, details)\",\n    \"TaskListResponse (object: data, pagination)\",\n    \"CommentListResponse (object: data, pagination)\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive OpenAPI 3.1.0 specification for a Task Manager REST API (v2.4.1). It defines 12 endpoints across 5 tag groups (Tasks, Assignments, Comments, Attachments, Search & Batch). The API uses JWT bearer authentication and API key authentication. It supports CRUD operations on tasks, nested resource operations (comments, attachments per task), full-text search with field filtering, and batch operations (up to 50 operations per request). Pagination is implemented consistently with configurable page size (max 100 for tasks, 50 for comments). The schema design uses reusable components extensively with 12 defined schemas and 4 reusable response types (BadRequest, Unauthorized, NotFound, InternalError). File attachments are limited to 25 MB. Task IDs follow the pattern 'task_[a-z0-9]{10}$' and attachment IDs follow 'att_[a-z0-9]{5,10}$'. The API is deployed across 3 environments: production, staging, and local development.\"\n}\n```",
+  "ran_at": "2026-07-17T02:15:36.503535+00:00",
+  "reasoning_tokens": 633
+}

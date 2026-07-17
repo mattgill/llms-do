@@ -1,0 +1,17 @@
+{
+  "model_id": "mistralai/mistral-small-2603",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257791-th9xiqBY0nINu9PAZ3Uh",
+  "provider_served": "Mistral",
+  "input_tokens_billed": 3219,
+  "output_tokens_billed": 575,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00081489,
+  "execution_duration_sec": 3.308,
+  "raw_response": "{\"file_type\": \"TypeScript\", \"line_count\": 298, \"functions\": [{\"name\": \"useDebounce\", \"parameters\": [\"T\"], \"return_type\": \"T\", \"description\": \"Debounces a value by `delay` ms.\"}, {\"name\": \"useDataFetch\", \"parameters\": [\"TData\", \"TFilters\"], \"return_type\": \"{ data: TData[], loading: boolean, error: Error | null, sort: SortState | undefined, setSort: React.Dispatch<React.SetStateAction<SortState | undefined>>, filters: TFilters, setFilters: React.Dispatch<React.SetStateAction<TFilters>>, pagination: PaginationState, setPage: (p: number) => void, setPageSize: (s: number) => void }\", \"description\": \"Wires sorting, filtering & pagination with an abortable fetcher. Filters are debounced.\"}, {\"name\": \"useTableSelection\", \"parameters\": [], \"return_type\": \"SelectionCtx\", \"description\": \"Hook to access selection context.\"}, {\"name\": \"compareValues\", \"parameters\": [\"T\"], \"return_type\": \"number\", \"description\": \"Compares two values based on sort direction and extraction function.\"}, {\"name\": \"DataTableComponent\", \"parameters\": [\"TData\", \"TColumn\"], \"return_type\": \"React.ReactNode\", \"description\": \"Production-grade data table with sorting, selection, pagination.\"}, {\"name\": \"body\", \"parameters\": [], \"return_type\": \"React.ReactNode\", \"description\": \"Renders table body based on data, loading, and error states.\"}, {\"name\": \"handleSort\", \"parameters\": [\"TColumn\"], \"return_type\": \"void\", \"description\": \"Handles column sorting logic.\"}, {\"name\": \"ariaSort\", \"parameters\": [\"TColumn\"], \"return_type\": \"string\", \"description\": \"Determines ARIA sort attribute value.\"}, {\"name\": \"sortMark\", \"parameters\": [\"TColumn\"], \"return_type\": \"string\", \"description\": \"Returns sort direction indicator.\"}], \"classes\": [], \"imports\": [\"React\", \"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\"], \"complexity_notes\": \"The file contains a complex React component (DataTable) with multiple hooks for state management, sorting, filtering, pagination, and selection. The useDataFetch hook includes debouncing and abortable async data fetching, contributing to high complexity. The component also handles accessibility features like ARIA attributes and keyboard navigation. The use of generics (TData, TColumn) and type safety adds to the overall complexity.\"}",
+  "ran_at": "2026-07-17T03:09:53.642271+00:00"
+}

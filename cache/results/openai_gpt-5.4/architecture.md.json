@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.4",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257991-BEXZTQdFu0cFlECnYEAD",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 189,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.02845,
+  "execution_duration_sec": 2.446,
+  "raw_response": "{\"file_type\":\"technical_architecture_document\",\"line_count\":675,\"functions\":[\"applyOperation(docState: CRDTState, op: Operation): CRDTState\"],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This file is primarily structured prose and technical specification rather than executable source code. It contains one pseudocode function (`applyOperation`) and several embedded typed data structure examples (TypeScript-like operation types), JSON examples, PromQL queries, shell commands, and ASCII/Unicode architecture diagrams. The document is highly structured with numbered sections covering system overview, architecture, data model, CRDT conflict resolution, API design, authentication, infrastructure, scaling, disaster recovery, and observability. Complexity is high due to distributed systems concerns: multi-region active-active topology, CRDT merge semantics, sharding via consistent hashing, message broker integration, operational persistence, rate limiting, fault tolerance, and monitoring/alerting specifications.\"}",
+  "ran_at": "2026-07-17T03:13:12.580122+00:00"
+}

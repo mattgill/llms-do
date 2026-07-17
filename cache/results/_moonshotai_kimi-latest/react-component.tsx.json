@@ -1,0 +1,17 @@
+{
+  "model_id": "~moonshotai/kimi-latest",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254677-jsgIPtF3AIORtuUD7W4A",
+  "provider_served": "Decart",
+  "input_tokens_billed": 3150,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01604636,
+  "execution_duration_sec": 50.285,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:18:44.607933+00:00",
+  "reasoning_tokens": 4096
+}

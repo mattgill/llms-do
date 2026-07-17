@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-1t",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784255344-0kfEl0zSd3wgd1BrLSYn",
+  "provider_served": "Novita",
+  "input_tokens_billed": 6016,
+  "output_tokens_billed": 167,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000555575,
+  "execution_duration_sec": 5.848,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI specification (YAML/JSON)\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a single JSON document describing a production-grade REST API (Task Manager API v2.4.1). It defines 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch), 7 path endpoints with 12 operations (list, create, get, update, delete tasks; assign tasks; list/add comments; list/upload attachments; search tasks; batch operations). Security includes JWT bearer tokens and API keys. Schemas cover Task lifecycle, pagination, comments, attachments, and error responses with detailed examples.\"\n}",
+  "ran_at": "2026-07-17T02:29:07.338612+00:00",
+  "reasoning_tokens": 0
+}

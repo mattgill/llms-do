@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258931-sHRn2Di1DY1HoadeM78z",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 9916,
+  "output_tokens_billed": 444,
+  "reasoning_tokens": 251,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001887,
+  "execution_duration_sec": 4.152,
+  "raw_response": "{\"file_type\":\"markdown_documentation\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is a comprehensive technical architecture document (markdown) for CollabSync, a real-time collaboration platform. It is NOT source code. The document contains: (1) System design goals with latency/throughput/consistency targets, (2) ASCII diagram of high-level architecture with CDN, API Gateway, services, message broker, and data stores, (3) Database schema definitions for PostgreSQL tables (workspaces, documents, users, memberships, operations, snapshots, document_presence), (4) CRDT algorithm implementation in TypeScript with RGA/LSEQ for conflict resolution, (5) REST API and WebSocket protocol specifications, (6) JWT-based authentication flow and RBAC authorization model, (7) Kubernetes infrastructure topology with EKS 1.30, (8) Performance benchmarks and horizontal scaling strategies, (9) Disaster recovery procedures with RPO/RTO targets, (10) Observability setup including Prometheus metrics, OpenTelemetry tracing, structured logging, and alerting rules. No executable code functions or classes are present - only documentation, diagrams, and configuration specifications.\"}",
+  "ran_at": "2026-07-17T03:28:53.279462+00:00"
+}

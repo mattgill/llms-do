@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5v-turbo",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784256237-Hcfj9qjtuqnEUZL0lsRt",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 5368,
+  "output_tokens_billed": 1229,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01135568,
+  "execution_duration_sec": 58.299,
+  "raw_response": "```json\n{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"Comprehensive REST API definition featuring 12 endpoints across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch). Includes complex schema validation (regex patterns, enums, constraints), Bearer/JWT and API Key authentication, paginated responses, and detailed error handling with request IDs.\"\n}\n```",
+  "ran_at": "2026-07-17T02:44:52.925903+00:00",
+  "reasoning_tokens": 997
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3-coder-next",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784259079-9rpyDqJ2BVPBWmoA6gRR",
+  "provider_served": "Parasail",
+  "input_tokens_billed": 10489,
+  "output_tokens_billed": 173,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00139708,
+  "execution_duration_sec": 2.769,
+  "raw_response": "{\n  \"file_type\": \"Technical Architecture Document\",\n  \"line_count\": 623,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture specification for a real-time collaboration platform (CollabSync). It includes system topology diagrams, data models (PostgreSQL schema), CRDT algorithm details (RGA/LSEQ), API specifications (REST + WebSocket), authentication/authorization flows, infrastructure (Kubernetes, PostgreSQL, Redis, Pulsar, S3), scaling strategies, disaster recovery procedures, and observability setup (Prometheus, OpenTelemetry, logging). No executable code is present; all 'code' is pseudocode or configuration examples (e.g., TypeScript type definitions, SQL DDL, k6 test script, bash recovery commands).\"\n}",
+  "ran_at": "2026-07-17T03:31:22.434118+00:00"
+}

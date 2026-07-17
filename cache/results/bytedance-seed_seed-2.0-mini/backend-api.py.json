@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2.0-mini",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258096-LqxLyTNI9FpkEAdOoVQk",
+  "provider_served": "Seed",
+  "input_tokens_billed": 3885,
+  "output_tokens_billed": 15376,
+  "reasoning_tokens": 14889,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0065389,
+  "execution_duration_sec": 113.114,
+  "raw_response": "{\"file_type\": \"python\", \"line_count\": 398, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"from __future__ import annotations\", \"import asyncio\", \"import logging\", \"from datetime import UTC, datetime, timedelta\", \"from enum import StrEnum\", \"from typing import Annotated, Any, Sequence\", \"import jwt\", \"from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\", \"from fastapi.encoders import jsonable_encoder\", \"from fastapi.middleware.cors import CORSMiddleware\", \"from passlib.context import CryptContext\", \"from pydantic import BaseModel, ConfigDict, Field\", \"from sqlalchemy import Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\", \"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\", \"from sqlalchemy.orm import DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\", \"from fastapi.responses import JSONResponse\"], \"complexity_notes\": \"This is an asynchronous FastAPI backend for project management with real-time WebSocket updates. Key features include async SQLAlchemy ORM integration for PostgreSQL, JWT-based authentication, full CRUD project endpoints with ownership checks, pagination, filtering, WebSocket broadcasting for real-time events, background task support, and global exception handling. Notable considerations: the global exception handler references JSONResponse which is imported after the handler is defined, causing a potential NameError; login uses query parameters instead of a request body for credentials; hardcoded configuration values (database URL, JWT secret) should be replaced with environment variables in production; the in-memory WebSocket connection manager will not work in multi-instance deployments.\"}",
+  "ran_at": "2026-07-17T03:16:47.424835+00:00"
+}

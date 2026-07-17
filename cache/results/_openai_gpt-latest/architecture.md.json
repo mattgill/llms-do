@@ -1,0 +1,17 @@
+{
+  "model_id": "~openai/gpt-latest",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254783-zsfmCRX1MHahXetyuJxi",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 3628,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.1139765,
+  "execution_duration_sec": 42.718,
+  "raw_response": "{\"file_type\":\"Markdown technical architecture document\",\"line_count\":927,\"functions\":[{\"name\":\"applyOperation\",\"context\":\"Embedded TypeScript-like CRDT merge pseudocode\",\"purpose\":\"Idempotently applies insert, delete, format, and move operations, then advances the Lamport clock\"}],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Large, highly structured production architecture specification with 10 numbered sections. It includes system and Kubernetes topology diagrams, service descriptions, relational data models for seven entities, CRDT/RGA-LSEQ concepts and merge pseudocode, REST and WebSocket APIs, authentication and authorization flows, infrastructure configuration, scaling and multi-region strategy, disaster recovery procedures, PromQL queries, JSON/JSONC examples, shell commands, benchmarks, alerting rules, and dashboards. The principal technical complexity lies in distributed real-time collaboration, deterministic conflict resolution, causal ordering, anti-entropy synchronization, consistent-hash sharding, active-active regional operation, persistence across PostgreSQL/Pulsar/Redis/S3, and production observability. Embedded snippets are illustrative rather than a complete executable program.\"}",
+  "ran_at": "2026-07-17T02:20:25.800853+00:00",
+  "reasoning_tokens": 3402
+}

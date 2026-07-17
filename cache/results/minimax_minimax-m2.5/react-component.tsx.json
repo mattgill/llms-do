@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258951-2NjmhqgTNHsUg1pGXsMT",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 3165,
+  "output_tokens_billed": 419,
+  "reasoning_tokens": 290,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00084065,
+  "execution_duration_sec": 3.349,
+  "raw_response": "{\"file_type\":\"typescript/react\",\"line_count\":217,\"functions\":[\"useDebounce\",\"useDataFetch\",\"compareValues\",\"DataTableComponent\",\"useTableSelection\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"Production-grade data table with multiple complex features: sorting (with custom sort functions), filtering (debounced), pagination, row selection (individual and bulk), async data fetching with AbortController support, and accessibility (ARIA attributes). Uses React Context for selection state. Includes custom hooks for data fetching and debouncing. The component handles multiple edge cases (loading states, error states, empty data).\"}",
+  "ran_at": "2026-07-17T03:29:14.456850+00:00"
+}

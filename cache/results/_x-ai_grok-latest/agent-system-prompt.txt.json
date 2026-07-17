@@ -1,0 +1,17 @@
+{
+  "model_id": "~x-ai/grok-latest",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784253426-SqrRbs8QtGthfaCiGJzc",
+  "provider_served": "xAI",
+  "input_tokens_billed": 6160,
+  "output_tokens_billed": 152,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01304,
+  "execution_duration_sec": 21.274,
+  "raw_response": "{\"file_type\": \"prompt/specification\", \"line_count\": 289, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Structured multi-section natural-language specification defining an autonomous software engineering agent (DevBot). Contains core principles, tool API descriptions (read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), code style guidelines, security rules, framework-specific patterns (React, FastAPI), database migration rules, review checklist, output format requirements, ambiguity fallback hierarchy, anti-patterns list, and session metadata. Not executable source code; hierarchical instructional document with enumerated rules and tool contracts.\"}",
+  "ran_at": "2026-07-17T01:57:26.502047+00:00",
+  "reasoning_tokens": 0
+}

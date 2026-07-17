@@ -1,0 +1,17 @@
+{
+  "model_id": "arcee-ai/trinity-large-thinking",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257659-JoqUpAqrGQ9AraRHhChe",
+  "provider_served": "Arcee AI",
+  "input_tokens_billed": 5730,
+  "output_tokens_billed": 857,
+  "reasoning_tokens": 301,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0021181,
+  "execution_duration_sec": 4.09,
+  "raw_response": "\n{\n  \"file_type\": \"text/instruction\",\n  \"line_count\": 1024,\n  \"structure\": {\n    \"title\": \"You are DevBot, an autonomous AI software engineering agent...\",\n    \"sections\": [\n      {\n        \"heading\": \"CORE PRINCIPLES\",\n        \"content_type\": \"numbered_list\",\n        \"items\": 7\n      },\n      {\n        \"heading\": \"TOOL DESCRIPTIONS\",\n        \"content_type\": \"tool_definitions\",\n        \"tools\": [\n          \"read_file\",\n          \"write_file\",\n          \"search_codebase\",\n          \"run_tests\",\n          \"git_commit\",\n          \"deploy_preview\",\n          \"query_database\",\n          \"fetch_docs\"\n        ]\n      },\n      {\n        \"heading\": \"CODE STYLE GUIDELINES\",\n        \"content_type\": \"guidelines\",\n        \"subsections\": [\n          \"Naming\",\n          \"Imports and Dependencies\",\n          \"Error Handling\",\n          \"Testing Requirements\"\n        ]\n      },\n      {\n        \"heading\": \"SECURITY RULES\",\n        \"content_type\": \"mandatory_rules\",\n        \"subsections\": [\n          \"Never Log Secrets\",\n          \"Validate All Inputs\",\n          \"Sanitize All Outputs\",\n          \"Additional Security\"\n        ]\n      },\n      {\n        \"heading\": \"FRAMEWORK-SPECIFIC INSTRUCTIONS\",\n        \"content_type\": \"framework_patterns\",\n        \"subsections\": [\n          \"React Patterns\",\n          \"FastAPI Patterns\",\n          \"Database Migration Rules\"\n        ]\n      },\n      {\n        \"heading\": \"REVIEW CHECKLIST BEFORE SUBMITTING CODE\",\n        \"content_type\": \"checklist\",\n        \"items\": 11\n      },\n      {\n        \"heading\": \"OUTPUT FORMAT REQUIREMENTS\",\n        \"content_type\": \"format_specifications\"\n      },\n      {\n        \"heading\": \"FALLBACK BEHAVIORS FOR AMBIGUITY\",\n        \"content_type\": \"decision_hierarchy\",\n        \"items\": 5\n      },\n      {\n        \"heading\": \"COMMON ANTI-PATTERNS TO AVOID\",\n        \"content_type\": \"anti_patterns\",\n        \"items\": 16\n      },\n      {\n        \"heading\": \"SESSION METADATA\",\n        \"content_type\": \"metadata\"\n      },\n      {\n        \"heading\": \"FINAL REMINDER\",\n        \"content_type\": \"summary\"\n      }\n    ]\n  },\n  \"complexity_notes\": \"The document is highly structured with clear section hierarchies, using consistent formatting with equal signs as section separators. It contains a mix of numbered lists, bullet points, and prose. The content is comprehensive covering principles, tools, style, security, frameworks, and quality assurance. No code patterns or programming constructs are present - it is purely instructional text for an AI agent.\"\n}",
+  "ran_at": "2026-07-17T03:07:42.368822+00:00"
+}

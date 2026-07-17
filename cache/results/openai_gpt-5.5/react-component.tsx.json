@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255314-0o4lCTE12hxTcfTpIcSk",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 4039,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.136815,
+  "execution_duration_sec": 31.289,
+  "raw_response": "{\"file_type\":\"TypeScript React TSX module\",\"line_count\":252,\"functions\":[{\"name\":\"useDebounce\",\"line_start\":41,\"line_end\":45,\"exported\":true,\"kind\":\"React hook\",\"description\":\"Debounces a generic value using useState and useEffect with timeout cleanup.\"},{\"name\":\"useDataFetch\",\"line_start\":52,\"line_end\":86,\"exported\":true,\"kind\":\"React hook\",\"description\":\"Manages sort, filters, pagination, loading/error state, debounced filters, and abortable async fetching.\"},{\"name\":\"useTableSelection\",\"line_start\":102,\"line_end\":106,\"exported\":true,\"kind\":\"React hook\",\"description\":\"Reads the selection context and throws if used outside the DataTable provider.\"},{\"name\":\"compareValues\",\"line_start\":112,\"line_end\":122,\"exported\":false,\"kind\":\"utility function\",\"description\":\"Compares extracted column values with null handling, string/number comparison, and sort direction support.\"},{\"name\":\"DataTableComponent\",\"line_start\":145,\"line_end\":245,\"exported\":false,\"kind\":\"generic React component\",\"description\":\"Renders a data table with optional row selection, sortable columns, loading/error/empty states, and pagination controls.\"}],\"classes\":[],\"imports\":[{\"module\":\"react\",\"default_import\":\"React\",\"named_imports\":[\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"]}],\"complexity_notes\":\"Moderately complex generic TSX component. Defines several exported TypeScript types/interfaces for sorting, columns, pagination, fetch results, fetch options, and table props. Uses React hooks extensively, including context, memoization, callbacks, effects, refs, and state. Async fetching includes AbortController cancellation and debounced filter state. DataTableComponent contains nested render/helper logic for selection state, client-side sorting, conditional table body states, keyboard-accessible sorting, ARIA attributes, and pagination window generation. No classes are defined.\"}",
+  "ran_at": "2026-07-17T02:29:05.017500+00:00",
+  "reasoning_tokens": 3624
+}

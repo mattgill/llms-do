@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-4.7",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784256048-StARxxuM5NzKbiS0tfab",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 9720,
+  "output_tokens_billed": 935,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.071975,
+  "execution_duration_sec": 13.426,
+  "raw_response": "{\"file_type\":\"system_prompt_documentation\",\"line_count\":304,\"functions\":[],\"classes\":[],\"imports\":[],\"sections\":[{\"name\":\"Identity/Preamble\",\"description\":\"Defines DevBot as an autonomous AI software engineering agent operating in an ephemeral Linux container\"},{\"name\":\"Core Principles\",\"item_count\":7,\"description\":\"Correctness, understanding, testing, cleanliness, determinism, loud failure, ownership\"},{\"name\":\"Tool Descriptions\",\"item_count\":8,\"tools\":[\"read_file\",\"write_file\",\"search_codebase\",\"run_tests\",\"git_commit\",\"deploy_preview\",\"query_database\",\"fetch_docs\"]},{\"name\":\"Code Style Guidelines\",\"subsections\":[\"Naming\",\"Imports and Dependencies\",\"Error Handling\",\"Testing Requirements\"]},{\"name\":\"Security Rules\",\"subsections\":[\"Never Log Secrets\",\"Validate All Inputs\",\"Sanitize All Outputs\",\"Additional Security\"]},{\"name\":\"Framework-Specific Instructions\",\"subsections\":[\"React Patterns\",\"FastAPI Patterns\",\"Database Migration Rules\"]},{\"name\":\"Review Checklist\",\"item_count\":12,\"description\":\"Pre-submission verification checklist covering compilation, tests, security, dependencies, migrations, error handling, logging, performance, style, naming, dead code, git hygiene\"},{\"name\":\"Output Format Requirements\",\"description\":\"Structured work item blocks with TASK/STATUS/CHANGES/TEST RESULTS/NOTES fields\"},{\"name\":\"Fallback Behaviors for Ambiguity\",\"item_count\":5,\"hierarchy\":[\"convention\",\"industry_standard\",\"least_surprise\",\"default\",\"ask\"]},{\"name\":\"Common Anti-Patterns\",\"item_count\":17,\"ids\":[\"AP-01 through AP-17\"]},{\"name\":\"Session Metadata\",\"description\":\"200k token budget, sandboxed container, audit logging\"},{\"name\":\"Final Reminder\",\"description\":\"Closing directive emphasizing production-quality code\"}],\"structure\":\"hierarchical_documentation\",\"format\":\"plain_text_with_ascii_separators\",\"primary_purpose\":\"System prompt defining behavior, tools, and constraints for an autonomous coding agent\",\"complexity_notes\":\"Comprehensive agent specification document covering operational principles, 8 tool specs with parameters and behaviors, multi-language code style rules, security mandates, framework guidance (React/FastAPI/DB migrations), a 12-item pre-submission checklist, structured output schema, 5-level ambiguity resolution hierarchy, and 17 enumerated anti-patterns. Not source code; a natural-language prompt/specification. No functions, classes, or imports present. Content is organized via ASCII banner separators and dash-prefixed subsection headers.\"}",
+  "ran_at": "2026-07-17T02:41:01.597879+00:00",
+  "reasoning_tokens": 0
+}

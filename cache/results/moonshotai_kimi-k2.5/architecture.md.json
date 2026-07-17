@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784259219-aLzrQeMHf3Rk3rxx4T7J",
+  "provider_served": "ModelRun",
+  "input_tokens_billed": 9899,
+  "output_tokens_billed": 1732,
+  "reasoning_tokens": 1446,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0072504,
+  "execution_duration_sec": 18.336,
+  "raw_response": "```json\n{\n  \"file_type\": \"technical_specification\",\n  \"line_count\": 1000,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Comprehensive markdown architecture document for a real-time collaboration platform, structured in 10 major sections: (1) System Overview with design goals and SLAs presented in tables, (2) High-Level Architecture featuring ASCII topology diagrams and microservice descriptions (API Gateway, Collaboration Engine, Presence Tracker), (3) Data Model with Entity-Relationship diagrams and detailed PostgreSQL table schemas including indexes and constraints, (4) CRDT Algorithm specification containing TypeScript type definitions and merge algorithm pseudocode, (5) API Design documenting REST endpoints, WebSocket protocol with JSON message examples, and rate limiting tables, (6) Authentication/Authorization with JWT token architecture and SSO integration flows, (7) Infrastructure topology with Kubernetes cluster ASCII diagrams and datastore configurations (PostgreSQL, Redis, Pulsar, S3), (8) Performance benchmarks and horizontal scaling strategies with k6 load test profiles, (9) Disaster Recovery procedures with RPO/RTO tables and Bash command examples, (10) Monitoring and Observability with PromQL queries, structured logging schemas, and alerting rules. Contains multiple programming language code blocks (TypeScript, SQL, Bash, PromQL), extensive data tables, and network topology diagrams.\"\n}\n```",
+  "ran_at": "2026-07-17T03:33:56.822768+00:00"
+}

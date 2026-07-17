@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253642-HcXihSsH23lzPKAeFKvx",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 9387,
+  "output_tokens_billed": 949,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.028264,
+  "execution_duration_sec": 12.923,
+  "raw_response": "{\"file_type\": \"OpenAPI 3.1.0 specification (JSON, minified single-line)\", \"line_count\": 1, \"functions\": [\"listTasks (GET /tasks)\", \"createTask (POST /tasks)\", \"getTask (GET /tasks/{task_id})\", \"updateTask (PATCH /tasks/{task_id})\", \"deleteTask (DELETE /tasks/{task_id})\", \"assignTask (PATCH /tasks/{task_id}/assign)\", \"listComments (GET /tasks/{task_id}/comments)\", \"createComment (POST /tasks/{task_id}/comments)\", \"listAttachments (GET /tasks/{task_id}/attachments)\", \"uploadAttachment (POST /tasks/{task_id}/attachments)\", \"searchTasks (POST /tasks/search)\", \"batchTasks (POST /tasks/batch)\"], \"classes\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"imports\": [], \"complexity_notes\": \"This is a declarative OpenAPI 3.1.0 REST API specification, not executable source code, so traditional 'functions' and 'classes' are approximated as operationIds and component schemas respectively. The API defines 12 operations across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch) covering CRUD, assignment, commenting, file attachment upload, full-text search, and batch (up to 50 ops) mutation endpoints. It uses two security schemes (bearer JWT and API key), shared reusable response definitions (BadRequest, Unauthorized, NotFound, InternalError) via $ref, and rich inline examples for requests/responses. Schema complexity is moderate: nested object references (Task -> User, Comment -> User, Attachment -> User), enum-constrained fields (TaskStatus, Priority), regex-pattern-validated IDs (task_, att_, req_ prefixes), and oneOf polymorphism in the batch operation results (Task | ErrorResponse). No executable logic, control flow, or algorithmic complexity is present since this is a schema/contract definition rather than implementation code.\"}",
+  "ran_at": "2026-07-17T02:00:52.131757+00:00",
+  "reasoning_tokens": 0
+}

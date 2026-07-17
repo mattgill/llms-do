@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-31b-it",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784256168-ngmb7TgP9m0GpvpoLprY",
+  "provider_served": "WandB",
+  "input_tokens_billed": 5948,
+  "output_tokens_billed": 132,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00075996,
+  "execution_duration_sec": 3.433,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The file is a comprehensive OpenAPI 3.1.0 definition for a Task Manager API. It defines 11 endpoints across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch). It includes complex schema definitions for Tasks, Users, and Comments, as well as detailed request/response examples, security schemes (JWT and API Key), and standardized error responses.\"\n}",
+  "ran_at": "2026-07-17T02:42:49.351508+00:00",
+  "reasoning_tokens": 0
+}

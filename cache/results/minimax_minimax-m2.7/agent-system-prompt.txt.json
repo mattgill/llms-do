@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.7",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257772-ArDJvEHxEHijhRqC9xlG",
+  "provider_served": "Mara",
+  "input_tokens_billed": 5875,
+  "output_tokens_billed": 624,
+  "reasoning_tokens": 386,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00200904,
+  "execution_duration_sec": 3.656,
+  "raw_response": "\n\n{\"file_type\":\"text/markdown\",\"line_count\":412,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is a system prompt/instruction document for an AI software engineering agent called DevBot. The document contains 11 major sections: CORE PRINCIPLES (7 principles), TOOL DESCRIPTIONS (8 tool definitions: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), CODE STYLE GUIDELINES (Naming, Imports/Dependencies, Error Handling, Testing Requirements), SECURITY RULES (Never Log Secrets, Validate All Inputs, Sanitize All Outputs, Additional Security), FRAMEWORK-SPECIFIC INSTRUCTIONS (React Patterns, FastAPI Patterns, Database Migration Rules), REVIEW CHECKLIST (12-item checklist), OUTPUT FORMAT REQUIREMENTS (work item block format), FALLBACK BEHAVIORS FOR AMBIGUITY (5-level hierarchy), COMMON ANTI-PATTERNS TO AVOID (17 anti-patterns), SESSION METADATA (token budget, sandbox info), and FINAL REMINDER. The document is instructional/configuration text, not executable code.\"}",
+  "ran_at": "2026-07-17T03:09:33.024328+00:00"
+}

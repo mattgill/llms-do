@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-4.6",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784259054-DoFh88ra0s409EJ2DyQ2",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 12372,
+  "output_tokens_billed": 396,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.07176,
+  "execution_duration_sec": 9.636,
+  "raw_response": "```json\n{\n  \"file_type\": \"technical_architecture_document\",\n  \"line_count\": 650,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Comprehensive technical architecture document for a real-time collaboration platform (CollabSync). Contains 10 major sections: (1) System Overview with design goals and NFRs, (2) High-Level Architecture with ASCII topology diagrams and service descriptions, (3) Data Model with 7 detailed table definitions (workspaces, documents, users, memberships, operations, snapshots, document_presence) including columns/types/constraints/indexes, (4) CRDT/RGA conflict resolution algorithm with TypeScript-style pseudocode for merge operations and anti-entropy protocol, (5) API Design covering REST endpoints (auth, workspaces, documents, search) and full WebSocket protocol specification with JSON message schemas and rate limits, (6) Authentication/Authorization with JWT dual-token architecture, SSO integration, and RBAC permission matrix, (7) Infrastructure detailing Kubernetes (EKS 1.30) cluster topology, PostgreSQL/Redis/S3/Pulsar configurations with specific instance types and settings, (8) Performance benchmarks with measured latencies, k6 load test profiles, horizontal scaling strategies, consistent hashing for dynamic sharding, and multi-region active-active architecture, (9) Disaster Recovery with RPO/RTO targets, backup schedules, recovery procedures (AWS CLI examples), and chaos engineering practices, (10) Monitoring/Observability with PromQL queries, OpenTelemetry tracing, structured logging pipeline, alerting rules, and dashboard specifications. Version 2.4.0, production status.\"\n}\n```",
+  "ran_at": "2026-07-17T03:31:02.863865+00:00"
+}

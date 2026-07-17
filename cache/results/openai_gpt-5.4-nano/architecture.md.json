@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.4-nano",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257776-n2Yxl8VyWuORwFI7Efjx",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 177,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00227045,
+  "execution_duration_sec": 5.125,
+  "raw_response": "{\n  \"file_type\": \"text/technical-architecture (non-code)\",\n  \"line_count\": 714,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This document is a comprehensive technical architecture specification for a real-time collaboration platform (CollabSync). It contains multiple sections describing system goals, topology (CDN/API gateway/services), CRDT-based conflict resolution with a pseudocode function, REST/WebSocket API contracts, data model (tables/entities), infrastructure choices (Kubernetes, PostgreSQL/Redis/S3/Pulsar), scaling/benchmarks, disaster recovery, and observability (metrics/tracing/logging/alerts/dashboards). There is no actual source code or importable modules; only illustrative pseudocode in the CRDT merge algorithm and shell commands in the DR procedure.\"\n}",
+  "ran_at": "2026-07-17T03:09:38.786598+00:00"
+}

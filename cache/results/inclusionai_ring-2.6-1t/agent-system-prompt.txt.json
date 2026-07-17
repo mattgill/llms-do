@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ring-2.6-1t",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254539-GpSki9v82c6DgdiZaZLG",
+  "provider_served": "Novita",
+  "input_tokens_billed": 6344,
+  "output_tokens_billed": 774,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00095955,
+  "execution_duration_sec": 12.152,
+  "raw_response": "\n\n```json\n{\n  \"file_type\": \"text/markdown - AI Agent Instruction Set\",\n  \"line_count\": 428,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is not source code but a comprehensive instruction and configuration document for an AI coding agent (DevBot). The document is structured into 10 major sections: (1) Core Principles - 7 numbered engineering principles governing code quality, scoping, testing, determinism, and error handling; (2) Tool Descriptions - 8 tools defined with parameters, behavior, and usage constraints (read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs); (3) Code Style Guidelines - naming conventions (camelCase, snake_case, PascalCase by language), import ordering rules, error handling patterns, and testing requirements (unit, integration, e2e); (4) Security Rules - input validation, output sanitization, secret management, SQL injection prevention, cryptography standards, and session cookie policies; (5) Framework-Specific Instructions - React patterns (hooks, memoization, accessibility), FastAPI patterns (async, dependency injection, pydantic), and Database Migration Rules (reversible migrations, naming conventions, EXPLAIN analysis); (6) Review Checklist - 11-item pre-submission checklist covering compilation, tests, security, dependencies, migrations, error handling, logging, performance, style, naming, dead code, and git hygiene; (7) Output Format Requirements - structured work item block format with TASK/STATUS/CHANGES/TEST RESULTS/NOTES fields; (8) Fallback Behaviors for Ambiguity - 5-tier decision hierarchy (convention, industry standard, least surprise, default, ask); (9) Common Anti-Patterns - 17 named anti-patterns (AP-01 through AP-17) with descriptions; (10) Session Metadata - token budget, tool call logging, sandbox constraints, and final reminder. The document enforces strict deterministic output, comprehensive error handling, security-first practices, and test-driven development.\"\n}\n```",
+  "ran_at": "2026-07-17T02:15:48.655713+00:00",
+  "reasoning_tokens": 357
+}

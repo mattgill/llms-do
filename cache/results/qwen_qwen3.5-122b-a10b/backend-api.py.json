@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-122b-a10b",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258435-S2SoZOaWY4Br6rmFFGtJ",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 1027,
+  "reasoning_tokens": 683,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00307164,
+  "execution_duration_sec": 25.397,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 447,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"connect\",\n    \"disconnect\",\n    \"broadcast\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"Async/await patterns throughout for database operations and WebSocket handling. Multiple dependency injection patterns with FastAPI (get_db, get_current_user). JWT authentication with token creation/decoding. Background task processing for notifications. Pagination logic with filtering and search capabilities. Global exception handler for consistent error responses. CORS middleware configuration. SQLAlchemy ORM with async support. ConnectionManager class for WebSocket broadcast functionality. Moderate cyclomatic complexity due to conditional logic in authentication and CRUD operations.\"\n}",
+  "ran_at": "2026-07-17T03:20:58.700672+00:00"
+}

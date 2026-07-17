@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5-turbo",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257798-VWzMUmfxVcLp7riqsEDF",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 5854,
+  "output_tokens_billed": 343,
+  "reasoning_tokens": 50,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0083968,
+  "execution_duration_sec": 8.412,
+  "raw_response": "```json\n{\n  \"file_type\": \"plain_text\",\n  \"line_count\": 0,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a system prompt/instruction document for an autonomous AI software engineering agent named 'DevBot'. It is structured into 11 major sections delineated by ASCII separator lines: CORE PRINCIPLES (7 rules), TOOL DESCRIPTIONS (8 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), CODE STYLE GUIDELINES (4 subsections: Naming, Imports, Error Handling, Testing), SECURITY RULES (4 subsections: Never Log Secrets, Validate All Inputs, Sanitize All Outputs, Additional Security), FRAMEWORK-SPECIFIC INSTRUCTIONS (3 subsections: React, FastAPI, Database Migration), REVIEW CHECKLIST (12 items), OUTPUT FORMAT REQUIREMENTS (structured work item blocks), FALLBACK BEHAVIORS FOR AMBIGUITY (5-level hierarchy), COMMON ANTI-PATTERNS TO AVOID (17 numbered anti-patterns labeled AP-01 through AP-17), SESSION METADATA (token budget, sandbox constraints), and a FINAL REMINDER. The document uses hierarchical formatting with section headers, bullet points, code examples in multiple languages (JS/TS, Python, Go, Rust), and checkbox-style review items.\"\n}\n```",
+  "ran_at": "2026-07-17T03:10:04.403082+00:00"
+}

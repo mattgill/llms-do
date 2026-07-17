@@ -1,0 +1,17 @@
+{
+  "model_id": "~openai/gpt-mini-latest",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254624-7WQzlCywWKXUdJFlsrzr",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 131,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.008274,
+  "execution_duration_sec": 1.428,
+  "raw_response": "{\"file_type\":\"technical_document\",\"line_count\":554,\"functions\":[\"applyOperation(docState: CRDTState, op: Operation): CRDTState\"],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is a structured technical architecture document rather than source code. It contains many sections, tables, diagrams, configuration examples, API definitions, and one embedded pseudocode function for CRDT operation application. The document is highly detailed and semantically complex, covering system design, data modeling, conflict resolution, APIs, security, infrastructure, scaling, disaster recovery, and observability. No real language imports or class definitions are present.\"}",
+  "ran_at": "2026-07-17T02:17:04.656904+00:00",
+  "reasoning_tokens": 0
+}

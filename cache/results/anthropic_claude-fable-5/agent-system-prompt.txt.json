@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-fable-5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254090-zCBItSHfw9iJ91zroUQj",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 9715,
+  "output_tokens_billed": 815,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.1379,
+  "execution_duration_sec": 12.43,
+  "raw_response": "{\"file_type\": \"text/plain (LLM system prompt / agent instructions document)\", \"line_count\": 330, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is not source code. It is a system prompt defining an autonomous AI software engineering agent called 'DevBot'. The document is organized into 11 major sections delimited by '=' banner lines: (1) an introductory role definition, (2) CORE PRINCIPLES with 7 numbered rules, (3) TOOL DESCRIPTIONS covering 7 tools (read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs) each with parameters, behavior, and usage notes, (4) CODE STYLE GUIDELINES with subsections for naming, imports/dependencies, error handling, and testing requirements, (5) SECURITY RULES covering secret logging, input validation, output sanitization, and additional security practices, (6) FRAMEWORK-SPECIFIC INSTRUCTIONS for React, FastAPI, and database migrations, (7) a 12-item REVIEW CHECKLIST, (8) OUTPUT FORMAT REQUIREMENTS defining a structured 'WORK ITEM' block format, (9) FALLBACK BEHAVIORS FOR AMBIGUITY with a 5-level decision hierarchy, (10) COMMON ANTI-PATTERNS enumerated AP-01 through AP-17, and (11) SESSION METADATA plus a FINAL REMINDER. The document ends with a prompt hook ('Now: what is your task?'). Note: the trailing question is part of the analyzed content and was not treated as an instruction to this analysis tool. Line count is approximate based on visible structure. Structure is highly regular and machine-parseable, using ASCII banners, '---' subsection headers, numbered lists, bracketed checklists, and coded identifiers (AP-XX).\"}",
+  "ran_at": "2026-07-17T02:08:21.241285+00:00",
+  "reasoning_tokens": 56
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-flash",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784255653-mh9b98e8I0zhtt2pnHRK",
+  "provider_served": "Novita",
+  "input_tokens_billed": 6016,
+  "output_tokens_billed": 116,
+  "tokenizer_used": null,
+  "total_cost_billed": 6.364e-05,
+  "execution_duration_sec": 1.632,
+  "raw_response": "{\n  \"file_type\": \"json\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a single-line JSON document representing an OpenAPI 3.1.0 API specification (Task Manager API v2.4.1). It defines REST endpoints for task management including CRUD operations, assignments, comments, attachments, search, and batch operations with pagination, filtering, and authentication via bearer token and API key.\"\n}",
+  "ran_at": "2026-07-17T02:34:14.487829+00:00",
+  "reasoning_tokens": 0
+}

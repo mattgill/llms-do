@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.1-flash-lite",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254566-eHjEDvVNVzhaCaHEHYCG",
+  "provider_served": "Google AI Studio",
+  "input_tokens_billed": 11033,
+  "output_tokens_billed": 166,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00300725,
+  "execution_duration_sec": 1.025,
+  "raw_response": "{\n  \"file_type\": \"technical_documentation\",\n  \"line_count\": 785,\n  \"functions\": [\n    \"applyOperation\",\n    \"binarySearchByPosition\",\n    \"findPositionIndex\",\n    \"mergeAttributes\",\n    \"splicePositions\",\n    \"hash\"\n  ],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The document describes a highly complex distributed system utilizing CRDTs (RGA/LSEQ) for causal consistency, consistent hashing for sharding, and a multi-region active-active architecture. The system relies on complex event-driven patterns via Apache Pulsar and requires sophisticated observability (OpenTelemetry, Prometheus, distributed tracing) to manage state convergence and performance.\"\n}",
+  "ran_at": "2026-07-17T02:16:05.548545+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.4",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257998-ver8U1RTKvKMdSqTE1lR",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 181,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0105375,
+  "execution_duration_sec": 2.416,
+  "raw_response": "{\"file_type\":\"TypeScript React module\",\"line_count\":217,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"Generic TypeScript/React component module with multiple exported types/interfaces, custom hooks, context-based selection state, client-side sorting, pagination UI, and abortable async fetching with debounced filters. Complexity is moderate: main logic resides in useDataFetch effect orchestration and DataTableComponent rendering/state derivation. Includes inline helper closures (ariaSort, sortMark, td object, body renderer, selection callbacks, pagination button mapping) and JSX conditional rendering paths for error/loading/empty/data states. No classes; uses hooks and context extensively.\"}",
+  "ran_at": "2026-07-17T03:13:19.030977+00:00"
+}

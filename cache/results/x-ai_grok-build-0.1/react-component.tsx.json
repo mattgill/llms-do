@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-build-0.1",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254476-bIUZhoCyKsiI5jCYtzFT",
+  "provider_served": "xAI",
+  "input_tokens_billed": 3299,
+  "output_tokens_billed": 10594,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0243846,
+  "execution_duration_sec": 46.199,
+  "raw_response": "{\n  \"file_type\": \"tsx\",\n  \"line_count\": 252,\n  \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\"],\n  \"classes\": [],\n  \"imports\": [\"react\"],\n  \"complexity_notes\": \"High complexity: multiple custom hooks with useState/useEffect/useMemo/useCallback, debounced async fetch with AbortController, context provider for selection, inline sorting comparator, large JSX render with conditionals, pagination, and event handlers.\"\n}",
+  "ran_at": "2026-07-17T02:15:19.042188+00:00",
+  "reasoning_tokens": 10483
+}

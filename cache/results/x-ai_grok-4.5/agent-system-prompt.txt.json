@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784253383-JOpBsdHc7x0r6w082t1T",
+  "provider_served": "xAI",
+  "input_tokens_billed": 6160,
+  "output_tokens_billed": 222,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01346,
+  "execution_duration_sec": 3.107,
+  "raw_response": "{\"file_type\": \"prompt/specification\", \"line_count\": 289, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Long multi-section natural-language specification defining DevBot, an autonomous AI software engineering agent. Structure: role intro; CORE PRINCIPLES (7); TOOL DESCRIPTIONS (8 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs with params/behavior/usage); CODE STYLE GUIDELINES (naming, imports, error handling, testing); SECURITY RULES (secrets, validation, sanitization); FRAMEWORK-SPECIFIC INSTRUCTIONS (React, FastAPI, migrations); REVIEW CHECKLIST; OUTPUT FORMAT REQUIREMENTS (work-item blocks); FALLBACK BEHAVIORS FOR AMBIGUITY; COMMON ANTI-PATTERNS (AP-01..AP-17); SESSION METADATA; FINAL REMINDER. Not executable source code; hierarchical markdown-style documentation with tool schemas and engineering policies.\"}",
+  "ran_at": "2026-07-17T01:56:25.647152+00:00",
+  "reasoning_tokens": 0
+}

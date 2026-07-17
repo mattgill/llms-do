@@ -1,0 +1,17 @@
+{
+  "model_id": "nvidia/nemotron-3-super-120b-a12b",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784257851-2GpUOhQ9dwSKfYu1sb9I",
+  "provider_served": "Nebius",
+  "input_tokens_billed": 3541,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4598,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0047487,
+  "execution_duration_sec": 14.676,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:11:05.147216+00:00"
+}

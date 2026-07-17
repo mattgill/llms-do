@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-3.0",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784253604-uxhvf49xnX2yeLQvOVgY",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 3258,
+  "output_tokens_billed": 4410,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.036234,
+  "execution_duration_sec": 78.525,
+  "raw_response": "```json\n{\n  \"file_type\": \"python\",\n  \"line_count\": 313,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"The file implements a full CRUD API with JWT authentication, WebSocket support for real-time updates, and SQLAlchemy async ORM models. It includes pagination, filtering, and background tasks. The `list_projects` function has moderate complexity due to dynamic query building and pagination logic. The `ConnectionManager` handles WebSocket connections and broadcasting.\"\n}\n```",
+  "ran_at": "2026-07-17T02:01:19.853838+00:00",
+  "reasoning_tokens": 4315
+}

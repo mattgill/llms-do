@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-chat-latest",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254571-XP7VtgfeNKsmMMsYVqe0",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5872,
+  "output_tokens_billed": 192,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.03512,
+  "execution_duration_sec": 2.251,
+  "raw_response": "{\"file_type\":\"text\",\"line_count\":428,\"structure\":{\"headings\":[\"CORE PRINCIPLES\",\"TOOL DESCRIPTIONS\",\"CODE STYLE GUIDELINES\",\"SECURITY RULES\",\"FRAMEWORK-SPECIFIC INSTRUCTIONS\",\"DATABASE MIGRATION RULES\",\"REVIEW CHECKLIST BEFORE SUBMITTING CODE\",\"OUTPUT FORMAT REQUIREMENTS\",\"FALLBACK BEHAVIORS FOR AMBIGUITY\",\"COMMON ANTI-PATTERNS TO AVOID\",\"SESSION METADATA\",\"FINAL REMINDER\"],\"sections\":12,\"lists_present\":true},\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Non-code instructional document defining behavior, development workflow, tooling, coding standards, security requirements, framework conventions, review checklist, output format, ambiguity handling, anti-patterns, and session metadata. Highly structured with nested numbered and bulleted lists; contains no executable code constructs.\"}",
+  "ran_at": "2026-07-17T02:16:10.858214+00:00",
+  "reasoning_tokens": 0
+}

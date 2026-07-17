@@ -1,0 +1,17 @@
+{
+  "model_id": "perceptron/perceptron-mk1",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254519-NiawGQlclpqm5iGyD0nV",
+  "provider_served": "Perceptron",
+  "input_tokens_billed": 6137,
+  "output_tokens_billed": 181,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00119205,
+  "execution_duration_sec": 4.201,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 483,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive set of guidelines and instructions for an AI software engineering agent named DevBot. It covers core principles, tool descriptions, code style guidelines, security rules, framework-specific instructions, a review checklist, output format requirements, fallback behaviors for ambiguity, common anti-patterns to avoid, and session metadata. The document is structured with clear headings and sections, making it easy to navigate and understand. It provides detailed instructions on how to approach software development tasks, emphasizing correctness, testing, security, and maintainability. The guidelines are designed to ensure that the code produced by DevBot is of high quality and adheres to best practices.\"\n}\n",
+  "ran_at": "2026-07-17T02:15:23.244167+00:00",
+  "reasoning_tokens": 0
+}

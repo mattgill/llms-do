@@ -1,0 +1,17 @@
+{
+  "model_id": "inception/mercury-2",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258009-KNN9IwiTK1eeLkHadOBB",
+  "provider_served": "Inception",
+  "input_tokens_billed": 3409,
+  "output_tokens_billed": 4053,
+  "reasoning_tokens": 3836,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0038245,
+  "execution_duration_sec": 8.983,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 252,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"useDebounce runs in O(1) per render with a timeout; useDataFetch triggers an async fetch on changes to sort, filters, or pagination, using abort controller to cancel previous requests; sorting in DataTableComponent is O(n log n) via Array.sort, memoized with useMemo; compareValues performs constant\u2011time type checks and comparisons; rendering of rows is O(n) per page, with selection toggles O(1) via Set. Overall component performance is dominated by sorting and rendering of the current page.\"\n}",
+  "ran_at": "2026-07-17T03:13:35.278172+00:00"
+}

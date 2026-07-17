@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-397b-a17b",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258812-xVzj5dUo3QmpKGhSEaXv",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 4348,
+  "reasoning_tokens": 4072,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01236027,
+  "execution_duration_sec": 60.896,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"OpenAPI 3.1.0 specification defining a Task Manager API. Contains 12 API operations across 7 resource paths. Defines 12 data schemas with nested relationships. Implements JWT and API Key security schemes. Features include pagination, filtering, full-text search, and batch operations. Standardized error response structure. Not executable code but a interface definition.\"\n}",
+  "ran_at": "2026-07-17T03:27:53.233176+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.6-terra",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784253319-zvBOpxTj55wlgdU3h8Am",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5872,
+  "output_tokens_billed": 1451,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.040113125,
+  "execution_duration_sec": 8.894,
+  "raw_response": "{\"file_type\":\"plain_text_agent_instruction_specification\",\"line_count\":336,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Non-code policy document defining an autonomous software engineering agent's operating principles, tool contracts, coding standards, security requirements, framework-specific guidance, review checklist, output protocol, ambiguity resolution hierarchy, anti-pattern catalog, and session constraints. It contains no executable declarations, imports, classes, or functions. Structure is organized into 10 major titled sections with enumerated rules, tool parameter specifications, checklists, and required response templates.\"}",
+  "ran_at": "2026-07-17T01:55:27.368737+00:00",
+  "reasoning_tokens": 1331
+}

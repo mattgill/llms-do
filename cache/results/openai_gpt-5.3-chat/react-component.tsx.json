@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.3-chat",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258018-ELOj6VWZX0kftrv2RtS6",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 186,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00807975,
+  "execution_duration_sec": 2.63,
+  "raw_response": "{\"file_type\":\"TypeScript React\",\"line_count\":262,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"react\"],\"complexity_notes\":\"Moderate-to-high complexity. Contains generic TypeScript types, React hooks, context API, debounced async data fetching with AbortController, memoization, and derived state. Includes sorting, pagination, and selection logic with non-trivial state interactions and side effects. Rendering logic includes conditional UI states and accessibility attributes. Potential complexity arises from hook dependencies, generic typing, and coordination between sorting, filtering, and pagination.\"}",
+  "ran_at": "2026-07-17T03:13:40.754415+00:00"
+}

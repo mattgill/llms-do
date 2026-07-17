@@ -1,0 +1,17 @@
+{
+  "model_id": "~x-ai/grok-latest",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253446-Lg3PXzfiGkMZVjY8tDpn",
+  "provider_served": "xAI",
+  "input_tokens_billed": 3502,
+  "output_tokens_billed": 8479,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.057686,
+  "execution_duration_sec": 71.057,
+  "raw_response": "{\"file_type\":\"typescript-react\",\"line_count\":252,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\",\"handleSort\",\"ariaSort\",\"sortMark\",\"body\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"Generic React DataTable module with TypeScript generics for columns/data/filters. Includes custom hooks for debounced abortable async fetching (useDataFetch), client-side multi-type sorting (compareValues), row selection via React context, ARIA-accessible grid/pagination UI, and compound export attaching hooks to the default component. Moderate complexity from concurrent fetch cancellation, selection set logic, and dual client/server sort paths.\"}",
+  "ran_at": "2026-07-17T01:58:37.560032+00:00",
+  "reasoning_tokens": 8306
+}

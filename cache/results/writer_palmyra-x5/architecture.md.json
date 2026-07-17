@@ -1,0 +1,17 @@
+{
+  "model_id": "writer/palmyra-x5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784259377-4pnQEG4SLSjkjc18hAj8",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 10486,
+  "output_tokens_billed": 459,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0090456,
+  "execution_duration_sec": 8.968,
+  "raw_response": "{\n  \"file_type\": \"technical_documentation\",\n  \"line_count\": 1024,\n  \"sections\": [\n    \"System Overview and Design Goals\",\n    \"High-Level Architecture\",\n    \"Data Model\",\n    \"Conflict Resolution: CRDT Algorithm\",\n    \"API Design\",\n    \"Authentication and Authorization\",\n    \"Infrastructure\",\n    \"Performance Benchmarks and Scaling Strategy\",\n    \"Disaster Recovery and Backup Strategy\",\n    \"Monitoring and Observability\"\n  ],\n  \"key_components\": [\n    \"API Gateway (Envoy)\",\n    \"Document Service\",\n    \"Collaboration Engine\",\n    \"Gateway Service\",\n    \"Presence Tracker\",\n    \"Op Persister\",\n    \"PostgreSQL\",\n    \"Redis\",\n    \"S3 / MinIO\",\n    \"Elasticsearch\",\n    \"Apache Pulsar\"\n  ],\n  \"technologies\": [\n    \"CRDT (RGA/LSEQ)\",\n    \"WebSocket\",\n    \"REST API\",\n    \"JWT\",\n    \"Kubernetes (EKS)\",\n    \"PostgreSQL\",\n    \"Redis\",\n    \"S3\",\n    \"Apache Pulsar\",\n    \"OpenTelemetry\",\n    \"Prometheus\",\n    \"Grafana\",\n    \"Envoy\",\n    \"OpenSearch\"\n  ],\n  \"architectural_patterns\": [\n    \"Microservices\",\n    \"Event-Driven Architecture\",\n    \"Active-Active Multi-Region Deployment\",\n    \"Consistent Hashing\",\n    \"Horizontal Scaling\",\n    \"CQRS (Command Query Responsibility Segregation)\",\n    \"Offline-First with CRDTs\",\n    \"Dual-Token Authentication (JWT + Refresh)\"\n  ],\n  \"summary\": \"CollabSync is a real-time collaborative editing platform built on a microservices architecture with strong consistency guarantees using CRDTs. It supports rich-text, spreadsheets, and whiteboards with sub-100ms latency, 99.99% availability, and 11 nines durability. The system uses Kubernetes, PostgreSQL, Redis, S3, and Apache Pulsar, with comprehensive observability via OpenTelemetry, Prometheus, and structured logging. Security, scalability, and disaster recovery are first-class concerns, with active-active multi-region deployment and automated failover.\"\n}",
+  "ran_at": "2026-07-17T03:36:23.292977+00:00"
+}

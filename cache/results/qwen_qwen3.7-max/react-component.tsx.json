@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-max",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254385-0oJ8Ncsur8ItTrHc8P1k",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 5063,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.02723735,
+  "execution_duration_sec": 89.766,
+  "raw_response": "{\n  \"file_type\": \"tsx\",\n  \"line_count\": 252,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"handleSort\",\n    \"ariaSort\",\n    \"sortMark\",\n    \"body\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"react\"\n  ],\n  \"complexity_notes\": \"Implements a generic, production-grade React data table component with advanced features including multi-column sorting, pagination, row selection via Context API, and asynchronous data fetching with debouncing and AbortController cleanup. The complexity is moderate to high due to the extensive use of TypeScript generics, performance optimizations (useMemo, useCallback), and comprehensive ARIA accessibility attributes for screen readers.\"\n}",
+  "ran_at": "2026-07-17T02:14:34.503727+00:00",
+  "reasoning_tokens": 4870
+}

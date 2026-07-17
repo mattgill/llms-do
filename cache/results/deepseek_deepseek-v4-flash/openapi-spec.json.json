@@ -1,0 +1,17 @@
+{
+  "model_id": "deepseek/deepseek-v4-flash",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784248670-GwUnM0c4k5e7x8OajA6z",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 5872,
+  "output_tokens_billed": 96,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000541152,
+  "execution_duration_sec": 4.728,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI specification\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a single-line JSON OpenAPI 3.1.0 specification for a Task Manager API. It defines endpoints for tasks, assignments, comments, attachments, search, and batch operations, with detailed schemas, security schemes, and response examples.\"\n}",
+  "ran_at": "2026-07-17T00:37:52.284235+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "kwaipilot/kat-coder-air-v2.5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253291-e3rpRcltMxXvhQIpbIW8",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 382,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00106995,
+  "execution_duration_sec": 2.599,
+  "raw_response": "\n\n{\"file_type\":\"openapi_specification\",\"line_count\":1,\"description\":\"OpenAPI 3.1.0 specification for a Task Manager REST API v2\",\"structure\":\"JSON document defining API endpoints, schemas, security schemes, and response examples\",\"api_info\":{\"title\":\"Task Manager API\",\"version\":\"2.4.1\",\"description\":\"A production-grade REST API for managing tasks, assignments, comments, and attachments. Supports pagination, search, and batch operations.\"},\"endpoints\":{\"total\":10,\"paths\":[\"/tasks\",\"/tasks/{task_id}\",\"/tasks/{task_id}/assign\",\"/tasks/{task_id}/comments\",\"/tasks/{task_id}/attachments\",\"/tasks/search\",\"/tasks/batch\"]},\"schemas\":{\"total\":11,\"names\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"]},\"security_schemes\":[\"bearerAuth (JWT)\",\"apiKey (X-API-Key header)\"],\"tags\":[\"Tasks\",\"Assignments\",\"Comments\",\"Attachments\",\"Search & Batch\"],\"servers\":[\"https://api.taskmanager.io/v2\",\"https://staging.taskmanager.io/v2\",\"http://localhost:8080/v2\"]}",
+  "ran_at": "2026-07-17T01:54:52.871963+00:00",
+  "reasoning_tokens": 122
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-chat-latest",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254569-MLoDHyWU9nJgXtYxKsca",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 211,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.05756,
+  "execution_duration_sec": 2.267,
+  "raw_response": "{\"file_type\":\"technical_architecture_document\",\"line_count\":1047,\"functions\":[\"applyOperation(docState: CRDTState, op: Operation): CRDTState (pseudocode for CRDT merge algorithm)\"],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is not a source code file but a comprehensive technical architecture specification. It is highly structured with numbered sections, headings, tables, ASCII diagrams, JSON examples, TypeScript type definitions, pseudocode, REST/WebSocket API specifications, SQL schema descriptions, Kubernetes and infrastructure configuration, monitoring queries (PromQL), shell command examples, and operational procedures. The embedded pseudocode contains moderate algorithmic complexity (branching by operation type, loops, binary search, idempotency checks, state mutation, and Lamport clock updates), while the overall document complexity is high due to extensive system design, distributed systems concepts (CRDTs, sharding, replication, failover), and operational guidance.\"}",
+  "ran_at": "2026-07-17T02:16:08.870907+00:00",
+  "reasoning_tokens": 0
+}

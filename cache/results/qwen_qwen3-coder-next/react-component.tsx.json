@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3-coder-next",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784259083-ZAA4MlX49TDENIODt4Ql",
+  "provider_served": "Parasail",
+  "input_tokens_billed": 3049,
+  "output_tokens_billed": 175,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00050588,
+  "execution_duration_sec": 2.186,
+  "raw_response": "{\n  \"file_type\": \"TypeScript React module\",\n  \"line_count\": 248,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"body\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"High cyclomatic complexity in useDataFetch (async effect with abort logic, debouncing, state management), DataTableComponent (multiple conditional render branches, selection logic, sorting/comparison logic). Uses advanced TypeScript generics and type constraints for type safety across columns, data, and filters.\"\n}",
+  "ran_at": "2026-07-17T03:31:25.552882+00:00"
+}

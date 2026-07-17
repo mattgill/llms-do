@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.1",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784256082-pd2zCU84zgGusHaGOmy5",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 10316,
+  "output_tokens_billed": 448,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.011325384,
+  "execution_duration_sec": 9.143,
+  "raw_response": "```json\n{\n  \"file_type\": \"technical_architecture_document\",\n  \"line_count\": 780,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document for 'CollabSync', a real-time collaboration platform. It is structured into 10 major sections: (1) System Overview and Design Goals with performance targets in tabular form, (2) High-Level Architecture with ASCII topology diagrams and service descriptions for 6 core services (API Gateway, Document Service, Collaboration Engine, Gateway Service, Presence Tracker, Op Persister), (3) Data Model with entity-relationship overview and detailed table definitions for 7 tables (workspaces, documents, users, memberships, operations, snapshots, document_presence), (4) Conflict Resolution detailing an RGA/LSEQ-based CRDT algorithm with pseudocode merge function and anti-entropy protocol, (5) API Design covering REST endpoints (auth, workspaces, documents, search) and a WebSocket protocol with JSON message schemas for client-server and server-client communication, (6) Authentication and Authorization with JWT dual-token architecture, auth flow sequence diagram, 3-level authorization model, permission matrix, and SSO integration, (7) Infrastructure describing Kubernetes cluster topology, node groups, and data store configurations (PostgreSQL, Redis, S3, Pulsar), (8) Performance Benchmarks and Scaling Strategy with measured latencies, k6 load test profile, horizontal scaling table, dynamic sharding via consistent hashing, and multi-region active-active deployment, (9) Disaster Recovery with RPO/RTO targets, backup schedules, PostgreSQL recovery bash commands, and chaos engineering practices, (10) Monitoring and Observability covering RED metrics with PromQL, business metrics, infrastructure metrics, distributed tracing with OpenTelemetry, structured JSON logging pipeline, alerting rules (9 alerts), and dashboard descriptions. The document contains multiple ASCII diagrams, code snippets in TypeScript, Bash, PromQL, and JSONC, and extensive tabular data.\"\n}\n```",
+  "ran_at": "2026-07-17T02:41:31.085024+00:00",
+  "reasoning_tokens": 28
+}

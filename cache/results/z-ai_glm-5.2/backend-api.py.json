@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.2",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784253924-fdkF2MVSuaHMEGxoxUIy",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3263,
+  "output_tokens_billed": 921,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00381446164,
+  "execution_duration_sec": 12.631,
+  "raw_response": "```json\n{\n  \"file_type\": \"python\",\n  \"line_count\": 330,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\",\n    \"global_exception_handler\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime.UTC\",\n    \"datetime.datetime\",\n    \"datetime.timedelta\",\n    \"enum.StrEnum\",\n    \"typing.Annotated\",\n    \"typing.Any\",\n    \"typing.Sequence\",\n    \"jwt\",\n    \"fastapi.BackgroundTasks\",\n    \"fastapi.Depends\",\n    \"fastapi.FastAPI\",\n    \"fastapi.HTTPException\",\n    \"fastapi.Query\",\n    \"fastapi.Request\",\n    \"fastapi.WebSocket\",\n    \"fastapi.WebSocketDisconnect\",\n    \"fastapi.status\",\n    \"fastapi.encoders.jsonable_encoder\",\n    \"fastapi.middleware.cors.CORSMiddleware\",\n    \"passlib.context.CryptContext\",\n    \"pydantic.BaseModel\",\n    \"pydantic.ConfigDict\",\n    \"pydantic.Field\",\n    \"sqlalchemy.Boolean\",\n    \"sqlalchemy.Column\",\n    \"sqlalchemy.DateTime\",\n    \"sqlalchemy.Enum\",\n    \"sqlalchemy.ForeignKey\",\n    \"sqlalchemy.Integer\",\n    \"sqlalchemy.String\",\n    \"sqlalchemy.Text\",\n    \"sqlalchemy.create_engine\",\n    \"sqlalchemy.select\",\n    \"sqlalchemy.ext.asyncio.AsyncSession\",\n    \"sqlalchemy.ext.asyncio.create_async_engine\",\n    \"sqlalchemy.orm.DeclarativeBase\",\n    \"sqlalchemy.orm.Mapped\",\n    \"sqlalchemy.orm.declared_attr\",\n    \"sqlalchemy.orm.mapped_column\",\n    \"sqlalchemy.orm.relationship\",\n    \"sqlalchemy.orm.sessionmaker\",\n    \"fastapi.responses.JSONResponse\"\n  ],\n  \"complexity_notes\": \"A FastAPI backend featuring async SQLAlchemy ORM with PostgreSQL, JWT-based authentication, WebSocket real-time updates via a ConnectionManager, background task notifications, and full CRUD endpoints for projects with pagination, filtering, and search. Includes Pydantic schemas for validation, a global exception handler, and CORS middleware. The login endpoint uses query parameters for credentials (stub implementation). The list_projects endpoint has a potentially fragile count query using subquery.\"\n}\n```",
+  "ran_at": "2026-07-17T02:05:36.160376+00:00",
+  "reasoning_tokens": 360
+}

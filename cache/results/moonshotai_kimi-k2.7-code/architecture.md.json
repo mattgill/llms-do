@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.7-code",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253998-pq2yMXg7DzxWq0c2OEcZ",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 9899,
+  "output_tokens_billed": 1709,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01305406,
+  "execution_duration_sec": 25.021,
+  "raw_response": " {\"file_type\": \"markdown technical architecture document\", \"line_count\": 900, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"The file is a structured technical architecture specification for CollabSync, a real-time collaboration platform. It contains 10 major numbered sections with nested subsections, mixing narrative prose, requirement tables, entity-relationship diagrams, ASCII topology diagrams, TypeScript type definitions, pseudocode algorithms, REST/WebSocket API specifications, JSON examples, shell command snippets, PromQL queries, and configuration details. The document covers system overview, high-level architecture, data model, CRDT conflict resolution, API design, authentication/authorization, infrastructure, performance/scaling, disaster recovery, and observability. No executable code functions, classes, or imports are present; complexity is organizational and cross-referential rather than computational.\"}",
+  "ran_at": "2026-07-17T02:07:01.104658+00:00",
+  "reasoning_tokens": 1545
+}

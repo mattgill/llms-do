@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5-turbo",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784257807-Q7cXCrC6pZIRWdPt4TYF",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 3256,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0202912,
+  "execution_duration_sec": 45.205,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:10:50.055008+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-plus-20260420",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254843-YeBsyXoI3W0ikyIMiT91",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 2615,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0063885,
+  "execution_duration_sec": 49.867,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1.0 Specification (JSON)\",\"line_count\":1,\"functions\":[\"listTasks\",\"createTask\",\"getTask\",\"updateTask\",\"deleteTask\",\"assignTask\",\"listComments\",\"createComment\",\"listAttachments\",\"uploadAttachment\",\"searchTasks\",\"batchTasks\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"Production-grade REST API schema defining 12 endpoints across 5 functional tags. Features include pagination, full-text search, batch operations, file attachments, and comment threading. Security is handled via JWT bearer tokens and API keys. Contains 12 interconnected data schemas with validation constraints, comprehensive error response models, and example payloads. Entire specification is minified into a single line.\"}",
+  "ran_at": "2026-07-17T02:21:29.880261+00:00",
+  "reasoning_tokens": 2433
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784253386-LTUD74LGUC5JPMC1DZuA",
+  "provider_served": "xAI",
+  "input_tokens_billed": 4002,
+  "output_tokens_billed": 12049,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.080106,
+  "execution_duration_sec": 108.237,
+  "raw_response": "{\"file_type\": \"Python (FastAPI)\", \"line_count\": 454, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\", \"Base.__tablename__\", \"ConnectionManager.__init__\", \"ConnectionManager.connect\", \"ConnectionManager.disconnect\", \"ConnectionManager.broadcast\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"__future__.annotations\", \"asyncio\", \"logging\", \"datetime.UTC\", \"datetime.datetime\", \"datetime.timedelta\", \"enum.StrEnum\", \"typing.Annotated\", \"typing.Any\", \"typing.Sequence\", \"jwt\", \"fastapi.BackgroundTasks\", \"fastapi.Depends\", \"fastapi.FastAPI\", \"fastapi.HTTPException\", \"fastapi.Query\", \"fastapi.Request\", \"fastapi.WebSocket\", \"fastapi.WebSocketDisconnect\", \"fastapi.status\", \"fastapi.encoders.jsonable_encoder\", \"fastapi.middleware.cors.CORSMiddleware\", \"passlib.context.CryptContext\", \"pydantic.BaseModel\", \"pydantic.ConfigDict\", \"pydantic.Field\", \"sqlalchemy.Boolean\", \"sqlalchemy.Column\", \"sqlalchemy.DateTime\", \"sqlalchemy.Enum\", \"sqlalchemy.ForeignKey\", \"sqlalchemy.Integer\", \"sqlalchemy.String\", \"sqlalchemy.Text\", \"sqlalchemy.create_engine\", \"sqlalchemy.select\", \"sqlalchemy.ext.asyncio.AsyncSession\", \"sqlalchemy.ext.asyncio.create_async_engine\", \"sqlalchemy.orm.DeclarativeBase\", \"sqlalchemy.orm.Mapped\", \"sqlalchemy.orm.declared_attr\", \"sqlalchemy.orm.mapped_column\", \"sqlalchemy.orm.relationship\", \"sqlalchemy.orm.sessionmaker\", \"fastapi.responses.JSONResponse\"], \"complexity_notes\": \"Async FastAPI backend with SQLAlchemy async ORM, JWT auth, bcrypt passwords, paginated CRUD, background tasks, and in-memory WebSocket broadcast manager. Notable issues: JSONResponse used before late import; hardcoded JWT secret and DB credentials; unused imports (Column, create_engine, Sequence); WebSocket endpoint lacks authentication; CORS allows all origins; project count query is fragile; no user registration endpoint.\"}",
+  "ran_at": "2026-07-17T01:58:13.884852+00:00",
+  "reasoning_tokens": 11494
+}

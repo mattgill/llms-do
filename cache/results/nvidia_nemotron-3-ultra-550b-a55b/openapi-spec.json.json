@@ -1,0 +1,17 @@
+{
+  "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254104-7zUjM2Q0GuNmIPqEn3MX",
+  "provider_served": "Together",
+  "input_tokens_billed": 6064,
+  "output_tokens_billed": 763,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0063852,
+  "execution_duration_sec": 21.054,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 750,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is an OpenAPI 3.1.0 specification for a Task Manager REST API. It defines 10 endpoints across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch) with full CRUD operations, pagination, search, and batch processing. The spec includes 12 reusable schemas (Task, User, Comment, Attachment, etc.), 3 security schemes (bearerAuth, apiKey), and standardized error responses. The structure is highly modular with extensive use of $ref for reuse. Complexity arises from the nested schema definitions, polymorphic response types (oneOf in batch results), and detailed validation constraints (patterns, enums, min/max lengths).\"\n}",
+  "ran_at": "2026-07-17T02:08:43.058022+00:00",
+  "reasoning_tokens": 568
+}

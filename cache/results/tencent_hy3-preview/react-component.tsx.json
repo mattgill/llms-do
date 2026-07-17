@@ -1,0 +1,17 @@
+{
+  "model_id": "tencent/hy3-preview",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255422-N7Wk1zfbqeQ5DaS3IGyb",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 3158,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001059114,
+  "execution_duration_sec": 66.218,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:31:27.411171+00:00",
+  "reasoning_tokens": 4096
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "~google/gemini-flash-latest",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254727-5A3tqrBXQRKRiQwYpB6N",
+  "provider_served": "Google",
+  "input_tokens_billed": 11031,
+  "output_tokens_billed": 115,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0038061,
+  "execution_duration_sec": 1.77,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 681,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a technical architecture document for 'CollabSync', a real-time collaboration platform. It contains system design goals, high-level architecture diagrams, database schema definitions, a CRDT merge algorithm written in TypeScript, REST and WebSocket API specifications, infrastructure topologies, performance benchmarks, disaster recovery plans, and observability configurations.\"\n}",
+  "ran_at": "2026-07-17T02:18:48.005398+00:00",
+  "reasoning_tokens": 0
+}

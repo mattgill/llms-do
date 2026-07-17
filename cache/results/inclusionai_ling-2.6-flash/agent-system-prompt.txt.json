@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-flash",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784255657-7O950vzoJrJGNnO080rP",
+  "provider_served": "Novita",
+  "input_tokens_billed": 6337,
+  "output_tokens_billed": 60,
+  "tokenizer_used": null,
+  "total_cost_billed": 6.517e-05,
+  "execution_duration_sec": 1.337,
+  "raw_response": "{\n  \"file_type\": \"text\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"No code to analyze; input is not code.\"\n}",
+  "ran_at": "2026-07-17T02:34:17.423723+00:00",
+  "reasoning_tokens": 0
+}

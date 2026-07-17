@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.2",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253896-8ml2Ghmqd8jZG6KJgbJW",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 10323,
+  "output_tokens_billed": 1319,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00739591765,
+  "execution_duration_sec": 24.167,
+  "raw_response": "```json\n{\n  \"file_type\": \"markdown_documentation\",\n  \"line_count\": 620,\n  \"functions\": [\n    \"1. System Overview and Design Goals\",\n    \"2. High-Level Architecture\",\n    \"3. Data Model\",\n    \"4. Conflict Resolution: CRDT Algorithm\",\n    \"5. API Design\",\n    \"6. Authentication and Authorization\",\n    \"7. Infrastructure\",\n    \"8. Performance Benchmarks and Scaling Strategy\",\n    \"9. Disaster Recovery and Backup Strategy\",\n    \"10. Monitoring and Observability\"\n  ],\n  \"classes\": [\n    \"Core Design Goals\",\n    \"System Topology\",\n    \"Service Descriptions\",\n    \"Table Definitions\",\n    \"REST API Endpoints\",\n    \"WebSocket Protocol\",\n    \"Rate Limits\",\n    \"JWT Token Architecture\",\n    \"Kubernetes Cluster Topology\",\n    \"Data Store Configuration\",\n    \"Benchmarks\",\n    \"Horizontal Scaling Strategy\",\n    \"RPO and RTO Targets\",\n    \"Backup Schedule\",\n    \"Metrics\",\n    \"Alerting Rules\"\n  ],\n  \"imports\": [\n    \"TypeScript types for CRDT operations\",\n    \"Merge algorithm pseudocode\",\n    \"REST API endpoint definitions\",\n    \"WebSocket JSON message formats\",\n    \"JWT claims JSON\",\n    \"Bash recovery procedure script\",\n    \"PromQL metrics queries\",\n    \"k6 load test profile configuration\"\n  ],\n  \"complexity_notes\": \"This document provides a comprehensive technical architecture for 'CollabSync', a real-time collaborative editing platform. It details the system topology, data models (PostgreSQL, Redis, S3), CRDT-based conflict resolution algorithms, API design (REST and WebSocket), authentication flows, Kubernetes infrastructure, performance benchmarks, disaster recovery strategies, and observability tooling. The architecture is highly complex, targeting 10M concurrent users with sub-100ms latency, multi-region active-active deployment, and robust consistency guarantees.\"\n}\n```",
+  "ran_at": "2026-07-17T02:05:18.344307+00:00",
+  "reasoning_tokens": 920
+}

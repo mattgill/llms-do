@@ -1,0 +1,17 @@
+{
+  "model_id": "stepfun/step-3.7-flash",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254251-7CECEOabulU98nMLtcTl",
+  "provider_served": "Ambient",
+  "input_tokens_billed": 5885,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00578759,
+  "execution_duration_sec": 32.854,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:11:23.611906+00:00",
+  "reasoning_tokens": 3951
+}

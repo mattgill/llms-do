@@ -1,0 +1,17 @@
+{
+  "model_id": "writer/palmyra-x5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784259386-sEztjMLhBIEXrUxeUXk7",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 3294,
+  "output_tokens_billed": 454,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0047004,
+  "execution_duration_sec": 5.274,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 354,\n  \"functions\": [\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"timedelta\",\n    \"StrEnum\",\n    \"Annotated\",\n    \"Any\",\n    \"Sequence\",\n    \"jwt\",\n    \"BackgroundTasks\",\n    \"Depends\",\n    \"FastAPI\",\n    \"HTTPException\",\n    \"Query\",\n    \"Request\",\n    \"WebSocket\",\n    \"WebSocketDisconnect\",\n    \"status\",\n    \"jsonable_encoder\",\n    \"CORSMiddleware\",\n    \"CryptContext\",\n    \"BaseModel\",\n    \"ConfigDict\",\n    \"Field\",\n    \"Boolean\",\n    \"Column\",\n    \"DateTime\",\n    \"Enum\",\n    \"ForeignKey\",\n    \"Integer\",\n    \"String\",\n    \"Text\",\n    \"create_engine\",\n    \"select\",\n    \"AsyncSession\",\n    \"create_async_engine\",\n    \"DeclarativeBase\",\n    \"Mapped\",\n    \"declared_attr\",\n    \"mapped_column\",\n    \"relationship\",\n    \"sessionmaker\",\n    \"JSONResponse\"\n  ],\n  \"complexity_notes\": \"The code implements a full-featured FastAPI backend with authentication, JWT handling, WebSocket real-time updates, and SQLAlchemy ORM models. It includes CRUD operations with pagination, background tasks, and middleware. The complexity is high due to the integration of multiple advanced features: async database operations, WebSocket broadcasting, dependency injection, and Pydantic model validation. Error handling is comprehensive with a global exception handler. Security considerations include password hashing and token-based authentication, though the JWT secret is hardcoded.\"\n}",
+  "ran_at": "2026-07-17T03:36:30.742276+00:00"
+}

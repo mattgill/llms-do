@@ -1,0 +1,17 @@
+{
+  "model_id": "arcee-ai/trinity-large-thinking",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784257645-vnrOeIxtP5LnyACetzQE",
+  "provider_served": "Arcee AI",
+  "input_tokens_billed": 5276,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 7880,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0045958,
+  "execution_duration_sec": 16.421,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:07:41.702793+00:00"
+}

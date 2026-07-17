@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.1",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784256099-Ftlz4bCVg3Soh4LKrqmb",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3256,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.015580752,
+  "execution_duration_sec": 68.683,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:42:45.917711+00:00",
+  "reasoning_tokens": 4096
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-build-0.1",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254421-VzQlWOs2NHUCmPHTZftL",
+  "provider_served": "xAI",
+  "input_tokens_billed": 5977,
+  "output_tokens_billed": 8695,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0232646,
+  "execution_duration_sec": 44.687,
+  "raw_response": "{\"file_type\":\"text\",\"line_count\":308,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Long structured system prompt document for AI coding agent (DevBot). Organized into 11+ major sections using ASCII separators (===), markdown-style subheadings (---), numbered lists, and bullet points. Covers core principles (7 items), 8 detailed tool descriptions (read_file, write_file, etc. with params/behavior/usage), code style guidelines (naming, imports, error handling, testing), security rules (4 subsections), framework-specific instructions (React, FastAPI, DB migrations), review checklist (12 items), output format requirements, fallback behaviors (5 levels), 17 anti-patterns (AP-01 to AP-17), session metadata, and final reminder. No code constructs, functions, classes, or imports present. High textual density with examples, rules, and constraints.\"}",
+  "ran_at": "2026-07-17T02:14:24.654569+00:00",
+  "reasoning_tokens": 8513
+}

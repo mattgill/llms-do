@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-122b-a10b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258436-5F16eF5KcOzTKwSfwIxj",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 3556,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0093717,
+  "execution_duration_sec": 91.977,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:22:06.248493+00:00"
+}

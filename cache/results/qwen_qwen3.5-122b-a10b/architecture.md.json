@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-122b-a10b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258404-wI690jCFAyUgjxUAnFDW",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 636,
+  "reasoning_tokens": 517,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00418756,
+  "execution_duration_sec": 17.871,
+  "raw_response": "{\n  \"file_type\": \"markdown_documentation\",\n  \"line_count\": 1247,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document (v2.4.0) for CollabSync real-time collaboration platform. Contains 10 major sections covering: System Overview, High-Level Architecture with ASCII diagrams, Data Model with 7 table definitions, CRDT conflict resolution algorithm with TypeScript type definitions, REST/WebSocket API specifications, Authentication/Authorization flows, Kubernetes infrastructure topology, Performance benchmarks, Disaster Recovery procedures, and Monitoring/Observability setup. Document includes multiple code blocks (SQL schemas, JSON examples, PromQL queries, bash commands, TypeScript types), ASCII architecture diagrams, and structured tables. High information density with cross-references between sections. No executable code present - purely architectural documentation.\"\n}",
+  "ran_at": "2026-07-17T03:20:20.055170+00:00"
+}

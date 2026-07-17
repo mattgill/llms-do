@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784255655-aTnMjSbxPfQ63zhnuFne",
+  "provider_served": "Novita",
+  "input_tokens_billed": 11360,
+  "output_tokens_billed": 97,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00011651,
+  "execution_duration_sec": 1.596,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 372,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a technical architecture document, not source code. It contains structured documentation of a real-time collaboration platform including system overview, data models, API design, infrastructure, and operational practices. No executable functions or classes are defined.\"\n}",
+  "ran_at": "2026-07-17T02:34:16.085838+00:00",
+  "reasoning_tokens": 0
+}

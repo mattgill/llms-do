@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-1t",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255350-Rh8XD3qbC6g2fEGi3MRQ",
+  "provider_served": "Novita",
+  "input_tokens_billed": 3456,
+  "output_tokens_billed": 201,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000384825,
+  "execution_duration_sec": 2.769,
+  "raw_response": "{\n  \"file_type\": \"TypeScript React module\",\n  \"line_count\": 244,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"body\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"High complexity: includes custom hooks (useDebounce, useDataFetch), context-based selection, memoized sorting, abortable async fetcher with cleanup, pagination controls, and a composite component pattern that attaches static properties. Multiple interdependent state variables and effects increase cognitive load.\"\n}",
+  "ran_at": "2026-07-17T02:29:12.327927+00:00",
+  "reasoning_tokens": 0
+}

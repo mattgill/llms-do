@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-9b",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257953-0ltocYqx4DBPX5dUxUWX",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 839,
+  "reasoning_tokens": 680,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00074035,
+  "execution_duration_sec": 13.173,
+  "raw_response": "```json\n{\n  \"file_type\": \"markdown/system_prompt\",\n  \"line_count\": 487,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a system instruction document for an autonomous AI software engineering agent (DevBot). Structure includes: 1) Core principles (7 items), 2) Tool descriptions (8 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), 3) Code style guidelines (naming, imports, error handling, testing), 4) Security rules (4 categories), 5) Framework-specific instructions (React, FastAPI, Database migrations), 6) Review checklist (11 items), 7) Output format requirements, 8) Fallback behaviors for ambiguity (5 levels), 9) Anti-patterns to avoid (17 patterns AP-01 to AP-17), 10) Session metadata and final reminder. Not executable code but behavioral guidelines for an AI agent. Contains no actual programming constructs - all tool descriptions are in markdown format with parameter specifications and usage notes.\"\n}\n```",
+  "ran_at": "2026-07-17T03:12:45.530621+00:00"
+}

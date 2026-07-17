@@ -1,0 +1,17 @@
+{
+  "model_id": "stepfun/step-3.5-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784259155-AVZ6Dmxw2CwZQ87snKjC",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 3239,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4421,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0015527,
+  "execution_duration_sec": 75.891,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:33:50.661649+00:00"
+}

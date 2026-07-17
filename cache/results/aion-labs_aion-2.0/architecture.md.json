@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-2.0",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258648-7TYDn0MSAfIt1cmi975w",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 10512,
+  "output_tokens_billed": 4237,
+  "reasoning_tokens": 5079,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0151888,
+  "execution_duration_sec": 52.888,
+  "raw_response": "{\"file_type\": \"markdown\", \"line_count\": 350, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is a technical architecture document for a real-time collaboration platform. It contains 10 major sections covering system overview, high-level architecture, data model, conflict resolution algorithm, API design, authentication/authorization, infrastructure, performance benchmarks, disaster recovery, and monitoring/observability. The document includes ASCII diagrams, table definitions, code blocks (TypeScript, SQL, PromQL, JSON, Bash), and structured metadata. No executable code functions or classes are present; the content is purely descriptive documentation.\"}",
+  "ran_at": "2026-07-17T03:25:00.709609+00:00"
+}

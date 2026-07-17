@@ -1,0 +1,17 @@
+{
+  "model_id": "nex-agi/nex-n2-mini",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253675-LNZt9BJPhBPcIsdZN6o7",
+  "provider_served": "Nex AGI",
+  "input_tokens_billed": 11017,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000685025,
+  "execution_duration_sec": 23.143,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:01:35.197470+00:00",
+  "reasoning_tokens": 4096
+}

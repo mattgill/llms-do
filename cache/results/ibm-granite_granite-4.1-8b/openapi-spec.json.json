@@ -1,0 +1,17 @@
+{
+  "model_id": "ibm-granite/granite-4.1-8b",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254587-ZJFnQ42LGzDjdxzPnXHG",
+  "provider_served": "WandB",
+  "input_tokens_billed": 5587,
+  "output_tokens_billed": 103,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00028965,
+  "execution_duration_sec": 1.047,
+  "raw_response": "{\"file_type\": \"OpenAPI Specification\", \"line_count\": 312, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"The provided content is an OpenAPI 3.1.0 specification for a Task Manager API. It defines the API endpoints, request/response schemas, security schemes, and various components such as security, schemas, and responses. No traditional code functions or classes are present, as this is a declarative API description rather than executable code.\"}",
+  "ran_at": "2026-07-17T02:16:27.294033+00:00",
+  "reasoning_tokens": 0
+}

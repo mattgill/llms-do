@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-build-0.1",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254392-Q7zHkZfuiJCWmlgwlQst",
+  "provider_served": "xAI",
+  "input_tokens_billed": 5428,
+  "output_tokens_billed": 3022,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0113696,
+  "execution_duration_sec": 14.516,
+  "raw_response": "{\n  \"file_type\": \"json\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The content is a single continuous JSON string (minified format) representing a complete OpenAPI 3.1.0 specification for a Task Manager API. Structure includes top-level keys: openapi, info (with title, description, version, contact, license), servers (array of 3), security (array), tags (array of 5), paths (object with 7 main paths including /tasks, /tasks/{task_id}, /tasks/{task_id}/assign, /tasks/{task_id}/comments, /tasks/{task_id}/attachments, /tasks/search, /tasks/batch), and components (with securitySchemes, schemas for TaskStatus, Priority, User, Task, TaskCreateRequest, TaskUpdateRequest, Comment, Attachment, Pagination, ErrorResponse, TaskListResponse, CommentListResponse, and responses for BadRequest, Unauthorized, NotFound, InternalError). Deeply nested objects with examples, parameters, requestBodies, and responses. No programming code elements present.\"\n}",
+  "ran_at": "2026-07-17T02:13:25.378018+00:00",
+  "reasoning_tokens": 2781
+}

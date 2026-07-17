@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-35b-a3b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784255043-6FzQE5BT3ZPyFWSAxxLd",
+  "provider_served": "DekaLLM",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 2015,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00344734,
+  "execution_duration_sec": 30.528,
+  "raw_response": "\n\n{\"file_type\": \"technical_documentation\", \"line_count\": 583, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"The provided content is a comprehensive technical architecture specification for 'CollabSync', a real-time collaborative editing platform. It is organized into 10 major sections: System Overview, High-Level Architecture, Data Model, Conflict Resolution (CRDT), API Design, Authentication & Authorization, Infrastructure, Performance & Scaling, Disaster Recovery, and Monitoring. The document features ASCII system topology diagrams, detailed PostgreSQL schema definitions, TypeScript-style type definitions for CRDT operations, REST and WebSocket protocol specifications, JWT authentication flows, Kubernetes cluster layouts, infrastructure configurations (EKS, RDS, Redis, S3, Pulsar), horizontal scaling strategies, multi-region active-active deployment patterns, and detailed observability/alerting rules. It emphasizes low-latency real-time synchronization, causal consistency, high availability, and robust operational monitoring.\"}",
+  "ran_at": "2026-07-17T02:24:30.879027+00:00",
+  "reasoning_tokens": 1720
+}

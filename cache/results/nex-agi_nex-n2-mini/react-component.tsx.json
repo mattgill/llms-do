@@ -1,0 +1,17 @@
+{
+  "model_id": "nex-agi/nex-n2-mini",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253697-xs2zVUx4VICv8dtIUyr5",
+  "provider_served": "Nex AGI",
+  "input_tokens_billed": 3276,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0004915,
+  "execution_duration_sec": 20.222,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:01:55.420228+00:00",
+  "reasoning_tokens": 4096
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-3.0-mini",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253487-7xNqb7PtT069bG8XSN67",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 5871,
+  "output_tokens_billed": 740,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0051457,
+  "execution_duration_sec": 9.345,
+  "raw_response": "{\"file_type\": \"openapi_specification\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is an OpenAPI 3.1.0 specification for a Task Manager API. It defines 10 endpoints across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch). It includes security schemes (bearerAuth, apiKey), 10 schemas (TaskStatus, Priority, User, Task, TaskCreateRequest, TaskUpdateRequest, Comment, Attachment, Pagination, ErrorResponse), and 4 reusable responses (BadRequest, Unauthorized, NotFound, InternalError). The API supports pagination, filtering, and batch operations.\"}",
+  "ran_at": "2026-07-17T01:58:16.122500+00:00",
+  "reasoning_tokens": 621
+}

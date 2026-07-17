@@ -1,0 +1,17 @@
+{
+  "model_id": "mistralai/mistral-medium-3-5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254598-M21hElAA3mgYD1ObnV7N",
+  "provider_served": "Mistral",
+  "input_tokens_billed": 3219,
+  "output_tokens_billed": 380,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0076785,
+  "execution_duration_sec": 2.714,
+  "raw_response": "{\n  \"file_type\": \"TypeScript (React)\",\n  \"line_count\": 207,\n  \"functions\": [\n    {\"name\": \"useDebounce\", \"line\": 30, \"description\": \"Debounces a value by a specified delay in milliseconds.\"},\n    {\"name\": \"useDataFetch\", \"line\": 38, \"description\": \"Custom hook for fetching data with sorting, filtering, and pagination. Supports debounced filters and abortable requests.\"},\n    {\"name\": \"useTableSelection\", \"line\": 68, \"description\": \"Custom hook to access the selection context for the DataTable.\"},\n    {\"name\": \"compareValues\", \"line\": 78, \"description\": \"Comparator function for sorting values based on column and direction.\"},\n    {\"name\": \"DataTableComponent\", \"line\": 90, \"description\": \"Main component for rendering a production-grade data table with sorting, selection, and pagination.\"}\n  ],\n  \"classes\": [],\n  \"imports\": [\n    {\"source\": \"react\", \"bindings\": [\"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\"]}\n  ],\n  \"complexity_notes\": \"The file contains a highly modular and reusable React component for data tables. It uses TypeScript generics extensively for type safety. Key complexities include: (1) Custom hooks for debouncing, data fetching, and selection management. (2) Advanced sorting logic with custom comparators. (3) Pagination and async data handling with abortable requests. (4) Accessibility features like ARIA labels and keyboard navigation. (5) Context API for managing row selection state. The component is designed for production use with robust error handling and loading states.\"\n}",
+  "ran_at": "2026-07-17T02:16:38.697220+00:00",
+  "reasoning_tokens": 0
+}

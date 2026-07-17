@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-plus",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254141-G0dcDOWgbEp6gWKnMtC7",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 870,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0029072,
+  "execution_duration_sec": 18.703,
+  "raw_response": "{\n  \"file_type\": \"openapi\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The content is an OpenAPI 3.1.0 specification document in JSON format. It defines a comprehensive REST API for a Task Manager, including endpoints for CRUD operations on tasks, comments, and attachments, as well as search and batch processing. The specification features complex data models, pagination, multiple security schemes (JWT and API Key), and detailed error response structures.\"\n}",
+  "ran_at": "2026-07-17T02:09:16.808796+00:00",
+  "reasoning_tokens": 743
+}

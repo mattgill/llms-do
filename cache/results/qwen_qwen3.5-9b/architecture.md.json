@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-9b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257918-azeOv8VL7dh8w1j24msq",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 1033,
+  "reasoning_tokens": 932,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00125675,
+  "execution_duration_sec": 34.238,
+  "raw_response": "```json\n{\n  \"file_type\": \"markdown\",\n  \"line_count\": 487,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Technical architecture documentation for a real-time collaboration platform. Document structure: 10 major sections (System Overview, Architecture, Data Model, CRDT Algorithm, API Design, Authentication, Infrastructure, Performance, Disaster Recovery, Monitoring). Contains 7 database table definitions with schema details, multiple code snippets in TypeScript/JSON/Bash/PromQL, ASCII art system topology diagrams, and 9 alerting rules. No executable code - pure documentation. Complexity driven by multi-layered system design (API Gateway, Document Service, Collaboration Engine, Message Broker, Persistence Layer) and distributed system considerations (CRDT conflict resolution, geo-replication, active-active deployment).\"\n}\n```",
+  "ran_at": "2026-07-17T03:12:32.322342+00:00"
+}

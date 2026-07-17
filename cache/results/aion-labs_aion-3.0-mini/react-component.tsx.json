@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-3.0-mini",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253560-BZFw3oSKe6mGfNY7FRDb",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 3225,
+  "output_tokens_billed": 4370,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0083755,
+  "execution_duration_sec": 62.341,
+  "raw_response": "{\n  \"file_type\": \"tsx\",\n  \"line_count\": 195,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"handleSort\",\n    \"body\",\n    \"ariaSort\",\n    \"sortMark\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"Moderate complexity: The file implements a generic DataTable component with sorting, filtering, pagination, row selection, and async data fetching. It uses debounced hooks for filter changes and abortable fetch requests. The component handles loading, error, and empty states. The selection logic uses a context provider. The sorting logic supports custom sort functions and default comparison. The pagination UI is built with manual page buttons. The code is well-structured with clear separation of concerns, but the DataTableComponent function is large and handles multiple responsibilities (rendering, sorting, selection, pagination). The useDataFetch hook has a complex effect with async/await and abort controller logic.\"\n}",
+  "ran_at": "2026-07-17T02:00:21.287067+00:00",
+  "reasoning_tokens": 4143
+}

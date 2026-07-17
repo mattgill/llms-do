@@ -1,0 +1,17 @@
+{
+  "model_id": "deepseek/deepseek-v4-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784248670-hK19ilkNvQDWEPHGWUck",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 10513,
+  "output_tokens_billed": 762,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000371427,
+  "execution_duration_sec": 12.401,
+  "raw_response": "{\n  \"file_type\": \"markdown documentation\",\n  \"line_count\": 550,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The document is a technical architecture specification for a real-time collaboration platform. It includes sections on system overview, high-level architecture, data model, CRDT algorithm, API design, authentication, infrastructure, performance, disaster recovery, and monitoring. Contains tables, diagrams (ASCII art), code snippets, and configuration examples.\"\n}",
+  "ran_at": "2026-07-17T00:38:00.008824+00:00",
+  "reasoning_tokens": 656
+}

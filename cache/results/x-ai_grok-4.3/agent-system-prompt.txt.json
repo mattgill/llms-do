@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.3",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254582-uYE1LbD6vaxrHwRklzyh",
+  "provider_served": "xAI",
+  "input_tokens_billed": 5983,
+  "output_tokens_billed": 472,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00838995,
+  "execution_duration_sec": 4.574,
+  "raw_response": "{\"file_type\":\"text\",\"line_count\":312,\"paragraph_count\":92,\"sections\":[\"CORE PRINCIPLES\",\"TOOL DESCRIPTIONS\",\"CODE STYLE GUIDELINES\",\"SECURITY RULES\",\"FRAMEWORK-SPECIFIC INSTRUCTIONS\",\"REVIEW CHECKLIST BEFORE SUBMITTING CODE\",\"OUTPUT FORMAT REQUIREMENTS\",\"FALLBACK BEHAVIORS FOR AMBIGUITY\",\"COMMON ANTI-PATTERNS TO AVOID\",\"SESSION METADATA\",\"FINAL REMINDER\"],\"word_count\":6842,\"has_lists\":true,\"has_tables\":false,\"content_type\":\"agent_system_prompt\"}",
+  "ran_at": "2026-07-17T02:16:26.245984+00:00",
+  "reasoning_tokens": 359
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2.0-lite",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784257855-mhCCAebUOjWZdM9QC4H8",
+  "provider_served": "Seed",
+  "input_tokens_billed": 6068,
+  "output_tokens_billed": 1495,
+  "reasoning_tokens": 1307,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.004507,
+  "execution_duration_sec": 18.927,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1.0 Specification\",\"line_count\":477,\"functions\":[\"listTasks\",\"createTask\",\"getTask\",\"updateTask\",\"deleteTask\",\"assignTask\",\"listComments\",\"createComment\",\"listAttachments\",\"uploadAttachment\",\"searchTasks\",\"batchTasks\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"This production-grade API specification defines 12 REST operations across 5 functional tags, supporting core task CRUD, assignments, comments, attachments, full-text search, and batch operations. It includes dual authentication (JWT and API keys), pagination, input validation, standardized error handling, 12 reusable data schemas, and 4 shared error responses for consistent cross-API behavior.\"}",
+  "ran_at": "2026-07-17T03:11:12.904195+00:00"
+}

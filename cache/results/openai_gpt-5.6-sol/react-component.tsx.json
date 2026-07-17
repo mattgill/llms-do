@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.6-sol",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253357-AsTeE4enQfWHlf18L1cJ",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 1856,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0752325,
+  "execution_duration_sec": 25.277,
+  "raw_response": "{\"file_type\":\"TypeScript React TSX module\",\"line_count\":252,\"functions\":[{\"name\":\"useDebounce\",\"kind\":\"generic React hook\",\"exported\":true,\"description\":\"Returns a value after the specified debounce delay using state, an effect, and timeout cleanup.\"},{\"name\":\"useDataFetch\",\"kind\":\"generic React hook\",\"exported\":true,\"description\":\"Manages debounced filters, sorting, pagination, loading and error state, and abortable asynchronous data fetching.\"},{\"name\":\"useTableSelection\",\"kind\":\"React context hook\",\"exported\":true,\"description\":\"Retrieves the table selection context and throws when called outside DataTable.\"},{\"name\":\"compareValues\",\"kind\":\"generic utility function\",\"exported\":false,\"description\":\"Compares extracted column values with null handling and string, number, and fallback coercion logic.\"},{\"name\":\"DataTableComponent\",\"kind\":\"generic React component\",\"exported\":true,\"description\":\"Renders an accessible sortable, selectable, paginated data grid with loading, error, and empty states.\"},{\"name\":\"handleSort\",\"kind\":\"local callback\",\"exported\":false,\"description\":\"Cycles a column through ascending, descending, and unsorted states.\"},{\"name\":\"ariaSort\",\"kind\":\"local render helper\",\"exported\":false,\"description\":\"Maps the current sort state to an ARIA sort value.\"},{\"name\":\"sortMark\",\"kind\":\"local render helper\",\"exported\":false,\"description\":\"Returns the visual ascending or descending sort marker for a column.\"},{\"name\":\"body\",\"kind\":\"local render helper\",\"exported\":false,\"description\":\"Renders error, loading, empty, or populated table-body rows.\"}],\"classes\":[],\"imports\":[{\"source\":\"react\",\"default\":\"React\",\"named\":[\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"]}],\"complexity_notes\":\"Moderate-to-high component complexity. The module combines generic TypeScript APIs, React context, memoized client-side sorting, row selection, pagination, keyboard and ARIA behavior, and several conditional render states. The fetching hook adds asynchronous control flow, debouncing, AbortController cancellation, stale-effect cleanup, and error normalization. Complexity is concentrated in useDataFetch and DataTableComponent; no classes are defined.\"}",
+  "ran_at": "2026-07-17T01:56:21.359425+00:00",
+  "reasoning_tokens": 1387
+}

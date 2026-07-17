@@ -1,0 +1,2 @@
+deepseek/deepseek-v4-flash
+meta/muse-spark-1.1

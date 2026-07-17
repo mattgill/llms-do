@@ -1,0 +1,17 @@
+{
+  "model_id": "xiaomi/mimo-v2.5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784255423-cJf8XhaLlESGdLAYM2J6",
+  "provider_served": "DigitalOcean",
+  "input_tokens_billed": 5600,
+  "output_tokens_billed": 3170,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0014756,
+  "execution_duration_sec": 129.316,
+  "raw_response": "{\n  \"file_type\": \"json\",\n  \"line_count\": 400,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is an OpenAPI 3.1.0 specification in JSON format, describing a Task Manager API with REST endpoints, security schemes, and detailed data schemas. It defines 7 paths with 10 operations, 11 schemas, and 4 response components. The structure includes nested objects for info, servers, security, tags, paths, and components, with extensive use of references, examples, and validation constraints. It is a complex, well-documented API specification suitable for production use.\"\n}",
+  "ran_at": "2026-07-17T02:32:31.198954+00:00",
+  "reasoning_tokens": 2989
+}

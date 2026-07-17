@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5v-turbo",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784256315-cyphdQww3EmItipYz5Q9",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 5854,
+  "output_tokens_billed": 595,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00930304,
+  "execution_duration_sec": 14.73,
+  "raw_response": "```json\n{\n  \"file_type\": \"text/markdown\",\n  \"line_count\": 385,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a structured natural language document serving as a system prompt or instruction manual for an AI software engineering agent ('DevBot'). It defines operational principles, tool usage protocols, coding style guides, security mandates, framework-specific patterns, and output formatting requirements. The complexity lies in its hierarchical organization of rules and constraints rather than algorithmic logic.\"\n}\n```",
+  "ran_at": "2026-07-17T02:45:29.941319+00:00",
+  "reasoning_tokens": 479
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "inception/mercury-2",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258001-h5Esjwc7f24wDPn9DIPM",
+  "provider_served": "Inception",
+  "input_tokens_billed": 9867,
+  "output_tokens_billed": 3945,
+  "reasoning_tokens": 3945,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0054111,
+  "execution_duration_sec": 3.536,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:13:23.055031+00:00"
+}

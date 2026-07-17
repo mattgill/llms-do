@@ -1,0 +1,17 @@
+{
+  "model_id": "xiaomi/mimo-v2.5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784255488-ayAYLg87FWj8Is4bHSiW",
+  "provider_served": "DigitalOcean",
+  "input_tokens_billed": 5923,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001761403,
+  "execution_duration_sec": 165.442,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:34:12.854062+00:00",
+  "reasoning_tokens": 4065
+}

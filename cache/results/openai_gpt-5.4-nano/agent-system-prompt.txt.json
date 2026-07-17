@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.4-nano",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257778-HjsC5lLHAOQy1hOGYEvr",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5872,
+  "output_tokens_billed": 101,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00130065,
+  "execution_duration_sec": 4.63,
+  "raw_response": "{\"file_type\":\"text\",\"line_count\":250,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"The provided content is not a source-code file. It is an extensive plain-text set of instructions describing an autonomous AI engineering agent (DevBot), including core principles, tool descriptions, style guidelines, security rules, framework-specific instructions, migration rules, review checklist, and required response/output formats. No actual programming constructs (functions, classes, imports) are present.\"}",
+  "ran_at": "2026-07-17T03:09:39.413910+00:00"
+}

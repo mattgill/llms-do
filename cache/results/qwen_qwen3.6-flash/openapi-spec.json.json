@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-flash",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254912-qHs11jzUxWHbWS09LssT",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 2083,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0033943125,
+  "execution_duration_sec": 15.54,
+  "raw_response": "{\"file_type\": \"OpenAPI Specification (JSON)\", \"line_count\": 1, \"functions\": [\"listTasks\", \"createTask\", \"getTask\", \"updateTask\", \"deleteTask\", \"assignTask\", \"listComments\", \"createComment\", \"listAttachments\", \"uploadAttachment\", \"searchTasks\", \"batchTasks\"], \"classes\": [], \"imports\": [], \"complexity_notes\": \"OpenAPI 3.1.0 specification defining a RESTful API. Contains 12 operation IDs, multiple request/response schemas, pagination, and security schemes. No executable code, functions, or classes present.\"}",
+  "ran_at": "2026-07-17T02:22:08.099911+00:00",
+  "reasoning_tokens": 1951
+}

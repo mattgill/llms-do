@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-2.0",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258655-g2tQf5Y7qxjdumkTpjYy",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 6068,
+  "output_tokens_billed": 4271,
+  "reasoning_tokens": 4850,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.011688,
+  "execution_duration_sec": 53.588,
+  "raw_response": "{\n  \"file_type\": \"system_prompt\",\n  \"line_count\": 350,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive system prompt/instruction document for an AI software engineering agent named DevBot. It contains 15 major sections: Core Principles, Tool Descriptions (8 tools), Code Style Guidelines (Naming, Imports, Error Handling, Testing), Security Rules, Framework-Specific Instructions (React, FastAPI), Database Migration Rules, Review Checklist, Output Format Requirements, Fallback Behaviors, Common Anti-Patterns, Session Metadata, and Final Reminder. The document is structured with markdown-style headings, horizontal rules, and numbered/bulleted lists. It is not executable code but rather a detailed behavioral specification.\"\n}",
+  "ran_at": "2026-07-17T03:25:07.960039+00:00"
+}

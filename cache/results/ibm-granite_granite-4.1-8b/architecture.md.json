@@ -1,0 +1,17 @@
+{
+  "model_id": "ibm-granite/granite-4.1-8b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254588-iRhq8QBGb8zErwzB4eWb",
+  "provider_served": "WandB",
+  "input_tokens_billed": 11413,
+  "output_tokens_billed": 121,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00058275,
+  "execution_duration_sec": 1.435,
+  "raw_response": "{\n  \"file_type\": \"technical_document\",\n  \"line_count\": 0,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The provided content is a comprehensive technical architecture document for a real-time collaboration platform named CollabSync. It includes sections on system overview, design goals, high-level architecture, data model, conflict resolution algorithm, API design, authentication, infrastructure, performance benchmarks, scaling strategy, disaster recovery, monitoring, and alerting. No executable code (functions, classes, imports) is present in the text.\"\n}",
+  "ran_at": "2026-07-17T02:16:28.730119+00:00",
+  "reasoning_tokens": 0
+}

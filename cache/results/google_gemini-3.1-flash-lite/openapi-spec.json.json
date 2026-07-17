@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.1-flash-lite",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254565-ARJb5ipRA8u9XiGVuSEB",
+  "provider_served": "Google AI Studio",
+  "input_tokens_billed": 5920,
+  "output_tokens_billed": 208,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001792,
+  "execution_duration_sec": 1.139,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI 3.1.0 Specification (JSON)\",\n  \"line_count\": 345,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"The specification defines a comprehensive REST API with 12 distinct operations. It includes complex schema definitions for tasks, comments, and attachments, along with advanced features like batch processing, full-text search, and multipart file uploads. Security is handled via Bearer (JWT) and API Key authentication. The structure is highly modular, utilizing reusable components for responses and schemas.\"\n}",
+  "ran_at": "2026-07-17T02:16:04.588660+00:00",
+  "reasoning_tokens": 0
+}

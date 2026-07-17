@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-plus-20260420",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254848-44ARDiaYHroUWvzITpcS",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 3511,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0081633,
+  "execution_duration_sec": 64.364,
+  "raw_response": "{\"file_type\": \"markdown_instruction_prompt\", \"line_count\": 386, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"The content is a structured system prompt for an AI coding agent, not executable code. It is organized into 12 major sections separated by horizontal rules and headers: Core Principles, Tool Descriptions, Code Style Guidelines, Security Rules, Framework-Specific Instructions, Review Checklist, Output Format Requirements, Fallback Behaviors, Common Anti-Patterns, Session Metadata, and Final Reminder. The text provides strict operational directives, tool specifications, coding standards, security mandates, and output formatting rules. It emphasizes deterministic behavior, test coverage, security validation, and conventional commit practices. No programming language syntax, functions, classes, or imports are present.\"}",
+  "ran_at": "2026-07-17T02:21:52.558879+00:00",
+  "reasoning_tokens": 3341
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2.0-lite",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784257884-IzMD2xO3MdbSixP5qzZ1",
+  "provider_served": "Seed",
+  "input_tokens_billed": 3885,
+  "output_tokens_billed": 1859,
+  "reasoning_tokens": 1398,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00468925,
+  "execution_duration_sec": 29.825,
+  "raw_response": "{\"file_type\": \"Python (FastAPI backend)\", \"line_count\": 377, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"ConnectionManager.__init__\", \"ConnectionManager.connect\", \"ConnectionManager.disconnect\", \"ConnectionManager.broadcast\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"__future__.annotations\", \"asyncio\", \"logging\", \"datetime.UTC, datetime, timedelta\", \"enum.StrEnum\", \"typing.Annotated, Any, Sequence\", \"jwt\", \"fastapi.BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\", \"fastapi.encoders.jsonable_encoder\", \"fastapi.middleware.cors.CORSMiddleware\", \"passlib.context.CryptContext\", \"pydantic.BaseModel, ConfigDict, Field\", \"sqlalchemy.Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\", \"sqlalchemy.ext.asyncio.AsyncSession, create_async_engine\", \"sqlalchemy.orm.DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\", \"fastapi.responses.JSONResponse\"], \"complexity_notes\": \"This async FastAPI backend implements full project CRUD operations, JWT authentication, real-time WebSocket updates, background task processing, and paginated/filtered project listing. Key complexity points include an in-memory WebSocket connection manager that maintains per-project active connections, async SQLAlchemy database session management, dependency injection for authentication and database access, and global error handling. Operational limitations include hardcoded secrets/credentials, in-memory WebSocket state that prevents horizontal server scaling, and a stub login authentication flow not suitable for production without modification.\"}",
+  "ran_at": "2026-07-17T03:11:53.786652+00:00"
+}

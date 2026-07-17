@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3-coder-next",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784259082-VvvcLF2vQorbt7UNE8xw",
+  "provider_served": "Parasail",
+  "input_tokens_billed": 5925,
+  "output_tokens_billed": 75,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000771,
+  "execution_duration_sec": 1.35,
+  "raw_response": "{\"file_type\": \"instruction_set\", \"line_count\": 0, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is a system instruction file, not executable code. It defines the operational principles, tool usage, and output format for an autonomous AI software engineering agent named DevBot. No code analysis is applicable.\"}",
+  "ran_at": "2026-07-17T03:31:23.096793+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-2.0",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258703-hGjdTJ5WBEK8rEvC0YVO",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 3225,
+  "output_tokens_billed": 4331,
+  "reasoning_tokens": 3907,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0095096,
+  "execution_duration_sec": 62.683,
+  "raw_response": "{\n  \"file_type\": \"TypeScript React (TSX)\",\n  \"line_count\": 250,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"body\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"Moderate complexity. The file implements a generic DataTable component with sorting, filtering, pagination, row selection, and async data fetching via debounced hooks. It uses React hooks extensively (useState, useEffect, useMemo, useCallback, useRef) and includes a custom context for selection state. The data fetching logic handles abort signals and debounced filters. The component renders a table with sortable headers, selectable rows, and a pagination nav. The code is well-structured with clear sections and JSDoc comments.\"\n}",
+  "ran_at": "2026-07-17T03:26:03.733632+00:00"
+}

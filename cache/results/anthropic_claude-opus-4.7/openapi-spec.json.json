@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-4.7",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784256033-yzWEaZ0VNHLvZYTtEBki",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 9392,
+  "output_tokens_billed": 903,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.069535,
+  "execution_duration_sec": 17.387,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1.0 specification (JSON)\",\"line_count\":1,\"api_title\":\"Task Manager API\",\"api_version\":\"2.4.1\",\"servers\":[\"https://api.taskmanager.io/v2 (Production)\",\"https://staging.taskmanager.io/v2 (Staging)\",\"http://localhost:8080/v2 (Local development)\"],\"security_schemes\":[\"bearerAuth (JWT)\",\"apiKey (X-API-Key header)\"],\"tags\":[\"Tasks\",\"Assignments\",\"Comments\",\"Attachments\",\"Search & Batch\"],\"endpoints\":[{\"path\":\"/tasks\",\"methods\":[\"GET\",\"POST\"],\"operations\":[\"listTasks\",\"createTask\"]},{\"path\":\"/tasks/{task_id}\",\"methods\":[\"GET\",\"PATCH\",\"DELETE\"],\"operations\":[\"getTask\",\"updateTask\",\"deleteTask\"]},{\"path\":\"/tasks/{task_id}/assign\",\"methods\":[\"PATCH\"],\"operations\":[\"assignTask\"]},{\"path\":\"/tasks/{task_id}/comments\",\"methods\":[\"GET\",\"POST\"],\"operations\":[\"listComments\",\"createComment\"]},{\"path\":\"/tasks/{task_id}/attachments\",\"methods\":[\"GET\",\"POST\"],\"operations\":[\"listAttachments\",\"uploadAttachment\"]},{\"path\":\"/tasks/search\",\"methods\":[\"POST\"],\"operations\":[\"searchTasks\"]},{\"path\":\"/tasks/batch\",\"methods\":[\"POST\"],\"operations\":[\"batchTasks\"]}],\"schemas\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"reusable_responses\":[\"BadRequest\",\"Unauthorized\",\"NotFound\",\"InternalError\"],\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Comprehensive OpenAPI 3.1 spec defining 7 paths with 12 operations covering full task lifecycle. Uses reusable components (12 schemas, 4 error responses, 2 security schemes) via $ref for DRY. Features include: pagination (page/per_page pattern), filtering by status/priority/assignee/date, full-text search with field selection, batch operations (up to 50 ops), multipart file uploads (25MB cap), threaded comments with parent_id, and dual authentication (JWT + API key). Rich validation via patterns (task_/att_/req_ ID formats), min/max lengths, enums, and format constraints (uuid, date-time, uri, email, binary). Includes multiple realistic request/response examples per operation. Well-structured, production-grade specification.\"}",
+  "ran_at": "2026-07-17T02:40:48.171294+00:00",
+  "reasoning_tokens": 0
+}

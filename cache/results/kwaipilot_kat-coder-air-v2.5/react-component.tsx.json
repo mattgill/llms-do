@@ -1,0 +1,17 @@
+{
+  "model_id": "kwaipilot/kat-coder-air-v2.5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253300-TJW4cyzMCrr9CZ6Wj3w2",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 689,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00089727,
+  "execution_duration_sec": 4.132,
+  "raw_response": "\n\n```json\n{\n  \"file_type\": \"typescript_react_module\",\n  \"line_count\": 254,\n  \"functions\": [\n    {\n      \"name\": \"useDebounce\",\n      \"line\": 39,\n      \"description\": \"Debounces a value by a given delay in milliseconds using useState and useEffect.\"\n    },\n    {\n      \"name\": \"useDataFetch\",\n      \"line\": 53,\n      \"description\": \"Wires sorting, filtering, and pagination with an abortable fetcher. Handles async data fetching with debounced filters.\"\n    },\n    {\n      \"name\": \"useTableSelection\",\n      \"line\": 104,\n      \"description\": \"Hook that reads the SelectionContext and throws if used outside of DataTable.\"\n    },\n    {\n      \"name\": \"compareValues\",\n      \"line\": 115,\n      \"description\": \"Compares two values for sorting, handling strings, numbers, and nulls with locale-aware comparison.\"\n    },\n    {\n      \"name\": \"DataTableComponent\",\n      \"line\": 160,\n      \"description\": \"Main production-grade data table component with sorting, row selection, pagination, and accessibility.\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from \\\"react\\\"\"\n  ],\n  \"complexity_notes\": \"Heavy use of React hooks (useState, useEffect, useMemo, useCallback, useRef, useContext). Generic types used throughout for type safety. Custom hook pattern with React Context for row selection state. Debounce logic for filters with AbortController for canceling in-flight requests. Client-side sorting with locale-aware string comparison. Pagination UI with page range display. Accessible with ARIA roles (grid, row, columnheader) and keyboard navigation for sortable headers.\"\n}\n```",
+  "ran_at": "2026-07-17T01:55:02.515834+00:00",
+  "reasoning_tokens": 264
+}

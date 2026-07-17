@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258730-Algh2ujhHOYU5NRW7xfS",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 6634,
+  "output_tokens_billed": 215,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.023127,
+  "execution_duration_sec": 5.783,
+  "raw_response": "```json\n{\n  \"file_type\": \"system_prompt\",\n  \"line_count\": 357,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a structured natural language system prompt document defining the behavior, constraints, tools, and output format for an autonomous AI software engineering agent called DevBot. It contains no executable code. The document is organized into labeled sections using markdown-style headers and horizontal rules. It defines 10 tool interfaces with parameters and behaviors, 17 anti-patterns, a review checklist, code style guidelines, framework-specific instructions for React and FastAPI, security rules, fallback ambiguity resolution hierarchy, and output format requirements. The document is approximately 357 lines and uses a mix of prose, bullet lists, numbered lists, and code-style inline examples. No imports, functions, or classes are present as this is configuration/instruction text, not source code.\"\n}\n```",
+  "ran_at": "2026-07-17T03:25:34.212819+00:00"
+}

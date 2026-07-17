@@ -1,0 +1,17 @@
+{
+  "model_id": "tencent/hy3",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253622-a2UfEekMPlEXPSojp6SR",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 10450,
+  "output_tokens_billed": 230,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0015964,
+  "execution_duration_sec": 5.967,
+  "raw_response": "{\n  \"file_type\": \"technical_documentation\",\n  \"line_count\": 0,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document for the CollabSync real-time collaboration platform (v2.4.0). It is structured into 10 major sections covering system overview, high-level architecture (with ASCII topology diagrams), data model (PostgreSQL table definitions), CRDT-based conflict resolution algorithm (with TypeScript type definitions and a pseudocode merge function), REST/WebSocket API design, authentication/authorization model, Kubernetes infrastructure, performance benchmarks, disaster recovery, and observability. The document contains no executable code, functions, classes, or import statements; instead it includes configuration snippets (PromQL, k6 load test JS, bash recovery scripts, JSON schemas) and descriptive tables. Text structure is hierarchical with markdown headings, tables, code blocks, and diagrams describing a distributed multi-region active-active system using CRDTs, Pulsar, Redis, PostgreSQL, and Envoy.\"\n}",
+  "ran_at": "2026-07-17T02:00:27.254937+00:00",
+  "reasoning_tokens": 0
+}

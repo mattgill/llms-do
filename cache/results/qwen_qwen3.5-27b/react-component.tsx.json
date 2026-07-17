@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-27b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258317-mQg3nNAR2m6riirL1XOy",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 7146,
+  "reasoning_tokens": 6918,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.011786775,
+  "execution_duration_sec": 73.161,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 251,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"body\",\n    \"ariaSort\",\n    \"sortMark\",\n    \"handleSort\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"High complexity React component utilizing custom hooks for data fetching, debouncing, and selection state. Implements generic TypeScript types for data and columns. Features async data loading with abort signals, client-side sorting with custom comparators, pagination logic, and accessibility attributes (ARIA). Uses Context API for managing row selection state across the component tree.\"\n}",
+  "ran_at": "2026-07-17T03:19:50.324249+00:00"
+}

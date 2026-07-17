@@ -1,0 +1,17 @@
+{
+  "model_id": "mistralai/mistral-small-2603",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257788-D0jDKlvUOwD6NBegkNXU",
+  "provider_served": "Mistral",
+  "input_tokens_billed": 6196,
+  "output_tokens_billed": 303,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00109824,
+  "execution_duration_sec": 2.252,
+  "raw_response": "{\"file_type\": \"text/markdown\", \"line_count\": 617, \"text_structure\": {\"sections\": [\"CORE PRINCIPLES\", \"TOOL DESCRIPTIONS\", \"CODE STYLE GUIDELINES\", \"SECURITY RULES\", \"FRAMEWORK-SPECIFIC INSTRUCTIONS\", \"REVIEW CHECKLIST BEFORE SUBMITTING CODE\", \"OUTPUT FORMAT REQUIREMENTS\", \"FALLBACK BEHAVIORS FOR AMBIGUITY\", \"COMMON ANTI-PATTERNS TO AVOID\", \"SESSION METADATA\", \"FINAL REMINDER\"], \"section_counts\": {\"CORE PRINCIPLES\": 7, \"TOOL DESCRIPTIONS\": 13, \"CODE STYLE GUIDELINES\": 4, \"SECURITY RULES\": 4, \"FRAMEWORK-SPECIFIC INSTRUCTIONS\": 3, \"REVIEW CHECKLIST BEFORE SUBMITTING CODE\": 1, \"OUTPUT FORMAT REQUIREMENTS\": 1, \"FALLBACK BEHAVIORS FOR AMBIGUITY\": 5, \"COMMON ANTI-PATTERNS TO AVOID\": 17, \"SESSION METADATA\": 1, \"FINAL REMINDER\": 1}, \"estimated_word_count\": 12000}}",
+  "ran_at": "2026-07-17T03:09:50.047734+00:00"
+}

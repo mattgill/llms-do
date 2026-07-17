@@ -1,0 +1,17 @@
+{
+  "model_id": "mistralai/mistral-small-2603",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257788-NBBqAfwJHxU8PphXY2jl",
+  "provider_served": "Mistral",
+  "input_tokens_billed": 11081,
+  "output_tokens_billed": 735,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00209019,
+  "execution_duration_sec": 3.639,
+  "raw_response": "{\"file_type\": \"technical_documentation\", \"line_count\": 1379, \"sections\": [{\"title\": \"System Overview and Design Goals\", \"level\": 2, \"line_count\": 38}, {\"title\": \"High-Level Architecture\", \"level\": 2, \"line_count\": 110}, {\"title\": \"Data Model\", \"level\": 2, \"line_count\": 120}, {\"title\": \"Conflict Resolution: CRDT Algorithm\", \"level\": 2, \"line_count\": 100}, {\"title\": \"API Design\", \"level\": 2, \"line_count\": 110}, {\"title\": \"Authentication and Authorization\", \"level\": 2, \"line_count\": 90}, {\"title\": \"Infrastructure\", \"level\": 2, \"line_count\": 100}, {\"title\": \"Performance Benchmarks and Scaling Strategy\", \"level\": 2, \"line_count\": 80}, {\"title\": \"Disaster Recovery and Backup Strategy\", \"level\": 2, \"line_count\": 90}, {\"title\": \"Monitoring and Observability\", \"level\": 2, \"line_count\": 141}], \"tables\": [{\"title\": \"Core Design Goals\", \"columns\": [\"Goal\", \"Target\", \"Rationale\"], \"rows\": 7}, {\"title\": \"Table Definitions: workspaces\", \"columns\": [\"Column\", \"Type\", \"Constraints\", \"Description\"], \"rows\": 10}, {\"title\": \"Table Definitions: documents\", \"columns\": [\"Column\", \"Type\", \"Constraints\", \"Description\"], \"rows\": 13}, {\"title\": \"Table Definitions: users\", \"columns\": [\"Column\", \"Type\", \"Constraints\", \"Description\"], \"rows\": 12}, {\"title\": \"Table Definitions: memberships\", \"columns\": [\"Column\", \"Type\", \"Constraints\", \"Description\"], \"rows\": 7}, {\"title\": \"Table Definitions: operations\", \"columns\": [\"Column\", \"Type\", \"Constraints\", \"Description\"], \"rows\": 11}, {\"title\": \"Table Definitions: snapshots\", \"columns\": [\"Column\", \"Type\", \"Constraints\", \"Description\"], \"rows\": 8}, {\"title\": \"Rate Limits\", \"columns\": [\"Endpoint\", \"Limit\", \"Window\"], \"rows\": 5}], \"diagrams\": [{\"title\": \"System Topology\", \"type\": \"ascii_art\"}, {\"title\": \"Entity-Relationship Overview\", \"type\": \"ascii_art\"}, {\"title\": \"Kubernetes Cluster Topology\", \"type\": \"ascii_art\"}], \"metadata\": {\"version\": \"2.4.0\", \"last_updated\": \"2026-07-15\", \"status\": \"Production\", \"owner\": \"Platform Engineering\"}, \"complexity_notes\": \"This is a comprehensive technical architecture document for a real-time collaboration platform. It is not code, but a detailed specification covering system design, data models, algorithms, APIs, infrastructure, and operational practices. The document includes multiple technical sections with tables, diagrams, and detailed explanations of CRDT-based conflict resolution, distributed systems architecture, and observability strategies. The complexity lies in the integration of multiple technologies (PostgreSQL, Redis, Pulsar, Kubernetes) and the detailed design of a distributed real-time system with strict latency and consistency requirements.\"}",
+  "ran_at": "2026-07-17T03:09:51.287752+00:00"
+}

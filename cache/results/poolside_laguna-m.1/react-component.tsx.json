@@ -1,0 +1,17 @@
+{
+  "model_id": "poolside/laguna-m.1",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254605-IBVgESDFtWEb9xAVII3P",
+  "provider_served": "Poolside",
+  "input_tokens_billed": 3397,
+  "output_tokens_billed": 811,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0009922,
+  "execution_duration_sec": 10.648,
+  "raw_response": "\n{\n  \"file_type\": \"TypeScript React\",\n  \"line_count\": 170,\n  \"functions\": [\n    { \"name\": \"useDebounce\", \"line\": 42, \"description\": \"Debounces a value by a specified delay in milliseconds\" },\n    { \"name\": \"useDataFetch\", \"line\": 48, \"description\": \"Wires sorting, filtering, and pagination with an abortable async fetcher\" },\n    { \"name\": \"useTableSelection\", \"line\": 78, \"description\": \"Hook to access selection context, throws if used outside DataTable\" },\n    { \"name\": \"compareValues\", \"line\": 83, \"description\": \"Compares two values for sorting with direction support\" },\n    { \"name\": \"DataTableComponent\", \"line\": 93, \"description\": \"Main data table component with sorting, selection, and pagination\" },\n    { \"name\": \"handleSort\", \"line\": 110, \"description\": \"Handles column sort toggle logic (asc -> desc -> none)\" },\n    { \"name\": \"ariaSort\", \"line\": 113, \"description\": \"Returns aria-sort attribute value for a column\" },\n    { \"name\": \"sortMark\", \"line\": 114, \"description\": \"Returns sort indicator symbol for a column\" },\n    { \"name\": \"body\", \"line\": 116, \"description\": \"Renders table body with loading, error, and empty states\" }\n  ],\n  \"classes\": [],\n  \"imports\": [\n    { \"module\": \"react\", \"named\": [\"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\"] }\n  ],\n  \"complexity_notes\": \"High complexity component with multiple generic type parameters (TData, TColumn, TFilters). Features include debounced filter updates, abortable async data fetching, row selection with context, multi-column sorting with custom sort functions, pagination with page navigation, and comprehensive ARIA accessibility attributes. Uses React hooks pattern with useState, useEffect, useMemo, useCallback, and useRef. Implements request cancellation via AbortController. Complex pagination UI with dynamic page button rendering.\"\n}\n",
+  "ran_at": "2026-07-17T02:16:53.532574+00:00",
+  "reasoning_tokens": 322
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "sakana/fugu-ultra",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253703-LGalMEQ7dwpRPK41TJqX",
+  "provider_served": "Sakana AI",
+  "input_tokens_billed": 38152,
+  "output_tokens_billed": 18137,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.73487,
+  "execution_duration_sec": 182.78,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:04:43.206758+00:00",
+  "reasoning_tokens": 4096
+}

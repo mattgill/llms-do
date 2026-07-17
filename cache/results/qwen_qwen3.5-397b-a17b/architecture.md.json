@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-397b-a17b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258854-WbHAr99d4Aj2hNnPG9jK",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 4708,
+  "reasoning_tokens": 4312,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01531374,
+  "execution_duration_sec": 68.78,
+  "raw_response": "{\n  \"file_type\": \"Markdown / Technical Documentation\",\n  \"line_count\": 768,\n  \"functions\": [\n    \"1. System Overview and Design Goals\",\n    \"2. High-Level Architecture\",\n    \"3. Data Model\",\n    \"4. Conflict Resolution: CRDT Algorithm\",\n    \"5. API Design\",\n    \"6. Authentication and Authorization\",\n    \"7. Infrastructure\",\n    \"8. Performance Benchmarks and Scaling Strategy\",\n    \"9. Disaster Recovery and Backup Strategy\",\n    \"10. Monitoring and Observability\"\n  ],\n  \"classes\": [\n    \"workspaces\",\n    \"documents\",\n    \"users\",\n    \"memberships\",\n    \"operations\",\n    \"snapshots\",\n    \"document_presence\"\n  ],\n  \"imports\": [\n    \"PostgreSQL\",\n    \"Redis\",\n    \"S3 / MinIO\",\n    \"Elasticsearch\",\n    \"Apache Pulsar\",\n    \"Kubernetes (EKS)\",\n    \"Envoy\",\n    \"CloudFront\",\n    \"Fastly\",\n    \"Cloudflare\",\n    \"OpenTelemetry\",\n    \"Prometheus\",\n    \"ClickHouse\",\n    \"Kafka\",\n    \"Route53\"\n  ],\n  \"complexity_notes\": \"Comprehensive technical architecture document for a real-time collaboration platform. Features microservices topology (API Gateway, Document Service, Collaboration Engine, etc.), CRDT-based conflict resolution (RGA/LSEQ), multi-region active-active deployment, and extensive observability stack. Includes detailed data models, API specifications, infrastructure topology (Kubernetes, managed DBs), and disaster recovery procedures. High complexity due to distributed system requirements (consistency, latency, scalability) and offline-first support.\"\n}",
+  "ran_at": "2026-07-17T03:28:42.586482+00:00"
+}

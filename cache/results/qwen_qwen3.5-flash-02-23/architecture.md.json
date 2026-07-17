@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-flash-02-23",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258487-pa4c7XCab1KrBZ0gXMXL",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 21391,
+  "reasoning_tokens": 20990,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00627783,
+  "execution_duration_sec": 103.173,
+  "raw_response": "{\n  \"file_type\": \"Markdown Documentation\",\n  \"line_count\": 750,\n  \"functions\": [\n    \"POST /api/v1/auth/register\",\n    \"POST /api/v1/auth/login\",\n    \"POST /api/v1/auth/refresh\",\n    \"POST /api/v1/auth/logout\",\n    \"GET /api/v1/workspaces\",\n    \"POST /api/v1/workspaces\",\n    \"GET /api/v1/documents/{id}\",\n    \"POST /api/v1/documents/{id}/versions/{ver}/restore\",\n    \"GET /api/v1/search\",\n    \"applyOperation(docState, op)\"\n  ],\n  \"classes\": [\n    \"workspaces\",\n    \"documents\",\n    \"users\",\n    \"memberships\",\n    \"operations\",\n    \"snapshots\",\n    \"document_presence\",\n    \"InsertOp\",\n    \"DeleteOp\",\n    \"FormatOp\",\n    \"MoveOp\"\n  ],\n  \"imports\": [\n    \"PostgreSQL\",\n    \"Redis\",\n    \"S3/MinIO\",\n    \"Apache Pulsar\",\n    \"Kubernetes\",\n    \"Envoy\",\n    \"OpenTelemetry\",\n    \"Prometheus\",\n    \"Elasticsearch\",\n    \"ClickHouse\",\n    \"Kafka\",\n    \"AWS RDS\",\n    \"AWS ElastiCache\",\n    \"AWS Route53\"\n  ],\n  \"complexity_notes\": \"High complexity real-time collaboration system. Features CRDT-based conflict resolution (RGA/LSEQ), multi-region active-active deployment, horizontal scaling with consistent hashing, and strict latency/availability targets. Includes detailed disaster recovery and monitoring strategies. Architecture spans CDN, API Gateway, Microservices, Message Broker, and Persistence layers.\"\n}",
+  "ran_at": "2026-07-17T03:23:09.693564+00:00"
+}

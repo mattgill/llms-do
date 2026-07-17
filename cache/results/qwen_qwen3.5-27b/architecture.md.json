@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-27b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258271-s501UYdAruaKVt7Hf0a2",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 4060,
+  "reasoning_tokens": 3655,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00848211,
+  "execution_duration_sec": 47.658,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 612,\n  \"functions\": [\n    \"System Overview and Design Goals\",\n    \"High-Level Architecture\",\n    \"Data Model\",\n    \"Conflict Resolution: CRDT Algorithm\",\n    \"API Design\",\n    \"Authentication and Authorization\",\n    \"Infrastructure\",\n    \"Performance Benchmarks and Scaling Strategy\",\n    \"Disaster Recovery and Backup Strategy\",\n    \"Monitoring and Observability\"\n  ],\n  \"classes\": [\n    \"CollabSync Platform\",\n    \"API Gateway (Envoy)\",\n    \"Document Service\",\n    \"Collaboration Engine\",\n    \"Gateway Service\",\n    \"Presence Tracker\",\n    \"Op Persister\",\n    \"PostgreSQL\",\n    \"Redis\",\n    \"S3 / MinIO\",\n    \"Elasticsearch\",\n    \"Apache Pulsar\"\n  ],\n  \"imports\": [\n    \"Envoy\",\n    \"CloudFront\",\n    \"Fastly\",\n    \"Cloudflare\",\n    \"Apache Pulsar\",\n    \"PostgreSQL\",\n    \"Redis\",\n    \"S3\",\n    \"MinIO\",\n    \"Elasticsearch\",\n    \"Kubernetes\",\n    \"EKS\",\n    \"OpenTelemetry\",\n    \"Prometheus\",\n    \"ClickHouse\",\n    \"Kafka\",\n    \"etcd\",\n    \"Route53\",\n    \"AWS RDS\",\n    \"ElastiCache\"\n  ],\n  \"complexity_notes\": \"Highly distributed real-time collaboration system requiring causal consistency via CRDTs, multi-region active-active replication, sub-100ms latency, and robust disaster recovery. Involves complex state synchronization, message queuing, and observability integration across multiple infrastructure layers.\"\n}",
+  "ran_at": "2026-07-17T03:18:36.846933+00:00"
+}

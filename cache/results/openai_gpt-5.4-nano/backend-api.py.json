@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.4-nano",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784257779-sQtV1Fa9G553qB5OZRni",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3293,
+  "output_tokens_billed": 500,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0012836,
+  "execution_duration_sec": 3.126,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 281,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime (UTC, datetime, timedelta)\",\n    \"enum (StrEnum)\",\n    \"typing (Annotated, Any, Sequence)\",\n    \"jwt\",\n    \"fastapi (BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status)\",\n    \"fastapi.encoders (jsonable_encoder)\",\n    \"fastapi.middleware.cors (CORSMiddleware)\",\n    \"passlib.context (CryptContext)\",\n    \"pydantic (BaseModel, ConfigDict, Field)\",\n    \"sqlalchemy (Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select)\",\n    \"sqlalchemy.ext.asyncio (AsyncSession, create_async_engine)\",\n    \"sqlalchemy.orm (DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker)\",\n    \"fastapi.responses (JSONResponse)\"\n  ],\n  \"complexity_notes\": \"Overall structure is moderately complex: includes async DB access (SQLAlchemy AsyncSession), JWT authentication, CRUD endpoints, and a WebSocket broadcast system. Runtime complexity is mainly in list pagination query execution (database-side filtering/search; page retrieval is O(page_size) for ORM results) and in WebSocket broadcast (O(n_subscribers) per broadcast). ConnectionManager uses in-memory per-project lists and removes disconnected sockets on failure. Potential correctness/performance considerations: list_projects total-count logic appears to use a subquery approach that may be fragile depending on SQLAlchemy behavior; status/search filters rely on SQL expressions with ILIKE. Also, a catch-all Exception handler and WebSocket broad exception handling may hide underlying issues.\"\n}",
+  "ran_at": "2026-07-17T03:09:42.193497+00:00"
+}

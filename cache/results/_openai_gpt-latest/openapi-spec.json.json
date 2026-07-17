@@ -1,0 +1,17 @@
+{
+  "model_id": "~openai/gpt-latest",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254781-mXlh9ovgd2sMBMNSY4gJ",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5528,
+  "output_tokens_billed": 616,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0212575,
+  "execution_duration_sec": 7.986,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1.0 specification (JSON)\",\"line_count\":1,\"functions\":[{\"name\":\"listTasks\",\"method\":\"GET\",\"path\":\"/tasks\"},{\"name\":\"createTask\",\"method\":\"POST\",\"path\":\"/tasks\"},{\"name\":\"getTask\",\"method\":\"GET\",\"path\":\"/tasks/{task_id}\"},{\"name\":\"updateTask\",\"method\":\"PATCH\",\"path\":\"/tasks/{task_id}\"},{\"name\":\"deleteTask\",\"method\":\"DELETE\",\"path\":\"/tasks/{task_id}\"},{\"name\":\"assignTask\",\"method\":\"PATCH\",\"path\":\"/tasks/{task_id}/assign\"},{\"name\":\"listComments\",\"method\":\"GET\",\"path\":\"/tasks/{task_id}/comments\"},{\"name\":\"createComment\",\"method\":\"POST\",\"path\":\"/tasks/{task_id}/comments\"},{\"name\":\"listAttachments\",\"method\":\"GET\",\"path\":\"/tasks/{task_id}/attachments\"},{\"name\":\"uploadAttachment\",\"method\":\"POST\",\"path\":\"/tasks/{task_id}/attachments\"},{\"name\":\"searchTasks\",\"method\":\"POST\",\"path\":\"/tasks/search\"},{\"name\":\"batchTasks\",\"method\":\"POST\",\"path\":\"/tasks/batch\"}],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"Single-line JSON document defining a production-oriented REST API with 7 paths and 12 operations. It includes CRUD, assignment, nested comments and attachments, full-text search, pagination, filtering, multipart upload, and batch processing for up to 50 operations. The components section contains 12 reusable schemas, 4 reusable error responses, and 2 alternative security schemes (JWT bearer and API key). Validation complexity includes enums, regex patterns, length and numeric bounds, nullable fields, nested objects, arrays, oneOf results, examples, and internal JSON Pointer references.\"}",
+  "ran_at": "2026-07-17T02:19:49.043253+00:00",
+  "reasoning_tokens": 219
+}

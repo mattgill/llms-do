@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-35b-a3b",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784255026-pR6Fla1oNMNWAmVxonZB",
+  "provider_served": "DekaLLM",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 1384,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00211265,
+  "execution_duration_sec": 31.218,
+  "raw_response": "\n\n{\"file_type\": \"OpenAPI Specification (JSON)\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"The content is a structured JSON document representing an OpenAPI 3.1.0 specification. It defines API metadata, server endpoints, authentication methods (JWT and API Key), and detailed path operations for task management, including CRUD, assignments, comments, attachments, search, and batch processing. It also contains comprehensive schema definitions for data models, request/response payloads, and error handling.\"}",
+  "ran_at": "2026-07-17T02:24:16.284934+00:00",
+  "reasoning_tokens": 1217
+}

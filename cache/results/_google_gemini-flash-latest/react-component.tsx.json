@@ -1,0 +1,17 @@
+{
+  "model_id": "~google/gemini-flash-latest",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254744-DDYDcEp0HvMXLLEHu7Jz",
+  "provider_served": "Google",
+  "input_tokens_billed": 3481,
+  "output_tokens_billed": 327,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0081645,
+  "execution_duration_sec": 5.929,
+  "raw_response": "{\n  \"file_type\": \"typescript_react\",\n  \"line_count\": 184,\n  \"functions\": [\n    {\n      \"name\": \"useDebounce\",\n      \"type\": \"helper_hook\",\n      \"complexity\": \"low\"\n    },\n    {\n      \"name\": \"useDataFetch\",\n      \"type\": \"custom_hook\",\n      \"complexity\": \"medium\"\n    },\n    {\n      \"name\": \"useTableSelection\",\n      \"type\": \"custom_hook\",\n      \"complexity\": \"low\"\n    },\n    {\n      \"name\": \"compareValues\",\n      \"type\": \"helper\",\n      \"complexity\": \"medium\"\n    },\n    {\n      \"name\": \"DataTableComponent\",\n      \"type\": \"component\",\n      \"complexity\": \"high\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [\n    {\n      \"source\": \"react\",\n      \"specifiers\": [\n        \"createContext\",\n        \"useCallback\",\n        \"useContext\",\n        \"useEffect\",\n        \"useMemo\",\n        \"useRef\",\n        \"useState\"\n      ]\n    }\n  ],\n  \"complexity_notes\": \"The file contains a highly interactive React component with complex state management for sorting, pagination, and row selection. It uses custom hooks with debouncing and abortable fetch requests to handle asynchronous data fetching efficiently.\"\n}",
+  "ran_at": "2026-07-17T02:19:07.284027+00:00",
+  "reasoning_tokens": 0
+}

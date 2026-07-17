@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20-multi-agent",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257686-LAukY8p9CV6xeND8MDzY",
+  "provider_served": "xAI",
+  "input_tokens_billed": 176019,
+  "output_tokens_billed": 10602,
+  "reasoning_tokens": 10414,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.11091915,
+  "execution_duration_sec": 15.905,
+  "raw_response": "{\n  \"file_type\": \"documentation\",\n  \"line_count\": 628,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Comprehensive system prompt for AI agent 'DevBot' (autonomous software engineering agent). Structured as markdown-style text with 11 major sections: intro/role, 7 core principles, 8 tool descriptions (read_file to fetch_docs with params/behavior), code style guidelines (naming/imports/error-handling/testing), security rules (4 main + details), framework instructions (React/FastAPI + DB migrations), 13-item review checklist, output format spec, ambiguity fallbacks, 17 anti-patterns, session metadata and final reminder. Emphasizes strict rules for code correctness, testing, security, deterministic output and specific WORK ITEM response blocks. Non-executable instructional text.\"\n}",
+  "ran_at": "2026-07-17T03:08:21.677452+00:00"
+}

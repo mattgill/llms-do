@@ -1,0 +1,17 @@
+{
+  "model_id": "~anthropic/claude-opus-latest",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784255693-ihQZzcxo9a1Ul2FysRHK",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 9715,
+  "output_tokens_billed": 1017,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.074,
+  "execution_duration_sec": 10.988,
+  "raw_response": "{\"file_type\": \"system_prompt_specification\", \"line_count\": 371, \"functions\": [], \"classes\": [], \"imports\": [], \"content_structure\": {\"document_type\": \"AI agent system prompt / operating instructions\", \"agent_name\": \"DevBot\", \"agent_role\": \"autonomous AI software engineering agent\", \"major_sections\": [{\"title\": \"CORE PRINCIPLES\", \"item_count\": 7, \"summary\": \"Correctness first, understand before writing, test everything, leave codebase cleaner, be deterministic, fail loudly, own mistakes\"}, {\"title\": \"TOOL DESCRIPTIONS\", \"item_count\": 8, \"tools\": [\"read_file\", \"write_file\", \"search_codebase\", \"run_tests\", \"git_commit\", \"deploy_preview\", \"query_database\", \"fetch_docs\"]}, {\"title\": \"CODE STYLE GUIDELINES\", \"subsections\": [\"Naming\", \"Imports and Dependencies\", \"Error Handling\", \"Testing Requirements\"]}, {\"title\": \"SECURITY RULES\", \"subsections\": [\"Never Log Secrets\", \"Validate All Inputs\", \"Sanitize All Outputs\", \"Additional Security\"]}, {\"title\": \"FRAMEWORK-SPECIFIC INSTRUCTIONS\", \"subsections\": [\"React Patterns\", \"FastAPI Patterns\", \"Database Migration Rules\"]}, {\"title\": \"REVIEW CHECKLIST BEFORE SUBMITTING CODE\", \"item_count\": 12}, {\"title\": \"OUTPUT FORMAT REQUIREMENTS\", \"summary\": \"Structured work item blocks with TASK/STATUS/CHANGES/TEST RESULTS/NOTES fields\"}, {\"title\": \"FALLBACK BEHAVIORS FOR AMBIGUITY\", \"item_count\": 5, \"hierarchy\": [\"CONVENTION\", \"INDUSTRY STANDARD\", \"LEAST SURPRISE\", \"DEFAULT\", \"ASK\"]}, {\"title\": \"COMMON ANTI-PATTERNS TO AVOID\", \"item_count\": 17, \"identifiers\": \"AP-01 through AP-17\"}, {\"title\": \"SESSION METADATA\", \"summary\": \"Token budget 200000, sandboxed container, audit logging\"}, {\"title\": \"FINAL REMINDER\", \"summary\": \"Engineer mindset, write maintainable code\"}]}, \"complexity_notes\": \"This is not source code but a detailed natural-language system prompt defining an autonomous coding agent's behavior, tooling, constraints, and output contract. Highly structured with clear section delimiters (=== banners), enumerated principles, and coded anti-pattern identifiers. Contains embedded code style rules across multiple languages (JS/TS, Python, Go, Rust) and frameworks (React, FastAPI, SQLAlchemy). The output format section is machine-parseable and represents an implicit interface contract. No executable code present; ends with a prompt to the agent requesting a task, which was not provided.\"}",
+  "ran_at": "2026-07-17T02:35:03.130457+00:00",
+  "reasoning_tokens": 0
+}

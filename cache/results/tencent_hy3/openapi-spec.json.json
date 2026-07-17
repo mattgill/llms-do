@@ -1,0 +1,17 @@
+{
+  "model_id": "tencent/hy3",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253620-BKJzaLpuU6tVt73G65K7",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 5858,
+  "output_tokens_billed": 211,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0009425,
+  "execution_duration_sec": 5.911,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI 3.1.0 specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a single-line minified OpenAPI 3.1.0 JSON document describing a 'Task Manager API' v2.4.1. It defines 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch), 9 path endpoints (including nested resources and batch/search operations), 2 security schemes (bearerAuth JWT, apiKey), and 13 component schemas (Task, User, Comment, Attachment, various request/response wrappers, enums). Response structures use $ref reuse extensively. Notable complexity: batch operations support up to 50 items with polymorphic result types; search supports field-scoped full-text with filters; file upload capped at 25 MB; pagination and error standardization via ErrorResponse with request_id tracking.\"\n}",
+  "ran_at": "2026-07-17T02:00:24.968022+00:00",
+  "reasoning_tokens": 0
+}

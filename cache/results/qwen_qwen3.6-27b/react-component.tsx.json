@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-27b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255210-uHREMzJHXk9oD8B9vPfU",
+  "provider_served": "Morph",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.010777453,
+  "execution_duration_sec": 134.216,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:29:01.489426+00:00",
+  "reasoning_tokens": 3423
+}

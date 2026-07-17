@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.7",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257756-wBhkus1DrdrtkWkmIL06",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 9916,
+  "output_tokens_billed": 581,
+  "reasoning_tokens": 328,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0030472,
+  "execution_duration_sec": 13.645,
+  "raw_response": "{\"file_type\":\"technical_architecture_documentation\",\"line_count\":892,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is a comprehensive technical architecture document for CollabSync, a real-time collaboration platform. The document is structured into 10 major sections covering: (1) System Overview with design goals and NFRs, (2) High-Level Architecture with ASCII topology diagrams showing CDN, API Gateway, services, message broker, and persistence layers, (3) Data Model with ER diagrams and detailed table definitions for workspaces, documents, users, memberships, operations, snapshots, and document_presence, (4) CRDT Algorithm explaining RGA/LSEQ-based conflict resolution with TypeScript operation types and merge algorithm pseudocode, (5) API Design documenting REST endpoints and WebSocket protocol with JSON message schemas, (6) Authentication and Authorization covering JWT dual-token system, SSO integration, and RBAC permission matrix, (7) Infrastructure detailing Kubernetes cluster topology, node groups, and data store configurations for PostgreSQL, Redis, S3, and Apache Pulsar, (8) Performance Benchmarks with latency targets and horizontal scaling strategies, (9) Disaster Recovery with RPO/RTO targets, backup schedules, and recovery procedures, (10) Monitoring and Observability covering Prometheus metrics, distributed tracing, structured logging, and alerting rules. The document includes multiple ASCII diagrams, tables, code snippets in TypeScript/bash/PromQL, and configuration examples. Complexity is high due to the distributed systems nature, multiple technology stacks, and comprehensive coverage of operational concerns.\"}",
+  "ran_at": "2026-07-17T03:09:29.099605+00:00"
+}

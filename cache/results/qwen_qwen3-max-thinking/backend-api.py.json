@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3-max-thinking",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784259046-SxJfIvneNlm57LzlA9VU",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3297,
+  "output_tokens_billed": 434,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00426426,
+  "execution_duration_sec": 7.082,
+  "raw_response": "{\n  \"file_type\": \"Python\",\n  \"line_count\": 428,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"timedelta\",\n    \"UTC\",\n    \"StrEnum\",\n    \"Annotated\",\n    \"Any\",\n    \"Sequence\",\n    \"jwt\",\n    \"BackgroundTasks\",\n    \"Depends\",\n    \"FastAPI\",\n    \"HTTPException\",\n    \"Query\",\n    \"Request\",\n    \"WebSocket\",\n    \"WebSocketDisconnect\",\n    \"status\",\n    \"jsonable_encoder\",\n    \"CORSMiddleware\",\n    \"CryptContext\",\n    \"BaseModel\",\n    \"ConfigDict\",\n    \"Field\",\n    \"Boolean\",\n    \"Column\",\n    \"DateTime\",\n    \"Enum\",\n    \"ForeignKey\",\n    \"Integer\",\n    \"String\",\n    \"Text\",\n    \"create_engine\",\n    \"select\",\n    \"AsyncSession\",\n    \"create_async_engine\",\n    \"DeclarativeBase\",\n    \"Mapped\",\n    \"declared_attr\",\n    \"mapped_column\",\n    \"relationship\",\n    \"sessionmaker\",\n    \"JSONResponse\"\n  ],\n  \"complexity_notes\": \"The file implements a full-featured FastAPI backend with JWT-based authentication, SQLAlchemy ORM models for User and Project, CRUD endpoints for projects, background tasks, WebSocket-based real-time updates via a custom ConnectionManager, pagination, filtering, and comprehensive error handling. It uses async/await throughout and integrates with PostgreSQL via asyncpg.\"\n}",
+  "ran_at": "2026-07-17T03:30:53.044989+00:00"
+}

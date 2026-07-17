@@ -1,0 +1,17 @@
+{
+  "model_id": "tencent/hy3-preview",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784255353-DANlzJ9vFPH5IPTajXRz",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 10447,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001518321,
+  "execution_duration_sec": 21.27,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:29:33.598647+00:00",
+  "reasoning_tokens": 4096
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784258971-eWE9mAVsEOJuM1zvo1fi",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 10316,
+  "output_tokens_billed": 852,
+  "reasoning_tokens": 601,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00779472,
+  "execution_duration_sec": 22.72,
+  "raw_response": "```json\n{\n  \"file_type\": \"markdown\",\n  \"line_count\": 892,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Technical architecture document for CollabSync real-time collaboration platform (Version 2.4.0). Contains 10 major sections: (1) System Overview with design goals table, (2) High-Level Architecture with ASCII topology diagram and service descriptions, (3) Data Model with ER diagram and 7 PostgreSQL table definitions, (4) CRDT Conflict Resolution algorithm with TypeScript type definitions and merge pseudocode, (5) API Design with REST endpoints and WebSocket protocol JSON schemas, (6) Authentication/Authorization with JWT architecture and flow diagram, (7) Infrastructure with Kubernetes cluster topology and data store configurations, (8) Performance Benchmarks with metrics tables and k6 load test profile, (9) Disaster Recovery with RPO/RTO targets and bash recovery scripts, (10) Monitoring with PromQL queries and alerting rules. Document includes 15+ tables, 6 ASCII diagrams, multiple code blocks (TypeScript, Bash, JSON, PromQL), and structured specifications for a distributed real-time collaboration system.\"\n}\n```",
+  "ran_at": "2026-07-17T03:29:51.638583+00:00"
+}

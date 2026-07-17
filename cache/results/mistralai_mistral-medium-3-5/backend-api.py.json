@@ -1,0 +1,17 @@
+{
+  "model_id": "mistralai/mistral-medium-3-5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254596-Z1aczQeuQa3wys6h2b9e",
+  "provider_served": "Mistral",
+  "input_tokens_billed": 3542,
+  "output_tokens_billed": 608,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.009873,
+  "execution_duration_sec": 3.857,
+  "raw_response": "{\n    \"file_type\": \"python\",\n    \"line_count\": 365,\n    \"functions\": [\n        \"get_db\",\n        \"create_access_token\",\n        \"decode_access_token\",\n        \"get_current_user\",\n        \"notify_project_created\",\n        \"global_exception_handler\",\n        \"login\",\n        \"create_project\",\n        \"list_projects\",\n        \"read_project\",\n        \"update_project\",\n        \"delete_project\",\n        \"websocket_project\",\n        \"ConnectionManager.connect\",\n        \"ConnectionManager.disconnect\",\n        \"ConnectionManager.broadcast\"\n    ],\n    \"classes\": [\n        \"Base\",\n        \"ProjectStatus\",\n        \"User\",\n        \"Project\",\n        \"ProjectCreate\",\n        \"ProjectRead\",\n        \"ProjectUpdate\",\n        \"PaginatedResponse\",\n        \"TokenResponse\",\n        \"ConnectionManager\",\n        \"FastAPI\"\n    ],\n    \"imports\": [\n        \"__future__.annotations\",\n        \"asyncio\",\n        \"logging\",\n        \"datetime.UTC\",\n        \"datetime.datetime\",\n        \"datetime.timedelta\",\n        \"enum.StrEnum\",\n        \"typing.Annotated\",\n        \"typing.Any\",\n        \"typing.Sequence\",\n        \"jwt\",\n        \"fastapi.BackgroundTasks\",\n        \"fastapi.Depends\",\n        \"fastapi.FastAPI\",\n        \"fastapi.HTTPException\",\n        \"fastapi.Query\",\n        \"fastapi.Request\",\n        \"fastapi.WebSocket\",\n        \"fastapi.WebSocketDisconnect\",\n        \"fastapi.status\",\n        \"fastapi.encoders.jsonable_encoder\",\n        \"fastapi.middleware.cors.CORSMiddleware\",\n        \"passlib.context.CryptContext\",\n        \"pydantic.BaseModel\",\n        \"pydantic.ConfigDict\",\n        \"pydantic.Field\",\n        \"sqlalchemy.Boolean\",\n        \"sqlalchemy.Column\",\n        \"sqlalchemy.DateTime\",\n        \"sqlalchemy.Enum\",\n        \"sqlalchemy.ForeignKey\",\n        \"sqlalchemy.Integer\",\n        \"sqlalchemy.String\",\n        \"sqlalchemy.Text\",\n        \"sqlalchemy.create_engine\",\n        \"sqlalchemy.select\",\n        \"sqlalchemy.ext.asyncio.AsyncSession\",\n        \"sqlalchemy.ext.asyncio.create_async_engine\",\n        \"sqlalchemy.orm.DeclarativeBase\",\n        \"sqlalchemy.orm.Mapped\",\n        \"sqlalchemy.orm.declared_attr\",\n        \"sqlalchemy.orm.mapped_column\",\n        \"sqlalchemy.orm.relationship\",\n        \"sqlalchemy.orm.sessionmaker\",\n        \"fastapi.responses.JSONResponse\"\n    ],\n    \"complexity_notes\": \"The file implements a FastAPI backend with async SQLAlchemy for project management, including JWT authentication, WebSocket real-time updates, CRUD operations, and background tasks. It uses Pydantic for data validation and includes pagination, error handling, and CORS middleware. The code is modular with clear separation of concerns (models, schemas, endpoints, utilities).\"\n}",
+  "ran_at": "2026-07-17T02:16:38.060744+00:00",
+  "reasoning_tokens": 0
+}

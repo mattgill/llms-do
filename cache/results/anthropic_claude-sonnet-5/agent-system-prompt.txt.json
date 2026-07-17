@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784253653-JUFMjqgfrWoTPBOjL9XZ",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 9715,
+  "output_tokens_billed": 317,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0226,
+  "execution_duration_sec": 5.395,
+  "raw_response": "{\"file_type\": \"plain text (system prompt / agent specification document)\", \"line_count\": 219, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Not source code; a structured natural-language specification document defining an AI coding agent's persona, tools (read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), coding principles, style guidelines, security rules, framework-specific instructions, review checklist, output format requirements, ambiguity fallback hierarchy, and anti-patterns to avoid. Organized into clearly delimited sections using '====' banners and '---' subsection headers. Contains illustrative pseudo-code snippets and command examples embedded as prose (e.g., error handling patterns in Python/Go/JS/Rust) but no standalone executable program. Ends with a prompt awaiting a task description, making this a system/instructional prompt rather than functional code.\"}",
+  "ran_at": "2026-07-17T02:00:57.527817+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-flash-02-23",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258528-SPn4162H2iMYgblPsCig",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 20749,
+  "reasoning_tokens": 20393,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00562861,
+  "execution_duration_sec": 103.55,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 455,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"__init__\",\n    \"connect\",\n    \"disconnect\",\n    \"broadcast\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"__future__\",\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"Async FastAPI backend with SQLAlchemy ORM, JWT auth, WebSocket support, and background tasks. Includes pagination, error handling, and real-time broadcasting.\"\n}",
+  "ran_at": "2026-07-17T03:23:50.039650+00:00"
+}

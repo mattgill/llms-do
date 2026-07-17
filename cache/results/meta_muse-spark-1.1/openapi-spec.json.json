@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.1",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784248678-DTX3lXaJcYxVSxXKVavJ",
+  "provider_served": "Meta",
+  "input_tokens_billed": 5479,
+  "output_tokens_billed": 1165,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0057775,
+  "execution_duration_sec": 7.261,
+  "raw_response": "{\"file_type\": \"json - OpenAPI 3.1.0 specification\",\"line_count\": 1,\"functions\": [\"listTasks\", \"createTask\", \"getTask\", \"updateTask\", \"deleteTask\", \"assignTask\", \"listComments\", \"createComment\", \"listAttachments\", \"uploadAttachment\", \"searchTasks\", \"batchTasks\"],\"classes\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"],\"imports\": [\"bearerAuth (JWT)\", \"apiKey (X-API-Key)\"],\"complexity_notes\": \"Not source code but an OpenAPI 3.1.0 spec for Task Manager API v2.4.1. Contains 8 path groups with 12 operations across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch). Defines 12 schemas, 2 security schemes (bearerAuth JWT and apiKey), 4 reusable responses (BadRequest, Unauthorized, NotFound, InternalError). Features include pagination (page/per_page), filtering by status/priority/assignee/date, multipart file upload with 25MB limit, full-text search, and batch operations (max 50 ops) with polymorphic results. Moderate-high complexity due to nested $refs, regex patterns for IDs (task_, att_, req_), enums, and extensive validation rules.\"}",
+  "ran_at": "2026-07-17T00:38:05.902866+00:00",
+  "reasoning_tokens": 853
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-3.0",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253562-kFNrpv8uXoJFUiChLp0P",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 5370,
+  "output_tokens_billed": 1862,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.027282,
+  "execution_duration_sec": 32.032,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [\n    \"#/components/schemas/TaskStatus\",\n    \"#/components/schemas/Priority\",\n    \"#/components/schemas/TaskListResponse\",\n    \"#/components/responses/BadRequest\",\n    \"#/components/responses/Unauthorized\",\n    \"#/components/responses/InternalError\",\n    \"#/components/schemas/TaskCreateRequest\",\n    \"#/components/schemas/Task\",\n    \"#/components/responses/NotFound\",\n    \"#/components/schemas/TaskUpdateRequest\",\n    \"#/components/schemas/ErrorResponse\",\n    \"#/components/schemas/CommentListResponse\",\n    \"#/components/schemas/Comment\",\n    \"#/components/schemas/Attachment\",\n    \"#/components/schemas/User\",\n    \"#/components/schemas/Pagination\"\n  ],\n  \"complexity_notes\": \"A comprehensive OpenAPI 3.1.0 specification for a Task Manager REST API. It defines 12 operations across 7 paths covering tasks CRUD, assignments, comments, attachments, search, and batch operations. The spec includes 12 data schemas, 4 reusable error responses, and 2 security schemes (JWT bearerAuth and apiKey). It supports advanced features like pagination, filtering, full-text search, and batch operations with a maximum of 50 items per batch. The structure is highly modular with extensive use of $ref for reusability.\"\n}\n",
+  "ran_at": "2026-07-17T01:59:52.705872+00:00",
+  "reasoning_tokens": 1483
+}

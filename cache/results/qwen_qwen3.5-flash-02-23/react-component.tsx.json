@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-flash-02-23",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258544-8QstQRKnw1mdyMv5QAYy",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 11088,
+  "reasoning_tokens": 10944,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.003095885,
+  "execution_duration_sec": 62.616,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 251,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"body\",\n    \"handleSort\",\n    \"ariaSort\",\n    \"sortMark\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"react\"\n  ],\n  \"complexity_notes\": \"Generic TypeScript React component with complex state management, async data fetching with debouncing, sorting logic, and accessibility features.\"\n}",
+  "ran_at": "2026-07-17T03:23:23.398744+00:00"
+}

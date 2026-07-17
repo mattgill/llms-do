@@ -1,0 +1,17 @@
+{
+  "model_id": "poolside/laguna-m.1",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254600-bOpQxfm2ZDSKplhYoMpA",
+  "provider_served": "Poolside",
+  "input_tokens_billed": 11016,
+  "output_tokens_billed": 495,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0024004,
+  "execution_duration_sec": 4.612,
+  "raw_response": "\n{\"file_type\": \"technical_architecture_document\", \"line_count\": 387, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is a comprehensive technical architecture document (387 lines) for a real-time collaboration platform. It contains 10 major sections covering system overview, high-level architecture with ASCII diagrams, data model with database schema definitions, CRDT conflict resolution algorithms, API design (REST and WebSocket), authentication/authorization, infrastructure (Kubernetes, data stores), performance benchmarks, disaster recovery, and monitoring/observability. The document includes code-like examples in TypeScript (operation types), SQL (table schemas), bash (recovery procedures), PromQL (metrics), and JSON (logging schema), but these are documentation specifications rather than executable code. Key architectural components include: API Gateway (Envoy), Document Service, Collaboration Engine (CRDT-based), WebSocket Gateway, Presence Tracker, Op Persister, and various data stores (PostgreSQL, Redis, S3, Apache Pulsar). The system targets 100ms P99 latency, 50K ops/sec throughput, and 10M concurrent users with multi-region active-active deployment.\"}\n",
+  "ran_at": "2026-07-17T02:16:42.884384+00:00",
+  "reasoning_tokens": 249
+}

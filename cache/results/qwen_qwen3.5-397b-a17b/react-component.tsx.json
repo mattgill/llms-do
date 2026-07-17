@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-397b-a17b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258876-6SKNavqOC0b2emvdrVTX",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 12145,
+  "reasoning_tokens": 11968,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.02969733,
+  "execution_duration_sec": 157.605,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 262,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"High complexity due to extensive use of TypeScript generics, multiple custom hooks managing async state with AbortController, React Context for selection logic, and complex JSX rendering with pagination math and conditional accessibility attributes.\"\n}",
+  "ran_at": "2026-07-17T03:30:31.156554+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-4.8",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254333-ib6vKGv5pITn2CdrQHrB",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 16131,
+  "output_tokens_billed": 1054,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.107005,
+  "execution_duration_sec": 15.509,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 869,\n  \"functions\": [\n    {\n      \"name\": \"applyOperation\",\n      \"language\": \"typescript\",\n      \"description\": \"Deterministic CRDT merge function for applying incoming operations (insert, delete, format, move) with idempotency guards and Lamport clock updates\",\n      \"location\": \"Section 4: Conflict Resolution - Merge Algorithm\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [],\n  \"type_definitions\": [\n    \"InsertOp\",\n    \"DeleteOp\",\n    \"FormatOp\",\n    \"MoveOp\",\n    \"PositionID\"\n  ],\n  \"code_blocks\": {\n    \"typescript\": 2,\n    \"pseudocode\": 1,\n    \"jsonc\": 2,\n    \"json\": 3,\n    \"bash\": 1,\n    \"promql\": 2,\n    \"javascript\": 1,\n    \"ascii_diagrams\": 6,\n    \"sql_schema_tables\": 7\n  },\n  \"sections\": [\n    \"1. System Overview and Design Goals\",\n    \"2. High-Level Architecture\",\n    \"3. Data Model\",\n    \"4. Conflict Resolution: CRDT Algorithm\",\n    \"5. API Design\",\n    \"6. Authentication and Authorization\",\n    \"7. Infrastructure\",\n    \"8. Performance Benchmarks and Scaling Strategy\",\n    \"9. Disaster Recovery and Backup Strategy\",\n    \"10. Monitoring and Observability\"\n  ],\n  \"document_metadata\": {\n    \"title\": \"CollabSync: Real-Time Collaboration Platform \u2014 Technical Architecture\",\n    \"version\": \"2.4.0\",\n    \"last_updated\": \"2026-07-15\",\n    \"status\": \"Production\",\n    \"owner\": \"Platform Engineering\"\n  },\n  \"structure\": {\n    \"top_level_headings\": 10,\n    \"tables\": 25,\n    \"database_tables_documented\": 7,\n    \"rest_endpoints_documented\": 24,\n    \"diagrams\": 6\n  },\n  \"complexity_notes\": \"This is a comprehensive technical architecture document (markdown), not a source code file, though it embeds several code snippets. The primary code artifact is the TypeScript-style 'applyOperation' merge function implementing a switch-based CRDT (RGA/LSEQ) conflict resolution algorithm with O(log n) binary search insertion and idempotency via operation hashing. Additional embedded code includes TypeScript type definitions for operation payloads, JSON schemas for JWT claims and structured logs, JSONC WebSocket message protocols, PromQL monitoring queries, a k6 load-test config, and bash disaster-recovery commands. The document covers system topology, PostgreSQL schema (7 tables with constraints/indexes), REST/WebSocket API design, JWT auth with an RBAC permission matrix, Kubernetes/infrastructure config, performance benchmarks, DR/backup strategy, and observability. Structurally dense with 25 tables, 6 ASCII architecture diagrams, and multiple code languages. Overall complexity is high for documentation but the executable code portions are moderate.\"\n}",
+  "ran_at": "2026-07-17T02:12:26.574824+00:00",
+  "reasoning_tokens": 0
+}

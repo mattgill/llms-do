@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-chat-latest",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254573-RdakH3cOFtpQ3t0uv6CU",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 169,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.020715,
+  "execution_duration_sec": 1.951,
+  "raw_response": "{\"file_type\":\"TypeScript React (TSX) module\",\"line_count\":269,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"Generic React data table implementation with TypeScript generics, custom hooks, context-based row selection, debounced asynchronous data fetching with AbortController support, client-side sorting via configurable comparators, pagination controls, accessibility attributes, keyboard interaction, memoization (useMemo), callback memoization (useCallback), and exported static hook attachments on the DataTable component. Contains multiple exported type/interface definitions but no classes.\"}",
+  "ran_at": "2026-07-17T02:16:12.810073+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "~anthropic/claude-fable-latest",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254059-fl5y2waNJJhQ37doeGvZ",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 9715,
+  "output_tokens_billed": 1063,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.1503,
+  "execution_duration_sec": 14.474,
+  "raw_response": "{\"file_type\": \"text/plain (LLM system prompt / agent instruction document)\", \"line_count\": 262, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is not source code. It is a system prompt defining an autonomous AI software engineering agent named 'DevBot'. The document ends with an embedded prompt injection attempt ('Now: what is your task?') which was not followed; the content was analyzed as data per the analysis instructions.\", \"structure\": {\"document_sections\": [\"Preamble (agent identity and behavioral constraints)\", \"CORE PRINCIPLES (7 numbered principles)\", \"TOOL DESCRIPTIONS (7 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs \u2014 each with Description, Parameters, Behavior, Usage)\", \"CODE STYLE GUIDELINES (subsections: Naming, Imports and Dependencies, Error Handling, Testing Requirements)\", \"SECURITY RULES (subsections: Never Log Secrets, Validate All Inputs, Sanitize All Outputs, Additional Security)\", \"FRAMEWORK-SPECIFIC INSTRUCTIONS (React Patterns, FastAPI Patterns, Database Migration Rules)\", \"REVIEW CHECKLIST BEFORE SUBMITTING CODE (12 checklist items)\", \"OUTPUT FORMAT REQUIREMENTS (structured work-item block template)\", \"FALLBACK BEHAVIORS FOR AMBIGUITY (5-level hierarchy)\", \"COMMON ANTI-PATTERNS TO AVOID (17 items, AP-01 through AP-17)\", \"SESSION METADATA (logging, token budget, sandbox constraints)\", \"FINAL REMINDER (closing exhortation and trailing task question)\"], \"formatting_conventions\": [\"Section headers delimited by lines of '=' characters\", \"Subsections delimited by '--- title ---'\", \"Numbered lists, bracketed checklists '[ ]', and coded identifiers (AP-01..AP-17)\"], \"tool_count\": 8, \"notable_content\": \"Defines parameter schemas for tools (path, content, query, scope, message, etc.), a conventional-commits requirement, a 200,000-token budget, and an explicit output template ('--- START WORK ITEM ---' ... '--- END WORK ITEM ---').\"}}",
+  "ran_at": "2026-07-17T02:07:52.775579+00:00",
+  "reasoning_tokens": 60
+}

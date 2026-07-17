@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-plus-02-15",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258774-1I5OZVed2DfDGncniTtF",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 7280,
+  "reasoning_tokens": 6936,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01229228,
+  "execution_duration_sec": 91.587,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 341,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"__future__\",\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"High complexity due to async/await patterns throughout, custom WebSocket connection management, JWT authentication dependency injection, SQLAlchemy async ORM usage, and background task integration. Includes global exception handling and pagination logic.\"\n}",
+  "ran_at": "2026-07-17T03:27:42.894663+00:00"
+}

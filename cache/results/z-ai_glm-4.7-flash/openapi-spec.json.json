@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-4.7-flash",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784259395-MV3tXWwC5qATBwl8e9d9",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 5368,
+  "output_tokens_billed": 2592,
+  "reasoning_tokens": 2150,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00135568,
+  "execution_duration_sec": 32.285,
+  "raw_response": "```json\n{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [\n    \"$ref: #/components/schemas/TaskStatus\",\n    \"$ref: #/components/schemas/Priority\",\n    \"$ref: #/components/schemas/User\",\n    \"$ref: #/components/schemas/Task\",\n    \"$ref: #/components/schemas/TaskCreateRequest\",\n    \"$ref: #/components/schemas/TaskUpdateRequest\",\n    \"$ref: #/components/schemas/Comment\",\n    \"$ref: #/components/schemas/Attachment\",\n    \"$ref: #/components/schemas/Pagination\",\n    \"$ref: #/components/schemas/ErrorResponse\",\n    \"$ref: #/components/schemas/TaskListResponse\",\n    \"$ref: #/components/schemas/CommentListResponse\",\n    \"$ref: #/components/responses/BadRequest\",\n    \"$ref: #/components/responses/Unauthorized\",\n    \"$ref: #/components/responses/NotFound\",\n    \"$ref: #/components/responses/InternalError\"\n  ],\n  \"complexity_notes\": \"A comprehensive REST API specification for a Task Manager. It defines endpoints for full CRUD operations on tasks, including listing, creating, updating, deleting, assigning, and managing comments and attachments. The API supports advanced features such as pagination, full-text search, and batch operations. It utilizes OpenAPI 3.1.0 standards with multiple security schemes (Bearer JWT and API Key) and comprehensive error handling schemas.\"\n}\n```",
+  "ran_at": "2026-07-17T03:37:06.246369+00:00"
+}

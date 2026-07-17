@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.5-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254497-T4BIP6SsCR8FNtmVVelx",
+  "provider_served": "Google",
+  "input_tokens_billed": 3481,
+  "output_tokens_billed": 529,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0099825,
+  "execution_duration_sec": 3.708,
+  "raw_response": "{\n  \"file_type\": \"typescript_react\",\n  \"line_count\": 191,\n  \"functions\": [\n    {\n      \"name\": \"useDebounce\",\n      \"parameters\": [\n        { \"name\": \"value\", \"type\": \"T\" },\n        { \"name\": \"delay\", \"type\": \"number\" }\n      ],\n      \"return_type\": \"T\"\n    },\n    {\n      \"name\": \"useDataFetch\",\n      \"parameters\": [\n        { \"name\": \"opts\", \"type\": \"UseDataFetchOptions<TData, TFilters>\" }\n      ],\n      \"return_type\": \"object\"\n    },\n    {\n      \"name\": \"useTableSelection\",\n      \"parameters\": [],\n      \"return_type\": \"SelectionCtx\"\n    },\n    {\n      \"name\": \"compareValues\",\n      \"parameters\": [\n        { \"name\": \"a\", \"type\": \"T\" },\n        { \"name\": \"b\", \"type\": \"T\" },\n        { \"name\": \"col\", \"type\": \"string\" },\n        { \"name\": \"dir\", \"type\": \"SortDirection\" },\n        { \"name\": \"extract\", \"type\": \"(row: T, c: string) => unknown\" }\n      ],\n      \"return_type\": \"number\"\n    },\n    {\n      \"name\": \"DataTableComponent\",\n      \"parameters\": [\n        { \"name\": \"props\", \"type\": \"DataTableProps<TData, TColumn>\" }\n      ],\n      \"return_type\": \"React.ReactNode\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [\n    {\n      \"source\": \"react\",\n      \"specifiers\": [\n        \"React\",\n        \"createContext\",\n        \"useCallback\",\n        \"useContext\",\n        \"useEffect\",\n        \"useMemo\",\n        \"useRef\",\n        \"useState\"\n      ]\n    }\n  ],\n  \"complexity_notes\": \"The file implements a highly interactive React data table component with built-in state management hooks. It features debounced asynchronous data fetching with AbortController integration to prevent race conditions, client-side sorting fallback, multi-row selection context, and fully accessible keyboard navigation and ARIA attributes.\"\n}",
+  "ran_at": "2026-07-17T02:14:58.779608+00:00",
+  "reasoning_tokens": 0
+}

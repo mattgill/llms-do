@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-26b-a4b-it",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784256136-qyPtWnHm06SLfbDKLlMF",
+  "provider_served": "DekaLLM",
+  "input_tokens_billed": 6317,
+  "output_tokens_billed": 139,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00042489,
+  "execution_duration_sec": 12.063,
+  "raw_response": "{\n  \"file_type\": \"text/markdown\",\n  \"line_count\": 565,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The file is a comprehensive system prompt/instruction manual for an autonomous AI software engineering agent named 'DevBot'. It defines operational principles, tool specifications (read_file, write_file, etc.), coding standards (naming, error handling, testing), security protocols, framework-specific patterns (React, FastAPI), and anti-patterns to avoid. It is structured as a set of rigorous constraints and guidelines rather than executable code.\"\n}",
+  "ran_at": "2026-07-17T02:42:26.154015+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.1-flash-lite-preview",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258023-Hjxeba8wBWJqiJU8No3S",
+  "provider_served": "Google AI Studio",
+  "input_tokens_billed": 4192,
+  "output_tokens_billed": 197,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0013435,
+  "execution_duration_sec": 1.313,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 355,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\"\n  ],\n  \"complexity_notes\": \"The file implements a full FastAPI backend including database models, authentication, CRUD operations, background tasks, and WebSocket management. Complexity is moderate-to-high due to the integration of SQLAlchemy async sessions, JWT handling, and real-time event broadcasting within a single module.\"\n}",
+  "ran_at": "2026-07-17T03:13:43.836112+00:00"
+}

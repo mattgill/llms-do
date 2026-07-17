@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-4.7-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784259402-fGmsnqFFsAg8IhmWjcQN",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 10316,
+  "output_tokens_billed": 2344,
+  "reasoning_tokens": 2405,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00155336,
+  "execution_duration_sec": 28.86,
+  "raw_response": "```json\n{\n  \"file_type\": \"Markdown Technical Documentation\",\n  \"line_count\": 1200,\n  \"functions\": [\n    \"applyOperation\",\n    \"binarySearchByPosition\",\n    \"findPositionIndex\",\n    \"mergeAttributes\",\n    \"splicePositions\",\n    \"max\"\n  ],\n  \"classes\": [\n    \"InsertOp\",\n    \"DeleteOp\",\n    \"FormatOp\",\n    \"MoveOp\",\n    \"Attributes\",\n    \"PositionID\",\n    \"Operation\",\n    \"CRDTState\"\n  ],\n  \"imports\": [],\n  \"complexity_notes\": \"High complexity. Describes a distributed real-time collaboration platform using CRDTs, microservices, and multi-region active-active architecture. Includes detailed data models, API specifications, and operational procedures.\"\n}\n```",
+  "ran_at": "2026-07-17T03:37:08.742795+00:00"
+}

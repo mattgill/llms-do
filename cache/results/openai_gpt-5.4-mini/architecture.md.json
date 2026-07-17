@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.4-mini",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257783-9qFjcvNw5tvnq5NWLpli",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 140,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0083145,
+  "execution_duration_sec": 1.52,
+  "raw_response": "{\"file_type\":\"technical_architecture_document\",\"line_count\":0,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is a structured technical specification document rather than code. It contains multiple numbered sections, tables, ASCII diagrams, code blocks, and protocol schemas describing a real-time collaboration platform architecture. Main topics include system overview, service topology, data model, CRDT conflict resolution, API design, authentication/authorization, infrastructure, performance/scaling, disaster recovery, and observability. No executable functions, classes, or imports are present. The content is highly detailed and moderately to highly complex in system-design scope, with many interdependent components and operational constraints.\"}",
+  "ran_at": "2026-07-17T03:09:44.175582+00:00"
+}

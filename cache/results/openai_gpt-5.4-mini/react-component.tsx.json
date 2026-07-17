@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.4-mini",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257785-SBnqkEsrXkD8IKgYkSRU",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 153,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00303525,
+  "execution_duration_sec": 1.803,
+  "raw_response": "{\"file_type\":\"typescript-react-module\",\"line_count\":222,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"A single React/TypeScript module implementing a generic data table with debounced async fetching, sorting, pagination, and row selection via context. Complexity is moderate: several generic types/interfaces, a fetch effect with abort handling, memoized derived state, keyboard-accessible sorting controls, and pagination windowing logic. No classes are defined. The module also attaches hook helpers as static properties on the default export.\"}",
+  "ran_at": "2026-07-17T03:09:46.636979+00:00"
+}

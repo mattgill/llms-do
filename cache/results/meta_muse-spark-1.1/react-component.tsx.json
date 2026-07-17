@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.1",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784248700-UO67DTaZsELBp2VsJnLq",
+  "provider_served": "Meta",
+  "input_tokens_billed": 3273,
+  "output_tokens_billed": 3724,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01632235,
+  "execution_duration_sec": 20.147,
+  "raw_response": "{\"file_type\": \"tsx\", \"line_count\": 252, \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\"], \"classes\": [], \"imports\": [\"React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from \\\"react\\\"\"], \"complexity_notes\": \"Generic production-grade DataTable with TypeScript generics. High complexity due to combined concerns: debounced filtering (useDebounce), abortable async fetching with AbortController and stale-closure guard, client-side sorting with custom sortFn fallback to compareValues, row selection via React Context with Set-based state, pagination windowing (5-page window), and extensive ARIA attributes. useDataFetch manages 5 states and memoized callbacks; DataTableComponent uses useMemo for sorted data and selection context, and inline render helpers for accessibility.\"}",
+  "ran_at": "2026-07-17T00:38:38.141818+00:00",
+  "reasoning_tokens": 3523
+}

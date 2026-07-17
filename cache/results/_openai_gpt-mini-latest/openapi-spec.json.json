@@ -1,0 +1,17 @@
+{
+  "model_id": "~openai/gpt-mini-latest",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254622-aBhj63MCD0nGqw8tuIIv",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5528,
+  "output_tokens_billed": 133,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0047445,
+  "execution_duration_sec": 3.617,
+  "raw_response": "{\"file_type\":\"openapi_json\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is a single-line OpenAPI 3.1.0 specification for a Task Manager REST API. It defines multiple endpoints for tasks, assignments, comments, attachments, search, and batch operations, along with reusable components for security schemes, schemas, and error responses. The structure is deeply nested JSON with significant schema and response reuse via $ref links, but it contains no code functions, classes, or imports. Complexity is moderate to high due to the breadth of endpoints, validation rules, and component relationships.\"}",
+  "ran_at": "2026-07-17T02:17:04.482421+00:00",
+  "reasoning_tokens": 0
+}

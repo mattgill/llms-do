@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m3",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254198-O9AQS844aXFobqwSzGvW",
+  "provider_served": "Novita",
+  "input_tokens_billed": 5580,
+  "output_tokens_billed": 1409,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00333408,
+  "execution_duration_sec": 10.645,
+  "raw_response": "\n\n{\"file_type\": \"openapi_specification_json\",\"line_count\": 1,\"functions\": [],\"classes\": [],\"imports\": [],\"complexity_notes\": \"OpenAPI 3.1.0 specification for a Task Manager REST API (title: 'Task Manager API', version 2.4.1). Content is delivered as a single, heavily minified JSON line with no significant whitespace. Defines 12 operations across 7 paths and 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch). Operations: listTasks (GET /tasks, 7 query params including status/priority/assignee_id/created_after/created_before/pagination), createTask (POST /tasks), getTask (GET /tasks/{task_id}), updateTask (PATCH /tasks/{task_id}, returns 409 on TASK_LOCKED), deleteTask (DELETE /tasks/{task_id}), assignTask (PATCH /tasks/{task_id}/assign), listComments (GET /tasks/{task_id}/comments), createComment (POST /tasks/{task_id}/comments, supports threaded replies via parent_id with Markdown body up to 10k chars), listAttachments (GET /tasks/{task_id}/attachments), uploadAttachment (POST /tasks/{task_id}/attachments, multipart/form-data, max 25 MB, returns 413 on overflow), searchTasks (POST /tasks/search, full-text across title/description/comments/tags with filters and pagination), batchTasks (POST /tasks/batch, supports up to 50 operations with actions update_status/assign/set_priority/add_tag/remove_tag and per-op result reporting). Defines 12 reusable schemas (TaskStatus enum with 6 values, Priority enum with 4 values, User, Task with extensive validation patterns, TaskCreateRequest, TaskUpdateRequest with minProperties=1, Comment, Attachment with signed URL expiry, Pagination, ErrorResponse with request_id pattern req_[a-z0-9]{8}, TaskListResponse, CommentListResponse). Uses two security schemes (bearerAuth/JWT and apiKey X-API-Key header, applied as alternatives). Task IDs follow strict regex pattern ^task_[a-z0-9]{10}$. All error responses share the ErrorResponse envelope via reusable response components (BadRequest, Unauthorized, NotFound, InternalError). No executable code, no imports, no functions or classes \u2014 purely declarative schema/contract metadata.\",\"structure\": {\"api\": {\"openapi_version\": \"3.1.0\", \"title\": \"Task Manager API\", \"version\": \"2.4.1\"}, \"servers_count\": 3, \"security_schemes\": [\"bearerAuth (JWT, http/bearer)\", \"apiKey (header: X-API-Key)\"], \"tag_count\": 5, \"path_count\": 7, \"operation_count\": 12, \"schema_count\": 12, \"reusable_response_count\": 4, \"total_endpoints\": 12}}",
+  "ran_at": "2026-07-17T02:10:06.819304+00:00",
+  "reasoning_tokens": 835
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-max-preview",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784255115-WTZgaVRssBV4JKXGaq6O",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 2415,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01881152,
+  "execution_duration_sec": 63.595,
+  "raw_response": "{\"file_type\": \"Python\", \"line_count\": 336, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"__future__\", \"asyncio\", \"logging\", \"datetime\", \"enum\", \"typing\", \"jwt\", \"fastapi\", \"fastapi.encoders\", \"fastapi.middleware.cors\", \"passlib.context\", \"pydantic\", \"sqlalchemy\", \"sqlalchemy.ext.asyncio\", \"sqlalchemy.orm\", \"fastapi.responses\"], \"complexity_notes\": \"Moderate complexity FastAPI backend utilizing async SQLAlchemy ORM, JWT authentication, Pydantic validation, and WebSockets. Features dependency injection, pagination, background tasks, and a global exception handler. The in-memory WebSocket connection manager is straightforward but limits horizontal scalability without an external pub/sub system. Some unused imports (e.g., Column, create_engine, Sequence) are present.\"}",
+  "ran_at": "2026-07-17T02:26:18.967291+00:00",
+  "reasoning_tokens": 2137
+}

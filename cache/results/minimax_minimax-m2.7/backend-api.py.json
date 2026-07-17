@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.7",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784257774-tmG3ILDsT7RtO0YgI4ep",
+  "provider_served": "Groq",
+  "input_tokens_billed": 3318,
+  "output_tokens_billed": 872,
+  "reasoning_tokens": 495,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0035604,
+  "execution_duration_sec": 2.334,
+  "raw_response": "{\"file_type\": \"python\", \"line_count\": 352, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"ConnectionManager.connect\", \"ConnectionManager.disconnect\", \"ConnectionManager.broadcast\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"asyncio\", \"logging\", \"datetime\", \"timedelta\", \"StrEnum\", \"Annotated\", \"Any\", \"Sequence\", \"jwt\", \"BackgroundTasks\", \"Depends\", \"FastAPI\", \"HTTPException\", \"Query\", \"Request\", \"WebSocket\", \"WebSocketDisconnect\", \"status\", \"jsonable_encoder\", \"CORSMiddleware\", \"CryptContext\", \"BaseModel\", \"ConfigDict\", \"Field\", \"Boolean\", \"Column\", \"DateTime\", \"Enum\", \"ForeignKey\", \"Integer\", \"String\", \"Text\", \"create_engine\", \"select\", \"AsyncSession\", \"create_async_engine\", \"DeclarativeBase\", \"Mapped\", \"declared_attr\", \"mapped_column\", \"relationship\", \"sessionmaker\", \"JSONResponse\"], \"complexity_notes\": \"FastAPI backend with async SQLAlchemy ORM, JWT authentication, WebSocket real-time updates, and full CRUD for projects. Features include pagination, search/filter, background tasks, CORS middleware, and a ConnectionManager for WebSocket broadcasting. The in-memory WebSocket storage limits horizontal scalability. Complexity is moderate with clear separation between models, schemas, and endpoints.\"}",
+  "ran_at": "2026-07-17T03:09:33.461297+00:00"
+}

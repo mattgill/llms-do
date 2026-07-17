@@ -1,0 +1,17 @@
+{
+  "model_id": "rekaai/reka-edge",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257733-v29CSjR7UpbVBWxfPyva",
+  "provider_served": "Reka",
+  "input_tokens_billed": 10302,
+  "output_tokens_billed": 25,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0010327,
+  "execution_duration_sec": 7.612,
+  "raw_response": "The system is ready for production with detailed documentation and compliance with security requirements. All components are operational and ready for deployment.\n\n",
+  "ran_at": "2026-07-17T03:08:59.161464+00:00"
+}

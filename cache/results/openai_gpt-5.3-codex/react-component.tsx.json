@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.3-codex",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258632-BV3qoqAErshjcjtzK5Im",
+  "provider_served": "Azure",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 4053,
+  "reasoning_tokens": 3567,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.06221775,
+  "execution_duration_sec": 36.024,
+  "raw_response": "{\n  \"file_type\": \"TypeScript React (TSX) module\",\n  \"line_count\": 252,\n  \"functions\": [\n    {\n      \"name\": \"useDebounce\",\n      \"kind\": \"function\",\n      \"exported\": true,\n      \"async\": false\n    },\n    {\n      \"name\": \"useDataFetch\",\n      \"kind\": \"function\",\n      \"exported\": true,\n      \"async\": false\n    },\n    {\n      \"name\": \"useTableSelection\",\n      \"kind\": \"function\",\n      \"exported\": true,\n      \"async\": false\n    },\n    {\n      \"name\": \"compareValues\",\n      \"kind\": \"function\",\n      \"exported\": false,\n      \"async\": false\n    },\n    {\n      \"name\": \"DataTableComponent\",\n      \"kind\": \"function\",\n      \"exported\": false,\n      \"async\": false\n    },\n    {\n      \"name\": \"handleSort\",\n      \"kind\": \"callback (useCallback inside DataTableComponent)\",\n      \"exported\": false,\n      \"async\": false\n    },\n    {\n      \"name\": \"body\",\n      \"kind\": \"inner render function\",\n      \"exported\": false,\n      \"async\": false\n    },\n    {\n      \"name\": \"ariaSort\",\n      \"kind\": \"inner helper function\",\n      \"exported\": false,\n      \"async\": false\n    },\n    {\n      \"name\": \"sortMark\",\n      \"kind\": \"inner helper function\",\n      \"exported\": false,\n      \"async\": false\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [\n    {\n      \"source\": \"react\",\n      \"default\": \"React\",\n      \"named\": [\n        \"createContext\",\n        \"useCallback\",\n        \"useContext\",\n        \"useEffect\",\n        \"useMemo\",\n        \"useRef\",\n        \"useState\"\n      ]\n    }\n  ],\n  \"complexity_notes\": \"Moderate-to-high complexity: generic type-heavy table abstraction with reusable hooks, abortable/debounced async fetching, state synchronization across sorting/filtering/pagination, context-based row selection, custom/default sorting logic, accessibility-oriented keyboard and ARIA handling, and substantial conditional JSX rendering for loading/error/empty/paginated states.\"\n}",
+  "ran_at": "2026-07-17T03:24:26.107649+00:00"
+}

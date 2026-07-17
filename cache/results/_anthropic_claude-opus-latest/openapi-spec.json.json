@@ -1,0 +1,17 @@
+{
+  "model_id": "~anthropic/claude-opus-latest",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784255665-ApFjzvvbH5qGgyJVJbVm",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 9387,
+  "output_tokens_billed": 985,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.07156,
+  "execution_duration_sec": 10.891,
+  "raw_response": "{\"file_type\": \"OpenAPI 3.1.0 specification (JSON)\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"api_summary\": {\"title\": \"Task Manager API\", \"version\": \"2.4.1\", \"openapi_version\": \"3.1.0\", \"servers\": [\"https://api.taskmanager.io/v2 (Production)\", \"https://staging.taskmanager.io/v2 (Staging)\", \"http://localhost:8080/v2 (Local development)\"], \"security_schemes\": [\"bearerAuth (JWT via HTTP bearer)\", \"apiKey (X-API-Key header)\"], \"tags\": [\"Tasks\", \"Assignments\", \"Comments\", \"Attachments\", \"Search & Batch\"], \"paths\": [{\"path\": \"/tasks\", \"methods\": [\"GET (listTasks)\", \"POST (createTask)\"]}, {\"path\": \"/tasks/{task_id}\", \"methods\": [\"GET (getTask)\", \"PATCH (updateTask)\", \"DELETE (deleteTask)\"]}, {\"path\": \"/tasks/{task_id}/assign\", \"methods\": [\"PATCH (assignTask)\"]}, {\"path\": \"/tasks/{task_id}/comments\", \"methods\": [\"GET (listComments)\", \"POST (createComment)\"]}, {\"path\": \"/tasks/{task_id}/attachments\", \"methods\": [\"GET (listAttachments)\", \"POST (uploadAttachment)\"]}, {\"path\": \"/tasks/search\", \"methods\": [\"POST (searchTasks)\"]}, {\"path\": \"/tasks/batch\", \"methods\": [\"POST (batchTasks)\"]}], \"operation_count\": 12, \"schemas\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"reusable_responses\": [\"BadRequest\", \"Unauthorized\", \"NotFound\", \"InternalError\"]}, \"complexity_notes\": \"Well-structured, production-grade OpenAPI 3.1 spec with 7 paths and 12 operations across 5 tag groups. Uses consistent $ref reuse for schemas and error responses (BadRequest, Unauthorized, NotFound, InternalError), reducing duplication. Features rich validation (regex patterns for IDs like ^task_[a-z0-9]{10}$, min/max lengths, enums, formats). Includes pagination, full-text search, batch operations (up to 50 ops), and multipart file upload (25MB limit). Notable complexity: batch endpoint uses oneOf for polymorphic result (Task | ErrorResponse), and search supports nested filter objects. Dual authentication schemes (JWT + API key). Extensive inline examples enhance documentation quality. No circular schema references; nullable fields and default values are properly declared.\"}",
+  "ran_at": "2026-07-17T02:34:33.934655+00:00",
+  "reasoning_tokens": 0
+}

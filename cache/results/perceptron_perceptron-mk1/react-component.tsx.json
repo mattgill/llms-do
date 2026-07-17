@@ -1,0 +1,17 @@
+{
+  "model_id": "perceptron/perceptron-mk1",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254524-GAOE117y5Kz5x82gOy45",
+  "provider_served": "Perceptron",
+  "input_tokens_billed": 3268,
+  "output_tokens_billed": 197,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0007857,
+  "execution_duration_sec": 4.056,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 312,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"This file implements a production-grade data table component with sorting, filtering, pagination, row selection, and async data fetching via debounced hooks. It uses React hooks extensively and includes custom hooks for debouncing and data fetching. The DataTableComponent is a complex functional component that handles various states and interactions.\"\n}",
+  "ran_at": "2026-07-17T02:15:27.301034+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254949-h6Umbua0kTrUfu5pXKH1",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 8236,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.009940125,
+  "execution_duration_sec": 57.69,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 212,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\",\n    \"__init__\",\n    \"connect\",\n    \"disconnect\",\n    \"broadcast\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"__future__\",\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"Moderate complexity. Well-structured FastAPI application using async SQLAlchemy, Pydantic v2, and JWT authentication. Features dependency injection, pagination, and in-memory WebSocket broadcasting. Notes: Hardcoded database URL and JWT secret pose security risks; in-memory WebSocket manager lacks horizontal scalability; pagination uses a subquery strip pattern that may require SQLAlchemy version awareness; JSONResponse import is added mid-file; unused import 'Sequence' detected.\"\n}",
+  "ran_at": "2026-07-17T02:23:26.436822+00:00",
+  "reasoning_tokens": 7823
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m3",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254231-IF4EK8X0TQYE7wHrjyhL",
+  "provider_served": "Novita",
+  "input_tokens_billed": 3472,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00592944,
+  "execution_duration_sec": 29.535,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:10:59.078337+00:00",
+  "reasoning_tokens": 3921
+}

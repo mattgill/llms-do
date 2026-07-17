@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-plus",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784256214-jsG7GynZOkX0SIvEAXA0",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 6859,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.014440075,
+  "execution_duration_sec": 122.463,
+  "raw_response": "{\n  \"file_type\": \"TypeScript/React (TSX)\",\n  \"line_count\": 251,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"Moderate to high complexity. Implements a production-grade data table with debounced async data fetching, AbortController for request cancellation, custom sorting logic, context-based row selection, and dynamic pagination. Heavy reliance on React hooks (useState, useEffect, useMemo, useCallback, useRef, useContext) for state and side-effect management. Includes comprehensive ARIA attributes for accessibility. Logic is well-encapsulated but involves multiple interdependent state variables, inline callbacks, and conditional rendering paths.\"\n}",
+  "ran_at": "2026-07-17T02:45:36.270750+00:00",
+  "reasoning_tokens": 6620
+}

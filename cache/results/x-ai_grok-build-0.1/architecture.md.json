@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-build-0.1",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254408-j26TRzuMg5gxz06aEXxd",
+  "provider_served": "xAI",
+  "input_tokens_billed": 10051,
+  "output_tokens_billed": 13670,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0372886,
+  "execution_duration_sec": 67.464,
+  "raw_response": "{\"file_type\":\"markdown\",\"line_count\":915,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Non-code technical documentation (markdown format) with 10 hierarchical sections (overview, architecture, data model, CRDT algorithm, API, auth, infra, performance, DR, monitoring). Contains 8+ ASCII diagrams, 15+ markdown tables, multiple code fences (TypeScript types, JSON messages, PromQL, shell, pseudocode function applyOperation), lists, and illustrative snippets. No executable code, imports, or real classes/functions present; purely descriptive architecture spec with subsections and examples.\"}",
+  "ran_at": "2026-07-17T02:14:32.842821+00:00",
+  "reasoning_tokens": 13549
+}

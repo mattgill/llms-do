@@ -1,0 +1,17 @@
+{
+  "model_id": "mistralai/mistral-medium-3-5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254593-yJ3L1DLq3k5IgMuDMHx5",
+  "provider_served": "Mistral",
+  "input_tokens_billed": 6065,
+  "output_tokens_billed": 103,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00987,
+  "execution_duration_sec": 2.183,
+  "raw_response": "{\"file_type\": \"OpenAPI Specification\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is a comprehensive OpenAPI 3.1.0 specification for a Task Manager API. It defines RESTful endpoints for tasks, assignments, comments, attachments, search, and batch operations. The document includes detailed schemas, examples, security definitions, and error responses. It is not executable code but a structured API contract.\"}",
+  "ran_at": "2026-07-17T02:16:34.203092+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20-multi-agent",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784257675-3Llyp6YSzjkg7366SGhB",
+  "provider_served": "xAI",
+  "input_tokens_billed": 54942,
+  "output_tokens_billed": 7248,
+  "reasoning_tokens": 7101,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0556839,
+  "execution_duration_sec": 13.258,
+  "raw_response": "{\n  \"file_type\": \"openapi\",\n  \"line_count\": 185,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"OpenAPI 3.1.0 JSON specification for Task Manager API v2.4.1. Defines 5 tags and ~12 operations across task CRUD, assignments, comments, attachments, search, and batch endpoints. Includes 10+ schemas (Task, User, Comment, Attachment, ErrorResponse, pagination wrappers), security schemes (JWT, API key), detailed parameter validation, response examples, and error handling patterns. No executable code, purely declarative API contract.\"\n}",
+  "ran_at": "2026-07-17T03:08:05.671252+00:00"
+}

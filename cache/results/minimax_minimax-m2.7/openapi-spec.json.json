@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.7",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784257748-kun1MaENTgbGGEcIMEsm",
+  "provider_served": "Mara",
+  "input_tokens_billed": 5426,
+  "output_tokens_billed": 818,
+  "reasoning_tokens": 529,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00208752,
+  "execution_duration_sec": 7.189,
+  "raw_response": "\n\n{\"file_type\":\"openapi\",\"line_count\":1,\"functions\":[\"GET /tasks\",\"POST /tasks\",\"GET /tasks/{task_id}\",\"PATCH /tasks/{task_id}\",\"DELETE /tasks/{task_id}\",\"PATCH /tasks/{task_id}/assign\",\"GET /tasks/{task_id}/comments\",\"POST /tasks/{task_id}/comments\",\"GET /tasks/{task_id}/attachments\",\"POST /tasks/{task_id}/attachments\",\"POST /tasks/search\",\"POST /tasks/batch\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[\"$ref references to components/schemas/*\",\"$ref references to components/responses/*\"],\"complexity_notes\":\"Production-grade OpenAPI 3.1.0 specification for a Task Manager API with 12 endpoints across 5 resource groups (Tasks, Assignments, Comments, Attachments, Search & Batch). Supports JWT bearer auth and API key authentication. Includes comprehensive schema definitions with 12 reusable schemas, pagination support, full-text search, batch operations (up to 50 tasks), file uploads (25MB limit), and detailed error responses. Features rich filtering (status, priority, assignee, date ranges), Markdown comment support, and nested resources for comments and attachments. Multi-environment configuration with production, staging, and local servers.\"}",
+  "ran_at": "2026-07-17T03:09:15.356972+00:00"
+}

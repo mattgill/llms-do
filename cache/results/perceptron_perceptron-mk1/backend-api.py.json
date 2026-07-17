@@ -1,0 +1,17 @@
+{
+  "model_id": "perceptron/perceptron-mk1",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254524-6yjakwFkIK4NszAOCM2m",
+  "provider_served": "Perceptron",
+  "input_tokens_billed": 3590,
+  "output_tokens_billed": 386,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0011175,
+  "execution_duration_sec": 13.418,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 473,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"__future__\",\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"This file implements a FastAPI backend for project management with real-time updates via WebSockets. It includes database models, Pydantic schemas, JWT authentication, CRUD endpoints, and a WebSocket manager. The code is well-structured with clear separation of concerns. Complexity is moderate due to the integration of multiple components (async DB, JWT, WebSockets), but the code is clean and maintainable.\"\n}",
+  "ran_at": "2026-07-17T02:15:36.480251+00:00",
+  "reasoning_tokens": 0
+}

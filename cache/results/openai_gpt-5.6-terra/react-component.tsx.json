@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.6-terra",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253329-8FrQ0QosHuGLlijKmjjB",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 1505,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.03235125,
+  "execution_duration_sec": 10.782,
+  "raw_response": "{\"file_type\":\"TypeScript React TSX module\",\"line_count\":250,\"functions\":[{\"name\":\"useDebounce\",\"kind\":\"generic React hook\",\"description\":\"Returns a debounced version of a value using a timeout effect.\"},{\"name\":\"useDataFetch\",\"kind\":\"generic React hook\",\"description\":\"Manages sort, filters, pagination, loading/error state, and abortable asynchronous data fetching with debounced filters.\"},{\"name\":\"useTableSelection\",\"kind\":\"React context hook\",\"description\":\"Retrieves the table selection context and throws when used outside a DataTable provider.\"},{\"name\":\"compareValues\",\"kind\":\"generic utility function\",\"description\":\"Compares extracted row values with null handling, string/number comparison, and sort-direction inversion.\"},{\"name\":\"DataTableComponent\",\"kind\":\"generic React function component\",\"description\":\"Renders an accessible data table with selectable rows, sortable columns, loading/error/empty states, and pagination controls.\"},{\"name\":\"handleSort\",\"kind\":\"memoized callback\",\"description\":\"Cycles a sortable column through ascending, descending, and unsorted states.\"},{\"name\":\"body\",\"kind\":\"render helper\",\"description\":\"Builds table body content for error, loading, empty, and populated-data states.\"},{\"name\":\"ariaSort\",\"kind\":\"render helper\",\"description\":\"Returns the ARIA sort state for a column.\"},{\"name\":\"sortMark\",\"kind\":\"render helper\",\"description\":\"Returns a visual ascending or descending sort marker for the active column.\"}],\"classes\":[],\"imports\":[{\"module\":\"react\",\"default\":\"React\",\"named\":[\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"]}],\"complexity_notes\":\"The module defines generic table, sorting, pagination, fetch, and selection types plus a default DataTable component augmented with static hook properties. Client-side sorting copies and sorts data in O(n log n); row-ID derivation is O(n). Selection toggling clones a Set in O(s), while toggleAll additionally performs every/includes/filter operations and can be O(s + n*s) in worst cases due to Array.includes over selected IDs. Rendering is O(n * c) for n displayed rows and c columns. useDataFetch starts a request whenever fetchFn, sort, debounced filters, page, or page size changes; unstable fetchFn references can cause unnecessary refetches. Requests are aborted before subsequent effect runs, but the cleanup only marks the request inactive rather than aborting it on component unmount. The component applies local sorting to supplied data while useDataFetch also forwards sorting to the server, so consumers should avoid unintended duplicate server/client sorting behavior.\"}",
+  "ran_at": "2026-07-17T01:55:38.150982+00:00",
+  "reasoning_tokens": 968
+}

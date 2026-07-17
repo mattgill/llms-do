@@ -1,0 +1,17 @@
+{
+  "model_id": "perceptron/perceptron-mk1",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254507-Hj1CyB0krjWlfD0W32vM",
+  "provider_served": "Perceptron",
+  "input_tokens_billed": 11010,
+  "output_tokens_billed": 390,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0022365,
+  "execution_duration_sec": 18.625,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 1000,\n  \"sections\": [\n    \"System Overview and Design Goals\",\n    \"High-Level Architecture\",\n    \"Data Model\",\n    \"Conflict Resolution: CRDT Algorithm\",\n    \"API Design\",\n    \"Authentication and Authorization\",\n    \"Infrastructure\",\n    \"Performance Benchmarks and Scaling Strategy\",\n    \"Disaster Recovery and Backup Strategy\",\n    \"Monitoring and Observability\"\n  ],\n  \"tables\": [\n    \"Core Design Goals\",\n    \"Permission Matrix\",\n    \"Rate Limits\",\n    \"JWT Token Architecture\",\n    \"Horizontal Scaling Strategy\",\n    \"RPO and RTO Targets\",\n    \"Backup Schedule\",\n    \"Alerting Rules\"\n  ],\n  \"code_blocks\": [\n    \"System Topology (ASCII diagram)\",\n    \"Entity-Relationship Overview (ASCII diagram)\",\n    \"CRDT Merge Algorithm (TypeScript)\",\n    \"REST API Endpoints\",\n    \"WebSocket Protocol Messages\",\n    \"Authentication Flow (ASCII diagram)\",\n    \"Kubernetes Cluster Topology (ASCII diagram)\",\n    \"Load Test Profile (JavaScript)\",\n    \"Multi-Region Active-Active (ASCII diagram)\",\n    \"Recovery Procedure (Bash)\",\n    \"Prometheus Metrics (PromQL)\",\n    \"Distributed Tracing Spans\",\n    \"Structured JSON Logging Schema\"\n  ],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document for a real-time collaboration platform. It covers system design, data modeling, conflict resolution algorithms, API specifications, authentication, infrastructure, performance, disaster recovery, and observability. The document uses a mix of text, tables, ASCII diagrams, and code blocks to convey complex technical information.\"\n}",
+  "ran_at": "2026-07-17T02:15:23.061590+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-35b-a3b",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258236-TJRhuoJS0vaiK6VcFBpT",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 3470,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00459972,
+  "execution_duration_sec": 32.037,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:17:46.181654+00:00"
+}

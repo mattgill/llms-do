@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-2.0",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258668-tCXYlgsR04V2OppFxsj7",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 3626,
+  "output_tokens_billed": 4570,
+  "reasoning_tokens": 4140,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0102128,
+  "execution_duration_sec": 62.088,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 430,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"from __future__ import annotations\",\n    \"import asyncio\",\n    \"import logging\",\n    \"from datetime import UTC, datetime, timedelta\",\n    \"from enum import StrEnum\",\n    \"from typing import Annotated, Any, Sequence\",\n    \"import jwt\",\n    \"from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\",\n    \"from fastapi.encoders import jsonable_encoder\",\n    \"from fastapi.middleware.cors import CORSMiddleware\",\n    \"from passlib.context import CryptContext\",\n    \"from pydantic import BaseModel, ConfigDict, Field\",\n    \"from sqlalchemy import Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\",\n    \"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\",\n    \"from sqlalchemy.orm import DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\",\n    \"from fastapi.responses import JSONResponse\"\n  ],\n  \"complexity_notes\": \"Moderate complexity: async SQLAlchemy ORM with FastAPI, JWT auth, WebSocket broadcasting, background tasks, and pagination. Uses type hints and Pydantic v2. Some inline imports (JSONResponse) and a global exception handler. Overall well-structured but could benefit from splitting into modules.\"\n}",
+  "ran_at": "2026-07-17T03:25:28.373452+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2-her",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784259367-u4veyWPMhie2voDRN3CZ",
+  "provider_served": "Minimax",
+  "input_tokens_billed": 3316,
+  "output_tokens_billed": 159,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0011856,
+  "execution_duration_sec": 6.62,
+  "raw_response": "```json\n{\n  \"file_type\": \"react_component\",\n  \"line_count\": 340,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The file includes a React component with multiple custom hooks, handling sorting, filtering, pagination, and selection logic. It uses context for selection state and has complex state management with debounced data fetching.\"\n}\n``` \n\n",
+  "ran_at": "2026-07-17T03:36:11.561599+00:00"
+}

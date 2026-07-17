@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2.0-mini",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258025-WnNRwkBXK63rb7PHTvXH",
+  "provider_served": "Seed",
+  "input_tokens_billed": 6068,
+  "output_tokens_billed": 9856,
+  "reasoning_tokens": 9642,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0045492,
+  "execution_duration_sec": 75.463,
+  "raw_response": "{\"file_type\": \"openapi_json_specification\", \"line_count\": 319, \"functions\": [\"listTasks\", \"createTask\", \"getTask\", \"updateTask\", \"deleteTask\", \"assignTask\", \"listComments\", \"createComment\", \"listAttachments\", \"uploadAttachment\", \"searchTasks\", \"batchTasks\"], \"classes\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"imports\": [], \"complexity_notes\": \"Comprehensive OpenAPI 3.1 specification for a production-grade Task Manager REST API. Includes full CRUD operations for tasks, assignments, comments, and attachments, plus search and batch operations. Supports JWT and API key authentication, input validation, pagination, filtering, and standardized error responses. Contains example requests and responses for every endpoint, and defines clear, detailed data models for all API resources.\"}",
+  "ran_at": "2026-07-17T03:14:59.677381+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "kwaipilot/kat-coder-air-v2.5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253294-Z6IZJZrqVvS6wet6KDOE",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 435,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0019137,
+  "execution_duration_sec": 2.794,
+  "raw_response": "\n\n```json\n{\n  \"file_type\": \"technical_documentation\",\n  \"line_count\": 687,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document (not code) for CollabSync, a real-time collaboration platform. The document contains 10 major sections covering system overview, architecture diagrams, data model with 7 database tables, CRDT conflict resolution algorithm, REST and WebSocket API specifications, JWT authentication flow, Kubernetes infrastructure topology, performance benchmarks, disaster recovery procedures, and monitoring/alerting configuration. Contains ASCII art diagrams, markdown tables, SQL-like schema definitions, TypeScript type definitions, PromQL queries, and JSON message schemas. No executable code present.\"\n}\n```",
+  "ran_at": "2026-07-17T01:54:55.666891+00:00",
+  "reasoning_tokens": 267
+}

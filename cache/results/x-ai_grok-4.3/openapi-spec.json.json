@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.3",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254574-lnTs8agu6bJnEUx90u8m",
+  "provider_served": "xAI",
+  "input_tokens_billed": 5434,
+  "output_tokens_billed": 653,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0082234,
+  "execution_duration_sec": 10.159,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1.0 JSON specification\",\"line_count\":1,\"text_structure\":\"Single-line minified JSON object\",\"top_level_keys\":[\"openapi\",\"info\",\"servers\",\"security\",\"tags\",\"paths\",\"components\"],\"paths_count\":7,\"schemas_count\":13,\"responses_count\":4,\"security_schemes_count\":2,\"description\":\"Comprehensive REST API spec for task management including CRUD, assignments, comments, attachments, search, and batch ops; not executable source code\"}",
+  "ran_at": "2026-07-17T02:16:21.671742+00:00",
+  "reasoning_tokens": 553
+}

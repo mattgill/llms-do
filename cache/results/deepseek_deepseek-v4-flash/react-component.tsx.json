@@ -1,0 +1,17 @@
+{
+  "model_id": "deepseek/deepseek-v4-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784248675-yN4QbAQKYDHhA14LXfDL",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 3226,
+  "output_tokens_billed": 187,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000319392,
+  "execution_duration_sec": 6.356,
+  "raw_response": "{\n  \"file_type\": \"TypeScript React\",\n  \"line_count\": 196,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"handleSort\",\n    \"body\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"Moderate complexity due to multiple hooks (useDebounce, useDataFetch, useTableSelection), custom sorting logic with compareValues, and a DataTable component with selection, sorting, pagination, and error/loading states. The useDataFetch hook includes abortable async fetching with debounced filters.\"\n}",
+  "ran_at": "2026-07-17T00:37:58.640840+00:00",
+  "reasoning_tokens": 0
+}

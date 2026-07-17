@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-4.6",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258711-r7B7ebuSa8o0Hjexs8to",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 6564,
+  "output_tokens_billed": 439,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.026277,
+  "execution_duration_sec": 14.928,
+  "raw_response": "```json\n{\n  \"file_type\": \"OpenAPI 3.1.0 Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a production-grade OpenAPI 3.1.0 REST API specification for a Task Manager service (version 2.4.1). Key structural details: 3 server environments (production, staging, local). 2 security schemes: bearerAuth (JWT) and apiKey (X-API-Key header). 5 tag groups: Tasks, Assignments, Comments, Attachments, Search & Batch. 10 API endpoints across 7 paths: GET/POST /tasks, GET/PATCH/DELETE /tasks/{task_id}, PATCH /tasks/{task_id}/assign, GET/POST /tasks/{task_id}/comments, GET/POST /tasks/{task_id}/attachments, POST /tasks/search, POST /tasks/batch. 13 component schemas: TaskStatus (enum: 6 values), Priority (enum: 4 values), User, Task, TaskCreateRequest, TaskUpdateRequest, Comment, Attachment, Pagination, ErrorResponse, TaskListResponse, CommentListResponse, plus inline batch/search schemas. 4 reusable response components: BadRequest, Unauthorized, NotFound, InternalError. Notable features: pagination on list endpoints (max 100 per page), full-text search across title/description/comments/tags, batch operations supporting up to 50 tasks with 5 action types, multipart file upload with 25 MB limit, signed attachment download URLs (1-hour expiry), threaded comments via parent_id, PATCH-based partial updates with minProperties:1 constraint, 409 Conflict response for locked tasks, and oneOf union type in batch results (Task or ErrorResponse).\"\n}\n```",
+  "ran_at": "2026-07-17T03:25:23.344393+00:00"
+}

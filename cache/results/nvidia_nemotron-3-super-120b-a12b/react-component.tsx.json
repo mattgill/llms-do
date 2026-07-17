@@ -1,0 +1,17 @@
+{
+  "model_id": "nvidia/nemotron-3-super-120b-a12b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257852-PWgeD770cUWEWsF0V60Q",
+  "provider_served": "DigitalOcean",
+  "input_tokens_billed": 3218,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 3790,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00253946,
+  "execution_duration_sec": 581.234,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:20:33.126865+00:00"
+}

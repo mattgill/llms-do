@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-35b-a3b",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258201-S5qfll6WIusyWbtwZmp0",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4173,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0048807,
+  "execution_duration_sec": 31.098,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:17:10.146479+00:00"
+}

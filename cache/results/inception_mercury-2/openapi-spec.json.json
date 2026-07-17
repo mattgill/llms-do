@@ -1,0 +1,17 @@
+{
+  "model_id": "inception/mercury-2",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258001-toScXvkqJV22Lcg8eRiv",
+  "provider_served": "Inception",
+  "input_tokens_billed": 5469,
+  "output_tokens_billed": 4053,
+  "reasoning_tokens": 4053,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.004405875,
+  "execution_duration_sec": 3.754,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:13:22.817169+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-31b-it",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784256176-zTJWiCAkI670QtpVxX0E",
+  "provider_served": "WandB",
+  "input_tokens_billed": 3542,
+  "output_tokens_billed": 206,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00049714,
+  "execution_duration_sec": 8.703,
+  "raw_response": "{\n  \"file_type\": \"TypeScript React\",\n  \"line_count\": 178,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"body\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The code implements a complex data table with several integrated concerns: asynchronous data fetching with AbortController to prevent race conditions, a custom debouncing hook for filters, a Context-based selection system, and generic type handling for flexible column definitions. It uses a combination of memoized values and callbacks to optimize React rendering performance.\"\n}",
+  "ran_at": "2026-07-17T02:43:01.800029+00:00",
+  "reasoning_tokens": 0
+}

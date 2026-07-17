@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5v-turbo",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257645-oHt8cs5e4klsZkjz3E3X",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 3026,
+  "output_tokens_billed": 949,
+  "reasoning_tokens": 741,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00742528,
+  "execution_duration_sec": 60.095,
+  "raw_response": "```json\n{\n  \"file_type\": \"TypeScript React (TSX)\",\n  \"line_count\": 226,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The file implements a highly generic, production-grade data table component utilizing advanced TypeScript generics (TData, TColumn, TFilters). Complexity arises from the orchestration of multiple concerns: async data fetching with AbortController support and race condition handling, debounced filtering logic, client-side sorting with custom comparators, and row selection state management via React Context. The rendering logic includes dynamic pagination windowing and strict ARIA accessibility compliance.\"\n}\n```",
+  "ran_at": "2026-07-17T03:08:21.834424+00:00"
+}

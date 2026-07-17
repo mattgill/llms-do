@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3-max-thinking",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784259038-IvMtGLX45oah5tcxNuwH",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 10489,
+  "output_tokens_billed": 156,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00878982,
+  "execution_duration_sec": 3.847,
+  "raw_response": "{\n  \"file_type\": \"technical_documentation\",\n  \"line_count\": 1842,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document describing a real-time collaboration platform named CollabSync. It includes system design goals, high-level architecture diagrams (represented in ASCII), detailed data models, CRDT-based conflict resolution algorithms, API specifications, authentication flows, infrastructure topology, performance benchmarks, disaster recovery strategies, and observability practices. The document is highly structured with sections covering all aspects of a distributed system at scale, including consistency models, multi-region deployment, and operational excellence practices. No executable code is present, but pseudocode and protocol message formats are included.\"\n}",
+  "ran_at": "2026-07-17T03:30:39.887552+00:00"
+}

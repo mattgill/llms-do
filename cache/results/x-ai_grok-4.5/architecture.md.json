@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253381-XDkwvAE5PVIzU7ZzOf6l",
+  "provider_served": "xAI",
+  "input_tokens_billed": 10560,
+  "output_tokens_billed": 1390,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.029268,
+  "execution_duration_sec": 17.907,
+  "raw_response": "{\"file_type\": \"markdown_technical_architecture_document\", \"line_count\": 892, \"functions\": [\"applyOperation\", \"binarySearchByPosition\", \"findPositionIndex\", \"mergeAttributes\", \"splicePositions\", \"hash\", \"max\"], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Non-executable architecture specification (CollabSync v2.4.0). Structure: 10 major sections covering system overview/design goals, high-level topology (CDN\u2192Envoy\u2192REST/WS services\u2192Pulsar\u2192processing\u2192persistence), ER data model (workspaces, documents, users, memberships, operations, snapshots, document_presence), RGA/LSEQ CRDT conflict resolution with TypeScript op types and merge pseudocode, REST+WebSocket API design, JWT/SSO authz, EKS infrastructure (PostgreSQL/Redis/S3/Pulsar), performance benchmarks and multi-region scaling, disaster recovery (RPO/RTO, backups, chaos), and observability (PromQL RED metrics, OpenTelemetry traces, structured logging, alerts, dashboards). Contains ASCII topology diagrams, markdown tables, JSON/JSONC protocol samples, k6 load-test config, bash RDS recovery scripts, and PromQL queries. Embedded algorithmic complexity centers on CRDT merge (binary search insert, tombstones, anti-entropy sync) and consistent-hash sharding (16384-slot ring). No production source modules; documentation-only with illustrative code fragments.\"}",
+  "ran_at": "2026-07-17T01:56:39.267359+00:00",
+  "reasoning_tokens": 1083
+}

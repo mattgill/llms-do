@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.1",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784248680-CeFA0yy9hcem31yccX75",
+  "provider_served": "Meta",
+  "input_tokens_billed": 9928,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0189016,
+  "execution_duration_sec": 17.985,
+  "raw_response": null,
+  "ran_at": "2026-07-17T00:38:17.994529+00:00",
+  "reasoning_tokens": 4093
+}

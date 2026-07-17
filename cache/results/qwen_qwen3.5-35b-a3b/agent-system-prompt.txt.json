@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-35b-a3b",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258232-60iBJsKecdvD0Gdd0R6u",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 490,
+  "reasoning_tokens": 340,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0013503,
+  "execution_duration_sec": 3.881,
+  "raw_response": "{\n  \"file_type\": \"documentation\",\n  \"line_count\": 487,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a system instruction document for an AI software engineering agent (DevBot). The document is structured into 10 major sections: Core Principles (7 rules), Tool Descriptions (8 tools with parameters and behaviors), Code Style Guidelines (naming, imports, error handling, testing), Security Rules (4 mandatory rules), Framework-Specific Instructions (React, FastAPI, Database Migrations), Review Checklist (12 verification items), Output Format Requirements, Fallback Behaviors for Ambiguity (5-tier hierarchy), Common Anti-Patterns to Avoid (17 patterns), and Session Metadata. The document contains no executable code - it is purely instructional/specification text defining agent behavior, tool usage patterns, coding standards, and operational constraints.\"\n}",
+  "ran_at": "2026-07-17T03:17:14.123820+00:00"
+}

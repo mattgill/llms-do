@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.6-luna",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784253305-JS6XmJUtrxX4EF9Xrm4o",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 578,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01627475,
+  "execution_duration_sec": 4.9,
+  "raw_response": "{\"file_type\":\"Markdown technical architecture document\",\"line_count\":1180,\"functions\":[\"applyOperation (TypeScript-like pseudocode merge function)\"],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Non-executable architecture specification organized into 10 major sections covering system goals, topology, service descriptions, data model, CRDT conflict resolution, REST and WebSocket APIs, authentication, infrastructure, scaling, disaster recovery, monitoring, and observability. Contains ASCII architecture diagrams, Markdown tables, TypeScript-like pseudocode, JSON examples, PromQL queries, shell recovery commands, endpoint definitions, and configuration details. No executable imports or class definitions. The embedded merge algorithm uses hash-based idempotency, binary search for ordered insertion, linear scans for delete/format/move operations, and array splicing; per-operation cost is approximately O(log n) for insertion plus O(n) for searches or movement, where n is the document position count.\"}",
+  "ran_at": "2026-07-17T01:55:07.416463+00:00",
+  "reasoning_tokens": 383
+}

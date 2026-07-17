@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258994-YNWDHwJAty1zS1bhuIY4",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 5854,
+  "output_tokens_billed": 420,
+  "reasoning_tokens": 250,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0043188,
+  "execution_duration_sec": 10.319,
+  "raw_response": "{\"file_type\": \"text\", \"line_count\": 412, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Structured documentation/prompt file containing system instructions for an AI coding agent (DevBot). Contains 8 major sections: CORE PRINCIPLES (7 rules), TOOL DESCRIPTIONS (7 tools documented), CODE STYLE GUIDELINES (naming, imports, error handling, testing), SECURITY RULES (logging, validation, sanitization), FRAMEWORK-SPECIFIC INSTRUCTIONS (React, FastAPI, Database migrations), REVIEW CHECKLIST (12 items), OUTPUT FORMAT REQUIREMENTS, FALLBACK BEHAVIORS, and COMMON ANTI-PATTERNS (17 items). Uses consistent formatting with '---' separators, numbered lists, and hierarchical organization. No executable code present.\"}",
+  "ran_at": "2026-07-17T03:30:02.236687+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-26b-a4b-it",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784256162-d31tXY0M43J2P2a9dorL",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 3531,
+  "output_tokens_billed": 228,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00032469,
+  "execution_duration_sec": 9.332,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 238,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"handleSort\",\n    \"ariaSort\",\n    \"sortMark\",\n    \"body\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The file implements a complex, reusable React data table component. It includes custom hooks for debouncing values and managing asynchronous data fetching with AbortController for request cancellation. It utilizes React Context for row selection management and implements sophisticated sorting logic, pagination, and accessibility (ARIA) features. The component uses generics for type safety across data and column definitions.\"\n}",
+  "ran_at": "2026-07-17T02:42:49.533950+00:00",
+  "reasoning_tokens": 0
+}

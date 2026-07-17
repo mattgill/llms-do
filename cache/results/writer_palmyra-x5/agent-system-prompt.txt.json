@@ -1,0 +1,17 @@
+{
+  "model_id": "writer/palmyra-x5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784259384-eFuAGY7mjXDueHLGlHjq",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 5922,
+  "output_tokens_billed": 118,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0042612,
+  "execution_duration_sec": 1.739,
+  "raw_response": "{\"file_type\": \"text\", \"line_count\": 436, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"The content is a comprehensive set of guidelines, principles, and tool descriptions for an AI software engineering agent named DevBot. It is structured into sections covering core principles, tool usage, code style, security rules, framework-specific instructions, review checklists, output formats, fallback behaviors, and anti-patterns. The text does not contain executable code, but rather operational and behavioral specifications for an autonomous development agent.\"}",
+  "ran_at": "2026-07-17T03:36:25.400928+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k3",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784253179-x5lKBxmAT2iRwqk0orZT",
+  "provider_served": "Moonshot AI",
+  "input_tokens_billed": 5946,
+  "output_tokens_billed": 3516,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.070578,
+  "execution_duration_sec": 110.859,
+  "raw_response": "{\"file_type\": \"plain text (natural-language system prompt / behavioral specification for an autonomous AI software engineering agent named DevBot)\", \"line_count\": 341, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Not source code; no functions, classes, or imports present. The document is a highly structured instruction manual organized into 11 major sections delimited by '=' separator rules: (1) an introductory role paragraph; (2) CORE PRINCIPLES with 7 numbered rules (correctness, understanding before writing, testing, cleanliness, determinism, loud failure, owning mistakes); (3) TOOL DESCRIPTIONS documenting 8 tools (read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), each with Description/Parameters/Behavior/Usage subsections; (4) CODE STYLE GUIDELINES with 4 subsections (Naming, Imports and Dependencies, Error Handling, Testing Requirements); (5) SECURITY RULES with 4 subsections (Never Log Secrets, Validate All Inputs, Sanitize All Outputs, Additional Security); (6) FRAMEWORK-SPECIFIC INSTRUCTIONS covering React Patterns, FastAPI Patterns, and Database Migration Rules; (7) REVIEW CHECKLIST BEFORE SUBMITTING CODE with 12 checkbox items; (8) OUTPUT FORMAT REQUIREMENTS defining a START/END WORK ITEM block template with TASK, STATUS, CHANGES, TEST RESULTS, NOTES, and BLOCKER fields; (9) FALLBACK BEHAVIORS FOR AMBIGUITY defining a 5-step decision hierarchy (Convention, Industry Standard, Least Surprise, Default, Ask); (10) COMMON ANTI-PATTERNS TO AVOID enumerating 17 entries labeled AP-01 through AP-17; (11) SESSION METADATA and FINAL REMINDER covering audit logging, a 200,000-token budget, sandbox constraints, and closing directives, ending with the prompt 'Now: what is your task?'. Formatting conventions include '--- Name ---' subsection headers, bracketed checklist items, numbered lists, and inline examples; no executable code blocks are present.\"}",
+  "ran_at": "2026-07-17T01:54:50.270528+00:00",
+  "reasoning_tokens": 3057
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "stepfun/step-3.5-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784259155-6BIlXuIcQmOSu7Tuu0ci",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 3640,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4437,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0015928,
+  "execution_duration_sec": 76.962,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:33:51.220615+00:00"
+}

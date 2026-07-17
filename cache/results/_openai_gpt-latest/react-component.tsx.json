@@ -1,0 +1,17 @@
+{
+  "model_id": "~openai/gpt-latest",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254827-INL9AGH5zixIpBSpoQOJ",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 1594,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.049398,
+  "execution_duration_sec": 22.393,
+  "raw_response": "{\"file_type\":\"TypeScript React TSX module\",\"line_count\":252,\"functions\":[{\"name\":\"useDebounce\",\"kind\":\"generic React hook\",\"exported\":true,\"lines\":\"41-45\",\"description\":\"Debounces a value using useState, useEffect, setTimeout, and cleanup via clearTimeout.\"},{\"name\":\"useDataFetch\",\"kind\":\"generic React hook\",\"exported\":true,\"lines\":\"52-86\",\"description\":\"Manages sorting, debounced filters, pagination, loading, errors, and abortable asynchronous data fetching.\"},{\"name\":\"useTableSelection\",\"kind\":\"React context hook\",\"exported\":true,\"lines\":\"102-106\",\"description\":\"Returns the selection context and throws when called outside DataTable.\"},{\"name\":\"compareValues\",\"kind\":\"generic comparator\",\"exported\":false,\"lines\":\"112-122\",\"description\":\"Compares extracted null, string, number, or string-coerced values in ascending or descending order.\"},{\"name\":\"DataTableComponent\",\"kind\":\"generic React component\",\"exported\":\"indirectly as default DataTable\",\"lines\":\"145-245\",\"description\":\"Renders an accessible sortable, selectable, paginated data grid with loading, error, and empty states.\"},{\"name\":\"handleSort\",\"kind\":\"local memoized callback\",\"exported\":false,\"lines\":\"167-171\",\"description\":\"Cycles a column through ascending, descending, and unsorted states.\"},{\"name\":\"body\",\"kind\":\"local render helper\",\"exported\":false,\"lines\":\"183-201\",\"description\":\"Renders error, loading, empty, or row content for the table body.\"}],\"classes\":[],\"imports\":[{\"module\":\"react\",\"default\":\"React\",\"named\":[\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"]}],\"complexity_notes\":\"The module defines generic table-related types and a compound DataTable export with attached hooks. Client-side sorting copies the data and costs O(n log n); row ID generation and selection checks are generally O(n). toggleAll uses repeated every, includes, and filtering operations and may approach O(n*m). Async fetching uses AbortController, debounced filters, stale-update suppression, and effect dependencies; cleanup suppresses updates, while the previous request is explicitly aborted when the next effect executes. The component contains substantial conditional JSX for accessibility states, keyboard sorting, selection, and a five-button pagination window.\"}",
+  "ran_at": "2026-07-17T02:20:48.194268+00:00",
+  "reasoning_tokens": 1099
+}

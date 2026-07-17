@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.3",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254586-kTg4TX7eKg4rLpgN78Jn",
+  "provider_served": "xAI",
+  "input_tokens_billed": 3305,
+  "output_tokens_billed": 738,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00570745,
+  "execution_duration_sec": 8.191,
+  "raw_response": "{\"file_type\":\"TypeScript React\",\"line_count\":170,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"react\"],\"complexity_notes\":\"High complexity: multiple interdependent hooks (debounce, abortable fetch, selection, sorting), heavy use of useMemo/useCallback/useEffect, conditional rendering, accessibility attributes, and custom context provider.\"}",
+  "ran_at": "2026-07-17T02:16:33.796685+00:00",
+  "reasoning_tokens": 654
+}

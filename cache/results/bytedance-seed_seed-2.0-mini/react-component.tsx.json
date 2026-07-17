@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2.0-mini",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784258102-4KGbdyAz9EHOfrKrPjSJ",
+  "provider_served": "Seed",
+  "input_tokens_billed": 3463,
+  "output_tokens_billed": 13110,
+  "reasoning_tokens": 12735,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0055903,
+  "execution_duration_sec": 98.866,
+  "raw_response": "{\"file_type\": \"TypeScript React (TSX)\", \"line_count\": 252, \"functions\": [\"useDebounce<T>(value: T, delay: number): T\", \"useDataFetch<TData, TFilters extends Record<string, unknown>>(opts: UseDataFetchOptions<TData, TFilters>)\", \"useTableSelection(): SelectionCtx\", \"compareValues<T>(a: T, b: T, col: string, dir: SortDirection, extract: (row: T, c: string) => unknown): number\", \"DataTableComponent<TData, TColumn extends string = string>(props: DataTableProps<TData, TColumn>)\"], \"classes\": [], \"imports\": [\"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\", \"React\"], \"complexity_notes\": \"This file includes a production-grade React data table component with several complex features: 1. The `useDataFetch` hook manages abortable async data fetching, debounced filter updates, and state for sorting, pagination, filters, data, loading, and errors. 2. The main `DataTableComponent` uses memoization (useMemo, useCallback) to optimize re-renders, handles sortable columns with both default and custom sort functions, row selection via context, pagination UI, and error/loading states. 3. The `compareValues` function includes multiple conditional branches to handle different data types (strings, numbers, null/undefined) for consistent sorting. 4. TypeScript generics are used throughout for full type safety across data, columns, filters, and pagination. 5. AbortController is used to prevent stale network requests, and keyboard accessibility is added for sortable columns.\"}",
+  "ran_at": "2026-07-17T03:16:38.760059+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "nex-agi/nex-n2-mini",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784253680-4Rl7FTNRhlVXA4lONBzi",
+  "provider_served": "Nex AGI",
+  "input_tokens_billed": 3597,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000499525,
+  "execution_duration_sec": 20.57,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:01:40.424777+00:00",
+  "reasoning_tokens": 4096
+}

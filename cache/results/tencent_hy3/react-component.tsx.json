@@ -1,0 +1,17 @@
+{
+  "model_id": "tencent/hy3",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253630-pmvzB6vnB4lonmEUXSeD",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 3161,
+  "output_tokens_billed": 301,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00061712,
+  "execution_duration_sec": 5.569,
+  "raw_response": "{\n  \"file_type\": \"TypeScript React Module\",\n  \"line_count\": 232,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\",\n    \"body (inner function in DataTableComponent)\",\n    \"handleSort (inner useCallback in DataTableComponent)\",\n    \"ariaSort (inner function in DataTableComponent)\",\n    \"sortMark (inner function in DataTableComponent)\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React (createContext, useCallback, useContext, useEffect, useMemo, useRef, useState)\"\n  ],\n  \"complexity_notes\": \"Module implements a production-grade generic DataTable with associated hooks. Key complexity: useDataFetch manages async fetching with AbortController, debounced filters (useDebounce), and pagination/sort state. DataTableComponent uses useMemo for selection context and sorted data, conditional rendering for loading/error/empty states, and inline keyboard/aria handling for accessibility. Logic for toggleAll and selection uses Set operations. Sorting supports custom sortFn or generic compareValues with type-based comparison (string localeCompare, number subtraction, fallback string compare). Pagination renders a windowed page list (max 5 buttons). No classes; all logic via functions and React hooks. Type generics used extensively (TData, TColumn, TFilters).\"\n}",
+  "ran_at": "2026-07-17T02:00:33.965026+00:00",
+  "reasoning_tokens": 0
+}

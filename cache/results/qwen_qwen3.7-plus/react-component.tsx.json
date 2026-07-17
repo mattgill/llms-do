@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-plus",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254195-20RKFAhA0vo0t172wDsr",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 6554,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00943776,
+  "execution_duration_sec": 120.614,
+  "raw_response": "{\n  \"file_type\": \"tsx\",\n  \"line_count\": 251,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The file implements a highly generic, production-grade React data table using advanced TypeScript generics for type safety. It features custom hooks for debounced async data fetching with AbortController support to prevent race conditions, and uses React Context for row selection state management. The component includes comprehensive accessibility (ARIA) attributes, pagination, sorting, and filtering capabilities. Complexity is moderate-to-high due to the extensive use of generics, context, and asynchronous state handling, but the code is well-modularized and cleanly separated into hooks and components.\"\n}",
+  "ran_at": "2026-07-17T02:11:54.674349+00:00",
+  "reasoning_tokens": 6312
+}

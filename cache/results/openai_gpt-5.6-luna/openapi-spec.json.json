@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.6-luna",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253305-hlZvfXulDMLRarU9HC8Z",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5528,
+  "output_tokens_billed": 274,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00855325,
+  "execution_duration_sec": 2.405,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1 JSON API specification\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Structured API contract rather than executable code. Defines 7 paths and 12 HTTP operations for task CRUD, assignment, comments, attachments, search, and batch processing; 2 authentication schemes; 12 reusable schemas; shared error responses; pagination, filtering, validation constraints, examples, and multipart upload support.\"}",
+  "ran_at": "2026-07-17T01:55:04.667141+00:00",
+  "reasoning_tokens": 174
+}

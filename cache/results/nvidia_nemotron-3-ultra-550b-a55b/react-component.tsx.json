@@ -1,0 +1,17 @@
+{
+  "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254124-UgvyhQO5Vj8qBUuFBxKH",
+  "provider_served": "Together",
+  "input_tokens_billed": 3218,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0166764,
+  "execution_duration_sec": 32.749,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:09:15.807209+00:00",
+  "reasoning_tokens": 4096
+}

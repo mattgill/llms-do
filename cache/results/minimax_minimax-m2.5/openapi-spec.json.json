@@ -1,0 +1,17 @@
+{
+  "model_id": "minimax/minimax-m2.5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258924-agUEUT41CEbCl4woAP8D",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 5426,
+  "output_tokens_billed": 722,
+  "reasoning_tokens": 551,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0014637,
+  "execution_duration_sec": 5.941,
+  "raw_response": "{\"file_type\":\"openapi_specification\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is an OpenAPI 3.1.0 specification for a Task Manager REST API (v2.4.1). The document defines a production-grade API with 8 main endpoints: /tasks (GET, POST), /tasks/{task_id} (GET, PATCH, DELETE), /tasks/{task_id}/assign, /tasks/{task_id}/comments (GET, POST), /tasks/{task_id}/attachments (GET, POST), /tasks/search, and /tasks/batch. The API supports pagination, filtering, full-text search, and batch operations. It includes 5 tags: Tasks, Assignments, Comments, Attachments, and Search & Batch. Authentication is handled via JWT (bearerAuth) or API key. The specification defines 10 reusable schemas: TaskStatus, Priority, User, Task, TaskCreateRequest, TaskUpdateRequest, Comment, Attachment, Pagination, ErrorResponse, TaskListResponse, and CommentListResponse. It also defines 4 standard error responses (BadRequest, Unauthorized, NotFound, InternalError). The API runs on 3 servers: production, staging, and local development.\"}",
+  "ran_at": "2026-07-17T03:28:48.953549+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "nex-agi/nex-n2-mini",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784253672-RITe4xbhbfzfjqQLJcdP",
+  "provider_served": "Nex AGI",
+  "input_tokens_billed": 5604,
+  "output_tokens_billed": 949,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000235,
+  "execution_duration_sec": 8.905,
+  "raw_response": "{\"file_type\":\"json_openapi_spec\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is an OpenAPI 3.1.0 JSON specification, not executable code. It defines a REST API titled Task Manager API version 2.4.1 with production, staging, and local development servers. It includes bearer token and API key security schemes, five tag groups, and seven path items covering task CRUD, task assignment, comments, attachments, search, and batch operations. The API defines 12 HTTP operations across GET, POST, PATCH, and DELETE methods. Components include 12 schemas, 4 reusable response definitions, and 2 security schemes. Complexity is moderate, driven mainly by reusable schema references, pagination, validation constraints, nested example payloads, multipart upload handling, and batch operation response modeling.\"}",
+  "ran_at": "2026-07-17T02:01:18.798525+00:00",
+  "reasoning_tokens": 772
+}

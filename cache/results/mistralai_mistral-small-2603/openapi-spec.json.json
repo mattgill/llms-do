@@ -1,0 +1,17 @@
+{
+  "model_id": "mistralai/mistral-small-2603",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784257788-ijMZoJjfOvBOsxMLhqxq",
+  "provider_served": "Mistral",
+  "input_tokens_billed": 6065,
+  "output_tokens_billed": 159,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00100515,
+  "execution_duration_sec": 1.373,
+  "raw_response": "{\"file_type\": \"OpenAPI Specification (YAML/JSON)\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is an OpenAPI 3.1.0 specification document for a Task Manager API. It defines a RESTful API with 5 main resource categories (Tasks, Assignments, Comments, Attachments, Search & Batch) and includes 10 endpoints with CRUD operations, pagination, filtering, and batch operations. The document contains 20+ schema definitions, security schemes (JWT and API key), and detailed request/response examples. The complexity is high due to the comprehensive nature of the API specification with nested objects, enumerations, and validation rules.\"}",
+  "ran_at": "2026-07-17T03:09:48.354478+00:00"
+}

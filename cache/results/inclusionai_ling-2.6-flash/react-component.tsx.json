@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255662-KrC2bQ0v698tbpYIFKlB",
+  "provider_served": "Novita",
+  "input_tokens_billed": 3456,
+  "output_tokens_billed": 261,
+  "tokenizer_used": null,
+  "total_cost_billed": 4.239e-05,
+  "execution_duration_sec": 2.465,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 237,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [\n    \"DataTableComponent\"\n  ],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"The file implements a reusable DataTable component with sorting, filtering, pagination, row selection, and async data fetching. It uses React hooks (useState, useEffect, useMemo, useCallback) and a custom debounce hook. The code is generic over data type and column type, with TypeScript generics and typed props. The useDataFetch hook manages debounced filters, abortable fetch requests, and pagination state. Selection context provides row and select-all toggle logic. The table supports keyboard navigation, ARIA attributes for accessibility, and customizable sort value extractors.\"\n}",
+  "ran_at": "2026-07-17T02:34:23.041028+00:00",
+  "reasoning_tokens": 0
+}

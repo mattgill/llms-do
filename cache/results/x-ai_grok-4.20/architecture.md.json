@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257706-LlxvsLC3gK78KSpaPnGt",
+  "provider_served": "xAI",
+  "input_tokens_billed": 10049,
+  "output_tokens_billed": 120,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01272685,
+  "execution_duration_sec": 1.27,
+  "raw_response": "{\n  \"file_type\": \"documentation\",\n  \"line_count\": 1247,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive technical architecture document for the CollabSync real-time collaboration platform. It contains system overviews, architecture diagrams (ASCII art), data models (table definitions), CRDT algorithm pseudocode (in a TypeScript-like syntax), API specifications, infrastructure details, performance benchmarks, monitoring queries (PromQL), and operational procedures. No executable source code, classes, or imports are present.\"\n}",
+  "ran_at": "2026-07-17T03:08:24.620678+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784255658-V0zmVsTpVdwArJ023kDH",
+  "provider_served": "Novita",
+  "input_tokens_billed": 3865,
+  "output_tokens_billed": 341,
+  "tokenizer_used": null,
+  "total_cost_billed": 4.888e-05,
+  "execution_duration_sec": 3.151,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 237,\n  \"functions\": [\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\"\n  ],\n  \"complexity_notes\": \"The codebase implements a full-stack FastAPI project management backend with JWT authentication, async SQLAlchemy ORM, WebSocket real-time broadcasting, pagination, and CRUD operations. Complexity is moderate due to layered architecture (models, schemas, dependencies, managers) and async patterns.\"\n}",
+  "ran_at": "2026-07-17T02:34:20.575007+00:00",
+  "reasoning_tokens": 0
+}

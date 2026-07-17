@@ -1,0 +1,17 @@
+{
+  "model_id": "~anthropic/claude-haiku-latest",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254621-9WBKsP14A3dLU4aFJbwm",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 3772,
+  "output_tokens_billed": 568,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.006612,
+  "execution_duration_sec": 5.303,
+  "raw_response": "```json\n{\n  \"file_type\": \"TypeScript React Component\",\n  \"line_count\": 280,\n  \"functions\": [\n    {\n      \"name\": \"useDebounce\",\n      \"type\": \"hook\",\n      \"parameters\": [\"value: T\", \"delay: number\"],\n      \"returns\": \"T\"\n    },\n    {\n      \"name\": \"useDataFetch\",\n      \"type\": \"hook\",\n      \"parameters\": [\"opts: UseDataFetchOptions<TData, TFilters>\"],\n      \"returns\": \"object with data, loading, error, sort, filters, pagination and setters\"\n    },\n    {\n      \"name\": \"useTableSelection\",\n      \"type\": \"hook\",\n      \"parameters\": [],\n      \"returns\": \"SelectionCtx\"\n    },\n    {\n      \"name\": \"compareValues\",\n      \"type\": \"utility\",\n      \"parameters\": [\"a: T\", \"b: T\", \"col: string\", \"dir: SortDirection\", \"extract: function\"],\n      \"returns\": \"number\"\n    },\n    {\n      \"name\": \"DataTableComponent\",\n      \"type\": \"component\",\n      \"parameters\": [\"props: DataTableProps<TData, TColumn>\"],\n      \"returns\": \"React.ReactNode\"\n    }\n  ],\n  \"classes\": [],\n  \"interfaces\": [\n    \"SortDirection\",\n    \"SortState\",\n    \"ColumnDef\",\n    \"PaginationState\",\n    \"FetchResult\",\n    \"UseDataFetchOptions\",\n    \"SelectionCtx\",\n    \"DataTableProps\"\n  ],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"High complexity component with multiple concerns: state management (sorting, filtering, pagination, selection), async data fetching with abort control, debouncing, memoization, context API for selection state, and comprehensive accessibility features (ARIA attributes). The DataTableComponent uses nested useMemo and useCallback hooks for optimization. The useDataFetch hook manages complex async logic with AbortController. Sorting supports both custom comparators and default comparison. Selection state is managed via context and Set data structure for O(1) lookups.\"\n}\n```",
+  "ran_at": "2026-07-17T02:17:04.397349+00:00",
+  "reasoning_tokens": 0
+}

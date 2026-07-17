@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.6",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784255895-3vjcjwGgGqArlR2UqtfL",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 3150,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01604636,
+  "execution_duration_sec": 227.004,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:42:00.507543+00:00",
+  "reasoning_tokens": 3780
+}

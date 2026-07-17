@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-27b",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258269-aX9YCojSI6wYHjA69ojL",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 979,
+  "reasoning_tokens": 487,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.002620215,
+  "execution_duration_sec": 14.037,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI 3.1.0 Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [\n    \"listTasks\",\n    \"createTask\",\n    \"getTask\",\n    \"updateTask\",\n    \"deleteTask\",\n    \"assignTask\",\n    \"listComments\",\n    \"createComment\",\n    \"listAttachments\",\n    \"uploadAttachment\",\n    \"searchTasks\",\n    \"batchTasks\"\n  ],\n  \"classes\": [\n    \"TaskStatus\",\n    \"Priority\",\n    \"User\",\n    \"Task\",\n    \"TaskCreateRequest\",\n    \"TaskUpdateRequest\",\n    \"Comment\",\n    \"Attachment\",\n    \"Pagination\",\n    \"ErrorResponse\",\n    \"TaskListResponse\",\n    \"CommentListResponse\"\n  ],\n  \"imports\": [\n    \"#/components/schemas/TaskStatus\",\n    \"#/components/schemas/Priority\",\n    \"#/components/schemas/User\",\n    \"#/components/schemas/Task\",\n    \"#/components/schemas/TaskCreateRequest\",\n    \"#/components/schemas/TaskUpdateRequest\",\n    \"#/components/schemas/Comment\",\n    \"#/components/schemas/Attachment\",\n    \"#/components/schemas/Pagination\",\n    \"#/components/schemas/ErrorResponse\",\n    \"#/components/schemas/TaskListResponse\",\n    \"#/components/schemas/CommentListResponse\",\n    \"#/components/responses/BadRequest\",\n    \"#/components/responses/Unauthorized\",\n    \"#/components/responses/NotFound\",\n    \"#/components/responses/InternalError\"\n  ],\n  \"complexity_notes\": \"Production-grade REST API with 12 operations across 7 endpoints. Supports JWT bearer auth and API key authentication. Features include pagination (up to 100 items/page), full-text search, batch operations (up to 50 tasks), file attachments (max 25MB), and nested comment threads. API version 2.4.1 with three server environments (production, staging, local). Comprehensive error handling with request IDs for tracing. Schema validation includes UUID formats, date-time formats, and enum constraints for status/priority fields.\"\n}",
+  "ran_at": "2026-07-17T03:18:00.550055+00:00"
+}

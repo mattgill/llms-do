@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5-turbo",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257808-IWWQ83pP7WsYt2mPvTwc",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 3026,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4090,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0200152,
+  "execution_duration_sec": 46.233,
+  "raw_response": null,
+  "ran_at": "2026-07-17T03:10:51.621209+00:00"
+}

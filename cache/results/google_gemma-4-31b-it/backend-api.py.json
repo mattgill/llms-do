@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-31b-it",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784256172-yPsmWCs407QrQt3Z8Grw",
+  "provider_served": "WandB",
+  "input_tokens_billed": 4220,
+  "output_tokens_billed": 376,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000638,
+  "execution_duration_sec": 16.216,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 318,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"The code implements a full CRUD API with asynchronous database access (SQLAlchemy), JWT authentication, and real-time communication via WebSockets. It uses a ConnectionManager class to handle WebSocket broadcasting and Pydantic for request/response validation. The complexity is moderate, following standard FastAPI architectural patterns.\"\n}",
+  "ran_at": "2026-07-17T02:43:05.796994+00:00",
+  "reasoning_tokens": 0
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-flash-02-23",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258523-jNjqLgfQQDZgr1ylZwBa",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 4258,
+  "reasoning_tokens": 3505,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001506505,
+  "execution_duration_sec": 18.253,
+  "raw_response": "{\n  \"file_type\": \"text/markdown\",\n  \"line_count\": 485,\n  \"functions\": [\n    \"CORE PRINCIPLES\",\n    \"TOOL DESCRIPTIONS\",\n    \"CODE STYLE GUIDELINES\",\n    \"SECURITY RULES\",\n    \"FRAMEWORK-SPECIFIC INSTRUCTIONS\",\n    \"REVIEW CHECKLIST BEFORE SUBMITTING CODE\",\n    \"OUTPUT FORMAT REQUIREMENTS\",\n    \"FALLBACK BEHAVIORS FOR AMBIGUITY\",\n    \"COMMON ANTI-PATTERNS TO AVOID\",\n    \"SESSION METADATA\",\n    \"FINAL REMINDER\"\n  ],\n  \"classes\": [\n    \"Naming\",\n    \"Imports and Dependencies\",\n    \"Error Handling\",\n    \"Testing Requirements\",\n    \"Never Log Secrets\",\n    \"Validate All Inputs\",\n    \"Sanitize All Outputs\",\n    \"Additional Security\",\n    \"React Patterns\",\n    \"FastAPI Patterns\",\n    \"Database Migration Rules\",\n    \"COMPILATION\",\n    \"TESTS\",\n    \"SECURITY\",\n    \"DEPENDENCIES\",\n    \"MIGRATIONS\",\n    \"ERROR HANDLING\",\n    \"LOGGING\",\n    \"PERFORMANCE\",\n    \"STYLE\",\n    \"NAMING\",\n    \"DEAD CODE\",\n    \"GIT HYGIENE\",\n    \"CONVENTION\",\n    \"INDUSTRY STANDARD\",\n    \"LEAST SURPRISE\",\n    \"DEFAULT\",\n    \"ASK\",\n    \"AP-01\",\n    \"AP-02\",\n    \"AP-03\",\n    \"AP-04\",\n    \"AP-05\",\n    \"AP-06\",\n    \"AP-07\",\n    \"AP-08\",\n    \"AP-09\",\n    \"AP-10\",\n    \"AP-11\",\n    \"AP-12\",\n    \"AP-13\",\n    \"AP-14\",\n    \"AP-15\",\n    \"AP-16\",\n    \"AP-17\"\n  ],\n  \"imports\": [\n    \"read_file\",\n    \"write_file\",\n    \"search_codebase\",\n    \"run_tests\",\n    \"git_commit\",\n    \"deploy_preview\",\n    \"query_database\",\n    \"fetch_docs\",\n    \"pytest\",\n    \"jest\",\n    \"vitest\",\n    \"go test\",\n    \"cargo test\",\n    \"phpunit\",\n    \"zod\",\n    \"pydantic\",\n    \"class-validator\",\n    \"bcrypt\",\n    \"argon2\",\n    \"scrypt\",\n    \"libsodium\",\n    \"Web Crypto API\",\n    \"React\",\n    \"FastAPI\",\n    \"Django\",\n    \"Prisma\",\n    \"Drizzle\",\n    \"Celery\",\n    \"Arq\",\n    \"SQLAlchemy\",\n    \"ESLint\",\n    \"Prettier\",\n    \"Ruff\",\n    \"Black\",\n    \"gofmt\"\n  ],\n  \"complexity_notes\": \"System instruction document for an autonomous AI agent (DevBot). Defines operational principles, tool usage, coding standards, security protocols, and output formatting. Contains extensive conditional logic for ambiguity resolution and anti-pattern avoidance. High density of rules and constraints.\"\n}",
+  "ran_at": "2026-07-17T03:22:20.365969+00:00"
+}

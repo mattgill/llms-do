@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.6",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784255736-lqubzt8UhvlmtEtl1zeC",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 5348,
+  "output_tokens_billed": 1039,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00707267,
+  "execution_duration_sec": 52.285,
+  "raw_response": " {\"file_type\": \"openapi_json\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"OpenAPI 3.1.0 specification for a Task Manager API. Defines 12 operations across 6 path groups (/tasks, /tasks/{task_id}, /tasks/{task_id}/assign, /tasks/{task_id}/comments, /tasks/{task_id}/attachments, /tasks/search, /tasks/batch), 12 reusable schemas (Task, User, Comment, Attachment, Pagination, ErrorResponse, etc.), 2 security schemes (Bearer JWT and API Key), and 4 reusable response components (BadRequest, Unauthorized, NotFound, InternalError). The spec includes detailed request/response examples, validation patterns, enum constraints, and pagination metadata. Content is minified JSON.\"}",
+  "ran_at": "2026-07-17T02:36:25.568768+00:00",
+  "reasoning_tokens": 912
+}

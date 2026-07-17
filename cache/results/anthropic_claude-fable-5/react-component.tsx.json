@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-fable-5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784254103-gZ7l3egA8rXHnUo4VitS",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 5043,
+  "output_tokens_billed": 2415,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.17118,
+  "execution_duration_sec": 36.863,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:08:58.104873+00:00",
+  "reasoning_tokens": 228
+}

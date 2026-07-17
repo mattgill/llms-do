@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-plus",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254147-e3d7FXMlXOBIISjsoF1t",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 2731,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00702144,
+  "execution_duration_sec": 48.934,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 842,\n  \"functions\": [\n    \"System Overview and Design Goals\",\n    \"High-Level Architecture\",\n    \"Data Model\",\n    \"Conflict Resolution: CRDT Algorithm\",\n    \"API Design\",\n    \"Authentication and Authorization\",\n    \"Infrastructure\",\n    \"Performance Benchmarks and Scaling Strategy\",\n    \"Disaster Recovery and Backup Strategy\",\n    \"Monitoring and Observability\"\n  ],\n  \"classes\": [\n    \"workspaces\",\n    \"documents\",\n    \"users\",\n    \"memberships\",\n    \"operations\",\n    \"snapshots\",\n    \"document_presence\"\n  ],\n  \"imports\": [\n    \"PostgreSQL\",\n    \"Redis\",\n    \"S3\",\n    \"Apache Pulsar\",\n    \"Kubernetes\",\n    \"Envoy\",\n    \"OpenTelemetry\",\n    \"Prometheus\"\n  ],\n  \"complexity_notes\": \"The content is a comprehensive technical architecture document written in Markdown, not executable code. It is structured into 10 major sections detailing the design, data models, algorithms (CRDT), APIs, infrastructure, and observability of a real-time collaboration platform. The text structure heavily utilizes markdown tables, ASCII topology diagrams, SQL schema definitions, TypeScript type definitions, and JSON configuration examples to convey complex system design concepts.\"\n}",
+  "ran_at": "2026-07-17T02:09:56.173078+00:00",
+  "reasoning_tokens": 2420
+}

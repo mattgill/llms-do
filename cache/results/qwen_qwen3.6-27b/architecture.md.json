@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-27b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784255176-MxDTorxhKpVsBdpCcsxx",
+  "provider_served": "Morph",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 1551,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.006906602,
+  "execution_duration_sec": 23.858,
+  "raw_response": "\n\n{\n  \"file_type\": \"markdown\",\n  \"line_count\": 584,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Technical architecture document for the CollabSync real-time collaboration platform. Structured into 10 sections covering system design goals, high-level topology, relational data model, CRDT-based conflict resolution algorithm, REST/WebSocket API specifications, JWT/SSO authentication flows, Kubernetes infrastructure, performance benchmarks, disaster recovery procedures, and observability metrics. Contains ASCII diagrams, markdown tables, and embedded code/configuration blocks (TypeScript, JSON, PromQL, Bash). Complexity is architectural and operational rather than algorithmic or executable.\"\n}",
+  "ran_at": "2026-07-17T02:26:36.648776+00:00",
+  "reasoning_tokens": 1511
+}

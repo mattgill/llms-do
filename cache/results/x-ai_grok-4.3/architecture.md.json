@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.3",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254576-uq012zKYHeMZ1hWYlieg",
+  "provider_served": "xAI",
+  "input_tokens_billed": 10057,
+  "output_tokens_billed": 707,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01413715,
+  "execution_duration_sec": 10.876,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 685,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Long-form technical architecture document (10 numbered sections) containing multiple tables, ASCII topology diagrams, ER diagrams, TypeScript type definitions, pseudocode algorithms, JSON examples, and structured lists; no executable code present.\"\n}",
+  "ran_at": "2026-07-17T02:16:23.687316+00:00",
+  "reasoning_tokens": 625
+}

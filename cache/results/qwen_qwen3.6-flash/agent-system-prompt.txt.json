@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-flash",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784254943-im2kUy54XRvWvVy5RzK2",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 440,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0016471875,
+  "execution_duration_sec": 8.125,
+  "raw_response": "```json\n{\n  \"file_type\": \"system_prompt\",\n  \"line_count\": 387,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a system prompt/instruction document for an AI software engineering agent called DevBot. It contains no executable code. The document is structured into multiple sections: Core Principles (7 rules), Tool Descriptions (8 tools with parameters and behaviors), Code Style Guidelines (naming, imports, error handling, testing), Security Rules (secrets, input validation, output sanitization), Framework-Specific Instructions (React, FastAPI, Database Migrations), Review Checklist (12 verification items), Output Format Requirements (work item structure), Fallback Behaviors for Ambiguity (5-tier hierarchy), Common Anti-Patterns to Avoid (17 patterns labeled AP-01 through AP-17), Session Metadata, and a Final Reminder. The document uses markdown-style formatting with section headers marked by === delimiters. It defines behavioral constraints, tool usage patterns, and code quality standards for an autonomous coding agent operating in a Linux container environment.\"\n}\n```",
+  "ran_at": "2026-07-17T02:22:28.746058+00:00",
+  "reasoning_tokens": 191
+}

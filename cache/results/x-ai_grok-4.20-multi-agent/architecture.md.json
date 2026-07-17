@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20-multi-agent",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784257677-Hy1cUY8cE288c8mFnn8n",
+  "provider_served": "xAI",
+  "input_tokens_billed": 290771,
+  "output_tokens_billed": 12357,
+  "reasoning_tokens": 12117,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.16674985,
+  "execution_duration_sec": 22.092,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 942,\n  \"functions\": [\"applyOperation\", \"binarySearchByPosition\", \"findPositionIndex\", \"splicePositions\", \"mergeAttributes\", \"hash\"],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Comprehensive 10-section technical architecture Markdown document for CollabSync v2.4.0 (real-time CRDT-based collaboration platform). Includes system overview with NFR table, ASCII art topology/ER diagrams, 7 detailed DB table schemas, CRDT algorithm (RGA/LSEQ with TypeScript pseudocode and merge logic), REST/WebSocket API specs with JSON examples and rate limit table, JWT/SSO auth flows, K8s/EKS infra topology, performance benchmarks/load test config, multi-region DR procedures with bash snippets, PromQL queries, OTel tracing, structured logging schema, alerting rules, and Grafana dashboard descriptions. High structural complexity with cross-referenced sections on scalability (consistent hashing, sharding), consistency guarantees, observability (RED metrics, business metrics), and chaos engineering.\"\n}",
+  "ran_at": "2026-07-17T03:08:15.780917+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-122b-a10b",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784258421-aDWsQPh2J0ly1fksIoON",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 541,
+  "reasoning_tokens": 336,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00272298,
+  "execution_duration_sec": 13.406,
+  "raw_response": "{\n  \"file_type\": \"system_prompt_documentation\",\n  \"line_count\": 687,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a comprehensive system prompt/instruction document for an autonomous AI software engineering agent (DevBot). Structure includes: 1) Core Principles (7 items), 2) Tool Descriptions (8 tools with parameters and behavior), 3) Code Style Guidelines (Naming, Imports, Error Handling, Testing), 4) Security Rules (4 major categories), 5) Framework-Specific Instructions (React, FastAPI, Database Migrations), 6) Review Checklist (12 verification items), 7) Output Format Requirements, 8) Fallback Behaviors for Ambiguity (5-tier hierarchy), 9) Common Anti-Patterns (17 patterns to avoid), 10) Session Metadata, 11) Final Reminder. Document is highly structured with clear section delimiters, uses markdown-style headers, and contains detailed operational guidelines for code generation, testing, security, and deployment workflows. No executable code present - purely instructional content.\"\n}",
+  "ran_at": "2026-07-17T03:20:33.799993+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k3",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784253180-DxWpxLqVbRTCufvUEkA0",
+  "provider_served": "Moonshot AI",
+  "input_tokens_billed": 3234,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.071142,
+  "execution_duration_sec": 116.549,
+  "raw_response": null,
+  "ran_at": "2026-07-17T01:54:56.411767+00:00",
+  "reasoning_tokens": 4093
+}

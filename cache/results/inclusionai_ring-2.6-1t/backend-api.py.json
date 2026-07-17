@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ring-2.6-1t",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254549-F0R5UMRTtmpbTETAgAik",
+  "provider_served": "Novita",
+  "input_tokens_billed": 3872,
+  "output_tokens_billed": 1768,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0013954,
+  "execution_duration_sec": 12.43,
+  "raw_response": "{\"file_type\": \"Python (FastAPI web application)\", \"line_count\": 342, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"asyncio\", \"logging\", \"datetime.UTC\", \"datetime.datetime\", \"datetime.timedelta\", \"enum.StrEnum\", \"typing.Annotated\", \"typing.Any\", \"typing.Sequence\", \"jwt\", \"fastapi.BackgroundTasks\", \"fastapi.Depends\", \"fastapi.FastAPI\", \"fastapi.HTTPException\", \"fastapi.Query\", \"fastapi.Request\", \"fastapi.WebSocket\", \"fastapi.WebSocketDisconnect\", \"fastapi.status\", \"fastapi.encoders.jsonable_encoder\", \"fastapi.middleware.cors.CORSMiddleware\", \"fastapi.responses.JSONResponse\", \"passlib.context.CryptContext\", \"pydantic.BaseModel\", \"pydantic.ConfigDict\", \"pydantic.Field\", \"sqlalchemy.Boolean\", \"sqlalchemy.Column\", \"sqlalchemy.DateTime\", \"sqlalchemy.Enum\", \"sqlalchemy.ForeignKey\", \"sqlalchemy.Integer\", \"sqlalchemy.String\", \"sqlalchemy.Text\", \"sqlalchemy.create_engine\", \"sqlalchemy.select\", \"sqlalchemy.ext.asyncio.AsyncSession\", \"sqlalchemy.ext.asyncio.create_async_engine\", \"sqlalchemy.orm.DeclarativeBase\", \"sqlalchemy.orm.Mapped\", \"sqlalchemy.orm.declared_attr\", \"sqlalchemy.orm.mapped_column\", \"sqlalchemy.orm.relationship\", \"sqlalchemy.orm.sessionmaker\"], \"complexity_notes\": \"Moderate-to-high complexity. The file consolidates models, Pydantic schemas, JWT helpers, authentication dependencies, a WebSocket manager, background tasks, and all CRUD route handlers in a single module. The list_projects endpoint has multiple conditional query branches (status filter, search). The get_current_user dependency performs DB I/O and JWT validation. The ConnectionManager class uses an in-memory dict keyed by project_id, which may not scale horizontally. The global exception handler catches all Exception types, which can mask bugs. The login endpoint uses Query parameters for credentials, which is a security anti-pattern (credentials in URL). No input validation middleware or rate limiting is present.\"}",
+  "ran_at": "2026-07-17T02:16:01.086492+00:00",
+  "reasoning_tokens": 972
+}

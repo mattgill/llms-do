@@ -1,0 +1,17 @@
+{
+  "model_id": "poolside/laguna-m.1",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254600-tf99jwHadfrLJ3kcCmRn",
+  "provider_served": "Poolside",
+  "input_tokens_billed": 5684,
+  "output_tokens_billed": 696,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0014144,
+  "execution_duration_sec": 6.683,
+  "raw_response": "\n{\"file_type\": \"OpenAPI Specification (JSON)\", \"line_count\": 1, \"functions\": [\"listTasks\", \"createTask\", \"getTask\", \"updateTask\", \"deleteTask\", \"assignTask\", \"listComments\", \"createComment\", \"listAttachments\", \"uploadAttachment\", \"searchTasks\", \"batchTasks\"], \"classes\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"imports\": [], \"complexity_notes\": \"Comprehensive REST API specification with 12 operations across 5 resource categories (Tasks, Assignments, Comments, Attachments, Search & Batch). Features include JWT and API key authentication, pagination, filtering, full-text search, batch operations (up to 50 items), file upload support (multipart/form-data), and detailed error responses with request tracking. All schemas are defined inline with $ref references. No external imports or code dependencies.\"}\n",
+  "ran_at": "2026-07-17T02:16:44.745316+00:00",
+  "reasoning_tokens": 481
+}

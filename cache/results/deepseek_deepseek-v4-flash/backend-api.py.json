@@ -1,0 +1,17 @@
+{
+  "model_id": "deepseek/deepseek-v4-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784248675-MQ7gwB2Nx2eK8Ku8xptf",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 3627,
+  "output_tokens_billed": 573,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000424962,
+  "execution_duration_sec": 11.698,
+  "raw_response": "{\n  \"file_type\": \"Python\",\n  \"line_count\": 310,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum.StrEnum\",\n    \"typing.Annotated\",\n    \"typing.Any\",\n    \"typing.Sequence\",\n    \"jwt\",\n    \"fastapi.BackgroundTasks\",\n    \"fastapi.Depends\",\n    \"fastapi.FastAPI\",\n    \"fastapi.HTTPException\",\n    \"fastapi.Query\",\n    \"fastapi.Request\",\n    \"fastapi.WebSocket\",\n    \"fastapi.WebSocketDisconnect\",\n    \"fastapi.status\",\n    \"fastapi.encoders.jsonable_encoder\",\n    \"fastapi.middleware.cors.CORSMiddleware\",\n    \"passlib.context.CryptContext\",\n    \"pydantic.BaseModel\",\n    \"pydantic.ConfigDict\",\n    \"pydantic.Field\",\n    \"sqlalchemy.Boolean\",\n    \"sqlalchemy.Column\",\n    \"sqlalchemy.DateTime\",\n    \"sqlalchemy.Enum\",\n    \"sqlalchemy.ForeignKey\",\n    \"sqlalchemy.Integer\",\n    \"sqlalchemy.String\",\n    \"sqlalchemy.Text\",\n    \"sqlalchemy.create_engine\",\n    \"sqlalchemy.select\",\n    \"sqlalchemy.ext.asyncio.AsyncSession\",\n    \"sqlalchemy.ext.asyncio.create_async_engine\",\n    \"sqlalchemy.orm.DeclarativeBase\",\n    \"sqlalchemy.orm.Mapped\",\n    \"sqlalchemy.orm.declared_attr\",\n    \"sqlalchemy.orm.mapped_column\",\n    \"sqlalchemy.orm.relationship\",\n    \"sqlalchemy.orm.sessionmaker\",\n    \"fastapi.responses.JSONResponse\"\n  ],\n  \"complexity_notes\": \"Moderate complexity: includes async database operations, JWT authentication, WebSocket connection management, background tasks, and CRUD endpoints with pagination and filtering. The code is well-structured with clear separation of concerns, but the global exception handler and WebSocket error handling could be more robust.\"\n}",
+  "ran_at": "2026-07-17T00:38:03.824372+00:00",
+  "reasoning_tokens": 0
+}

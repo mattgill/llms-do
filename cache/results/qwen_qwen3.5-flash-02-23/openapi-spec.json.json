@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-flash-02-23",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258460-tgV0VPG7kSkWlkXz5Nlv",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 8820,
+  "reasoning_tokens": 8696,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.002657525,
+  "execution_duration_sec": 63.019,
+  "raw_response": "{\n  \"file_type\": \"OpenAPI Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"OpenAPI 3.1.0 specification. Single-line minified JSON. Defines 7 API paths (Tasks, Assignments, Comments, Attachments, Search, Batch). Includes 10+ schemas (Task, User, Comment, Attachment, Pagination, etc.). Supports Bearer and API Key authentication. Standard error responses defined.\"\n}",
+  "ran_at": "2026-07-17T03:22:02.017175+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.7-plus",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254158-MN1wocWyOqSs3Ut0G37y",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 3801,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00601664,
+  "execution_duration_sec": 69.386,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 314,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"__future__\",\n    \"asyncio\",\n    \"logging\",\n    \"datetime\",\n    \"enum\",\n    \"typing\",\n    \"jwt\",\n    \"fastapi\",\n    \"fastapi.encoders\",\n    \"fastapi.middleware.cors\",\n    \"passlib.context\",\n    \"pydantic\",\n    \"sqlalchemy\",\n    \"sqlalchemy.ext.asyncio\",\n    \"sqlalchemy.orm\",\n    \"fastapi.responses\"\n  ],\n  \"complexity_notes\": \"Moderate complexity. Implements a full FastAPI backend with async SQLAlchemy ORM, JWT authentication, Pydantic validation, WebSockets for real-time updates, and background tasks. Notable patterns include dependency injection for DB sessions and user auth, a custom in-memory WebSocket connection manager, and paginated database queries. One minor structural note: JSONResponse is imported midway through the file, which is valid in Python but unconventional.\"\n}",
+  "ran_at": "2026-07-17T02:10:26.195063+00:00",
+  "reasoning_tokens": 3411
+}

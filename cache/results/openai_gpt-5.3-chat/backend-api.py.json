@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.3-chat",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784258017-sTOeJaRemR9icxnWwlTS",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3293,
+  "output_tokens_billed": 437,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01188075,
+  "execution_duration_sec": 3.937,
+  "raw_response": "{\"file_type\":\"python\",\"line_count\":499,\"functions\":[\"get_db\",\"create_access_token\",\"decode_access_token\",\"get_current_user\",\"notify_project_created\",\"global_exception_handler\",\"login\",\"create_project\",\"list_projects\",\"read_project\",\"update_project\",\"delete_project\",\"websocket_project\"],\"classes\":[\"Base\",\"ProjectStatus\",\"User\",\"Project\",\"ProjectCreate\",\"ProjectRead\",\"ProjectUpdate\",\"PaginatedResponse\",\"TokenResponse\",\"ConnectionManager\"],\"imports\":[\"__future__.annotations\",\"asyncio\",\"logging\",\"datetime.UTC\",\"datetime.datetime\",\"datetime.timedelta\",\"enum.StrEnum\",\"typing.Annotated\",\"typing.Any\",\"typing.Sequence\",\"jwt\",\"fastapi.BackgroundTasks\",\"fastapi.Depends\",\"fastapi.FastAPI\",\"fastapi.HTTPException\",\"fastapi.Query\",\"fastapi.Request\",\"fastapi.WebSocket\",\"fastapi.WebSocketDisconnect\",\"fastapi.status\",\"fastapi.encoders.jsonable_encoder\",\"fastapi.middleware.cors.CORSMiddleware\",\"passlib.context.CryptContext\",\"pydantic.BaseModel\",\"pydantic.ConfigDict\",\"pydantic.Field\",\"sqlalchemy.Boolean\",\"sqlalchemy.Column\",\"sqlalchemy.DateTime\",\"sqlalchemy.Enum\",\"sqlalchemy.ForeignKey\",\"sqlalchemy.Integer\",\"sqlalchemy.String\",\"sqlalchemy.Text\",\"sqlalchemy.create_engine\",\"sqlalchemy.select\",\"sqlalchemy.ext.asyncio.AsyncSession\",\"sqlalchemy.ext.asyncio.create_async_engine\",\"sqlalchemy.orm.DeclarativeBase\",\"sqlalchemy.orm.Mapped\",\"sqlalchemy.orm.declared_attr\",\"sqlalchemy.orm.mapped_column\",\"sqlalchemy.orm.relationship\",\"sqlalchemy.orm.sessionmaker\",\"fastapi.responses.JSONResponse\"],\"complexity_notes\":\"Moderate-to-high complexity FastAPI backend combining async SQLAlchemy ORM, JWT authentication, WebSocket real-time updates, and background tasks. Contains multiple interdependent layers (models, schemas, routes, auth, DB). Async flow and dependency injection increase cognitive load. Query building with pagination and filtering adds moderate logic complexity. WebSocket connection manager introduces stateful behavior. Error handling and security (JWT, password hashing) add additional considerations.\"}",
+  "ran_at": "2026-07-17T03:13:40.813050+00:00"
+}

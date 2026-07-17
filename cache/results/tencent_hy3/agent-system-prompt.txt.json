@@ -1,0 +1,17 @@
+{
+  "model_id": "tencent/hy3",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784253626-wpRS5MGWlrqQjJZN12hK",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 6006,
+  "output_tokens_billed": 207,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0009609,
+  "execution_duration_sec": 3.427,
+  "raw_response": "{\n  \"file_type\": \"agent_instruction_specification\",\n  \"line_count\": 248,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a natural-language specification document defining the behavior, tools, style guidelines, security rules, and output format for an autonomous AI software engineering agent (DevBot). It contains no executable code, functions, or classes. The structure consists of section headers (e.g., CORE PRINCIPLES, TOOL DESCRIPTIONS, CODE STYLE GUIDELINES, SECURITY RULES, FRAMEWORK-SPECIFIC INSTRUCTIONS, REVIEW CHECKLIST, OUTPUT FORMAT REQUIREMENTS, FALLBACK BEHAVIORS, COMMON ANTI-PATTERNS, SESSION METADATA) with bulleted and sub-bulleted prose. Tool descriptions include parameterized schemas. The document is a prompt/configuration artifact, not source code.\"\n}",
+  "ran_at": "2026-07-17T02:00:28.395430+00:00",
+  "reasoning_tokens": 0
+}

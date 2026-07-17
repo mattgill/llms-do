@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784257708-ZXIFgrSD0VnisKGVlCwT",
+  "provider_served": "xAI",
+  "input_tokens_billed": 5975,
+  "output_tokens_billed": 123,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00764185,
+  "execution_duration_sec": 1.146,
+  "raw_response": "{\n  \"file_type\": \"text\",\n  \"line_count\": 460,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is not source code. It is a comprehensive system prompt and instruction manual for an autonomous AI software engineering agent named DevBot. The document defines core principles, tool descriptions (read_file, write_file, search_codebase, etc.), code style guidelines, security rules, framework-specific patterns, review checklists, output format requirements, and anti-patterns. It contains no executable code, functions, classes, or imports.\"\n}",
+  "ran_at": "2026-07-17T03:08:26.211857+00:00"
+}

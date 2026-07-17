@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2.0-lite",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257894-atK4jOsGWqWWaFBRGkiC",
+  "provider_served": "Seed",
+  "input_tokens_billed": 3463,
+  "output_tokens_billed": 1783,
+  "reasoning_tokens": 1590,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00443175,
+  "execution_duration_sec": 25.452,
+  "raw_response": "{\"file_type\": \"React TypeScript (TSX) Component File\", \"line_count\": 227, \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\"], \"classes\": [], \"imports\": [\"React\", \"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\"], \"complexity_notes\": \"This module implements a feature-rich accessible data table with complex integrated state management for sorting, filtering, pagination, and row selection. It uses custom hooks for debounced filter updates and abortable async data fetching to prevent race conditions, React Context for selection state to avoid prop drilling, client-side sorting supporting custom column sort functions, and ARIA-compliant UI patterns. Side effect management for async fetches includes AbortController cleanup, adding to the module's logical complexity.\"}",
+  "ran_at": "2026-07-17T03:11:57.928528+00:00"
+}

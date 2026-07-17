@@ -1,0 +1,17 @@
+{
+  "model_id": "writer/palmyra-x5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784259392-N1DBLQzzXIYat7COuZIL",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 3046,
+  "output_tokens_billed": 173,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0028656,
+  "execution_duration_sec": 2.489,
+  "raw_response": "{\n  \"file_type\": \"typescript\",\n  \"line_count\": 204,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React\",\n    \"createContext\",\n    \"useCallback\",\n    \"useContext\",\n    \"useEffect\",\n    \"useMemo\",\n    \"useRef\",\n    \"useState\"\n  ],\n  \"complexity_notes\": \"High complexity due to multiple custom hooks, context usage, async data handling with debouncing and aborting, sorting logic, selection state management, and comprehensive accessibility features. The component supports advanced features like pagination, filtering, sorting with fallback comparators, and row selection with 'select all' functionality.\"\n}",
+  "ran_at": "2026-07-17T03:36:33.659301+00:00"
+}

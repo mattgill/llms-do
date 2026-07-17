@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-plus",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784256178-tNnySD4PSVFwoesaYgGq",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 1621,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.004982575,
+  "execution_duration_sec": 27.713,
+  "raw_response": "{\"file_type\":\"openapi_specification\",\"line_count\":1,\"functions\":[\"listTasks\",\"createTask\",\"getTask\",\"updateTask\",\"deleteTask\",\"assignTask\",\"listComments\",\"createComment\",\"listAttachments\",\"uploadAttachment\",\"searchTasks\",\"batchTasks\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"Production-grade OpenAPI 3.1.0 specification defining a RESTful Task Manager API. Includes 12 operations across 5 resource tags (Tasks, Assignments, Comments, Attachments, Search & Batch). Defines comprehensive JSON schemas for request/response payloads, pagination, error handling, and security schemes (JWT Bearer and API Key). Supports CRUD, batch operations, full-text search, and multipart file uploads with strict validation, enum constraints, and standardized error responses.\"}",
+  "ran_at": "2026-07-17T02:43:26.212254+00:00",
+  "reasoning_tokens": 1426
+}

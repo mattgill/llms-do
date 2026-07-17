@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.1",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784248684-CmB1UcJwf0Mv6xgxcwZY",
+  "provider_served": "Meta",
+  "input_tokens_billed": 5995,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01831165,
+  "execution_duration_sec": 16.746,
+  "raw_response": null,
+  "ran_at": "2026-07-17T00:38:20.570876+00:00",
+  "reasoning_tokens": 4093
+}

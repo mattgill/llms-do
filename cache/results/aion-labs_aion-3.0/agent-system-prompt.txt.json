@@ -1,0 +1,17 @@
+{
+  "model_id": "aion-labs/aion-3.0",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784253594-K1bj5HzfcvT6qSj9mjzA",
+  "provider_served": "AionLabs",
+  "input_tokens_billed": 5856,
+  "output_tokens_billed": 484,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.020472,
+  "execution_duration_sec": 11.794,
+  "raw_response": "{\"file_type\": \"text\", \"line_count\": 247, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is a structured system prompt document for an autonomous AI software engineering agent (DevBot). It contains 11 major sections separated by '====' delimiters: CORE PRINCIPLES (7 principles), TOOL DESCRIPTIONS (6 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), CODE STYLE GUIDELINES (naming, imports, error handling, testing), SECURITY RULES (input validation, output sanitization, secret handling), FRAMEWORK-SPECIFIC INSTRUCTIONS (React, FastAPI, database migrations), REVIEW CHECKLIST (12 items), OUTPUT FORMAT REQUIREMENTS, FALLBACK BEHAVIORS (5-level hierarchy), COMMON ANTI-PATTERNS (17 items AP-01 through AP-17), SESSION METADATA, and FINAL REMINDER. The document uses hierarchical formatting with headers, bullet points, and code-style inline formatting. It defines operational constraints, tool APIs, coding standards, and behavioral guidelines for the AI agent.\"}\n",
+  "ran_at": "2026-07-17T02:00:04.500556+00:00",
+  "reasoning_tokens": 259
+}

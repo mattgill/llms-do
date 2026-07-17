@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.5-9b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784257968-WL5GGNbI9bomUsjXjoy6",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 787,
+  "reasoning_tokens": 617,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00044575,
+  "execution_duration_sec": 20.899,
+  "raw_response": "```json\n{\n  \"file_type\": \"TypeScript/React Component\",\n  \"line_count\": 203,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"React (createContext, useCallback, useContext, useEffect, useMemo, useRef, useState)\"\n  ],\n  \"complexity_notes\": \"High complexity data table component with multiple features: sorting, filtering, pagination, row selection, async data fetching with abort control, debounced hooks, and React Context for selection state. Contains 5 main functions, 7 TypeScript interfaces/types, and extensive inline JSX rendering logic. The useDataFetch hook manages complex state with abortable fetches and debounced filters. DataTableComponent handles sorting, selection, pagination UI, and accessibility attributes. Code organization uses clear section comments for maintainability.\"\n}\n```",
+  "ran_at": "2026-07-17T03:13:06.845492+00:00"
+}

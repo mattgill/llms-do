@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784259031-u3jeWqb1zq6ZS3KLn6wE",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3026,
+  "output_tokens_billed": 850,
+  "reasoning_tokens": 344,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0034476,
+  "execution_duration_sec": 19.822,
+  "raw_response": "{\n  \"file_type\": \"typescript_react\",\n  \"line_count\": 170,\n  \"functions\": [\n    {\n      \"name\": \"useDebounce\",\n      \"line\": 42,\n      \"type\": \"custom_hook\",\n      \"params\": [\"value: T\", \"delay: number\"],\n      \"return_type\": \"T\"\n    },\n    {\n      \"name\": \"useDataFetch\",\n      \"line\": 52,\n      \"type\": \"custom_hook\",\n      \"params\": [\"opts: UseDataFetchOptions<TData, TFilters>\"],\n      \"return_type\": \"object with data, loading, error, sort, setSort, filters, setFilters, pagination, setPage, setPageSize\"\n    },\n    {\n      \"name\": \"useTableSelection\",\n      \"line\": 93,\n      \"type\": \"custom_hook\",\n      \"params\": [],\n      \"return_type\": \"SelectionCtx\"\n    },\n    {\n      \"name\": \"compareValues\",\n      \"line\": 105,\n      \"type\": \"helper\",\n      \"params\": [\"a: T\", \"b: T\", \"col: string\", \"dir: SortDirection\", \"extract: (row: T, c: string) => unknown\"],\n      \"return_type\": \"number\"\n    },\n    {\n      \"name\": \"DataTableComponent\",\n      \"line\": 133,\n      \"type\": \"react_component\",\n      \"params\": [\"props: DataTableProps<TData, TColumn>\"],\n      \"return_type\": \"JSX.Element\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [\n    {\n      \"source\": \"react\",\n      \"specifiers\": [\"React\", \"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\"]\n    }\n  ],\n  \"complexity_notes\": \"Production-grade React data table component with extensive TypeScript generics (TData, TColumn, TFilters). Implements abortable async fetching via AbortController with debounced filters. Uses React Context for row selection state. Features include: multi-column sorting with custom sort functions, pagination with dynamic page buttons, row selection with select-all functionality, comprehensive ARIA accessibility attributes, and keyboard navigation support. The component exports a compound interface with attached hooks (DataTable.useDataFetch, DataTable.useTableSelection). Internal complexity includes memoized sorting, callback stabilization, and conditional rendering for loading/error/empty states.\"\n}",
+  "ran_at": "2026-07-17T03:30:49.093237+00:00"
+}

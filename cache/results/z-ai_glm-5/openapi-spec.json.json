@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784258955-0qM59YF81ShtL6sDumof",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 5368,
+  "output_tokens_billed": 781,
+  "reasoning_tokens": 508,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00472032,
+  "execution_duration_sec": 14.037,
+  "raw_response": "{\"file_type\": \"openapi_specification\", \"line_count\": 1, \"functions\": [\"listTasks\", \"createTask\", \"getTask\", \"updateTask\", \"deleteTask\", \"assignTask\", \"listComments\", \"createComment\", \"listAttachments\", \"uploadAttachment\", \"searchTasks\", \"batchTasks\"], \"classes\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"imports\": [], \"complexity_notes\": \"Production-grade OpenAPI 3.1.0 specification for Task Manager API v2.4.1. Defines 12 REST endpoints across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch). Includes 12 schema definitions, 2 security schemes (Bearer JWT and API Key), 3 server environments, comprehensive error responses, pagination support, and detailed examples. Supports CRUD operations, file attachments (multipart/form-data), full-text search, and batch operations (max 50 items). All endpoints use standard HTTP methods with proper status codes (200, 201, 204, 400, 401, 404, 409, 413, 500).\"}",
+  "ran_at": "2026-07-17T03:29:28.796002+00:00"
+}

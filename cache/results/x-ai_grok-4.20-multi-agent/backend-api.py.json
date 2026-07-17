@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.20-multi-agent",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784257697-ZKatdG0uZF8kwV9s2vIS",
+  "provider_served": "xAI",
+  "input_tokens_billed": 98737,
+  "output_tokens_billed": 11674,
+  "reasoning_tokens": 11384,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.08123985,
+  "execution_duration_sec": 35.566,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"line_count\": 285,\n  \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"],\n  \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"],\n  \"imports\": [\"__future__.annotations\", \"asyncio\", \"logging\", \"datetime\", \"enum\", \"typing\", \"jwt\", \"fastapi\", \"fastapi.encoders\", \"fastapi.middleware.cors\", \"passlib.context\", \"pydantic\", \"sqlalchemy\", \"sqlalchemy.ext.asyncio\", \"sqlalchemy.orm\", \"fastapi.responses\"],\n  \"complexity_notes\": \"Medium-high complexity FastAPI app integrating async SQLAlchemy ORM (with relationships and enums), JWT auth middleware, Pydantic schemas, paginated/filtered CRUD endpoints, in-memory WebSocket broadcast manager for real-time events, background tasks, CORS, and global exception handling. Some late imports and count query issues present but core structure is production-oriented with clear separation of concerns.\"\n}",
+  "ran_at": "2026-07-17T03:08:51.508860+00:00"
+}

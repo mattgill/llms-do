@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-27b",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784255179-M5YuZqA8SENcRgS1lh3M",
+  "provider_served": "Morph",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 2335,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.007379905,
+  "execution_duration_sec": 28.305,
+  "raw_response": "\n\n{\"file_type\": \"markdown\", \"line_count\": 302, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is a system prompt/instruction set for an AI agent, not executable code. It defines operational principles, available tools, coding standards, security rules, framework-specific guidelines, review checklists, output formatting, ambiguity resolution strategies, and anti-patterns. The structure is highly organized with clear section headers, horizontal rule separators, and structured lists.\"}",
+  "ran_at": "2026-07-17T02:26:47.272683+00:00",
+  "reasoning_tokens": 2365
+}

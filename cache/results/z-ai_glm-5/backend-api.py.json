@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784259005-OJDEbV3d8fIGA6YwJfMW",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3256,
+  "output_tokens_billed": 1540,
+  "reasoning_tokens": 1121,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00487968,
+  "execution_duration_sec": 26.394,
+  "raw_response": "{\n  \"file_type\": \"Python\",\n  \"line_count\": 289,\n  \"functions\": [\n    \"get_db\",\n    \"create_access_token\",\n    \"decode_access_token\",\n    \"get_current_user\",\n    \"notify_project_created\",\n    \"global_exception_handler\",\n    \"login\",\n    \"create_project\",\n    \"list_projects\",\n    \"read_project\",\n    \"update_project\",\n    \"delete_project\",\n    \"websocket_project\"\n  ],\n  \"classes\": [\n    \"Base\",\n    \"ProjectStatus\",\n    \"User\",\n    \"Project\",\n    \"ProjectCreate\",\n    \"ProjectRead\",\n    \"ProjectUpdate\",\n    \"PaginatedResponse\",\n    \"TokenResponse\",\n    \"ConnectionManager\"\n  ],\n  \"imports\": [\n    \"from __future__ import annotations\",\n    \"import asyncio\",\n    \"import logging\",\n    \"from datetime import UTC, datetime, timedelta\",\n    \"from enum import StrEnum\",\n    \"from typing import Annotated, Any, Sequence\",\n    \"import jwt\",\n    \"from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\",\n    \"from fastapi.encoders import jsonable_encoder\",\n    \"from fastapi.middleware.cors import CORSMiddleware\",\n    \"from passlib.context import CryptContext\",\n    \"from pydantic import BaseModel, ConfigDict, Field\",\n    \"from sqlalchemy import Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\",\n    \"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\",\n    \"from sqlalchemy.orm import DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\",\n    \"from fastapi.responses import JSONResponse\"\n  ],\n  \"complexity_notes\": \"FastAPI backend implementing async CRUD operations with SQLAlchemy ORM, JWT authentication, WebSocket real-time updates via ConnectionManager, background task processing, pagination support, and CORS middleware. Uses Pydantic v2 schemas for request/response validation.\"\n}",
+  "ran_at": "2026-07-17T03:30:28.774286+00:00"
+}

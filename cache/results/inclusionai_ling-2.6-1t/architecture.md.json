@@ -1,0 +1,17 @@
+{
+  "model_id": "inclusionai/ling-2.6-1t",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784255345-gU1HIU4ggVHp1TlQB0Ls",
+  "provider_served": "Novita",
+  "input_tokens_billed": 11360,
+  "output_tokens_billed": 106,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00091825,
+  "execution_duration_sec": 3.255,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 314,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"This is a technical architecture document (markdown), not source code. It describes system topology, services, data models, CRDT algorithms, API design, authentication, infrastructure, scaling, disaster recovery, and observability. No executable functions, classes, or imports are present.\"\n}",
+  "ran_at": "2026-07-17T02:29:08.272740+00:00",
+  "reasoning_tokens": 0
+}

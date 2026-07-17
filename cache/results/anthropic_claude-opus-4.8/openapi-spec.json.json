@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-4.8",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784254322-8aI9anrDNEj7KhZOaixK",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 9387,
+  "output_tokens_billed": 862,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.068485,
+  "execution_duration_sec": 9.411,
+  "raw_response": "{\"file_type\": \"OpenAPI 3.1.0 Specification (JSON)\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"api_metadata\": {\"title\": \"Task Manager API\", \"version\": \"2.4.1\", \"openapi_version\": \"3.1.0\", \"servers\": [\"Production\", \"Staging\", \"Local development\"], \"security_schemes\": [\"bearerAuth (JWT)\", \"apiKey (X-API-Key header)\"], \"tags\": [\"Tasks\", \"Assignments\", \"Comments\", \"Attachments\", \"Search & Batch\"]}, \"endpoints\": [{\"path\": \"/tasks\", \"methods\": [\"GET (listTasks)\", \"POST (createTask)\"]}, {\"path\": \"/tasks/{task_id}\", \"methods\": [\"GET (getTask)\", \"PATCH (updateTask)\", \"DELETE (deleteTask)\"]}, {\"path\": \"/tasks/{task_id}/assign\", \"methods\": [\"PATCH (assignTask)\"]}, {\"path\": \"/tasks/{task_id}/comments\", \"methods\": [\"GET (listComments)\", \"POST (createComment)\"]}, {\"path\": \"/tasks/{task_id}/attachments\", \"methods\": [\"GET (listAttachments)\", \"POST (uploadAttachment)\"]}, {\"path\": \"/tasks/search\", \"methods\": [\"POST (searchTasks)\"]}, {\"path\": \"/tasks/batch\", \"methods\": [\"POST (batchTasks)\"]}], \"schemas\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"reusable_responses\": [\"BadRequest\", \"Unauthorized\", \"NotFound\", \"InternalError\"], \"complexity_notes\": \"Well-structured production-grade REST API spec with 7 paths and 11 operations. Uses reusable $ref components extensively for schemas and error responses (DRY design). Features include pagination, filtering, full-text search, batch operations (up to 50 ops with mixed success/failure results using oneOf), and multipart file uploads. Rich validation constraints (patterns, min/max lengths, enums, formats). Two authentication mechanisms (JWT bearer + API key). Comprehensive examples provided for requests and error responses. Batch endpoint has notable complexity with polymorphic result union (Task or ErrorResponse). Single-line minified JSON, approximately 12KB in size.\"}",
+  "ran_at": "2026-07-17T02:12:11.064962+00:00",
+  "reasoning_tokens": 0
+}

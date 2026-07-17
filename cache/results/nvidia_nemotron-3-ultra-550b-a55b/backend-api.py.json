@@ -1,0 +1,17 @@
+{
+  "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254114-wwTs5J2S80OH156KlSOx",
+  "provider_served": "Together",
+  "input_tokens_billed": 3541,
+  "output_tokens_billed": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0168702,
+  "execution_duration_sec": 33.25,
+  "raw_response": null,
+  "ran_at": "2026-07-17T02:09:07.238535+00:00",
+  "reasoning_tokens": 4096
+}

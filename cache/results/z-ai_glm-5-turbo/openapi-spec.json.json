@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5-turbo",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1784257792-HS2DaUesJw2dF23duXXd",
+  "provider_served": "Z.AI",
+  "input_tokens_billed": 5368,
+  "output_tokens_billed": 703,
+  "reasoning_tokens": 398,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0092536,
+  "execution_duration_sec": 13.644,
+  "raw_response": "```json\n{\n  \"file_type\": \"OpenAPI 3.1.0 Specification (JSON)\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Minified single-line JSON OpenAPI specification for a 'Task Manager API' (v2.4.1). Defines 3 server environments (Production, Staging, Local), 2 security schemes (Bearer JWT, API Key), and 5 API tags (Tasks, Assignments, Comments, Attachments, Search & Batch). Contains 7 distinct path resources (/tasks, /tasks/{task_id}, /tasks/{task_id}/assign, /tasks/{task_id}/comments, /tasks/{task_id}/attachments, /tasks/search, /tasks/batch) exposing 11 HTTP operations total (GET, POST, PATCH, DELETE). The components section defines 12 data schemas (TaskStatus, Priority, User, Task, TaskCreateRequest, TaskUpdateRequest, Comment, Attachment, Pagination, ErrorResponse, TaskListResponse, CommentListResponse) and 4 reusable response objects (BadRequest, Unauthorized, NotFound, InternalError). The specification features rich examples, strict validation patterns (e.g., task IDs matching ^task_[a-z0-9]{10}$), pagination support, file upload handling via multipart/form-data, full-text search with field filtering, and batch operations supporting up to 50 items with 5 action types.\"\n}\n```",
+  "ran_at": "2026-07-17T03:10:05.096560+00:00"
+}

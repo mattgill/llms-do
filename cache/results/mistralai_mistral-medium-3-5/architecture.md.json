@@ -1,0 +1,17 @@
+{
+  "model_id": "mistralai/mistral-medium-3-5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784254595-kfqoeaX5lpVc6BY2JH8w",
+  "provider_served": "Mistral",
+  "input_tokens_billed": 11081,
+  "output_tokens_billed": 653,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.021519,
+  "execution_duration_sec": 5.008,
+  "raw_response": "{\"file_type\": \"markdown_documentation\", \"line_count\": 0, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Not applicable - content is a technical architecture document in markdown format, not executable code. Contains sections on system overview, architecture diagrams, data models, CRDT algorithms, API design, infrastructure, performance benchmarks, disaster recovery, and observability.\", \"structure\": {\"title\": \"CollabSync: Real-Time Collaboration Platform \u2014 Technical Architecture\", \"version\": \"2.4.0\", \"last_updated\": \"2026-07-15\", \"status\": \"Production\", \"owner\": \"Platform Engineering\", \"sections\": [{\"number\": 1, \"title\": \"System Overview and Design Goals\", \"subsections\": [\"Core Design Goals\", \"Non-Functional Requirements\"]}, {\"number\": 2, \"title\": \"High-Level Architecture\", \"subsections\": [\"System Topology\", \"Service Descriptions\"]}, {\"number\": 3, \"title\": \"Data Model\", \"subsections\": [\"Entity-Relationship Overview\", \"Table Definitions\"]}, {\"number\": 4, \"title\": \"Conflict Resolution: CRDT Algorithm\", \"subsections\": [\"RGA/LSEQ Core Concepts\", \"Operation Types\", \"Merge Algorithm\", \"Anti-Entropy Protocol\", \"Interleaving Guarantee\"]}, {\"number\": 5, \"title\": \"API Design\", \"subsections\": [\"REST API Endpoints\", \"WebSocket Protocol\", \"Rate Limits\"]}, {\"number\": 6, \"title\": \"Authentication and Authorization\", \"subsections\": [\"JWT Token Architecture\", \"Authentication Flow\", \"Authorization Model\", \"SSO Integration\"]}, {\"number\": 7, \"title\": \"Infrastructure\", \"subsections\": [\"Kubernetes Cluster Topology\", \"Data Store Configuration\"]}, {\"number\": 8, \"title\": \"Performance Benchmarks and Scaling Strategy\", \"subsections\": [\"Benchmarks\", \"Load Test Profile\", \"Horizontal Scaling Strategy\", \"Dynamic Sharding\", \"Multi-Region Active-Active\"]}, {\"number\": 9, \"title\": \"Disaster Recovery and Backup Strategy\", \"subsections\": [\"RPO and RTO Targets\", \"Backup Schedule\", \"Recovery Procedure\", \"Chaos Engineering\"]}, {\"number\": 10, \"title\": \"Monitoring and Observability\", \"subsections\": [\"Metrics\", \"Distributed Tracing\", \"Logging\", \"Alerting Rules\", \"Dashboards\"]}], \"diagrams\": [\"System Topology\", \"Entity-Relationship Overview\", \"Kubernetes Cluster Topology\", \"Multi-Region Active-Active\"], \"code_snippets\": [{\"language\": \"typescript\", \"description\": \"CRDT Operation Types\"}, {\"language\": \"javascript\", \"description\": \"Merge Algorithm\"}, {\"language\": \"json\", \"description\": \"WebSocket Protocol Messages\"}, {\"language\": \"bash\", \"description\": \"PostgreSQL Recovery Procedure\"}, {\"language\": \"promql\", \"description\": \"Prometheus Metrics Examples\"}]}}",
+  "ran_at": "2026-07-17T02:16:38.271937+00:00",
+  "reasoning_tokens": 0
+}

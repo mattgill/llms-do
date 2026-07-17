@@ -1,0 +1,17 @@
+{
+  "model_id": "ibm-granite/granite-4.1-8b",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1784254591-KmsffTDKrqjsGrbo3KJ9",
+  "provider_served": "WandB",
+  "input_tokens_billed": 4138,
+  "output_tokens_billed": 421,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000249,
+  "execution_duration_sec": 3.226,
+  "raw_response": "{\"file_type\": \"Python\", \"line_count\": 212, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"broadcast\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"from __future__ import annotations\", \"import asyncio\", \"import logging\", \"from datetime import UTC, datetime, timedelta\", \"from enum import StrEnum\", \"from typing import Annotated, Any, Sequence\", \"import jwt\", \"from fastapi import (BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status)\", \"from fastapi.encoders import jsonable_encoder\", \"from fastapi.middleware.cors import CORSMiddleware\", \"from passlib.context import CryptContext\", \"from pydantic import BaseModel, ConfigDict, Field\", \"from sqlalchemy import (Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select)\", \"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\", \"from sqlalchemy.orm import (DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker)\", \"from fastapi.responses import JSONResponse\"], \"complexity_notes\": \"The file contains a comprehensive FastAPI backend for project management with real-time WebSocket updates. It includes authentication via JWT, database models (User, Project) using SQLAlchemy, Pydantic schemas for request/response validation, and background tasks for notifications. The code is modular with clear separation of concerns, but the complexity arises from the integration of asynchronous database operations, WebSocket handling, and extensive dependency injection. The use of `asyncio` and `await` throughout suggests a high concurrency model, which may require careful testing to ensure thread safety and proper error handling.\"}",
+  "ran_at": "2026-07-17T02:16:33.263384+00:00",
+  "reasoning_tokens": 0
+}

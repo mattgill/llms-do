@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemma-4-31b-it",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1784256172-1wQ3wH1kp3fAO4QAoErZ",
+  "provider_served": "WandB",
+  "input_tokens_billed": 11061,
+  "output_tokens_billed": 229,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00140747,
+  "execution_duration_sec": 9.146,
+  "raw_response": "```json\n{\n  \"file_type\": \"technical_architecture_document\",\n  \"line_count\": 542,\n  \"functions\": [\n    {\n      \"name\": \"applyOperation\",\n      \"description\": \"Deterministic merge function for CRDT state updates handling insert, delete, format, and move operations.\",\n      \"parameters\": [\n        \"docState: CRDTState\",\n        \"op: Operation\"\n      ],\n      \"return_type\": \"CRDTState\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"The document describes a highly complex distributed system. Key technical complexities include a List CRDT based on RGA and LSEQ for conflict resolution, a multi-region active-active deployment strategy, consistent hashing for document sharding, and a dual-token JWT authentication system. It specifies a sophisticated persistence layer involving PostgreSQL (relational), Redis (ephemeral/cache), S3 (blobs), and Apache Pulsar (event streaming).\"\n}\n```",
+  "ran_at": "2026-07-17T02:42:58.498190+00:00",
+  "reasoning_tokens": 0
+}

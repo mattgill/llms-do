@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.6-plus",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784256186-cs5yDQKxcvgxOWPXqLbi",
+  "provider_served": "Alibaba",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 1383,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.004693975,
+  "execution_duration_sec": 28.009,
+  "raw_response": "{\n  \"file_type\": \"text/markdown\",\n  \"line_count\": 388,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Comprehensive system prompt and operational manual for an autonomous AI software engineering agent. Structured into 10 major sections with hierarchical headings, bullet points, and inline code examples. Covers core principles, tool specifications, coding standards, security mandates, framework-specific patterns, review checklists, output formatting rules, ambiguity fallbacks, anti-patterns, and session metadata. High informational density with strict behavioral constraints and formatting requirements. No executable code present.\"\n}",
+  "ran_at": "2026-07-17T02:43:33.806785+00:00",
+  "reasoning_tokens": 1239
+}

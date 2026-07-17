@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-5.5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1784255272-GFx77kM0aZcd3SFl2n3K",
+  "provider_served": "Azure",
+  "input_tokens_billed": 5872,
+  "output_tokens_billed": 2449,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.10283,
+  "execution_duration_sec": 43.96,
+  "raw_response": "{\"file_type\":\"plain_text_instruction_document\",\"line_count\":341,\"functions\":[],\"classes\":[],\"imports\":[],\"sections\":[{\"name\":\"Core Principles\",\"description\":\"Seven high-level engineering operating principles emphasizing correctness, codebase understanding, testing, cleanliness, determinism, explicit failure, and fixing test failures properly.\"},{\"name\":\"Tool Descriptions\",\"description\":\"Defines available agent tools and usage rules for reading/writing files, searching, running tests, committing, deploying previews, querying databases, and fetching documentation.\"},{\"name\":\"Code Style Guidelines\",\"description\":\"Covers naming, imports/dependencies, error handling, and testing conventions across multiple languages and frameworks.\"},{\"name\":\"Security Rules\",\"description\":\"Mandatory rules for avoiding secret leakage, validating inputs, sanitizing outputs, and applying secure defaults for transport, credentials, cryptography, cookies, CORS, and SQL.\"},{\"name\":\"Framework-Specific Instructions\",\"description\":\"Provides implementation patterns for React, FastAPI, and database migrations.\"},{\"name\":\"Review Checklist Before Submitting Code\",\"description\":\"Checklist for compilation, tests, security, dependencies, migrations, error handling, logging, performance, style, naming, dead code, and git hygiene.\"},{\"name\":\"Output Format Requirements\",\"description\":\"Specifies required structured work-item reporting format for completed, failed, or blocked tasks.\"},{\"name\":\"Fallback Behaviors for Ambiguity\",\"description\":\"Defines decision hierarchy for ambiguous tasks: convention, industry standard, least surprise, default assumption, or clarification request.\"},{\"name\":\"Common Anti-Patterns to Avoid\",\"description\":\"Lists seventeen prohibited engineering anti-patterns, including TODO-driven development, commented-out code, unsafe type assertions, over-mocking, and inconsistent error handling.\"},{\"name\":\"Session Metadata\",\"description\":\"Explains tool-call auditability, token budget, and sandbox/environment limitations.\"},{\"name\":\"Final Reminder\",\"description\":\"Reinforces that the agent should behave as an engineer, verify information, run tests, and avoid guessing.\"}],\"complexity_notes\":\"This is a structured operational prompt rather than executable code. It contains no functions, classes, or import statements. Complexity comes from policy density and many cross-cutting constraints spanning engineering workflow, tool usage, coding standards, security, framework conventions, output formatting, ambiguity handling, and review requirements.\"}",
+  "ran_at": "2026-07-17T02:28:33.728237+00:00",
+  "reasoning_tokens": 1985
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k2.5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1784259239-MRDtnmLkQJn4zfeTWD9u",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3149,
+  "output_tokens_billed": 5172,
+  "reasoning_tokens": 4981,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01566486,
+  "execution_duration_sec": 162.679,
+  "raw_response": "{\"file_type\": \"TypeScript React (.tsx)\", \"line_count\": 231, \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\", \"body\"], \"classes\": [\"DataTableComponent (React Function Component)\", \"DataTable (Exported Composite Component)\"], \"imports\": [\"React\", \"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\"], \"complexity_notes\": \"High-complexity React module utilizing generic TypeScript constraints, multiple custom hooks (useDebounce, useDataFetch, useTableSelection), AbortController for request cancellation, debounced filtering, Context API for row selection state, useMemo for sorting optimization, and comprehensive ARIA accessibility attributes. Implements compound component pattern with static method attachment (DataTable.useDataFetch, DataTable.useTableSelection).\"}",
+  "ran_at": "2026-07-17T03:36:39.561589+00:00"
+}
