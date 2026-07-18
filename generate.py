@@ -240,6 +240,9 @@ var FIXTURES = __FIXTURES_JSON__;
 var GEN_AT = '__GEN_AT__';
 </script>
 <script src="assets/dashboard.js"></script>
+<!-- Cloudflare Web Analytics -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"cdabaf1fd58b4f8eab855a018868e5a5"}'></script>
+<!-- End Cloudflare Web Analytics -->
 </body>
 </html>"""
 
