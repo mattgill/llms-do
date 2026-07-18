@@ -1,0 +1,93 @@
+/*
+ * LLMs Do dashboard theme.
+ *
+ * Tailwind still provides layout and spacing utilities. These overrides keep
+ * the visual system in one editable file and use a high-contrast Monokai
+ * palette for the dashboard's dark UI.
+ */
+:root {
+  --mono-bg: #1e1f1c;
+  --mono-surface: #171814;
+  --mono-raised: #2d2e27;
+  --mono-border: #4b4c42;
+  --mono-text: #f8f8f2;
+  --mono-muted: #c8c8b8;
+  --mono-dim: #a6a69a;
+  --mono-yellow: #e6db74;
+  --mono-green: #a6e22e;
+  --mono-orange: #fd971f;
+  --mono-pink: #f92672;
+  --mono-purple: #ae81ff;
+  --mono-cyan: #66d9ef;
+}
+
+html,
+body {
+  background-color: var(--mono-bg) !important;
+  color: var(--mono-text) !important;
+}
+
+/* Map the Tailwind gray utilities already used by the renderer. */
+.bg-gray-950 { background-color: var(--mono-bg) !important; }
+.bg-gray-900 { background-color: var(--mono-surface) !important; }
+.bg-gray-800 { background-color: var(--mono-raised) !important; }
+.bg-gray-800\/50 { background-color: rgba(45, 46, 39, 0.82) !important; }
+.bg-gray-900\/50 { background-color: rgba(23, 24, 20, 0.84) !important; }
+.bg-gray-900\/70 { background-color: rgba(23, 24, 20, 0.96) !important; }
+.bg-brand-600\/10 { background-color: #303323 !important; }
+
+.text-gray-100 { color: var(--mono-text) !important; }
+.text-gray-200 { color: #f4f4e8 !important; }
+.text-gray-300 { color: #e4e4d5 !important; }
+.text-gray-400 { color: var(--mono-muted) !important; }
+.text-gray-500 { color: var(--mono-dim) !important; }
+.text-gray-600 { color: #8f9085 !important; }
+.text-brand-300 { color: #d9e88b !important; }
+.text-brand-400 { color: var(--mono-green) !important; }
+.text-brand-500 { color: var(--mono-cyan) !important; }
+
+/* Summary rows should read as neutral totals; score/status colors still apply. */
+tfoot .text-brand-300 { color: var(--mono-muted) !important; }
+tfoot .text-brand-400 { color: var(--mono-text) !important; }
+
+.border-gray-700 { border-color: var(--mono-border) !important; }
+.border-gray-800 { border-color: #41423a !important; }
+.border-brand-600 { border-color: var(--mono-green) !important; }
+.divide-gray-800 > :not([hidden]) ~ :not([hidden]) { border-color: #49483e !important; }
+
+.bg-brand-600 { background-color: #829d27 !important; color: #171814 !important; }
+.border-brand-500 { border-color: var(--mono-green) !important; }
+
+select,
+input {
+  color: var(--mono-text);
+  color-scheme: dark;
+}
+
+select option {
+  background: var(--mono-raised);
+  color: var(--mono-text);
+}
+
+input::placeholder { color: var(--mono-dim); }
+
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--mono-cyan);
+  outline-offset: 2px;
+}
+
+.hover\:bg-gray-800:hover { background-color: #4b4a3d !important; }
+.hover\:bg-gray-900\/50:hover { background-color: rgba(62, 61, 50, 0.58) !important; }
+.hover\:text-gray-200:hover { color: var(--mono-text) !important; }
+.hover\:text-gray-400:hover { color: var(--mono-cyan) !important; }
+.hover\:text-brand-400:hover { color: #d4ed68 !important; }
+
+.text-amber-400 { color: var(--mono-yellow) !important; }
+.text-green-400 { color: var(--mono-green) !important; }
+.text-red-400 { color: var(--mono-pink) !important; }
+.text-purple-400 { color: var(--mono-purple) !important; }
+.text-cyan-400 { color: var(--mono-cyan) !important; }
+

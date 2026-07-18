@@ -38,6 +38,25 @@ python generate.py
 # Open output/dashboard.html
 ```
 
+## Preview the dashboard
+
+Serve the generated `public/` directory locally with:
+
+```bash
+python3 serve.py
+# Open http://127.0.0.1:8000/
+```
+
+To view it from another machine, bind to all interfaces and open port 8000 in
+the remote machine's firewall/security group:
+
+```bash
+python3 serve.py --host 0.0.0.0 --port 8000
+```
+
+This is a simple unauthenticated development server; do not expose it directly
+to the public internet.
+
 ## Dashboard columns
 
 | Column | Meaning |
