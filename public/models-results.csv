@@ -34,6 +34,11 @@ Anthropic: Claude Opus 4.8,anthropic/claude-opus-4.8,55.7,74.3,47.2,5.0,25.0,arc
 Anthropic: Claude Opus 4.8,anthropic/claude-opus-4.8,55.7,74.3,47.2,5.0,25.0,backend-api.py,python,15571,5967,1820,0,7787,0.3832,0.1169,Anthropic,16.57,0.075335,5.071225,5.071225,9.6745
 Anthropic: Claude Opus 4.8,anthropic/claude-opus-4.8,55.7,74.3,47.2,5.0,25.0,openapi-spec.json,json,21715,9387,862,0,10249,0.4323,0.0397,Anthropic,9.411,0.068485,3.306401,3.306401,6.6821
 Anthropic: Claude Opus 4.8,anthropic/claude-opus-4.8,55.7,74.3,47.2,5.0,25.0,react-component.tsx,typescript,12332,5043,1191,0,6234,0.4089,0.0966,Anthropic,13.19,0.05499,4.673464,4.673464,8.821
+Claude Opus 5,anthropic/claude-opus-5,60.7,78,55.3,5.0,25.0,agent-system-prompt.txt,prose,28296,9715,2859,0,12574,0.3433,0.101,Amazon Bedrock,31.118,0.12005,4.44874,4.44874,9.5475
+Claude Opus 5,anthropic/claude-opus-5,60.7,78,55.3,5.0,25.0,architecture.md,markdown,38413,16131,3189,160,19320,0.4199,0.083,Amazon Bedrock,34.966,0.16038,3.787371,3.787371,8.3012
+Claude Opus 5,anthropic/claude-opus-5,60.7,78,55.3,5.0,25.0,backend-api.py,python,15571,5967,4096,676,10063,0.3832,0.2631,Amazon Bedrock,39.847,0.132235,8.901486,8.901486,13.1407
+Claude Opus 5,anthropic/claude-opus-5,60.7,78,55.3,5.0,25.0,openapi-spec.json,json,21715,9387,4096,171,13483,0.4323,0.1886,Amazon Bedrock,36.972,0.149335,7.209775,7.209775,11.0758
+Claude Opus 5,anthropic/claude-opus-5,60.7,78,55.3,5.0,25.0,react-component.tsx,typescript,12332,5043,4096,396,9139,0.4089,0.3321,Amazon Bedrock,39.789,0.127615,10.845682,10.845682,13.9638
 Anthropic: Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,47.2,63,40.8,3.0,15.0,agent-system-prompt.txt,prose,28296,6634,215,0,6849,0.2345,0.0076,Anthropic,5.783,0.023127,0.857026,0.857026,3.3767
 Anthropic: Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,47.2,63,40.8,3.0,15.0,architecture.md,markdown,38413,12372,1143,0,13515,0.3221,0.0298,Anthropic,19.438,0.054261,1.281372,1.281372,4.0149
 Anthropic: Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,47.2,63,40.8,3.0,15.0,backend-api.py,python,15571,4222,1477,0,5699,0.2711,0.0949,Anthropic,22.499,0.034821,2.343999,2.343999,6.11
@@ -44,11 +49,11 @@ Anthropic: Claude Sonnet 5,anthropic/claude-sonnet-5,53.4,71.5,46.7,2.0,10.0,arc
 Anthropic: Claude Sonnet 5,anthropic/claude-sonnet-5,53.4,71.5,46.7,2.0,10.0,backend-api.py,python,15571,5967,1869,0,7836,0.3832,0.12,Amazon Bedrock,14.525,0.030624,2.061475,2.061475,3.9081
 Anthropic: Claude Sonnet 5,anthropic/claude-sonnet-5,53.4,71.5,46.7,2.0,10.0,openapi-spec.json,json,21715,9387,949,0,10336,0.4323,0.0437,Amazon Bedrock,12.923,0.028264,1.364563,1.364563,2.7345
 Anthropic: Claude Sonnet 5,anthropic/claude-sonnet-5,53.4,71.5,46.7,2.0,10.0,react-component.tsx,typescript,12332,5043,768,0,5811,0.4089,0.0623,Amazon Bedrock,9.138,0.017766,1.509888,1.509888,3.0573
-Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,,,,0.25,0.8,agent-system-prompt.txt,prose,28296,5730,857,301,6587,0.2025,0.0303,Arcee AI,4.09,0.0021181,0.078491,0.078491,0.3216
-Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,,,,0.25,0.8,architecture.md,markdown,38413,9618,4096,4244,13714,0.2504,0.1066,Arcee AI,12.335,0.0056813,0.134164,0.134164,0.4143
-Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,,,,0.25,0.8,backend-api.py,python,15571,3224,4096,4128,7320,0.2071,0.2631,Arcee AI,11.636,0.0040828,0.274836,0.274836,0.5578
-Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,,,,0.25,0.8,openapi-spec.json,json,21715,5276,4096,7880,9372,0.243,0.1886,Arcee AI,16.421,0.0045958,0.221882,0.221882,0.4904
-Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,,,,0.25,0.8,react-component.tsx,typescript,12332,3040,4096,4103,7136,0.2465,0.3321,Arcee AI,9.725,0.0040368,0.343078,0.343078,0.5657
+Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,18.2,25.8,3.7,0.22,0.85,agent-system-prompt.txt,prose,28296,5730,857,301,6587,0.2025,0.0303,Arcee AI,4.09,0.0021181,0.078491,0.073709,0.3216
+Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,18.2,25.8,3.7,0.22,0.85,architecture.md,markdown,38413,9618,4096,4244,13714,0.2504,0.1066,Arcee AI,12.335,0.0056813,0.134164,0.132186,0.4143
+Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,18.2,25.8,3.7,0.22,0.85,backend-api.py,python,15571,3224,4096,4128,7320,0.2071,0.2631,Arcee AI,11.636,0.0040828,0.274836,0.282112,0.5578
+Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,18.2,25.8,3.7,0.22,0.85,openapi-spec.json,json,21715,5276,4096,7880,9372,0.243,0.1886,Arcee AI,16.421,0.0045958,0.221882,0.224128,0.4904
+Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,18.2,25.8,3.7,0.22,0.85,react-component.tsx,typescript,12332,3040,4096,4103,7136,0.2465,0.3321,Arcee AI,9.725,0.0040368,0.343078,0.352732,0.5657
 ByteDance Seed: Seed-2.0-Lite,bytedance-seed/seed-2.0-lite,,,,0.25,2.0,agent-system-prompt.txt,prose,28296,6392,1295,1080,7687,0.2259,0.0458,Seed,18.979,0.004188,0.155196,0.155196,0.5448
 ByteDance Seed: Seed-2.0-Lite,bytedance-seed/seed-2.0-lite,,,,0.25,2.0,architecture.md,markdown,38413,11307,912,754,12219,0.2944,0.0237,Seed,18.291,0.00465075,0.109827,0.109827,0.3806
 ByteDance Seed: Seed-2.0-Lite,bytedance-seed/seed-2.0-lite,,,,0.25,2.0,backend-api.py,python,15571,3885,1859,1398,5744,0.2495,0.1194,Seed,29.825,0.00468925,0.31566,0.31566,0.8164
@@ -59,11 +64,11 @@ ByteDance Seed: Seed-2.0-Mini,bytedance-seed/seed-2.0-mini,,,,0.1,0.4,architectu
 ByteDance Seed: Seed-2.0-Mini,bytedance-seed/seed-2.0-mini,,,,0.1,0.4,backend-api.py,python,15571,3885,15376,14889,19261,0.2495,0.9875,Seed,113.114,0.0065389,0.44017,0.44017,0.3395
 ByteDance Seed: Seed-2.0-Mini,bytedance-seed/seed-2.0-mini,,,,0.1,0.4,openapi-spec.json,json,21715,6068,9856,9642,15924,0.2794,0.4539,Seed,75.463,0.0045492,0.219632,0.219632,0.2857
 ByteDance Seed: Seed-2.0-Mini,bytedance-seed/seed-2.0-mini,,,,0.1,0.4,react-component.tsx,typescript,12332,3463,13110,12735,16573,0.2808,1.0631,Seed,98.866,0.0055903,0.475106,0.475106,0.3373
-DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.098,0.196,agent-system-prompt.txt,prose,28296,6069,74,0,6143,0.2145,0.0026,DeepInfra,4.499,0.000554922,0.020564,0.022578,0.0903
-DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.098,0.196,architecture.md,markdown,38413,10513,762,656,11275,0.2737,0.0198,StreamLake,12.401,0.000371427,0.008771,0.027857,0.0329
-DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.098,0.196,backend-api.py,python,15571,3627,573,0,4200,0.2329,0.0368,DeepInfra,11.698,0.000424962,0.028607,0.031487,0.1012
-DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.098,0.196,openapi-spec.json,json,21715,5872,96,0,5968,0.2704,0.0044,DeepInfra,4.728,0.000541152,0.026126,0.028691,0.0907
-DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.098,0.196,react-component.tsx,typescript,12332,3226,187,0,3413,0.2616,0.0152,DeepInfra,6.356,0.000319392,0.027144,0.029984,0.0936
+DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.14,0.28,agent-system-prompt.txt,prose,28296,6069,74,0,6143,0.2145,0.0026,DeepInfra,4.499,0.000554922,0.020564,0.032254,0.0903
+DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.14,0.28,architecture.md,markdown,38413,10513,762,656,11275,0.2737,0.0198,StreamLake,12.401,0.000371427,0.008771,0.039795,0.0329
+DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.14,0.28,backend-api.py,python,15571,3627,573,0,4200,0.2329,0.0368,DeepInfra,11.698,0.000424962,0.028607,0.044982,0.1012
+DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.14,0.28,openapi-spec.json,json,21715,5872,96,0,5968,0.2704,0.0044,DeepInfra,4.728,0.000541152,0.026126,0.040987,0.0907
+DeepSeek: DeepSeek V4 Flash,deepseek/deepseek-v4-flash,40.3,56.2,31.1,0.14,0.28,react-component.tsx,typescript,12332,3226,187,0,3413,0.2616,0.0152,DeepInfra,6.356,0.000319392,0.027144,0.042834,0.0936
 Google: Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,,,,0.25,1.5,agent-system-prompt.txt,prose,28296,6300,99,0,6399,0.2226,0.0035,Google AI Studio,0.803,0.0017235,0.063868,0.063868,0.2693
 Google: Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,,,,0.25,1.5,architecture.md,markdown,38413,11033,166,0,11199,0.2872,0.0043,Google AI Studio,1.025,0.00300725,0.071016,0.071016,0.2685
 Google: Gemini 3.1 Flash Lite,google/gemini-3.1-flash-lite,,,,0.25,1.5,backend-api.py,python,15571,4192,197,0,4389,0.2692,0.0127,Google AI Studio,1.16,0.0013435,0.090439,0.090439,0.3061
@@ -79,26 +84,26 @@ Google: Gemini 3.5 Flash,google/gemini-3.5-flash,50.2,70.1,37.4,1.5,9.0,architec
 Google: Gemini 3.5 Flash,google/gemini-3.5-flash,50.2,70.1,37.4,1.5,9.0,backend-api.py,python,15571,4190,2603,0,6793,0.2691,0.1672,Google,11.976,0.029712,2.000083,2.000083,4.3739
 Google: Gemini 3.5 Flash,google/gemini-3.5-flash,50.2,70.1,37.4,1.5,9.0,openapi-spec.json,json,21715,5918,109,0,6027,0.2725,0.005,Google,4.871,0.009858,0.475936,0.475936,1.6356
 Google: Gemini 3.5 Flash,google/gemini-3.5-flash,50.2,70.1,37.4,1.5,9.0,react-component.tsx,typescript,12332,3481,529,0,4010,0.2823,0.0429,Google,3.708,0.0099825,0.848388,0.848388,2.4894
-Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.1,0.3,agent-system-prompt.txt,prose,28296,6317,139,0,6456,0.2232,0.0049,DekaLLM,12.063,0.00042489,0.015745,0.024954,0.0658
-Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.1,0.3,architecture.md,markdown,38413,11050,196,0,11246,0.2877,0.0051,DekaLLM,3.093,0.00072768,0.017184,0.027483,0.0647
-Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.1,0.3,backend-api.py,python,15571,4209,384,0,4593,0.2703,0.0247,DeepInfra,14.046,0.00042519,0.028622,0.036088,0.0926
-Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.1,0.3,openapi-spec.json,json,21715,5937,279,0,6216,0.2734,0.0128,DeepInfra,10.485,0.00051045,0.024644,0.032704,0.0821
-Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.1,0.3,react-component.tsx,typescript,12332,3531,228,0,3759,0.2863,0.0185,DeepInfra,9.332,0.00032469,0.027595,0.035822,0.0864
-Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.22,0.55,agent-system-prompt.txt,prose,28296,6328,134,0,6462,0.2236,0.0047,WandB,3.562,0.00080626,0.029878,0.054321,0.1248
-Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.22,0.55,architecture.md,markdown,38413,11061,229,0,11290,0.2879,0.006,WandB,9.146,0.00140747,0.033237,0.060439,0.1247
-Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.22,0.55,backend-api.py,python,15571,4220,376,0,4596,0.271,0.0241,WandB,16.216,0.000638,0.042947,0.076417,0.1388
-Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.22,0.55,openapi-spec.json,json,21715,5948,132,0,6080,0.2739,0.0061,WandB,3.433,0.00075996,0.03669,0.066681,0.125
-Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.22,0.55,react-component.tsx,typescript,12332,3542,206,0,3748,0.2872,0.0167,WandB,8.703,0.00049714,0.042251,0.075855,0.1326
+Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.12,0.35,agent-system-prompt.txt,prose,28296,6317,139,0,6456,0.2232,0.0049,DekaLLM,12.063,0.00042489,0.015745,0.029894,0.0658
+Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.12,0.35,architecture.md,markdown,38413,11050,196,0,11246,0.2877,0.0051,DekaLLM,3.093,0.00072768,0.017184,0.032933,0.0647
+Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.12,0.35,backend-api.py,python,15571,4209,384,0,4593,0.2703,0.0247,DeepInfra,14.046,0.00042519,0.028622,0.043047,0.0926
+Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.12,0.35,openapi-spec.json,json,21715,5937,279,0,6216,0.2734,0.0128,DeepInfra,10.485,0.00051045,0.024644,0.03911,0.0821
+Google: Gemma 4 26B A4B ,google/gemma-4-26b-a4b-it,25.7,39.3,11,0.12,0.35,react-component.tsx,typescript,12332,3531,228,0,3759,0.2863,0.0185,DeepInfra,9.332,0.00032469,0.027595,0.042793,0.0864
+Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.14,0.4,agent-system-prompt.txt,prose,28296,6328,134,0,6462,0.2236,0.0047,WandB,3.562,0.00080626,0.029878,0.034816,0.1248
+Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.14,0.4,architecture.md,markdown,38413,11061,229,0,11290,0.2879,0.006,WandB,9.146,0.00140747,0.033237,0.038732,0.1247
+Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.14,0.4,backend-api.py,python,15571,4220,376,0,4596,0.271,0.0241,WandB,16.216,0.000638,0.042947,0.049894,0.1388
+Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.14,0.4,openapi-spec.json,json,21715,5948,132,0,6080,0.2739,0.0061,WandB,3.433,0.00075996,0.03669,0.042752,0.125
+Google: Gemma 4 31B,google/gemma-4-31b-it,29.4,43.4,14.4,0.14,0.4,react-component.tsx,typescript,12332,3542,206,0,3748,0.2872,0.0167,WandB,8.703,0.00049714,0.042251,0.049147,0.1326
 IBM: Granite 4.1 8B,ibm-granite/granite-4.1-8b,,9.5,,0.05,0.1,agent-system-prompt.txt,prose,28296,6316,132,0,6448,0.2232,0.0047,WandB,1.306,0.000329,0.012192,0.012192,0.051
 IBM: Granite 4.1 8B,ibm-granite/granite-4.1-8b,,9.5,,0.05,0.1,architecture.md,markdown,38413,11413,121,0,11534,0.2971,0.0031,WandB,1.435,0.00058275,0.013762,0.013762,0.0505
 IBM: Granite 4.1 8B,ibm-granite/granite-4.1-8b,,9.5,,0.05,0.1,backend-api.py,python,15571,4138,421,0,4559,0.2658,0.027,WandB,3.226,0.000249,0.016762,0.016762,0.0546
 IBM: Granite 4.1 8B,ibm-granite/granite-4.1-8b,,9.5,,0.05,0.1,openapi-spec.json,json,21715,5587,103,0,5690,0.2573,0.0047,WandB,1.047,0.00028965,0.013984,0.013984,0.0509
 IBM: Granite 4.1 8B,ibm-granite/granite-4.1-8b,,9.5,,0.05,0.1,react-component.tsx,typescript,12332,3466,187,0,3653,0.2811,0.0152,WandB,1.616,0.000192,0.016318,0.016318,0.0526
-Inception: Mercury 2,inception/mercury-2,,,,0.25,0.75,agent-system-prompt.txt,prose,28296,5791,4041,4041,9832,0.2047,0.1428,Inception,3.204,0.00446365,0.165411,0.165962,0.454
-Inception: Mercury 2,inception/mercury-2,,,,0.25,0.75,architecture.md,markdown,38413,9867,3945,3945,13812,0.2569,0.1027,Inception,3.536,0.0054111,0.127783,0.128123,0.3918
-Inception: Mercury 2,inception/mercury-2,,,,0.25,0.75,backend-api.py,python,15571,3147,3917,3917,7064,0.2021,0.2516,Inception,3.273,0.0037101,0.249748,0.250717,0.5252
-Inception: Mercury 2,inception/mercury-2,,,,0.25,0.75,openapi-spec.json,json,21715,5469,4053,4053,9522,0.2519,0.1866,Inception,3.754,0.004405875,0.212712,0.212766,0.4627
-Inception: Mercury 2,inception/mercury-2,,,,0.25,0.75,react-component.tsx,typescript,12332,3409,4053,3836,7462,0.2764,0.3287,Inception,8.983,0.0038245,0.325035,0.330771,0.5125
+Inception: Mercury 2,inception/mercury-2,21.4,31.1,9.6,0.25,0.75,agent-system-prompt.txt,prose,28296,5791,4041,4041,9832,0.2047,0.1428,Inception,3.204,0.00446365,0.165411,0.165962,0.454
+Inception: Mercury 2,inception/mercury-2,21.4,31.1,9.6,0.25,0.75,architecture.md,markdown,38413,9867,3945,3945,13812,0.2569,0.1027,Inception,3.536,0.0054111,0.127783,0.128123,0.3918
+Inception: Mercury 2,inception/mercury-2,21.4,31.1,9.6,0.25,0.75,backend-api.py,python,15571,3147,3917,3917,7064,0.2021,0.2516,Inception,3.273,0.0037101,0.249748,0.250717,0.5252
+Inception: Mercury 2,inception/mercury-2,21.4,31.1,9.6,0.25,0.75,openapi-spec.json,json,21715,5469,4053,4053,9522,0.2519,0.1866,Inception,3.754,0.004405875,0.212712,0.212766,0.4627
+Inception: Mercury 2,inception/mercury-2,21.4,31.1,9.6,0.25,0.75,react-component.tsx,typescript,12332,3409,4053,3836,7462,0.2764,0.3287,Inception,8.983,0.0038245,0.325035,0.330771,0.5125
 inclusionAI: Ling-2.6-1T,inclusionai/ling-2.6-1t,,,,0.075,0.625,agent-system-prompt.txt,prose,28296,6337,76,0,6413,0.224,0.0027,Novita,2.22,0.000522775,0.019373,0.019373,0.0815
 inclusionAI: Ling-2.6-1T,inclusionai/ling-2.6-1t,,,,0.075,0.625,architecture.md,markdown,38413,11360,106,0,11466,0.2957,0.0028,Novita,3.255,0.00091825,0.021684,0.021684,0.0801
 inclusionAI: Ling-2.6-1T,inclusionai/ling-2.6-1t,,,,0.075,0.625,backend-api.py,python,15571,3865,526,0,4391,0.2482,0.0338,Novita,3.821,0.000618625,0.041643,0.041643,0.1409
@@ -159,11 +164,11 @@ MoonshotAI: Kimi K2.5,moonshotai/kimi-k2.5,35.4,46.8,21.7,0.57,2.85,architecture
 MoonshotAI: Kimi K2.5,moonshotai/kimi-k2.5,35.4,46.8,21.7,0.57,2.85,backend-api.py,python,15571,3292,10016,9516,13308,0.2114,0.6432,StreamLake,266.406,0.02882088,1.940096,2.04788,2.1657
 MoonshotAI: Kimi K2.5,moonshotai/kimi-k2.5,35.4,46.8,21.7,0.57,2.85,openapi-spec.json,json,21715,5348,1659,1423,7007,0.2463,0.0764,AtlasCloud,61.918,0.00676802,0.326755,0.375444,0.9659
 MoonshotAI: Kimi K2.5,moonshotai/kimi-k2.5,35.4,46.8,21.7,0.57,2.85,react-component.tsx,typescript,12332,3149,5172,4981,8321,0.2554,0.4194,StreamLake,162.679,0.01566486,1.331318,1.40528,1.8826
-MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.95,4.0,agent-system-prompt.txt,prose,28296,5862,4096,4229,9958,0.2072,0.1448,Inceptron,282.697,0.01778732,0.659152,0.813517,1.7862
-MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.95,4.0,architecture.md,markdown,38413,9899,4096,3409,13995,0.2577,0.1066,Inceptron,295.418,0.0205007,0.484124,0.608984,1.4649
-MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.95,4.0,backend-api.py,python,15571,3293,4096,4096,7389,0.2115,0.2631,Baidu,107.934,0.015140772,1.019211,1.313487,2.0491
-MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.95,4.0,openapi-spec.json,json,21715,5348,1039,912,6387,0.2463,0.0478,Inceptron,52.285,0.00707267,0.341463,0.445936,1.1074
-MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.95,4.0,react-component.tsx,typescript,12332,3150,4096,3780,7246,0.2554,0.3321,Inceptron,227.004,0.01604636,1.36374,1.646761,2.2145
+MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.646,2.72,agent-system-prompt.txt,prose,28296,5862,4096,4229,9958,0.2072,0.1448,Inceptron,282.697,0.01778732,0.659152,0.553192,1.7862
+MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.646,2.72,architecture.md,markdown,38413,9899,4096,3409,13995,0.2577,0.1066,Inceptron,295.418,0.0205007,0.484124,0.414109,1.4649
+MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.646,2.72,backend-api.py,python,15571,3293,4096,4096,7389,0.2115,0.2631,Baidu,107.934,0.015140772,1.019211,0.893171,2.0491
+MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.646,2.72,openapi-spec.json,json,21715,5348,1039,912,6387,0.2463,0.0478,Inceptron,52.285,0.00707267,0.341463,0.303236,1.1074
+MoonshotAI: Kimi K2.6,moonshotai/kimi-k2.6,44.2,61.8,30.3,0.646,2.72,react-component.tsx,typescript,12332,3150,4096,3780,7246,0.2554,0.3321,Inceptron,227.004,0.01604636,1.36374,1.119797,2.2145
 MoonshotAI: Kimi K2.7 Code,moonshotai/kimi-k2.7-code,41.9,60.8,29.6,0.75,3.5,agent-system-prompt.txt,prose,28296,5862,3932,3493,9794,0.2072,0.139,Inceptron,55.327,0.01792792,0.664362,0.672907,1.8305
 MoonshotAI: Kimi K2.7 Code,moonshotai/kimi-k2.7-code,41.9,60.8,29.6,0.75,3.5,architecture.md,markdown,38413,9899,1709,1545,11608,0.2577,0.0445,Inceptron,25.021,0.01305406,0.308271,0.316577,1.1246
 MoonshotAI: Kimi K2.7 Code,moonshotai/kimi-k2.7-code,41.9,60.8,29.6,0.75,3.5,backend-api.py,python,15571,3293,4096,4486,7389,0.2115,0.2631,Inceptron,56.238,0.01665224,1.120956,1.13129,2.2537
@@ -177,11 +182,11 @@ Nex AGI: Nex-N2-Mini,nex-agi/nex-n2-mini,,,,0.025,0.1,architecture.md,markdown,3
 Nex AGI: Nex-N2-Mini,nex-agi/nex-n2-mini,,,,0.025,0.1,backend-api.py,python,15571,3597,4096,4096,7693,0.231,0.2631,Nex AGI,20.57,0.000499525,0.033626,0.033626,0.0649
 Nex AGI: Nex-N2-Mini,nex-agi/nex-n2-mini,,,,0.025,0.1,openapi-spec.json,json,21715,5604,949,772,6553,0.2581,0.0437,Nex AGI,8.905,0.000235,0.011346,0.011346,0.0359
 Nex AGI: Nex-N2-Mini,nex-agi/nex-n2-mini,,,,0.025,0.1,react-component.tsx,typescript,12332,3276,4096,4096,7372,0.2657,0.3321,Nex AGI,20.222,0.0004915,0.041771,0.041771,0.0667
-NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.21,0.455,agent-system-prompt.txt,prose,28296,6195,4096,4696,10291,0.2189,0.1448,Nebius,17.528,0.0055449,0.20548,0.117273,0.5388
-NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.21,0.455,architecture.md,markdown,38413,11080,2462,2521,13542,0.2884,0.0641,Nebius,9.35,0.0055398,0.130822,0.081401,0.4091
-NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.21,0.455,backend-api.py,python,15571,3541,4096,4598,7637,0.2274,0.2631,Nebius,14.676,0.0047487,0.319662,0.175511,0.6218
-NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.21,0.455,openapi-spec.json,json,21715,6064,4096,4456,10160,0.2793,0.1886,Nebius,12.171,0.0055056,0.265806,0.151458,0.5419
-NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.21,0.455,react-component.tsx,typescript,12332,3218,4096,3790,7314,0.2609,0.3321,DigitalOcean,581.234,0.00253946,0.215822,0.215822,0.3472
+NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.085,0.4,agent-system-prompt.txt,prose,28296,6195,4096,4696,10291,0.2189,0.1448,Nebius,17.528,0.0055449,0.20548,0.080228,0.5388
+NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.085,0.4,architecture.md,markdown,38413,11080,2462,2521,13542,0.2884,0.0641,Nebius,9.35,0.0055398,0.130822,0.045497,0.4091
+NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.085,0.4,backend-api.py,python,15571,3541,4096,4598,7637,0.2274,0.2631,Nebius,14.676,0.0047487,0.319662,0.130551,0.6218
+NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.085,0.4,openapi-spec.json,json,21715,6064,4096,4456,10160,0.2793,0.1886,Nebius,12.171,0.0055056,0.265806,0.103986,0.5419
+NVIDIA: Nemotron 3 Super,nvidia/nemotron-3-super-120b-a12b,25.4,37.7,8.7,0.085,0.4,react-component.tsx,typescript,12332,3218,4096,3790,7314,0.2609,0.3321,DigitalOcean,581.234,0.00253946,0.215822,0.16249,0.3472
 NVIDIA: Nemotron 3 Ultra,nvidia/nemotron-3-ultra-550b-a55b,37.8,49.3,27.4,0.6,3.6,agent-system-prompt.txt,prose,28296,6195,270,155,6465,0.2189,0.0095,DeepInfra,6.787,0.0036659,0.135849,0.173762,0.567
 NVIDIA: Nemotron 3 Ultra,nvidia/nemotron-3-ultra-550b-a55b,37.8,49.3,27.4,0.6,3.6,architecture.md,markdown,38413,11080,542,414,11622,0.2884,0.0141,DeepInfra,5.17,0.0067068,0.158381,0.20307,0.5771
 NVIDIA: Nemotron 3 Ultra,nvidia/nemotron-3-ultra-550b-a55b,37.8,49.3,27.4,0.6,3.6,backend-api.py,python,15571,3541,4096,4096,7637,0.2274,0.2631,Together,33.25,0.0168702,1.135629,1.135629,2.209
@@ -272,11 +277,11 @@ Qwen: Qwen3.5-27B,qwen/qwen3.5-27b,,,,0.195,1.56,architecture.md,markdown,38413,
 Qwen: Qwen3.5-27B,qwen/qwen3.5-27b,,,,0.195,1.56,backend-api.py,python,15571,3598,12079,11735,15677,0.2311,0.7757,Alibaba,112.379,0.01954485,1.315674,1.315674,1.2467
 Qwen: Qwen3.5-27B,qwen/qwen3.5-27b,,,,0.195,1.56,openapi-spec.json,json,21715,5605,979,487,6584,0.2581,0.0451,Alibaba,14.037,0.002620215,0.126502,0.126502,0.398
 Qwen: Qwen3.5-27B,qwen/qwen3.5-27b,,,,0.195,1.56,react-component.tsx,typescript,12332,3277,7146,6918,10423,0.2657,0.5795,Alibaba,73.161,0.011786775,1.001729,1.001729,1.1308
-Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,,,,0.14,1.0,agent-system-prompt.txt,prose,28296,6145,490,340,6635,0.2172,0.0173,DeepInfra,3.881,0.0013503,0.050039,0.050039,0.2035
-Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,,,,0.14,1.0,architecture.md,markdown,38413,11018,4096,3562,15114,0.2868,0.1066,DeepInfra,30.751,0.00563852,0.133154,0.133154,0.3731
-Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,,,,0.14,1.0,backend-api.py,python,15571,3598,4096,3470,7694,0.2311,0.2631,DeepInfra,32.037,0.00459972,0.309633,0.309633,0.5978
-Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,,,,0.14,1.0,openapi-spec.json,json,21715,5605,4096,4173,9701,0.2581,0.1886,DeepInfra,31.098,0.0048807,0.235636,0.235636,0.5031
-Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,,,,0.14,1.0,react-component.tsx,typescript,12332,3277,4096,3482,7373,0.2657,0.3321,DeepInfra,30.29,0.00455478,0.387099,0.387099,0.6178
+Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,24,37,11.8,0.14,1.0,agent-system-prompt.txt,prose,28296,6145,490,340,6635,0.2172,0.0173,DeepInfra,3.881,0.0013503,0.050039,0.050039,0.2035
+Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,24,37,11.8,0.14,1.0,architecture.md,markdown,38413,11018,4096,3562,15114,0.2868,0.1066,DeepInfra,30.751,0.00563852,0.133154,0.133154,0.3731
+Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,24,37,11.8,0.14,1.0,backend-api.py,python,15571,3598,4096,3470,7694,0.2311,0.2631,DeepInfra,32.037,0.00459972,0.309633,0.309633,0.5978
+Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,24,37,11.8,0.14,1.0,openapi-spec.json,json,21715,5605,4096,4173,9701,0.2581,0.1886,DeepInfra,31.098,0.0048807,0.235636,0.235636,0.5031
+Qwen: Qwen3.5-35B-A3B,qwen/qwen3.5-35b-a3b,24,37,11.8,0.14,1.0,react-component.tsx,typescript,12332,3277,4096,3482,7373,0.2657,0.3321,DeepInfra,30.29,0.00455478,0.387099,0.387099,0.6178
 Qwen: Qwen3.5 397B A17B,qwen/qwen3.5-397b-a17b,33.7,48.2,19.8,0.39,2.34,agent-system-prompt.txt,prose,28296,6145,436,241,6581,0.2172,0.0154,Alibaba,7.105,0.00341679,0.126617,0.126617,0.5192
 Qwen: Qwen3.5 397B A17B,qwen/qwen3.5-397b-a17b,33.7,48.2,19.8,0.39,2.34,architecture.md,markdown,38413,11018,4708,4312,15726,0.2868,0.1226,Alibaba,68.78,0.01531374,0.361634,0.361634,0.9738
 Qwen: Qwen3.5 397B A17B,qwen/qwen3.5-397b-a17b,33.7,48.2,19.8,0.39,2.34,backend-api.py,python,15571,3598,16475,16188,20073,0.2311,1.0581,Alibaba,190.835,0.03995472,2.689578,2.689578,1.9905
@@ -302,11 +307,11 @@ Qwen: Qwen3.5 Plus 2026-04-20,qwen/qwen3.5-plus-20260420,,,,0.3,1.8,architecture
 Qwen: Qwen3.5 Plus 2026-04-20,qwen/qwen3.5-plus-20260420,,,,0.3,1.8,backend-api.py,python,15571,3598,7470,6806,11068,0.2311,0.4797,Alibaba,135.183,0.0145254,0.977787,0.977787,1.3124
 Qwen: Qwen3.5 Plus 2026-04-20,qwen/qwen3.5-plus-20260420,,,,0.3,1.8,openapi-spec.json,json,21715,5605,2615,2433,8220,0.2581,0.1204,Alibaba,49.867,0.0063885,0.308432,0.308432,0.7772
 Qwen: Qwen3.5 Plus 2026-04-20,qwen/qwen3.5-plus-20260420,,,,0.3,1.8,react-component.tsx,typescript,12332,3277,7359,7068,10636,0.2657,0.5967,Alibaba,133.484,0.0142293,1.209313,1.209313,1.3378
-Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.45,2.7,agent-system-prompt.txt,prose,28296,6145,2335,2365,8480,0.2172,0.0825,Morph,28.305,0.007379905,0.27348,0.336101,0.8703
-Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.45,2.7,architecture.md,markdown,38413,11018,1551,1511,12569,0.2868,0.0404,Morph,23.858,0.006906602,0.163099,0.215978,0.5495
-Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.45,2.7,backend-api.py,python,15571,3598,3043,2336,6641,0.2311,0.1954,Morph,55.771,0.008343022,0.561616,0.662063,1.2563
-Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.45,2.7,openapi-spec.json,json,21715,5605,2562,2385,8167,0.2581,0.118,Morph,43.783,0.007768645,0.375064,0.455739,0.9512
-Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.45,2.7,react-component.tsx,typescript,12332,3277,4096,3423,7373,0.2657,0.3321,Morph,134.216,0.010777453,0.915949,1.065221,1.4617
+Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.3,2.0,agent-system-prompt.txt,prose,28296,6145,2335,2365,8480,0.2172,0.0825,Morph,28.305,0.007379905,0.27348,0.241373,0.8703
+Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.3,2.0,architecture.md,markdown,38413,11018,1551,1511,12569,0.2868,0.0404,Morph,23.858,0.006906602,0.163099,0.151311,0.5495
+Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.3,2.0,backend-api.py,python,15571,3598,3043,2336,6641,0.2311,0.1954,Morph,55.771,0.008343022,0.561616,0.482344,1.2563
+Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.3,2.0,openapi-spec.json,json,21715,5605,2562,2385,8167,0.2581,0.118,Morph,43.783,0.007768645,0.375064,0.328564,0.9512
+Qwen: Qwen3.6 27B,qwen/qwen3.6-27b,37.1,53.7,27,0.3,2.0,react-component.tsx,typescript,12332,3277,4096,3423,7373,0.2657,0.3321,Morph,134.216,0.010777453,0.915949,0.779769,1.4617
 Qwen: Qwen3.6 35B A3B,qwen/qwen3.6-35b-a3b,31.6,41.9,21.4,0.14,1.0,agent-system-prompt.txt,prose,28296,6145,365,243,6510,0.2172,0.0129,AkashML,4.117,0.0012253,0.045406,0.045406,0.1882
 Qwen: Qwen3.6 35B A3B,qwen/qwen3.6-35b-a3b,31.6,41.9,21.4,0.14,1.0,architecture.md,markdown,38413,11018,2015,1720,13033,0.2868,0.0525,DekaLLM,30.528,0.00344734,0.081409,0.084011,0.2645
 Qwen: Qwen3.6 35B A3B,qwen/qwen3.6-35b-a3b,31.6,41.9,21.4,0.14,1.0,backend-api.py,python,15571,3598,4096,3166,7694,0.2311,0.2631,AkashML,22.889,0.00459972,0.309633,0.309633,0.5978
@@ -357,11 +362,11 @@ StepFun: Step 3.7 Flash,stepfun/step-3.7-flash,30.3,39.6,21.5,0.2,1.15,architect
 StepFun: Step 3.7 Flash,stepfun/step-3.7-flash,30.3,39.6,21.5,0.2,1.15,backend-api.py,python,15571,3640,4096,4028,7736,0.2338,0.2631,Ambient,36.168,0.00534312,0.359676,0.366089,0.6907
 StepFun: Step 3.7 Flash,stepfun/step-3.7-flash,30.3,39.6,21.5,0.2,1.15,openapi-spec.json,json,21715,5885,4096,3951,9981,0.271,0.1886,Ambient,32.854,0.00578759,0.27942,0.284239,0.5799
 StepFun: Step 3.7 Flash,stepfun/step-3.7-flash,30.3,39.6,21.5,0.2,1.15,react-component.tsx,typescript,12332,3239,4096,3748,7335,0.2627,0.3321,Ambient,32.617,0.00526693,0.447623,0.45538,0.7181
-Tencent: Hy3,tencent/hy3,,,,0.2,0.8,agent-system-prompt.txt,prose,28296,6006,207,0,6213,0.2123,0.0073,GMICloud,3.427,0.0009609,0.035608,0.05065,0.1547
-Tencent: Hy3,tencent/hy3,,,,0.2,0.8,architecture.md,markdown,38413,10450,230,0,10680,0.272,0.006,GMICloud,5.967,0.0015964,0.037699,0.0537,0.1495
-Tencent: Hy3,tencent/hy3,,,,0.2,0.8,backend-api.py,python,15571,3413,460,0,3873,0.2192,0.0295,GMICloud,4.489,0.00074462,0.050125,0.070722,0.1923
-Tencent: Hy3,tencent/hy3,,,,0.2,0.8,openapi-spec.json,json,21715,5858,211,0,6069,0.2698,0.0097,GMICloud,5.911,0.0009425,0.045503,0.064713,0.1553
-Tencent: Hy3,tencent/hy3,,,,0.2,0.8,react-component.tsx,typescript,12332,3161,301,0,3462,0.2563,0.0244,GMICloud,5.569,0.00061712,0.052447,0.074194,0.1783
+Tencent: Hy3,tencent/hy3,,,,0.132,0.528,agent-system-prompt.txt,prose,28296,6006,207,0,6213,0.2123,0.0073,GMICloud,3.427,0.0009609,0.035608,0.033429,0.1547
+Tencent: Hy3,tencent/hy3,,,,0.132,0.528,architecture.md,markdown,38413,10450,230,0,10680,0.272,0.006,GMICloud,5.967,0.0015964,0.037699,0.035442,0.1495
+Tencent: Hy3,tencent/hy3,,,,0.132,0.528,backend-api.py,python,15571,3413,460,0,3873,0.2192,0.0295,GMICloud,4.489,0.00074462,0.050125,0.046676,0.1923
+Tencent: Hy3,tencent/hy3,,,,0.132,0.528,openapi-spec.json,json,21715,5858,211,0,6069,0.2698,0.0097,GMICloud,5.911,0.0009425,0.045503,0.042711,0.1553
+Tencent: Hy3,tencent/hy3,,,,0.132,0.528,react-component.tsx,typescript,12332,3161,301,0,3462,0.2563,0.0244,GMICloud,5.569,0.00061712,0.052447,0.048968,0.1783
 Tencent: Hy3 preview,tencent/hy3-preview,41.2,58.8,30.7,0.063,0.21,agent-system-prompt.txt,prose,28296,6003,4096,4096,10099,0.2122,0.1448,GMICloud,67.928,0.001238349,0.04589,0.04589,0.1226
 Tencent: Hy3 preview,tencent/hy3-preview,41.2,58.8,30.7,0.063,0.21,architecture.md,markdown,38413,10447,4096,4096,14543,0.272,0.1066,GMICloud,21.27,0.001518321,0.035855,0.035855,0.1044
 Tencent: Hy3 preview,tencent/hy3-preview,41.2,58.8,30.7,0.063,0.21,backend-api.py,python,15571,3410,4096,4096,7506,0.219,0.2631,GMICloud,55.082,0.00107499,0.072364,0.072364,0.1432
@@ -407,11 +412,11 @@ Z.ai: GLM 4.7 Flash,z-ai/glm-4.7-flash,,,,0.06,0.4,architecture.md,markdown,3841
 Z.ai: GLM 4.7 Flash,z-ai/glm-4.7-flash,,,,0.06,0.4,backend-api.py,python,15571,3256,4096,4308,7352,0.2091,0.2631,DeepInfra,50.203,0.00183056,0.123225,0.123441,0.249
 Z.ai: GLM 4.7 Flash,z-ai/glm-4.7-flash,,,,0.06,0.4,openapi-spec.json,json,21715,5368,2592,2150,7960,0.2472,0.1194,DeepInfra,32.285,0.00135568,0.065451,0.065606,0.1703
 Z.ai: GLM 4.7 Flash,z-ai/glm-4.7-flash,,,,0.06,0.4,react-component.tsx,typescript,12332,3026,1739,1497,4765,0.2454,0.141,DeepInfra,17.864,0.00087396,0.074276,0.074548,0.1834
-Z.ai: GLM 5,z-ai/glm-5,,,,0.95,3.15,agent-system-prompt.txt,prose,28296,5854,420,250,6274,0.2069,0.0148,StreamLake,10.319,0.0043188,0.160043,0.255114,0.6884
-Z.ai: GLM 5,z-ai/glm-5,,,,0.95,3.15,architecture.md,markdown,38413,10316,852,601,11168,0.2686,0.0222,StreamLake,22.72,0.00779472,0.184072,0.294809,0.698
-Z.ai: GLM 5,z-ai/glm-5,,,,0.95,3.15,backend-api.py,python,15571,3256,1540,1121,4796,0.2091,0.0989,StreamLake,26.394,0.00487968,0.328479,0.534769,1.0174
-Z.ai: GLM 5,z-ai/glm-5,,,,0.95,3.15,openapi-spec.json,json,21715,5368,781,508,6149,0.2472,0.036,StreamLake,14.037,0.00472032,0.227893,0.364979,0.7677
-Z.ai: GLM 5,z-ai/glm-5,,,,0.95,3.15,react-component.tsx,typescript,12332,3026,850,344,3876,0.2454,0.0689,StreamLake,19.822,0.0034476,0.293003,0.471868,0.8895
+Z.ai: GLM 5,z-ai/glm-5,,,,0.95,2.55,agent-system-prompt.txt,prose,28296,5854,420,250,6274,0.2069,0.0148,StreamLake,10.319,0.0043188,0.160043,0.245776,0.6884
+Z.ai: GLM 5,z-ai/glm-5,,,,0.95,2.55,architecture.md,markdown,38413,10316,852,601,11168,0.2686,0.0222,StreamLake,22.72,0.00779472,0.184072,0.282737,0.698
+Z.ai: GLM 5,z-ai/glm-5,,,,0.95,2.55,backend-api.py,python,15571,3256,1540,1121,4796,0.2091,0.0989,StreamLake,26.394,0.00487968,0.328479,0.472569,1.0174
+Z.ai: GLM 5,z-ai/glm-5,,,,0.95,2.55,openapi-spec.json,json,21715,5368,781,508,6149,0.2472,0.036,StreamLake,14.037,0.00472032,0.227893,0.342355,0.7677
+Z.ai: GLM 5,z-ai/glm-5,,,,0.95,2.55,react-component.tsx,typescript,12332,3026,850,344,3876,0.2454,0.0689,StreamLake,19.822,0.0034476,0.293003,0.428524,0.8895
 Z.ai: GLM 5 Turbo,z-ai/glm-5-turbo,,,,1.2,4.0,agent-system-prompt.txt,prose,28296,5854,343,50,6197,0.2069,0.0121,Z.AI,8.412,0.0083968,0.311164,0.311164,1.355
 Z.ai: GLM 5 Turbo,z-ai/glm-5-turbo,,,,1.2,4.0,architecture.md,markdown,38413,10316,619,172,10935,0.2686,0.0161,Z.AI,19.524,0.0148552,0.350805,0.350805,1.3585
 Z.ai: GLM 5 Turbo,z-ai/glm-5-turbo,,,,1.2,4.0,backend-api.py,python,15571,3256,4096,4096,7352,0.2091,0.2631,Z.AI,45.205,0.0202912,1.365915,1.365915,2.76
@@ -422,11 +427,11 @@ Z.ai: GLM 5.1,z-ai/glm-5.1,40.2,55.8,29.9,0.966,3.036,architecture.md,markdown,3
 Z.ai: GLM 5.1,z-ai/glm-5.1,40.2,55.8,29.9,0.966,3.036,backend-api.py,python,15571,3256,4096,4096,7352,0.2091,0.2631,StreamLake,68.683,0.015580752,1.048829,1.048829,2.1193
 Z.ai: GLM 5.1,z-ai/glm-5.1,40.2,55.8,29.9,0.966,3.036,openapi-spec.json,json,21715,5368,1047,771,6415,0.2472,0.0482,StreamLake,18.557,0.00836418,0.403816,0.403816,1.3038
 Z.ai: GLM 5.1,z-ai/glm-5.1,40.2,55.8,29.9,0.966,3.036,react-component.tsx,typescript,12332,3026,4096,4096,7122,0.2454,0.3321,StreamLake,70.735,0.015358572,1.305287,1.305287,2.1565
-Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,1.218,3.828,agent-system-prompt.txt,prose,28296,5861,318,70,6179,0.2071,0.0112,StreamLake,5.183,0.00279659359,0.103634,0.309652,0.4526
-Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,1.218,3.828,architecture.md,markdown,38413,10323,1319,920,11642,0.2687,0.0343,StreamLake,24.167,0.00739591765,0.174654,0.416156,0.6353
-Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,1.218,3.828,backend-api.py,python,15571,3263,921,360,4184,0.2096,0.0591,StreamLake,12.631,0.00381446164,0.256773,0.504862,0.9117
-Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,1.218,3.828,openapi-spec.json,json,21715,5375,583,372,5958,0.2475,0.0268,StreamLake,10.961,0.00336772104,0.162591,0.423818,0.5652
-Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,1.218,3.828,react-component.tsx,typescript,12332,3033,3980,3743,7013,0.2459,0.3227,StreamLake,62.399,0.01240385155,1.054173,1.608783,1.7687
+Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,0.6692,2.1032,agent-system-prompt.txt,prose,28296,5861,318,70,6179,0.2071,0.0112,StreamLake,5.183,0.00279659359,0.103634,0.17013,0.4526
+Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,0.6692,2.1032,architecture.md,markdown,38413,10323,1319,920,11642,0.2687,0.0343,StreamLake,24.167,0.00739591765,0.174654,0.228647,0.6353
+Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,0.6692,2.1032,backend-api.py,python,15571,3263,921,360,4184,0.2096,0.0591,StreamLake,12.631,0.00381446164,0.256773,0.277384,0.9117
+Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,0.6692,2.1032,openapi-spec.json,json,21715,5375,583,372,5958,0.2475,0.0268,StreamLake,10.961,0.00336772104,0.162591,0.232856,0.5652
+Z.ai: GLM 5.2,z-ai/glm-5.2,51.1,68.8,43.1,0.6692,2.1032,react-component.tsx,typescript,12332,3033,3980,3743,7013,0.2459,0.3227,StreamLake,62.399,0.01240385155,1.054173,0.883906,1.7687
 Z.ai: GLM 5V Turbo,z-ai/glm-5v-turbo,,,,1.2,4.0,agent-system-prompt.txt,prose,28296,5854,595,479,6449,0.2069,0.021,Z.AI,14.73,0.00930304,0.344746,0.348517,1.4426
 Z.ai: GLM 5V Turbo,z-ai/glm-5v-turbo,,,,1.2,4.0,architecture.md,markdown,38413,10320,659,476,10979,0.2687,0.0172,Z.AI,25.428,0.01491824,0.352294,0.354697,1.3588
 Z.ai: GLM 5V Turbo,z-ai/glm-5v-turbo,,,,1.2,4.0,backend-api.py,python,15571,3256,711,428,3967,0.2091,0.0457,Z.AI,14.136,0.00664944,0.447611,0.454461,1.6762
