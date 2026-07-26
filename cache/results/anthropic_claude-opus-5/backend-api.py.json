@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1785078765-C3HnyntHB9vj1KJFSnpW",
+  "provider_served": "Amazon Bedrock",
+  "input_tokens_billed": 5967,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 676,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.132235,
+  "execution_duration_sec": 39.847,
+  "raw_response": "{\n  \"file_type\": \"python\",\n  \"language\": \"Python 3.12+ (uses StrEnum, PEP 604/585 syntax, `from __future__ import annotations`)\",\n  \"purpose\": \"Single-module FastAPI backend providing JWT-authenticated CRUD for projects with pagination, background tasks, and WebSocket broadcasting\",\n  \"line_count\": 454,\n  \"functions\": [\n    {\n      \"name\": \"get_db\",\n      \"type\": \"async generator dependency\",\n      \"params\": [],\n      \"returns\": \"AsyncSession (yielded)\",\n      \"decorators\": [],\n      \"docstring\": true,\n      \"notes\": \"Annotated as `-> AsyncSession` but is an async generator; should be AsyncGenerator[AsyncSession, None] (type: ignore[misc] applied)\"\n    },\n    {\n      \"name\": \"create_access_token\",\n      \"type\": \"sync\",\n      \"params\": [\"user_id: int\"],\n      \"returns\": \"str\",\n      \"decorators\": [],\n      \"docstring\": true\n    },\n    {\n      \"name\": \"decode_access_token\",\n      \"type\": \"sync\",\n      \"params\": [\"token: str\"],\n      \"returns\": \"dict[str, Any]\",\n      \"decorators\": [],\n      \"docstring\": true,\n      \"notes\": \"Raises HTTPException 401 on jwt.PyJWTError\"\n    },\n    {\n      \"name\": \"get_current_user\",\n      \"type\": \"async dependency\",\n      \"params\": [\"request: Request\", \"db: Annotated[AsyncSession, Depends(get_db)]\"],\n      \"returns\": \"User\",\n      \"decorators\": [],\n      \"docstring\": true,\n      \"notes\": \"Parses Bearer header, decodes JWT, loads user; raises 401 twice\"\n    },\n    {\n      \"name\": \"notify_project_created\",\n      \"type\": \"async background task\",\n      \"params\": [\"project_id: int\", \"project_name: str\"],\n      \"returns\": \"None\",\n      \"decorators\": [],\n      \"docstring\": true\n    },\n    {\n      \"name\": \"",
+  "ran_at": "2026-07-26T15:13:23.222690+00:00"
+}
