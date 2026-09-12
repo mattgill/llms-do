@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.3",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789246583-RJJEBoqXmnNdErCnz2iQ",
+  "provider_served": "Inceptron",
+  "input_tokens_billed": 10323,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 5010,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0227714421,
+  "execution_duration_sec": 83.558,
+  "raw_response": null,
+  "ran_at": "2026-09-12T20:57:46.115384+00:00"
+}

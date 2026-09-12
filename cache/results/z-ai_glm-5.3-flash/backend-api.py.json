@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.3-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789247752-ShO8zViOCupBAlnyxI9T",
+  "provider_served": "Together",
+  "input_tokens_billed": 3263,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00253745,
+  "execution_duration_sec": 38.396,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:16:30.382219+00:00"
+}

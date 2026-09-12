@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2-1-turbo",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789248082-xKnvg8qxprLrELLxrlqf",
+  "provider_served": "Seed",
+  "input_tokens_billed": 3882,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.012181,
+  "execution_duration_sec": 58.804,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:22:20.851314+00:00"
+}

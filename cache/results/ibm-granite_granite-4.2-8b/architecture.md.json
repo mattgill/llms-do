@@ -1,0 +1,17 @@
+{
+  "model_id": "ibm-granite/granite-4.2-8b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789248270-L1EY9QeQ67UG5xJCMJJb",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 11415,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4927,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00170386,
+  "execution_duration_sec": 57.537,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:25:28.163476+00:00"
+}

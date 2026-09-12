@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.7-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789246551-P3OFWLsR5TQyRY8GkvcX",
+  "provider_served": "Google",
+  "input_tokens_billed": 3481,
+  "output_tokens_billed": 150,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00317325,
+  "execution_duration_sec": 2.224,
+  "raw_response": "{\"file_type\": \"TypeScript React (TSX)\", \"line_count\": 181, \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\", \"body\", \"ariaSort\", \"sortMark\", \"handleSort\"], \"classes\": [], \"imports\": [\"React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react'\"], \"complexity_notes\": \"Moderate complexity. Implements a generic, accessible data table component with client-side/server-side sorting, pagination, multi-row selection via Context API, custom sort comparator fallback, and an async fetch hook with debounce and abort controller support.\"}",
+  "ran_at": "2026-09-12T20:55:53.892197+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.3-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789247790-Nkr6hHkr7VDWZs39fsce",
+  "provider_served": "StreamLake",
+  "input_tokens_billed": 3033,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4087,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00187470955,
+  "execution_duration_sec": 26.213,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:16:56.842860+00:00"
+}

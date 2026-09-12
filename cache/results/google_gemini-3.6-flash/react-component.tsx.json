@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.6-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789246560-7PLaZOsU1CCQtfNPU4Fo",
+  "provider_served": "Google",
+  "input_tokens_billed": 3481,
+  "output_tokens_billed": 1009,
+  "reasoning_tokens": 893,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0063945,
+  "execution_duration_sec": 6.482,
+  "raw_response": "{\"file_type\": \"typescriptreact\", \"line_count\": 210, \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\"], \"classes\": [], \"imports\": [\"react\"], \"complexity_notes\": \"Implements a feature-rich, accessible React data table component with custom hooks for state management. Features include debounced filter updates, abortable asynchronous data fetching using AbortController, client-side sorting via custom comparators, selection context management, and dynamic pagination rendering.\"}",
+  "ran_at": "2026-09-12T20:56:06.610015+00:00"
+}

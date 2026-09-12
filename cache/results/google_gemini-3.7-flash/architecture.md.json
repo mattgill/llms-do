@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.7-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789246535-14VtHvJskCHFVkJL1WQE",
+  "provider_served": "Google",
+  "input_tokens_billed": 11031,
+  "output_tokens_billed": 1157,
+  "reasoning_tokens": 740,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.012612,
+  "execution_duration_sec": 7.747,
+  "raw_response": "{\n  \"file_type\": \"markdown\",\n  \"line_count\": 565,\n  \"document_title\": \"CollabSync: Real-Time Collaboration Platform \u2014 Technical Architecture\",\n  \"version\": \"2.4.0\",\n  \"sections\": [\n    \"1. System Overview and Design Goals\",\n    \"2. High-Level Architecture\",\n    \"3. Data Model\",\n    \"4. Conflict Resolution: CRDT Algorithm\",\n    \"5. API Design\",\n    \"6. Authentication and Authorization\",\n    \"7. Infrastructure\",\n    \"8. Performance Benchmarks and Scaling Strategy\",\n    \"9. Disaster Recovery and Backup Strategy\",\n    \"10. Monitoring and Observability\"\n  ],\n  \"embedded_code_blocks\": [\n    {\n      \"language\": \"ascii_diagram\",\n      \"description\": \"System topology and K8s cluster layout diagrams\"\n    },\n    {\n      \"language\": \"typescript\",\n      \"description\": \"CRDT operation data structures and merge algorithm\"\n    },\n    {\n      \"language\": \"jsonc\",\n      \"description\": \"WebSocket messaging protocol and token payload examples\"\n    },\n    {\n      \"language\": \"javascript\",\n      \"description\": \"k6 load testing scenario\"\n    },\n    {\n      \"language\": \"bash\",\n      \"description\": \"AWS RDS recovery and DNS failover script\"\n    },\n    {\n      \"language\": \"promql\",\n      \"description\": \"Prometheus metric alert expressions\"\n    }\n  ],\n  \"complexity_notes\": \"High-complexity architectural design document describing a real-time collaborative platform. Details include distributed state synchronization via RGA/LSEQ CRDTs, multi-region Pulsar/PostgreSQL replication topologies, WebSocket session lifecycle management, zero-downtime scaling strategies, and full observability definitions.\"\n}",
+  "ran_at": "2026-09-12T20:55:43.458229+00:00"
+}

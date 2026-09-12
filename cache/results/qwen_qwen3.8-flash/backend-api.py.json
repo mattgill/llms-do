@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789247336-6p6YeRGQEXRTydm7P1KO",
+  "provider_served": "Makora",
+  "input_tokens_billed": 3598,
+  "output_tokens_billed": 1148,
+  "reasoning_tokens": 744,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001070684,
+  "execution_duration_sec": 7.025,
+  "raw_response": "\n\n{\"file_type\":\"python\",\"line_count\":372,\"functions\":[\"get_db\",\"create_access_token\",\"decode_access_token\",\"get_current_user\",\"notify_project_created\",\"global_exception_handler\",\"login\",\"create_project\",\"list_projects\",\"read_project\",\"update_project\",\"delete_project\",\"websocket_project\"],\"classes\":[\"Base\",\"ProjectStatus\",\"User\",\"Project\",\"ProjectCreate\",\"ProjectRead\",\"ProjectUpdate\",\"PaginatedResponse\",\"TokenResponse\",\"ConnectionManager\"],\"imports\":[\"from __future__ import annotations\",\"import asyncio\",\"import logging\",\"from datetime import UTC, datetime, timedelta\",\"from enum import StrEnum\",\"from typing import Annotated, Any, Sequence\",\"import jwt\",\"from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\",\"from fastapi.encoders import jsonable_encoder\",\"from fastapi.middleware.cors import CORSMiddleware\",\"from passlib.context import CryptContext\",\"from pydantic import BaseModel, ConfigDict, Field\",\"from sqlalchemy import Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\",\"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\",\"from sqlalchemy.orm import DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\",\"from fastapi.responses import JSONResponse\"],\"complexity_notes\":\"Full async FastAPI CRUD API with JWT authentication, WebSocket real-time broadcasting via in-memory ConnectionManager, async SQLAlchemy ORM with PostgreSQL, background tasks, and paginated queries. Notable issues: (1) JSONResponse is imported mid-file (line ~260) but referenced in global_exception_handler defined earlier, causing a NameError at runtime; (2) login endpoint accepts credentials via Query params instead of a request body, which is insecure and unconventional; (3) JWT_SECRET is hardcoded; (4) ConnectionManager is in-memory only, not suitable for multi-worker deployments; (5) the count query in list_projects uses a subquery approach that may not correctly count rows; (6) CORS is set to allow all origins with credentials, which is a security risk.\"}",
+  "ran_at": "2026-09-12T21:09:03.211096+00:00"
+}

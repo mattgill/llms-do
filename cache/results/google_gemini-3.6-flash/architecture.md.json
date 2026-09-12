@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.6-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789246552-rMLBAoiHJS05wavhttXH",
+  "provider_served": "Google",
+  "input_tokens_billed": 11031,
+  "output_tokens_billed": 2710,
+  "reasoning_tokens": 2579,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01843575,
+  "execution_duration_sec": 12.385,
+  "raw_response": "{\"file_type\": \"markdown\", \"line_count\": 921, \"functions\": [\"applyOperation\"], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Technical architecture specification document for CollabSync (v2.4.0). Organized into 10 major sections covering high-level architecture diagrams, database schema definitions, RGA/LSEQ CRDT merge algorithms (including TypeScript interfaces and pseudocode function), REST and WebSocket API contracts, JWT authentication/authorization flows, Kubernetes deployment topology, active-active scaling strategies, disaster recovery runbooks with AWS CLI commands, and Prometheus/OpenTelemetry observability setup.\"}",
+  "ran_at": "2026-09-12T20:56:04.874092+00:00"
+}

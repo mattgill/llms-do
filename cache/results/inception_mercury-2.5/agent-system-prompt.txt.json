@@ -1,0 +1,17 @@
+{
+  "model_id": "inception/mercury-2.5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1789246023-KqccFIBTh7bt89pF08KT",
+  "provider_served": "Inception",
+  "input_tokens_billed": 5984,
+  "output_tokens_billed": 2006,
+  "reasoning_tokens": 1916,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00054026,
+  "execution_duration_sec": 3.3,
+  "raw_response": "\n\n{\n  \"file_type\": \"text/markdown\",\n  \"line_count\": 720,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Comprehensive instruction document for an autonomous engineering agent. Includes tool specifications, coding standards, security rules, and workflow requirements. Structured into multiple major sections with detailed guidelines but no executable code.\"\n}",
+  "ran_at": "2026-09-12T20:47:07.142904+00:00"
+}

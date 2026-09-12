@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.6-flash",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1789246554-gIpQrszFqSSZ1M3XUqoo",
+  "provider_served": "Google",
+  "input_tokens_billed": 6298,
+  "output_tokens_billed": 4034,
+  "reasoning_tokens": 3931,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.019851,
+  "execution_duration_sec": 16.789,
+  "raw_response": "{\"file_type\": \"text\", \"line_count\": 325, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"The file contains prompt instructions and guidelines for an AI agent (DevBot). It is structured into multiple text sections including Core Principles, Tool Descriptions, Code Style Guidelines, Security Rules, Framework-Specific Instructions, Database Migration Rules, Review Checklist, Output Format Requirements, Fallback Behaviors, Common Anti-Patterns, and Session Metadata.\"}",
+  "ran_at": "2026-09-12T20:56:11.121155+00:00"
+}

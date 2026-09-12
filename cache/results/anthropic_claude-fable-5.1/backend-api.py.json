@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-fable-5.1",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789246514-vU2APRybYandjTQQcRNl",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 5969,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 3396,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.26449,
+  "execution_duration_sec": 37.737,
+  "raw_response": "{\"file_type\": \"Python (FastAPI application module)\", \"line_count\": 454, \"functions\": [{\"name\": \"get_db\", \"async\": true, \"kind\": \"dependency (async generator)\", \"params\": [], \"returns\": \"AsyncSession (yielded)\"}, {\"name\": \"create_access_token\", \"async\": false, \"params\": [\"user_id: int\"], \"returns\": \"str\"}, {\"name\": \"decode_access_token\", \"async\": false, \"params\": [\"token: str\"], \"returns\": \"dict[str, Any]\"}, {\"name\": \"get_current_user\", \"async\": true, \"kind\": \"dependency\", \"params\": [\"request: Request\", \"db: AsyncSession\"], \"returns\": \"User\"}, {\"name\": \"notify_project_created\", \"async\": true, \"kind\": \"background task\", \"params\": [\"project_id: int\", \"project_name: str\"], \"returns\": \"None\"}, {\"name\": \"global_exception_handler\", \"async\": true, \"kind\": \"exception handler\", \"decorator\": \"@app.exception_handler(Exception)\", \"params\": [\"_request: Request\", \"exc: Exception\"], \"returns\": \"JSONResponse\"}, {\"name\": \"login\", \"async\": true, \"kind\": \"route\", \"decorator\": \"@app.post('/auth/login')\", \"params\": [\"email: str\", \"password: str\", \"db: AsyncSession\"], \"returns\": \"dict[str, str]\"}, {\"name\": \"create_project\", \"async\": true, \"kind\": \"route\", \"decorator\": \"@app.post('/projects', status_code=201)\", \"params\": [\"payload: ProjectCreate\", \"background_tasks: BackgroundTasks\", \"current_user: User\", \"db: AsyncSession\"], \"returns\": \"Project\"}, {\"name\": \"list_projects\", \"async\": true, \"kind\": \"route\", \"decorator\": \"@app.get('/projects')\", \"params\": [\"current_user: User\", \"db: AsyncSession\", \"page: int\", \"page_size: int\", \"status: ProjectStatus | None\", \"search: str | None\"], \"returns\": \"PaginatedResponse\"}, {\"name\": \"read_project\", \"async\": true, \"kind\": \"route\", \"decorator\": \"@app.get('/projects/{project_id}')\", \"params\": [\"project_id: int\", \"current_user",
+  "ran_at": "2026-09-12T20:55:51.868774+00:00"
+}

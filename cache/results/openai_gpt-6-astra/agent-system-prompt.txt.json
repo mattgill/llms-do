@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-astra",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1789245916-2geHOXmY4ek2hjZY2OoJ",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5872,
+  "output_tokens_billed": 1260,
+  "reasoning_tokens": 851,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.1363925,
+  "execution_duration_sec": 19.811,
+  "raw_response": "{\n  \"file_type\": \"plain_text_instruction_document\",\n  \"line_count\": 341,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"text_structure\": {\n    \"introduction\": \"Defines DevBot as an autonomous software engineering agent and describes its intended operating environment.\",\n    \"sections\": [\n      \"CORE PRINCIPLES\",\n      \"TOOL DESCRIPTIONS\",\n      \"CODE STYLE GUIDELINES\",\n      \"SECURITY RULES\",\n      \"FRAMEWORK-SPECIFIC INSTRUCTIONS\",\n      \"REVIEW CHECKLIST BEFORE SUBMITTING CODE\",\n      \"OUTPUT FORMAT REQUIREMENTS\",\n      \"FALLBACK BEHAVIORS FOR AMBIGUITY\",\n      \"COMMON ANTI-PATTERNS TO AVOID\",\n      \"SESSION METADATA\",\n      \"FINAL REMINDER\"\n    ],\n    \"section_count\": 11,\n    \"core_principle_count\": 7,\n    \"documented_tools\": [\n      \"read_file\",\n      \"write_file\",\n      \"search_codebase\",\n      \"run_tests\",\n      \"git_commit\",\n      \"deploy_preview\",\n      \"query_database\",\n      \"fetch_docs\"\n    ],\n    \"review_checklist_item_count\": 12,\n    \"ambiguity_resolution_step_count\": 5,\n    \"anti_pattern_count\": 17,\n    \"formatting\": [\n      \"Uppercase section headings framed by equals-sign separators\",\n      \"Subheadings framed by hyphens\",\n      \"Numbered principles and decision rules\",\n      \"Tool descriptions with parameters, behavior, and usage guidance\",\n      \"Unchecked checklist items\",\n      \"Work-item output template\",\n      \"Inline code examples\"\n    ]\n  },\n  \"complexity_notes\": \"This is procedural documentation, not executable code. Tool names, API references, and inline snippets do not constitute function definitions, class declarations, or imports. Computational complexity is not applicable. The document describes overlapping engineering, testing, security, workflow, and reporting requirements.\"\n}",
+  "ran_at": "2026-09-12T20:45:35.844273+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "deepseek/deepseek-v4.1-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789246966-6tNyGyteAEjv60d18NEG",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 3653,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0060111,
+  "execution_duration_sec": 10.844,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:02:57.432712+00:00"
+}

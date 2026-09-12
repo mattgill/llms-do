@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.3",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1789246827-hJLQcokN1NncbTtMJKRK",
+  "provider_served": "Meta",
+  "input_tokens_billed": 5350,
+  "output_tokens_billed": 1643,
+  "reasoning_tokens": 1358,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01354595,
+  "execution_duration_sec": 11.434,
+  "raw_response": "{\"file_type\": \"JSON (OpenAPI 3.1.0)\", \"line_count\": 1, \"functions\": [\"listTasks\", \"createTask\", \"getTask\", \"updateTask\", \"deleteTask\", \"assignTask\", \"listComments\", \"createComment\", \"listAttachments\", \"uploadAttachment\", \"searchTasks\", \"batchTasks\"], \"classes\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"imports\": [], \"complexity_notes\": \"Non-code structured spec: 7 path items with 12 operations covering Tasks CRUD, Assignments, Comments, Attachments, Search and Batch. 12 component schemas plus 4 reusable error responses and 2 security schemes (bearerAuth JWT, apiKey). Advanced features: pagination, filtering, full-text search, batch operations up to 50 ops with per-item success status, multipart file upload with 25MB limit, detailed validation patterns and examples.\"}",
+  "ran_at": "2026-09-12T21:00:38.398108+00:00"
+}

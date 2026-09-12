@@ -1,0 +1,17 @@
+{
+  "model_id": "deepseek/deepseek-v4.1-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789246940-oYx0iyH8a7ejWxW4u0yU",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 10539,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0080769,
+  "execution_duration_sec": 12.912,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:02:32.923484+00:00"
+}

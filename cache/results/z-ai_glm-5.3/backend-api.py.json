@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.3",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789247512-jGxUrnrfJ9eOFb5JW35I",
+  "provider_served": "Modal",
+  "input_tokens_billed": 3263,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4696,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.02251764,
+  "execution_duration_sec": 11.867,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:12:04.054813+00:00"
+}

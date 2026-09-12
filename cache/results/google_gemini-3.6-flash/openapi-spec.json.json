@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.6-flash",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1789246000-9ES6mJZbZBb1qBHznlRA",
+  "provider_served": "Google",
+  "input_tokens_billed": 5918,
+  "output_tokens_billed": 1118,
+  "reasoning_tokens": 1015,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.008631,
+  "execution_duration_sec": 5.561,
+  "raw_response": "{\"file_type\": \"JSON / OpenAPI Specification\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"OpenAPI 3.1.0 API specification for Task Manager API v2.4.1. Contains 12 endpoint operations across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch) and 12 schema definitions under components, featuring standard JWT Bearer and API Key authentication schemes.\"}",
+  "ran_at": "2026-09-12T20:46:46.053782+00:00"
+}

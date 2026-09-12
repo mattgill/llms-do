@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-flash",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1789247331-D1gWNOUFb2Qv0CMMfRsb",
+  "provider_served": "Makora",
+  "input_tokens_billed": 6145,
+  "output_tokens_billed": 679,
+  "reasoning_tokens": 345,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00124088,
+  "execution_duration_sec": 4.769,
+  "raw_response": "\n\n{\"file_type\": \"structured_text_document\", \"line_count\": 312, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is not source code. It is a system prompt / instruction document for an AI software engineering agent called 'DevBot'. The document is structured as a plain-text/markdown specification with 12 major sections: (1) Role definition, (2) CORE PRINCIPLES (7 numbered principles), (3) TOOL DESCRIPTIONS (8 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), (4) CODE STYLE GUIDELINES (Naming, Imports/Dependencies, Error Handling, Testing Requirements), (5) SECURITY RULES (Never Log Secrets, Validate All Inputs, Sanitize All Outputs, Additional Security), (6) FRAMEWORK-SPECIFIC INSTRUCTIONS (React Patterns, FastAPI Patterns, Database Migration Rules), (7) REVIEW CHECKLIST BEFORE SUBMITTING CODE (13 checklist items), (8) OUTPUT FORMAT REQUIREMENTS (structured work-item blocks), (9) FALLBACK BEHAVIORS FOR AMBIGUITY (5-level hierarchy), (10) COMMON ANTI-PATTERNS TO AVOID (AP-01 through AP-17), (11) SESSION METADATA (token budget, sandbox constraints), (12) FINAL REMINDER. The document uses === separators for section headers, --- for subsections, and numbered/bulleted lists throughout. No executable code, no imports, no functions, no classes. It is a behavioral specification document approximately 12,000 words in length.\"}",
+  "ran_at": "2026-09-12T21:08:56.144262+00:00"
+}

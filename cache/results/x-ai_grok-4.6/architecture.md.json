@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.6",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789247006-HmKTlHK8Hs9k6qSohI0o",
+  "provider_served": "xAI",
+  "input_tokens_billed": 10560,
+  "output_tokens_billed": 9948,
+  "reasoning_tokens": 9308,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.080616,
+  "execution_duration_sec": 159.191,
+  "raw_response": "{\"file_type\": \"markdown_technical_architecture_document\", \"line_count\": 1001, \"title\": \"CollabSync: Real-Time Collaboration Platform \u2014 Technical Architecture\", \"version\": \"2.4.0\", \"status\": \"Production\", \"sections\": [{\"id\": 1, \"heading\": \"System Overview and Design Goals\", \"contents\": [\"design-goals table\", \"non-functional requirements\"]}, {\"id\": 2, \"heading\": \"High-Level Architecture\", \"contents\": [\"ASCII system topology diagram\", \"service descriptions (API Gateway, Document Service, Collaboration Engine, Gateway Service, Presence Tracker, Op Persister)\"]}, {\"id\": 3, \"heading\": \"Data Model\", \"contents\": [\"ER overview\", \"table definitions: workspaces, documents, users, memberships, operations, snapshots, document_presence\"]}, {\"id\": 4, \"heading\": \"Conflict Resolution: CRDT Algorithm\", \"contents\": [\"RGA/LSEQ identifiers\", \"TypeScript operation types\", \"applyOperation merge pseudocode\", \"anti-entropy protocol\"]}, {\"id\": 5, \"heading\": \"API Design\", \"contents\": [\"REST endpoints\", \"WebSocket JSON protocol\", \"rate-limit table\"]}, {\"id\": 6, \"heading\": \"Authentication and Authorization\", \"contents\": [\"JWT dual-token model\", \"auth sequence diagram\", \"RBAC permission matrix\", \"SSO\"]}, {\"id\": 7, \"heading\": \"Infrastructure\", \"contents\": [\"EKS topology diagram\", \"PostgreSQL/Redis/S3/Pulsar configuration\"]}, {\"id\": 8, \"heading\": \"Performance Benchmarks and Scaling Strategy\", \"contents\": [\"latency benchmarks\", \"k6 load-test snippet\", \"HPA table\", \"multi-region diagram\"]}, {\"id\": 9, \"heading\": \"Disaster Recovery and Backup Strategy\", \"contents\": [\"RPO/RTO table\", \"backup schedule\", \"AWS RDS recovery bash\", \"chaos engineering\"]}, {\"id\": 10, \"heading\": \"Monitoring and Observability\", \"contents\": [\"PromQL metrics\", \"OpenTelemetry tracing\", \"JSON log schema\", \"alerting rules\", \"dashboards\"]}], \"functions\": [\"applyOperation\", \"binarySearchByPosition\", \"findPositionIndex\", \"mergeAttributes\", \"splicePositions\", \"hash\"], \"classes\": [], \"types\": [\"InsertOp\", \"DeleteOp\", \"FormatOp\", \"MoveOp\", \"PositionID\", \"CRDTState\", \"Operation\", \"Attributes\"], \"imports\": [], \"embedded_languages\": [\"markdown\", \"typescript\", \"jsonc\", \"json\", \"promql\", \"bash\", \"ascii-diagrams\"], \"complexity_notes\": \"Not an executable codebase; a production architecture spec covering CRDT merge logic, sharded real-time collaboration, multi-region active-active infra, and observability. Highest conceptual complexity is the RGA/LSEQ CRDT merge, consistent-hash engine sharding, and geo-replicated Pulsar/PostgreSQL topology. Contains illustrative pseudocode rather than a full implementation.\"}",
+  "ran_at": "2026-09-12T21:06:05.053006+00:00"
+}

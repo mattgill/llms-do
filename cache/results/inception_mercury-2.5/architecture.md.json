@@ -1,0 +1,17 @@
+{
+  "model_id": "inception/mercury-2.5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789248213-2kizurNiGAqs9L7Sfqt1",
+  "provider_served": "Inception",
+  "input_tokens_billed": 10833,
+  "output_tokens_billed": 1267,
+  "reasoning_tokens": 1163,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00062337,
+  "execution_duration_sec": 5.344,
+  "raw_response": "\n\n{\n  \"file_type\": \"markdown\",\n  \"line_count\": 1800,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"Detailed architecture specification for a real-time collaboration platform. Covers system goals, service topology, data models, CRDT algorithms, API definitions, security protocols, cloud infrastructure, scaling strategies, backup procedures, and monitoring metrics. Contains ASCII diagrams, SQL schema tables, and JSON examples.\"\n}",
+  "ran_at": "2026-09-12T21:23:38.696578+00:00"
+}

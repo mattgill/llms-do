@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.6",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1789246991-AwqZWhyn4DxZ5gqBBG9c",
+  "provider_served": "xAI",
+  "input_tokens_billed": 6826,
+  "output_tokens_billed": 840,
+  "reasoning_tokens": 645,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0185,
+  "execution_duration_sec": 14.484,
+  "raw_response": "{\"file_type\": \"openapi_json\", \"line_count\": 1, \"functions\": [\"listTasks\", \"createTask\", \"getTask\", \"updateTask\", \"deleteTask\", \"assignTask\", \"listComments\", \"createComment\", \"listAttachments\", \"uploadAttachment\", \"searchTasks\", \"batchTasks\"], \"classes\": [\"TaskStatus\", \"Priority\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"imports\": [], \"complexity_notes\": \"OpenAPI 3.1.0 Task Manager REST spec (v2.4.1): 8 path groups, 12 operations, dual JWT/API-key security, pagination/search/batch, multipart uploads, shared error responses, and nested User/Task/Comment/Attachment schemas with enums and validation constraints.\"}",
+  "ran_at": "2026-09-12T21:03:25.405660+00:00"
+}

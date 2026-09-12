@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.8-flash",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1789245976-kEbOhLNa0Qg3POlpOEj7",
+  "provider_served": "Google",
+  "input_tokens_billed": 5918,
+  "output_tokens_billed": 1250,
+  "reasoning_tokens": 1025,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.009126,
+  "execution_duration_sec": 7.034,
+  "raw_response": "{\"file_type\":\"json\",\"content_type\":\"OpenAPI 3.1.0 Specification\",\"line_count\":1,\"root_keys\":[\"openapi\",\"info\",\"servers\",\"security\",\"tags\",\"paths\",\"components\"],\"title\":\"Task Manager API\",\"version\":\"2.4.1\",\"structure\":{\"servers\":3,\"tags\":[\"Tasks\",\"Assignments\",\"Comments\",\"Attachments\",\"Search & Batch\"],\"paths\":[\"/tasks\",\"/tasks/{task_id}\",\"/tasks/{task_id}/assign\",\"/tasks/{task_id}/comments\",\"/tasks/{task_id}/attachments\",\"/tasks/search\",\"/tasks/batch\"],\"components\":{\"securitySchemes\":[\"bearerAuth\",\"apiKey\"],\"schemas\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"responses\":[\"BadRequest\",\"Unauthorized\",\"NotFound\",\"InternalError\"]}},\"description\":\"Single-line minified JSON document defining the REST API specification for a Task Manager service, including schema definitions, authentication requirements, and endpoint routes for tasks, comments, attachments, search, and batch processing.\"}",
+  "ran_at": "2026-09-12T20:46:23.663698+00:00"
+}

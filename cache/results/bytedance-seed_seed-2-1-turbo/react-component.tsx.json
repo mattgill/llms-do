@@ -1,0 +1,17 @@
+{
+  "model_id": "bytedance-seed/seed-2-1-turbo",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789248141-6MuMgFALfEZFyq4F0K3W",
+  "provider_served": "Seed",
+  "input_tokens_billed": 3460,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01197,
+  "execution_duration_sec": 54.352,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:23:15.226346+00:00"
+}

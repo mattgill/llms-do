@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.2",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789247427-v6mRaIyq6o5k5VozaZF3",
+  "provider_served": "Meta",
+  "input_tokens_billed": 3286,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4093,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0215155,
+  "execution_duration_sec": 14.028,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:10:40.770609+00:00"
+}
