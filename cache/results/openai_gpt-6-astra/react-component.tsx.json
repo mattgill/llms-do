@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-astra",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789245936-JXfaHSHzZwloimJ6YZFA",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 1278,
+  "reasoning_tokens": 735,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.103005,
+  "execution_duration_sec": 22.853,
+  "raw_response": "{\n  \"file_type\": \"TypeScript React (TSX)\",\n  \"line_count\": 252,\n  \"functions\": [\n    {\n      \"name\": \"useDebounce\",\n      \"line\": 41,\n      \"description\": \"Debounces value updates using state, an effect, and a timeout with cleanup.\"\n    },\n    {\n      \"name\": \"useDataFetch\",\n      \"line\": 52,\n      \"description\": \"Manages asynchronous fetching, debounced filters, sorting, pagination, loading, and errors.\",\n      \"nested_functions\": [\"setPage\", \"setPageSize\"]\n    },\n    {\n      \"name\": \"useTableSelection\",\n      \"line\": 102,\n      \"description\": \"Reads selection context and throws when used outside its provider.\"\n    },\n    {\n      \"name\": \"compareValues\",\n      \"line\": 112,\n      \"description\": \"Compares extracted values with null handling, string and numeric comparisons, and directional ordering.\"\n    },\n    {\n      \"name\": \"DataTableComponent\",\n      \"line\": 145,\n      \"description\": \"Renders a generic table with sortable headers, selection controls, status rows, and pagination.\",\n      \"nested_functions\": [\n        \"toggle\",\n        \"toggleAll\",\n        \"isSelected\",\n        \"isAllSelected\",\n        \"ex\",\n        \"handleSort\",\n        \"ariaSort\",\n        \"sortMark\",\n        \"body\"\n      ]\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [\n    {\n      \"source\": \"react\",\n      \"default\": \"React\",\n      \"named\": [\n        \"createContext\",\n        \"useCallback\",\n        \"useContext\",\n        \"useEffect\",\n        \"useMemo\",\n        \"useRef\",\n        \"useState\"\n      ]\n    }\n  ],\n  \"complexity_notes\": \"For n supplied rows and c columns, client-side sorting typically costs O(n log n) comparisons and rendering costs O(n*c), excluding custom comparator and cell-renderer costs. Sorting copies the row array, requiring O(n) additional space. Selection toggles copy the selected set; deselecting all visible rows can cost O(s*n) for s selected IDs because it uses array includes inside a filter. Pagination renders at most five numbered buttons. Fetch effects abort the preceding request on rerun and suppress stale updates through a cleanup flag, but cleanup does not abort an in-flight request on unmount. Filtering and pagination are delegated to the fetcher or parent; the component sorts supplied data without slicing it. Filter and sort changes do not automatically reset the page, and pagination inputs are not validated.\"\n}",
+  "ran_at": "2026-09-12T20:45:59.016808+00:00"
+}

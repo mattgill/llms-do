@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.7-flash",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1789246543-UD1M4zqJthwx6uaUYtTD",
+  "provider_served": "Google",
+  "input_tokens_billed": 6298,
+  "output_tokens_billed": 1037,
+  "reasoning_tokens": 783,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00861225,
+  "execution_duration_sec": 7.028,
+  "raw_response": "{\n  \"document_type\": \"system_prompt_specification\",\n  \"line_count\": 257,\n  \"sections\": [\n    \"CORE PRINCIPLES\",\n    \"TOOL DESCRIPTIONS\",\n    \"CODE STYLE GUIDELINES\",\n    \"SECURITY RULES\",\n    \"FRAMEWORK-SPECIFIC INSTRUCTIONS\",\n    \"REVIEW CHECKLIST BEFORE SUBMITTING CODE\",\n    \"OUTPUT FORMAT REQUIREMENTS\",\n    \"FALLBACK BEHAVIORS FOR AMBIGUITY\",\n    \"COMMON ANTI-PATTERNS TO AVOID\",\n    \"SESSION METADATA\",\n    \"FINAL REMINDER\"\n  ],\n  \"tools_defined\": [\n    \"read_file\",\n    \"write_file\",\n    \"search_codebase\",\n    \"run_tests\",\n    \"git_commit\",\n    \"deploy_preview\",\n    \"query_database\",\n    \"fetch_docs\"\n  ],\n  \"anti_patterns_cataloged\": 17,\n  \"structure_summary\": \"System instructions and operational constraints for DevBot, an autonomous software engineering AI agent operating within a Linux container environment.\"\n}",
+  "ran_at": "2026-09-12T20:55:50.689430+00:00"
+}

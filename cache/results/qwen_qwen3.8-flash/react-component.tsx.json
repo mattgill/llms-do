@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789247343-SQW9lyxDVRG63deTXdlo",
+  "provider_served": "Makora",
+  "input_tokens_billed": 3277,
+  "output_tokens_billed": 490,
+  "reasoning_tokens": 194,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000713274,
+  "execution_duration_sec": 4.05,
+  "raw_response": "\n\n{\"file_type\":\"typescript-react-tsx\",\"line_count\":195,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\",\"handleSort\",\"body\",\"ariaSort\",\"sortMark\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"Generic React data table component with sorting, filtering, pagination, row selection, and async data fetching. Uses TypeScript generics (TData, TColumn, TFilters) extensively. Contains custom hooks (useDebounce, useDataFetch) with AbortController-based cancellation and debounced filter state. Selection is managed via React Context (SelectionContext). Sorting supports custom comparators via sortFn or a generic compareValues fallback. Pagination renders a sliding window of up to 5 page buttons. Accessibility is thorough: ARIA roles (grid, columnheader, gridcell, region, status, alert), aria-sort, aria-busy, aria-rowcount, aria-selected, aria-current, keyboard support (Enter/Space) on sortable headers. The component is exported as a compound component with attached static hooks (DataTable.useDataFetch, DataTable.useTableSelection). Inline styles are used throughout (no CSS modules). The useDataFetch hook uses a closure flag 'ok' to guard against state updates after unmount/abort, which is a subtle but important pattern for avoiding React state-update-after-unmount warnings.\"}",
+  "ran_at": "2026-09-12T21:09:07.315158+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.3",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1789247477-q42L9xOgfYqHpR6ZLgz1",
+  "provider_served": "Modal",
+  "input_tokens_billed": 5375,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 3855,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0255474,
+  "execution_duration_sec": 14.37,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:11:32.012630+00:00"
+}

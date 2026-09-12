@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-flash",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1789247325-KUeg86zfXALugGpByOOb",
+  "provider_served": "Makora",
+  "input_tokens_billed": 5605,
+  "output_tokens_billed": 940,
+  "reasoning_tokens": 590,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00128255,
+  "execution_duration_sec": 5.624,
+  "raw_response": "\n\n{\"file_type\":\"openapi_specification_json\",\"line_count\":1,\"functions\":[\"listTasks\",\"createTask\",\"getTask\",\"updateTask\",\"deleteTask\",\"assignTask\",\"listComments\",\"createComment\",\"listAttachments\",\"uploadAttachment\",\"searchTasks\",\"batchTasks\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[\"#/components/schemas/TaskStatus\",\"#/components/schemas/Priority\",\"#/components/schemas/Task\",\"#/components/schemas/User\",\"#/components/schemas/TaskCreateRequest\",\"#/components/schemas/TaskUpdateRequest\",\"#/components/schemas/Comment\",\"#/components/schemas/Attachment\",\"#/components/schemas/Pagination\",\"#/components/schemas/ErrorResponse\",\"#/components/schemas/TaskListResponse\",\"#/components/schemas/CommentListResponse\",\"#/components/responses/BadRequest\",\"#/components/responses/Unauthorized\",\"#/components/responses/NotFound\",\"#/components/responses/InternalError\"],\"complexity_notes\":\"OpenAPI 3.1.0 specification for a production-grade Task Manager REST API (v2.4.1). Defines 7 path groups with 12 operations covering CRUD, assignment, comments, attachments, full-text search, and batch operations. Uses 12 component schemas, 4 reusable response definitions, and 2 security schemes (JWT bearer + API key). Supports 3 server environments (production, staging, local). Pagination is standardized across list endpoints. Batch endpoint supports up to 50 operations with mixed action types. File upload limited to 25 MB via multipart/form-data. Task IDs follow pattern ^task_[a-z0-9]{10}$. Overall moderate complexity with well-structured $ref-based schema reuse and comprehensive error handling including request_id tracing.\"}",
+  "ran_at": "2026-09-12T21:08:50.664076+00:00"
+}

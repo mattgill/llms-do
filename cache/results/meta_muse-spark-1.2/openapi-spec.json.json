@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.2",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1789246874-SvfyL9PN1fzhL9638s2f",
+  "provider_served": "Meta",
+  "input_tokens_billed": 5336,
+  "output_tokens_billed": 1300,
+  "reasoning_tokens": 1027,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.012195,
+  "execution_duration_sec": 9.625,
+  "raw_response": "{\"file_type\":\"JSON - OpenAPI 3.1.0\",\"line_count\":1,\"functions\":[\"listTasks\",\"createTask\",\"getTask\",\"updateTask\",\"deleteTask\",\"assignTask\",\"listComments\",\"createComment\",\"listAttachments\",\"uploadAttachment\",\"searchTasks\",\"batchTasks\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"Not executable code - declarative OpenAPI 3.1.0 specification for Task Manager API v2.4.1. Defines 12 operations across 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch) with 7 path groups, 3 servers, 2 security schemes (bearerAuth JWT, apiKey), and 12 component schemas. Complexity is API-surface complexity: pagination, filtering, search, batch (max 50 ops), multipart file upload (25MB limit), and extensive error handling, rather than algorithmic code complexity.\"}",
+  "ran_at": "2026-09-12T21:01:24.065915+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "deepseek/deepseek-v4.1-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789246977-B2Va1BV2dwoEAa1ZbrRA",
+  "provider_served": "SiliconFlow",
+  "input_tokens_billed": 3252,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0058908,
+  "execution_duration_sec": 11.94,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:03:09.560577+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789246009-cVrvcs8Ae40LkdE3dpXr",
+  "provider_served": "Makora",
+  "input_tokens_billed": 11018,
+  "output_tokens_billed": 652,
+  "reasoning_tokens": 312,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00195914,
+  "execution_duration_sec": 5.607,
+  "raw_response": "\n\n{\"file_type\":\"markdown_documentation\",\"line_count\":687,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"This is a technical architecture document (Markdown) for 'CollabSync v2.4.0', a real-time collaboration platform. It is NOT executable code but a comprehensive system design specification. Structure: 10 major sections covering System Overview, High-Level Architecture, Data Model (7 PostgreSQL tables with full DDL), CRDT Conflict Resolution Algorithm (RGA/LSEQ with TypeScript type definitions and pseudocode merge algorithm), API Design (REST endpoints + WebSocket protocol with JSON message schemas), Authentication/Authorization (JWT dual-token, SSO, RBAC permission matrix), Infrastructure (Kubernetes/EKS topology, PostgreSQL/Redis/S3/Pulsar configs), Performance Benchmarks and Scaling (k6 load test config, horizontal scaling table, multi-region active-active topology), Disaster Recovery (RPO/RTO targets, backup schedule, bash recovery scripts, chaos engineering), and Monitoring/Observability (PromQL queries, OpenTelemetry tracing spans, structured JSON logging schema, alerting rules, dashboard specs). Embedded code snippets include: TypeScript type definitions (InsertOp, DeleteOp, FormatOp, MoveOp), pseudocode (applyOperation merge algorithm), SQL DDL (7 tables), PromQL queries, bash scripts (AWS RDS recovery), JSON schemas (WebSocket messages, JWT claims, log format), and k6 load test config. ASCII art diagrams depict system topology, Kubernetes cluster layout, multi-region architecture, and ER relationships. The document references external systems: Envoy, Apache Pulsar, PostgreSQL 16, Redis/ElastiCache, S3/MinIO, Elasticsearch, etcd, OpenTelemetry, Prometheus, PagerDuty, Route53, cert-manager, fluent-bit, Kinesis Firehose, OpenSearch, ClickHouse, Kafka.\"}",
+  "ran_at": "2026-09-12T20:46:55.421823+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.8-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789245988-QdnLLHqRwX29FFA4w148",
+  "provider_served": "Google",
+  "input_tokens_billed": 4190,
+  "output_tokens_billed": 405,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00466125,
+  "execution_duration_sec": 2.997,
+  "raw_response": "{\"file_type\": \"python\", \"line_count\": 319, \"functions\": [\"__tablename__\", \"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"connect\", \"disconnect\", \"broadcast\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"from __future__ import annotations\", \"import asyncio\", \"import logging\", \"from datetime import UTC, datetime, timedelta\", \"from enum import StrEnum\", \"from typing import Annotated, Any, Sequence\", \"import jwt\", \"from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\", \"from fastapi.encoders import jsonable_encoder\", \"from fastapi.middleware.cors import CORSMiddleware\", \"from passlib.context import CryptContext\", \"from pydantic import BaseModel, ConfigDict, Field\", \"from sqlalchemy import Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\", \"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\", \"from sqlalchemy.orm import DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\", \"from fastapi.responses import JSONResponse\"], \"complexity_notes\": \"FastAPI application with SQLAlchemy async ORM models, Pydantic validation schemas, JWT authentication, background tasks, and an in-memory WebSocket ConnectionManager for real-time broadcasts. Contains CRUD routes for projects, pagination logic, and error handling.\"}",
+  "ran_at": "2026-09-12T20:46:31.106627+00:00"
+}

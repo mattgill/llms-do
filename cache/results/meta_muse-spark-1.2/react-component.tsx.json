@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.2",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789247441-6WnQxIyRn2kEh3k1tjsA",
+  "provider_served": "Meta",
+  "input_tokens_billed": 3130,
+  "output_tokens_billed": 4002,
+  "reasoning_tokens": 3715,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.020921,
+  "execution_duration_sec": 13.875,
+  "raw_response": "{\"file_type\": \"TypeScript React (TSX)\",\"line_count\": 252,\"functions\": [\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\": [],\"imports\": [\"React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from \\\"react\\\"\"],\"complexity_notes\": \"Moderate-high complexity. Generic typed DataTable with sorting (custom sortFn + compareValues comparator), filtering, pagination, row selection via Context, and async data fetching. useDataFetch implements debounced filters (useDebounce), AbortController cancellation, and stale-closure guard (ok flag). DataTableComponent uses useMemo/useCallback for sorted data, selection state, and sort handlers, plus ARIA attributes (grid, aria-sort, aria-busy, pagination nav) and windowed pagination rendering (max 5 pages). No classes, functional/hooks architecture.\"}",
+  "ran_at": "2026-09-12T21:10:54.763326+00:00"
+}

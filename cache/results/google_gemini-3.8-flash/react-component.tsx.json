@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.8-flash",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789245991-5ZiVvHy6SytBFBO8y5Fi",
+  "provider_served": "Google",
+  "input_tokens_billed": 3481,
+  "output_tokens_billed": 232,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00348075,
+  "execution_duration_sec": 2.407,
+  "raw_response": "{\"file_type\": \"typescript\", \"line_count\": 194, \"functions\": [{\"name\": \"useDebounce\", \"line_number\": 44, \"is_async\": false}, {\"name\": \"useDataFetch\", \"line_number\": 53, \"is_async\": false}, {\"name\": \"useTableSelection\", \"line_number\": 97, \"is_async\": false}, {\"name\": \"compareValues\", \"line_number\": 106, \"is_async\": false}, {\"name\": \"DataTableComponent\", \"line_number\": 137, \"is_async\": false}], \"classes\": [], \"imports\": [{\"module\": \"react\", \"imports\": [\"createContext\", \"useCallback\", \"useContext\", \"useEffect\", \"useMemo\", \"useRef\", \"useState\"]}], \"complexity_notes\": \"Implements an accessible, generic data table component with sorting, pagination, and multi-row selection. Includes custom hooks for debouncing and abortable async data fetching with AbortController to handle race conditions.\"}",
+  "ran_at": "2026-09-12T20:46:33.759805+00:00"
+}

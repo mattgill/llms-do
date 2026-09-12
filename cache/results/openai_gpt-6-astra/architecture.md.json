@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-astra",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789245916-WVpk38xbFPtcFqj2kLzS",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 3664,
+  "reasoning_tokens": 3106,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.3112675,
+  "execution_duration_sec": 49.363,
+  "raw_response": "{\n  \"file_type\": \"Markdown technical architecture document\",\n  \"line_count\": 932,\n  \"functions\": [\n    {\n      \"name\": \"applyOperation\",\n      \"context\": \"Embedded TypeScript-like pseudocode, not a standalone implementation\",\n      \"parameters\": [\"docState: CRDTState\", \"op: Operation\"],\n      \"return_type\": \"CRDTState\",\n      \"purpose\": \"Applies insert, delete, format, and move operations with deduplication and Lamport clock updates.\"\n    }\n  ],\n  \"classes\": [],\n  \"imports\": [],\n  \"text_structure\": {\n    \"title\": \"CollabSync: Real-Time Collaboration Platform \u2014 Technical Architecture\",\n    \"metadata\": {\n      \"version\": \"2.4.0\",\n      \"last_updated\": \"2026-07-15\",\n      \"status\": \"Production\",\n      \"owner\": \"Platform Engineering\"\n    },\n    \"sections\": [\n      \"System Overview and Design Goals\",\n      \"High-Level Architecture\",\n      \"Data Model\",\n      \"Conflict Resolution: CRDT Algorithm\",\n      \"API Design\",\n      \"Authentication and Authorization\",\n      \"Infrastructure\",\n      \"Performance Benchmarks and Scaling Strategy\",\n      \"Disaster Recovery and Backup Strategy\",\n      \"Monitoring and Observability\"\n    ],\n    \"elements\": [\n      \"Hierarchical headings and horizontal separators\",\n      \"Requirements, schema, permissions, benchmark, and operational tables\",\n      \"Bulleted and numbered lists\",\n      \"ASCII architecture, relationship, sequence, and tracing diagrams\",\n      \"TypeScript operation type definitions and merge pseudocode\",\n      \"REST endpoint listings and JSON/JSONC protocol examples\",\n      \"JavaScript k6 configuration\",\n      \"Bash recovery commands\",\n      \"PromQL queries\",\n      \"Approval footer\"\n    ],\n    \"documented_entities\": [\n      \"workspaces\",\n      \"documents\",\n      \"users\",\n      \"memberships\",\n      \"operations\",\n      \"snapshots\",\n      \"document_presence\"\n    ]\n  },\n  \"complexity_notes\": \"Primarily descriptive documentation rather than executable source. Architectural complexity involves distributed CRDT synchronization, sharding, asynchronous persistence, cross-region replication, authorization, and recovery. In the merge example, binary search is O(log n), but array insertion is O(n); deleting k positions is expected O(k) with hash-set tombstones, while formatting and moving depend on unspecified helpers. Correctness claims require validation: the text claims tombstone-free ordering but implements tombstones, does not demonstrate the claimed fractional indexing, and ignores InsertOp.after during insertion. Move operations may also invalidate the sorted-position invariant required by binary search. Multi-region active-active operation is qualified by single-writer PostgreSQL.\"\n}",
+  "ran_at": "2026-09-12T20:46:05.732788+00:00"
+}

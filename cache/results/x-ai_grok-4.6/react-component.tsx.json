@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.6",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789247260-XnTyIMJe3m5JhLqStLiM",
+  "provider_served": "xAI",
+  "input_tokens_billed": 3502,
+  "output_tokens_billed": 4605,
+  "reasoning_tokens": 4432,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.034442,
+  "execution_duration_sec": 62.717,
+  "raw_response": "{\"file_type\": \"tsx\", \"line_count\": 252, \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\"], \"classes\": [], \"imports\": [\"react\"], \"complexity_notes\": \"Generic React DataTable module with TypeScript interfaces (SortState, ColumnDef, PaginationState, FetchResult, UseDataFetchOptions, DataTableProps, SelectionCtx). Combines custom hooks (debounce, abortable async fetch with sort/filter/pagination), React context for row selection, client-side sort via compareValues or column sortFn, and a dense JSX table with ARIA grid/pagination. Moderate-to-high complexity due to generics, race-cancellation via abort + stale flag, and mixed presentational/state logic; no class components.\"}",
+  "ran_at": "2026-09-12T21:08:42.577509+00:00"
+}

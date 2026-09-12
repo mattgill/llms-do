@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k3",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1789248200-I4YEu4bbzVunlS8YdvJI",
+  "provider_served": "Sail Research",
+  "input_tokens_billed": 5470,
+  "output_tokens_billed": 1434,
+  "reasoning_tokens": 956,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.03353274177911,
+  "execution_duration_sec": 8.821,
+  "raw_response": "{\"file_type\": \"JSON (OpenAPI 3.1.0 API specification)\", \"line_count\": 1, \"functions\": [\"listTasks (GET /tasks)\", \"createTask (POST /tasks)\", \"getTask (GET /tasks/{task_id})\", \"updateTask (PATCH /tasks/{task_id})\", \"deleteTask (DELETE /tasks/{task_id})\", \"assignTask (PATCH /tasks/{task_id}/assign)\", \"listComments (GET /tasks/{task_id}/comments)\", \"createComment (POST /tasks/{task_id}/comments)\", \"listAttachments (GET /tasks/{task_id}/attachments)\", \"uploadAttachment (POST /tasks/{task_id}/attachments)\", \"searchTasks (POST /tasks/search)\", \"batchTasks (POST /tasks/batch)\"], \"classes\": [\"TaskStatus (enum: open, in_progress, in_review, blocked, done, cancelled)\", \"Priority (enum: low, medium, high, critical)\", \"User\", \"Task\", \"TaskCreateRequest\", \"TaskUpdateRequest\", \"Comment\", \"Attachment\", \"Pagination\", \"ErrorResponse\", \"TaskListResponse\", \"CommentListResponse\"], \"imports\": [], \"complexity_notes\": \"Minified single-line OpenAPI 3.1.0 specification for 'Task Manager API' v2.4.1 (not executable code). Defines 7 paths with 12 operations across 5 tag groups (Tasks, Assignments, Comments, Attachments, Search & Batch). Includes 12 component schemas, 4 reusable error responses (BadRequest, Unauthorized, NotFound, InternalError), and 2 security schemes (JWT bearer auth and X-API-Key header). Notable features: cursor-style pagination (page/per_page, max 100), multi-field filtering, full-text search with field selection, batch operations supporting up to 50 actions per request with per-item success/failure results (oneOf Task|ErrorResponse), multipart file upload with 25 MB limit (413 response), Markdown comment bodies with server-rendered HTML, threaded comments via parent_id, signed attachment URLs, 409 conflict handling for locked tasks, and consistent error envelopes with request_id tracking. All $ref references are internal; no external imports. Three server environments defined (production, staging, localhost).\"}",
+  "ran_at": "2026-09-12T21:23:29.052063+00:00"
+}

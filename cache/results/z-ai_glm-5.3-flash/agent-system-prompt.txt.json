@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.3-flash",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1789247689-9BoGP0eYHvut3lpknn97",
+  "provider_served": "Wafer",
+  "input_tokens_billed": 5861,
+  "output_tokens_billed": 171,
+  "reasoning_tokens": 1,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00064595,
+  "execution_duration_sec": 62.663,
+  "raw_response": "{\"file_type\": \"text\", \"line_count\": 199, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Not code; this is a system prompt / agent specification document for 'DevBot', an autonomous software engineering agent. Structure: sections delimited by '=' banners covering core principles (7 items), tool descriptions (8 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs), code style guidelines, security rules, framework-specific patterns (React, FastAPI, database migrations), a review checklist, output format requirements (work item blocks), ambiguity fallback hierarchy, 17 numbered anti-patterns (AP-01 through AP-17), session metadata, and a final reminder. No functions, classes, or imports to analyze.\"}",
+  "ran_at": "2026-09-12T21:15:51.697180+00:00"
+}

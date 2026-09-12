@@ -1,0 +1,17 @@
+{
+  "model_id": "z-ai/glm-5.3-flash",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789247572-ze2petyPaeoq4im2rl4Q",
+  "provider_served": "Relace",
+  "input_tokens_billed": 10323,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4785,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00215787,
+  "execution_duration_sec": 116.289,
+  "raw_response": null,
+  "ran_at": "2026-09-12T21:14:48.767085+00:00"
+}

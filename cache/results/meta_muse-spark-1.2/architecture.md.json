@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.2",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789246884-3C602LK5SqsKnVHpC5iD",
+  "provider_served": "Meta",
+  "input_tokens_billed": 9785,
+  "output_tokens_billed": 1481,
+  "reasoning_tokens": 1120,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0185255,
+  "execution_duration_sec": 12.986,
+  "raw_response": "{\"file_type\": \"markdown\",\"line_count\": 658,\"functions\": [],\"classes\": [],\"imports\": [],\"complexity_notes\": \"Not executable code - technical architecture documentation. No cyclomatic complexity. Structure is hierarchical markdown with 10 numbered sections, ASCII diagrams, tables, and embedded code snippets (TypeScript, JSONC, PromQL, bash, k6 JS) for illustration only.\",\"document_title\": \"CollabSync: Real-Time Collaboration Platform \u2014 Technical Architecture\",\"version\": \"2.4.0\",\"status\": \"Production\",\"sections\": [\"1. System Overview and Design Goals\",\"2. High-Level Architecture\",\"3. Data Model\",\"4. Conflict Resolution: CRDT Algorithm\",\"5. API Design\",\"6. Authentication and Authorization\",\"7. Infrastructure\",\"8. Performance Benchmarks and Scaling Strategy\",\"9. Disaster Recovery and Backup Strategy\",\"10. Monitoring and Observability\"],\"section_count\": 10,\"tables_count\": 15,\"diagrams_count\": 4,\"code_blocks\": [\"typescript (CRDT types and merge algorithm)\",\"jsonc (WebSocket protocol examples)\",\"promql (metrics queries)\",\"bash (PostgreSQL recovery)\",\"javascript (k6 load test)\"],\"structure_summary\": \"Markdown technical specification document with hierarchical headings, tables for design goals/data model/API limits, ASCII topology diagrams, ER overview, and detailed subsections covering CRDT RGA/LSEQ, REST/WebSocket APIs, JWT auth, Kubernetes/PostgreSQL/Redis/S3/Pulsar infrastructure, benchmarks, DR procedures, and observability\"}",
+  "ran_at": "2026-09-12T21:01:37.098912+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-fable-5.1",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789246514-tSpJFQFUhEdt3UFNQxIw",
+  "provider_served": "Anthropic",
+  "input_tokens_billed": 16133,
+  "output_tokens_billed": 1304,
+  "reasoning_tokens": 235,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.22653,
+  "execution_duration_sec": 17.31,
+  "raw_response": "{\"file_type\": \"markdown_documentation\", \"line_count\": 850, \"functions\": [\"applyOperation (pseudocode in TypeScript-style, CRDT merge algorithm)\", \"binarySearchByPosition (referenced)\", \"findPositionIndex (referenced)\", \"mergeAttributes (referenced)\", \"splicePositions (referenced)\", \"hash (referenced)\"], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Not a source code file; this is a technical architecture design document for 'CollabSync' (v2.4.0), a real-time collaborative editing platform. Line count is approximate. Structure: title header with metadata (version, date, status, owner), followed by 10 numbered top-level sections: (1) System Overview and Design Goals \u2014 goals table and NFR list; (2) High-Level Architecture \u2014 large ASCII topology diagram (CDN \u2192 Envoy gateway \u2192 REST/WebSocket services \u2192 Pulsar broker \u2192 processing layer \u2192 persistence layer) plus per-service descriptions; (3) Data Model \u2014 ER sketch and 7 PostgreSQL table definitions (workspaces, documents, users, memberships, operations, snapshots, document_presence) with column/type/constraint tables and index notes; (4) Conflict Resolution \u2014 RGA/LSEQ CRDT explanation, PositionID total-order rule, TypeScript type definitions for InsertOp/DeleteOp/FormatOp/MoveOp, pseudocode applyOperation merge function, anti-entropy protocol, interleaving guarantee; (5) API Design \u2014 REST endpoint listings (auth, workspaces, documents, search), WebSocket protocol with JSONC message examples for client\u2192server and server\u2192client, rate limit table; (6) Authentication and Authorization \u2014 dual JWT/refresh token table, sample claims JSON, ASCII sequence diagram of auth flow, three-level authorization model, role permission matrix, SSO notes; (7) Infrastructure \u2014 Kubernetes (EKS) cluster ASCII diagram with pod counts and node groups, PostgreSQL/Redis/S3/Pulsar configuration details; (8) Performance Benchmarks and Scaling \u2014 benchmark table, k6 load test JS snippet, horizontal scaling table, consistent-hashing dynamic sharding, multi-region active-active diagram; (9) Disaster Recovery \u2014 RPO/RTO table, backup schedule table, bash AWS CLI recovery procedure, chaos engineering practices; (10) Monitoring and Observability \u2014 PromQL queries for RED and infrastructure metrics, business metrics table, OpenTelemetry tracing span tree, structured JSON log schema, alerting rules table, dashboard descriptions. Embedded code snippets span TypeScript, pseudocode, JSONC/JSON, JavaScript (k6), bash, and PromQL. Contains ~20 markdown tables and ~6 ASCII diagrams. Closes with approval footer. Content is dense and highly technical but well organized; the only algorithmic complexity is the CRDT applyOperation pseudocode (switch over 4 op types, binary search insertion, tombstone deletion, O(n) splices).\"}",
+  "ran_at": "2026-09-12T20:55:31.750152+00:00"
+}

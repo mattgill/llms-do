@@ -1,0 +1,17 @@
+{
+  "model_id": "google/gemini-3.7-flash",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1789246550-9GRBF4Fg3QHsUWXgWcaR",
+  "provider_served": "Google",
+  "input_tokens_billed": 4190,
+  "output_tokens_billed": 380,
+  "reasoning_tokens": 0,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0045675,
+  "execution_duration_sec": 3.281,
+  "raw_response": "{\"file_type\": \"python\", \"line_count\": 319, \"functions\": [\"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"from __future__ import annotations\", \"import asyncio\", \"import logging\", \"from datetime import UTC, datetime, timedelta\", \"from enum import StrEnum\", \"from typing import Annotated, Any, Sequence\", \"import jwt\", \"from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\", \"from fastapi.encoders import jsonable_encoder\", \"from fastapi.middleware.cors import CORSMiddleware\", \"from passlib.context import CryptContext\", \"from pydantic import BaseModel, ConfigDict, Field\", \"from sqlalchemy import Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\", \"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\", \"from sqlalchemy.orm import DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\", \"from fastapi.responses import JSONResponse\"], \"complexity_notes\": \"Asynchronous FastAPI backend featuring JWT authentication, SQLAlchemy async ORM models, Pydantic schemas, background task processing, WebSocket connection management for real-time broadcasts, and paginated CRUD endpoints.\"}",
+  "ran_at": "2026-09-12T20:55:54.123361+00:00"
+}

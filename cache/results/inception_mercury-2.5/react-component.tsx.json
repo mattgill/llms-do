@@ -1,0 +1,17 @@
+{
+  "model_id": "inception/mercury-2.5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789246027-2Tpz6egjLwUlnCsWe4Wk",
+  "provider_served": "Inception",
+  "input_tokens_billed": 3137,
+  "output_tokens_billed": 1407,
+  "reasoning_tokens": 1275,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00033653,
+  "execution_duration_sec": 3.478,
+  "raw_response": "\n\n{\n  \"file_type\": \"tsx\",\n  \"line_count\": 280,\n  \"functions\": [\n    \"useDebounce\",\n    \"useDataFetch\",\n    \"useTableSelection\",\n    \"compareValues\",\n    \"DataTableComponent\"\n  ],\n  \"classes\": [],\n  \"imports\": [\n    \"react\"\n  ],\n  \"complexity_notes\": \"Implements state management via hooks for sorting, pagination, and selection. Includes async data fetching with debouncing and abort control. Uses React Context for selection state. Features dynamic column rendering and accessibility attributes.\"\n}",
+  "ran_at": "2026-09-12T20:47:10.726796+00:00"
+}

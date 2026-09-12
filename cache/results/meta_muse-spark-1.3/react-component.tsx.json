@@ -1,0 +1,17 @@
+{
+  "model_id": "meta/muse-spark-1.3",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1789246862-un1XpB52sBqeweHw1fzp",
+  "provider_served": "Meta",
+  "input_tokens_billed": 3144,
+  "output_tokens_billed": 3978,
+  "reasoning_tokens": 3782,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0208365,
+  "execution_duration_sec": 12.58,
+  "raw_response": "{\"file_type\": \"tsx\",\"line_count\": 252,\"functions\": [\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\",\"handleSort\",\"ariaSort\",\"sortMark\",\"body\"],\"classes\": [],\"imports\": [\"react\"],\"complexity_notes\": \"Medium-high complexity: generic typed React data table with debounced async fetching with AbortController, client-side sorting with custom comparator and sortFn override, row selection via Context + Set state, memoized sorting/selection, pagination windowing, and accessible grid markup.\"}",
+  "ran_at": "2026-09-12T21:01:14.368803+00:00"
+}

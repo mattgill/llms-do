@@ -1,0 +1,17 @@
+{
+  "model_id": "moonshotai/kimi-k3",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1789248552-0NjSWw7RtGGEc1skPCZ4",
+  "provider_served": "Sail Research",
+  "input_tokens_billed": 10021,
+  "output_tokens_billed": 3025,
+  "reasoning_tokens": 2460,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.066717232385573,
+  "execution_duration_sec": 26.058,
+  "raw_response": "{\"file_type\": \"markdown_technical_documentation\", \"line_count\": 1000, \"functions\": [], \"classes\": [], \"imports\": [], \"document_structure\": {\"title\": \"CollabSync: Real-Time Collaboration Platform \u2014 Technical Architecture\", \"version\": \"2.4.0\", \"status\": \"Production\", \"major_sections\": [\"1. System Overview and Design Goals\", \"2. High-Level Architecture\", \"3. Data Model\", \"4. Conflict Resolution: CRDT Algorithm\", \"5. API Design\", \"6. Authentication and Authorization\", \"7. Infrastructure\", \"8. Performance Benchmarks and Scaling Strategy\", \"9. Disaster Recovery and Backup Strategy\", \"10. Monitoring and Observability\"], \"tables_count\": 17, \"code_blocks\": {\"ascii_diagrams\": [\"system topology\", \"entity-relationship overview\", \"authentication sequence flow\", \"kubernetes cluster topology\", \"multi-region active-active topology\", \"distributed trace span tree\"], \"typescript\": [\"CRDT operation type definitions (InsertOp, DeleteOp, FormatOp, MoveOp)\"], \"pseudocode\": [\"applyOperation merge algorithm\", \"PositionID total-ordering definition\"], \"jsonc\": [\"WebSocket client-to-server messages\", \"WebSocket server-to-client messages\"], \"json\": [\"JWT access token claims\", \"structured log schema\"], \"javascript\": [\"k6 load test configuration\"], \"promql\": [\"RED metrics queries\", \"infrastructure metrics queries\"], \"bash\": [\"PostgreSQL point-in-time recovery procedure\"]}, \"key_topics\": [\"RGA/LSEQ CRDT conflict resolution with Lamport clocks\", \"WebSocket-based real-time collaboration protocol\", \"microservices architecture (API Gateway, Document Service, Collaboration Engine, Gateway Service, Presence Tracker, Op Persister)\", \"PostgreSQL/Redis/S3/Pulsar persistence layer\", \"dual-token JWT auth with SSO (SAML 2.0, OIDC)\", \"consistent-hashing sharding and multi-region active-active deployment\", \"RPO/RTO disaster recovery plan\", \"OpenTelemetry tracing, Prometheus metrics, structured logging, alerting rules\"]}, \"complexity_notes\": \"Non-code Markdown architecture specification (~1000 lines) with 10 numbered sections, 17 tables, and ~15 embedded code/diagram blocks. Content is densely technical: it specifies a CRDT-based real-time collaboration system including a merge algorithm pseudocode, full database schema (7 tables), REST and WebSocket API contracts, infrastructure topology, scaling/DR strategies, and observability configuration. No executable code, imports, functions, or classes are defined; embedded snippets are illustrative (TypeScript types, PromQL, bash, JSON/JSONC payloads) rather than a runnable program.\"}",
+  "ran_at": "2026-09-12T21:29:37.748492+00:00"
+}
