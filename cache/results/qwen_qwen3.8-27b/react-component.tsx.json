@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-27b",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1790639291-3yIjaT92VEIExf3I1hXQ",
+  "provider_served": "Darkbloom",
+  "input_tokens_billed": 3315,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00917695,
+  "execution_duration_sec": 56.116,
+  "raw_response": null,
+  "ran_at": "2026-09-28T23:49:07.978028+00:00"
+}

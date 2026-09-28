@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-luna",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1790639010-0TcWQTL8PxBeMT0XfZiJ",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 1324,
+  "reasoning_tokens": 1193,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00105305,
+  "execution_duration_sec": 8.697,
+  "raw_response": "{\"file_type\":\"TypeScript React (TSX)\",\"line_count\":241,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"Defines generic TypeScript interfaces and a React data table with sorting, selection, pagination, accessibility attributes, and debounced abortable fetching. Sorting uses Array.sort (O(n log n)); rendering and selection checks iterate over rows or IDs. No classes are defined.\"}",
+  "ran_at": "2026-09-28T23:43:38.576048+00:00"
+}

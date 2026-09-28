@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-sol",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1790638968-RPcxBxG9jy5SWl78MfKZ",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5528,
+  "output_tokens_billed": 231,
+  "reasoning_tokens": 140,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0161285,
+  "execution_duration_sec": 4.087,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1 specification (JSON)\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Declarative REST API specification with 7 paths, 12 operations, 12 component schemas, reusable error responses, and JWT bearer or API-key authentication. Covers task CRUD, assignments, comments, attachments, search, and batch operations; no executable code.\"}",
+  "ran_at": "2026-09-28T23:42:52.801588+00:00"
+}

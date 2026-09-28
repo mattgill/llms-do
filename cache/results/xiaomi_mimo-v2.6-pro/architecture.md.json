@@ -1,0 +1,17 @@
+{
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1790639346-rryyg9PW928HihKaDzmX",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 10487,
+  "output_tokens_billed": 423,
+  "reasoning_tokens": 18,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.004929855,
+  "execution_duration_sec": 11.136,
+  "raw_response": "{\"file_type\": \"markdown\", \"line_count\": 1050, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"This is a Markdown technical architecture document (not source code) for 'CollabSync', a real-time collaboration platform, version 2.4.0. Structure: 10 numbered sections covering (1) system overview with design goals table (latency P99 <100ms, 50k ops/sec, 11-nines durability), (2) high-level architecture with ASCII topology diagram and six service descriptions (API Gateway/Envoy, Document Service, Collaboration Engine, Gateway Service, Presence Tracker, Op Persister), (3) data model with ER overview and seven PostgreSQL table definitions (workspaces, documents, users, memberships, operations hash-partitioned 64 ways, snapshots, document_presence), (4) CRDT conflict resolution using RGA/LSEQ with TypeScript type definitions for InsertOp/DeleteOp/FormatOp/MoveOp and a pseudocode applyOperation merge function plus anti-entropy protocol, (5) REST API endpoints and WebSocket protocol message schemas in JSONC with rate limit table, (6) authentication with dual JWT/refresh token design, auth flow sequence diagram, three-level authorization model and permission matrix, (7) Kubernetes/EKS infrastructure with node groups, PostgreSQL/Redis/S3/Pulsar configurations, (8) performance benchmarks (k6 load test to 100k connections), horizontal scaling table, consistent hashing sharding, multi-region active-active topology, (9) disaster recovery with RPO/RTO table, backup schedule, bash recovery procedure, chaos engineering practices, (10) monitoring with PromQL metrics, OpenTelemetry tracing, structured JSON logging schema, alerting rules table, and Grafana dashboard descriptions. Embeds code blocks in TypeScript, JSON/JSONC, PromQL, and Bash. No executable source files present.\"}",
+  "ran_at": "2026-09-28T23:49:16.985089+00:00"
+}

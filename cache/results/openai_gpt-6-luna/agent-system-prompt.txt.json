@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-luna",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1790638998-6szU2fa3gcsuYp9tr8l5",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5872,
+  "output_tokens_billed": 995,
+  "reasoning_tokens": 921,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.001231425,
+  "execution_duration_sec": 7.926,
+  "raw_response": "{\"file_type\":\"structured plain-text instruction document\",\"line_count\":421,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Organized into prominent sections with numbered principles, tool descriptions, style and security rules, framework guidance, checklists, output requirements, fallback behaviors, and anti-patterns. Contains no source code.\"}",
+  "ran_at": "2026-09-28T23:43:26.711576+00:00"
+}

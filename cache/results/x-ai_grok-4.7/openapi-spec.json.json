@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.7",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1790639103-DcoYzLzWhoxAo398gMKw",
+  "provider_served": "xAI",
+  "input_tokens_billed": 7862,
+  "output_tokens_billed": 959,
+  "reasoning_tokens": 697,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.01975,
+  "execution_duration_sec": 9.905,
+  "raw_response": "{\"file_type\":\"openapi-json\",\"line_count\":1,\"functions\":[\"listTasks\",\"createTask\",\"getTask\",\"updateTask\",\"deleteTask\",\"assignTask\",\"listComments\",\"createComment\",\"listAttachments\",\"uploadAttachment\",\"searchTasks\",\"batchTasks\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"Single-line OpenAPI 3.1.0 spec (Task Manager API v2.4.1), not executable code. Structure: info, 3 servers (prod/staging/local), global security (bearerAuth JWT and X-API-Key), 5 tags, 7 paths with 12 operations (CRUD on /tasks and /tasks/{task_id}; assign; comments list/create; attachments list/upload; POST search and batch). Components: 2 securitySchemes, 12 schemas, 4 shared responses (BadRequest, Unauthorized, NotFound, InternalError). Heavy use of $ref, enums, pagination, examples, and validation constraints (patterns, min/max, multipart upload max 25MB, batch max 50 ops).\"}",
+  "ran_at": "2026-09-28T23:45:12.846492+00:00"
+}

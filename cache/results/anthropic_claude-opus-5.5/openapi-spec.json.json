@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-5.5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1790639020-lqTLCPEbZmHqt9QoOoRK",
+  "provider_served": "Claude Platform on AWS",
+  "input_tokens_billed": 9389,
+  "output_tokens_billed": 2356,
+  "reasoning_tokens": 1419,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.084676,
+  "execution_duration_sec": 23.916,
+  "raw_response": "{\"file_type\": \"OpenAPI 3.1.0 specification (JSON, single-line/minified), a declarative API definition rather than executable code\", \"line_count\": 1, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"No executable functions, classes or imports; all $refs are internal (#/components/...). Structure: 7 paths, 12 operations (listTasks, createTask, getTask, updateTask, deleteTask, assignTask, listComments, createComment, listAttachments, uploadAttachment, searchTasks, batchTasks), 12 schemas, 4 shared responses, 2 security schemes (JWT bearer, X-API-Key header; either satisfies the global requirement), 5 tags, 3 servers. Validation and consistency issues found: (1) request_id pattern '^req_[a-z0-9]{8}$' fails every example ('req_a7b2c9' has 6 chars; 'req_f1e4d2b', 'req_c3a8b9e', 'req_d5f1a3c' and 'req_e8b2d4f' have 7). (2) Batch example IDs 'task_8m2k5w9n0' and 'task_4p6t3z1e5' have 9 chars and fail '^task_[a-z0-9]{10}$'. (3) User.id, assignee_id, Comment.id and parent_id are declared format 'uuid', but examples use prefixed IDs such as 'user_3k2m9f1b' and 'comment_a1b2c3d4'. (4) 'nullable: true' is an OpenAPI 3.0 keyword that is not recognized in 3.1; use type arrays, e.g. [\\\"string\\\",\\\"null\\\"]. (5) The 409 response on updateTask uses 'example' with a nested 'value' wrapper, which confuses 'example' with 'examples'. (6) The listTasks example summary says 'high-priority', but the example task has priority 'critical'. (7) The bearerAuth description references POST /auth/login, which is not defined in this spec. (8) The task_id path parameter is redefined inline 8 times instead of using a components/parameters $ref. The same applies to the page/per_page query parameters. (9) listAttachments has no pagination, unlike the other list endpoints. (10) The batch 'payload' is an untyped object; a oneOf with a discriminator on 'action' would enable validation. (11) updateTask accepts assignee_id, which overlaps with the dedicated /assign endpoint. (12) /tasks/search and /tasks/batch coexist with the templated /tasks/{task_id}. OpenAPI resolves concrete paths first, but some routers may need explicit ordering. Otherwise the spec is well organized, with consistent error envelopes, reusable response components and a oneOf result for per-item batch outcomes.\"}",
+  "ran_at": "2026-09-28T23:44:04.168452+00:00"
+}

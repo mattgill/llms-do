@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1790639074-6nSo9ugPfFNjk37YhmuW",
+  "provider_served": "Claude Platform on AWS",
+  "input_tokens_billed": 9717,
+  "output_tokens_billed": 2492,
+  "reasoning_tokens": 1953,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.044354,
+  "execution_duration_sec": 16.639,
+  "raw_response": "{\"file_type\": \"text/plain (LLM system prompt / agent instruction document, not source code)\", \"line_count\": 342, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Not code. This is a long structured prose document defining the persona and operating rules of an autonomous software-engineering agent called 'DevBot'. Sections are delimited by '=' rule lines with ALL-CAPS headings: CORE PRINCIPLES (7 numbered principles), TOOL DESCRIPTIONS (8 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs, each with Description, Parameters, Behavior and Usage), CODE STYLE GUIDELINES (Naming, Imports and Dependencies, Error Handling, Testing Requirements), SECURITY RULES (secrets logging, input validation, output sanitization, additional security), FRAMEWORK-SPECIFIC INSTRUCTIONS (React, FastAPI, Database Migration), a REVIEW CHECKLIST of 12 items, OUTPUT FORMAT REQUIREMENTS (a fixed START/END WORK ITEM template), FALLBACK BEHAVIORS FOR AMBIGUITY (5-step hierarchy), COMMON ANTI-PATTERNS (AP-01 to AP-17), SESSION METADATA, and a FINAL REMINDER. The text ends with the line 'Now: what is your task?', which is part of the document content, and no actual task is specified. Line count is an estimate.\"}",
+  "ran_at": "2026-09-28T23:44:51.237769+00:00"
+}

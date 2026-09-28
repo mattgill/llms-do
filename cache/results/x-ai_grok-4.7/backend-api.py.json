@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.7",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1790639113-KigkA7VFExJRVco2FWwg",
+  "provider_served": "xAI",
+  "input_tokens_billed": 5038,
+  "output_tokens_billed": 8617,
+  "reasoning_tokens": 8117,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.06005,
+  "execution_duration_sec": 76.708,
+  "raw_response": "{\"file_type\": \"python\", \"line_count\": 454, \"functions\": [\"__tablename__\", \"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"ConnectionManager.__init__\", \"ConnectionManager.connect\", \"ConnectionManager.disconnect\", \"ConnectionManager.broadcast\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"from __future__ import annotations\", \"import asyncio\", \"import logging\", \"from datetime import UTC, datetime, timedelta\", \"from enum import StrEnum\", \"from typing import Annotated, Any, Sequence\", \"import jwt\", \"from fastapi import BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status\", \"from fastapi.encoders import jsonable_encoder\", \"from fastapi.middleware.cors import CORSMiddleware\", \"from passlib.context import CryptContext\", \"from pydantic import BaseModel, ConfigDict, Field\", \"from sqlalchemy import Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select\", \"from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine\", \"from sqlalchemy.orm import DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker\", \"from fastapi.responses import JSONResponse\"], \"complexity_notes\": \"Single-module async FastAPI app (~454 lines) with SQLAlchemy 2.0 models, Pydantic schemas, JWT auth dependency, CRUD, pagination/filter, background task, and in-memory WebSocket broadcast. Moderate complexity: many route handlers share similar fetch-or-404 logic; list_projects count query is likely incorrect; JSONResponse is imported after the handler that references it (runtime-ok); unused imports (Sequence, Column, create_engine); hardcoded DB URL and JWT secret; CORS allows all origins with credentials; login takes password as a query param; WebSocket endpoint has no auth; ConnectionManager is process-local.\"}",
+  "ran_at": "2026-09-28T23:46:29.876864+00:00"
+}

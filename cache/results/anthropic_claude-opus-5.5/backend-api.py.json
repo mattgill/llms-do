@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-opus-5.5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1790639040-j7u6iSwTqOEM1AinKxyc",
+  "provider_served": "Claude Platform on AWS",
+  "input_tokens_billed": 5969,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 3182,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.105796,
+  "execution_duration_sec": 32.986,
+  "raw_response": "{\"file_type\": \"Python source (FastAPI async web backend with SQLAlchemy ORM, Pydantic schemas, JWT auth and WebSockets)\", \"line_count\": 454, \"functions\": [{\"name\": \"Base.__tablename__\", \"type\": \"declared_attr directive (classmethod-style)\", \"async\": false, \"description\": \"Derives table name as lowercase class name + 's'.\"}, {\"name\": \"get_db\", \"async\": true, \"description\": \"Dependency yielding an AsyncSession from AsyncSessionLocal.\"}, {\"name\": \"create_access_token\", \"async\": false, \"params\": [\"user_id: int\"], \"returns\": \"str\", \"description\": \"Encodes a JWT with sub/iat/exp claims.\"}, {\"name\": \"decode_access_token\", \"async\": false, \"params\": [\"token: str\"], \"returns\": \"dict[str, Any]\", \"description\": \"Decodes a JWT; raises HTTPException 401 on PyJWTError.\"}, {\"name\": \"get_current_user\", \"async\": true, \"params\": [\"request: Request\", \"db: AsyncSession\"], \"returns\": \"User\", \"description\": \"Parses the Bearer token from the Authorization header and loads the User. Raises 401 if the header is missing, the token is invalid or the user is not found.\"}, {\"name\": \"notify_project_created\", \"async\": true, \"params\": [\"project_id: int\", \"project_name: str\"], \"returns\": \"None\", \"description\": \"Simulated background notification (sleep + log).\"}, {\"name\": \"global_exception_handler\", \"async\": true, \"decorator\": \"@app.exception_handler(Exception)\", \"description\": \"Logs the exception and returns a 500 JSONResponse.\"}, {\"name\": \"login\", \"async\": true, \"decorator\": \"@app.post('/auth/login')\", \"description\": \"Verifies email/password (passed as query params) with bcrypt and returns a JWT.\"}, {\"name\": \"create_project\", \"async\": true, \"decorator\": \"@app.post('/projects')\", \"description\": \"Creates a project, schedules a background notification and broadcasts a project_created event.\"}, {\"name\": \"list_projects\", \"async\": true, \"decorator\": \"@app.get('/projects')\", \"description\": \"Paginated listing of the user's projects with optional status filter and ilike name search.\"}, {\"name\": \"read_project\", \"async\": true, \"decorator\": \"@app.get('/projects/{project_id}')\", \"description\": \"Fetches a single owned project or returns 404.\"}, {\"name\": \"update_project\", \"async\": true, \"decorator\": \"@app.patch('/projects/{project_id}')\", \"description\": \"Partial update via model_dump(exclude_unset=True) and setattr, then broadcasts project_updated.\"}, {\"name\": \"delete_project\", \"async\": true, \"decorator\": \"@app.delete('/projects/{project_id}')\", \"description\": \"Deletes an owned project and broadcas",
+  "ran_at": "2026-09-28T23:44:33.186693+00:00"
+}

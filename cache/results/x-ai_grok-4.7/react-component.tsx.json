@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.7",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1790639190-zoqnUVVIFBm0m6ngw3o0",
+  "provider_served": "xAI",
+  "input_tokens_billed": 4538,
+  "output_tokens_billed": 6117,
+  "reasoning_tokens": 5958,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.04405,
+  "execution_duration_sec": 57.516,
+  "raw_response": "{\"file_type\":\"tsx\",\"line_count\":252,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\",\"handleSort\",\"ariaSort\",\"sortMark\",\"body\"],\"classes\":[],\"imports\":[\"react\"],\"complexity_notes\":\"Moderate-complexity generic React/TSX data table. Types cover sort, columns, pagination, and fetch options. Hooks debounce filters and fetch with AbortController; selection uses React context. DataTableComponent does client-side sort (custom sortFn or compareValues), checkbox selection, accessible grid markup, and a 5-page pagination window. No classes. Effect cleanup sets a local ok flag rather than aborting on unmount; abort happens on the next effect run.\"}",
+  "ran_at": "2026-09-28T23:47:27.852767+00:00"
+}
