@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-27b",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1790639225-jZMCgEW0CaR1TnjtSZsc",
+  "provider_served": "Darkbloom",
+  "input_tokens_billed": 11056,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.009564,
+  "execution_duration_sec": 66.155,
+  "raw_response": null,
+  "ran_at": "2026-09-28T23:48:11.791373+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1790639060-0X7gnFnQWWocFAqXMLtT",
+  "provider_served": "Claude Platform on AWS",
+  "input_tokens_billed": 9389,
+  "output_tokens_billed": 1973,
+  "reasoning_tokens": 1261,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.038508,
+  "execution_duration_sec": 13.66,
+  "raw_response": "{\"file_type\":\"JSON (OpenAPI 3.1.0 specification for the Task Manager API v2.4.1)\",\"line_count\":1,\"functions\":[\"listTasks (GET /tasks)\",\"createTask (POST /tasks)\",\"getTask (GET /tasks/{task_id})\",\"updateTask (PATCH /tasks/{task_id})\",\"deleteTask (DELETE /tasks/{task_id})\",\"assignTask (PATCH /tasks/{task_id}/assign)\",\"listComments (GET /tasks/{task_id}/comments)\",\"createComment (POST /tasks/{task_id}/comments)\",\"listAttachments (GET /tasks/{task_id}/attachments)\",\"uploadAttachment (POST /tasks/{task_id}/attachments)\",\"searchTasks (POST /tasks/search)\",\"batchTasks (POST /tasks/batch)\"],\"classes\":[\"TaskStatus\",\"Priority\",\"User\",\"Task\",\"TaskCreateRequest\",\"TaskUpdateRequest\",\"Comment\",\"Attachment\",\"Pagination\",\"ErrorResponse\",\"TaskListResponse\",\"CommentListResponse\"],\"imports\":[],\"complexity_notes\":\"Minified single-line document with 7 paths and 12 operations, grouped under 5 tags. There are 12 schemas, 4 reusable error responses (BadRequest, Unauthorized, NotFound, InternalError) and 2 security schemes (JWT bearer and X-API-Key). Internal $ref links are used heavily, with no external imports. The spec uses pagination, multipart file upload, a batch endpoint of up to 50 operations, and a oneOf result for batch items. Possible inconsistencies: several 'uuid' fields have non-UUID examples such as user_3k2m9f1b; some example IDs do not match their own regex patterns (task_8m2k5w9n0, req_f1e4d2b); the 409 response wraps its example in an extra 'value' key; and 'nullable' is used although it is deprecated in OpenAPI 3.1. /tasks/search and /tasks/batch sit beside /tasks/{task_id}, which is fine because their methods do not overlap.\"}",
+  "ran_at": "2026-09-28T23:44:34.135199+00:00"
+}

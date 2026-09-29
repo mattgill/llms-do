@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-luna",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1790638994-wXLMmqUmPAiq9fafApQs",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 5528,
+  "output_tokens_billed": 306,
+  "reasoning_tokens": 204,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.000843925,
+  "execution_duration_sec": 3.855,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1 JSON API specification\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Structured API specification for a task-management REST service. Defines 7 paths with 12 HTTP operations, bearer-token and API-key security schemes, request and response examples, shared error responses, and schemas for tasks, users, comments, attachments, pagination, and errors. This is declarative configuration rather than executable code.\"}",
+  "ran_at": "2026-09-28T23:43:18.492572+00:00"
+}

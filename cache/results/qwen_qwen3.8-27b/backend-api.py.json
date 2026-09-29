@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-27b",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1790639290-LT7S7wB3S1DuhzI4pYJM",
+  "provider_served": "Darkbloom",
+  "input_tokens_billed": 3636,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4096,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.009193,
+  "execution_duration_sec": 55.253,
+  "raw_response": null,
+  "ran_at": "2026-09-28T23:49:05.433517+00:00"
+}

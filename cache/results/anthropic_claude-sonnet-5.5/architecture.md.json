@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1790639073-kPKjCqFCTsnzxSy7pDGt",
+  "provider_served": "Claude Platform on AWS",
+  "input_tokens_billed": 16133,
+  "output_tokens_billed": 997,
+  "reasoning_tokens": 448,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.042236,
+  "execution_duration_sec": 7.57,
+  "raw_response": "{\"file_type\": \"Markdown technical architecture document (not source code)\", \"line_count\": 1060, \"functions\": [\"applyOperation (embedded TypeScript-like pseudocode in Section 4)\"], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Line count is approximate. This is a long, structured design document for CollabSync, a real-time collaboration platform (v2.4.0, Production, owned by Platform Engineering). It has a metadata header and 10 numbered sections: (1) system overview and design goals, (2) high-level architecture with an ASCII topology diagram and service descriptions, (3) data model with 7 table definitions (workspaces, documents, users, memberships, operations, snapshots, document_presence), (4) RGA/LSEQ CRDT conflict resolution with TypeScript op types, a merge algorithm and an anti-entropy protocol, (5) REST and WebSocket API design with JSON message examples and rate limits, (6) JWT authentication and authorization with an auth flow diagram and permission matrix, (7) Kubernetes, PostgreSQL, Redis, S3 and Pulsar infrastructure, (8) performance benchmarks, k6 load test, scaling strategy and multi-region active-active, (9) disaster recovery, backups and a bash recovery procedure, (10) monitoring with PromQL, tracing, logging and alerting. The document relies heavily on tables (about 25), ASCII diagrams (about 8) and fenced code blocks in TypeScript, JSON, bash, PromQL and JavaScript (k6). It has high technical density and is mostly descriptive rather than executable.\"}",
+  "ran_at": "2026-09-28T23:44:41.186560+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-luna",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1790639007-BiWxtNJn57fNenSH0APl",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3293,
+  "output_tokens_billed": 2173,
+  "reasoning_tokens": 1941,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00149805,
+  "execution_duration_sec": 12.35,
+  "raw_response": "{\"file_type\":\"Python source code\",\"line_count\":434,\"functions\":[\"get_db\",\"create_access_token\",\"decode_access_token\",\"get_current_user\",\"notify_project_created\",\"ConnectionManager.__init__\",\"ConnectionManager.connect\",\"ConnectionManager.disconnect\",\"ConnectionManager.broadcast\",\"global_exception_handler\",\"login\",\"create_project\",\"list_projects\",\"read_project\",\"update_project\",\"delete_project\",\"websocket_project\"],\"classes\":[\"Base\",\"ProjectStatus\",\"User\",\"Project\",\"ProjectCreate\",\"ProjectRead\",\"ProjectUpdate\",\"PaginatedResponse\",\"TokenResponse\",\"ConnectionManager\"],\"imports\":[\"asyncio\",\"logging\",\"datetime\",\"enum\",\"typing\",\"jwt\",\"fastapi\",\"fastapi.encoders\",\"fastapi.middleware.cors\",\"passlib.context\",\"pydantic\",\"sqlalchemy\",\"sqlalchemy.ext.asyncio\",\"sqlalchemy.orm\",\"fastapi.responses\"],\"complexity_notes\":\"Async FastAPI application with JWT authentication, SQLAlchemy models and database access, project CRUD endpoints, pagination and filtering, background notifications, and in-memory WebSocket broadcasting. CRUD handlers include ownership checks and error handling. Some imported names are unused, including Column, create_engine, and Sequence.\"}",
+  "ran_at": "2026-09-28T23:43:39.384540+00:00"
+}

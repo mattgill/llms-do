@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.7",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1790639102-plxBAIj6G83b470qAasz",
+  "provider_served": "xAI",
+  "input_tokens_billed": 7196,
+  "output_tokens_billed": 10547,
+  "reasoning_tokens": 10283,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.075946,
+  "execution_duration_sec": 91.465,
+  "raw_response": "{\"file_type\": \"text\", \"line_count\": 341, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Not source code. Plain-text system prompt for an agent named DevBot. Structure: intro role statement; banner sections (CORE PRINCIPLES: 7 numbered rules; TOOL DESCRIPTIONS: 8 tools read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs, each with Description/Parameters/Behavior/Usage); CODE STYLE GUIDELINES (Naming, Imports and Dependencies, Error Handling, Testing Requirements); SECURITY RULES (Never Log Secrets, Validate All Inputs, Sanitize All Outputs, Additional Security); FRAMEWORK-SPECIFIC INSTRUCTIONS (React Patterns, FastAPI Patterns, Database Migration Rules); REVIEW CHECKLIST (12 checkbox items); OUTPUT FORMAT REQUIREMENTS (START/END WORK ITEM template); FALLBACK BEHAVIORS FOR AMBIGUITY (5-step hierarchy); COMMON ANTI-PATTERNS TO AVOID (AP-01 through AP-17); SESSION METADATA; FINAL REMINDER ending with a task prompt. No executable functions, classes, or import statements; library and language names appear only as guidance.\"}",
+  "ran_at": "2026-09-28T23:46:34.150599+00:00"
+}

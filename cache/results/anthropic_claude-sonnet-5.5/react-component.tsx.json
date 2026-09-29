@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1790639081-JTHOYPzm0Scm4M03CEq8",
+  "provider_served": "Claude Platform on AWS",
+  "input_tokens_billed": 5045,
+  "output_tokens_billed": 2458,
+  "reasoning_tokens": 1953,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.03467,
+  "execution_duration_sec": 13.806,
+  "raw_response": "{\"file_type\":\"TypeScript React (TSX) module\",\"line_count\":252,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent (exported as DataTable, with useDataFetch and useTableSelection attached as static properties)\"],\"classes\":[],\"imports\":[\"react (default React, plus createContext, useCallback, useContext, useEffect, useMemo, useRef, useState)\"],\"complexity_notes\":\"Generic data table component with sorting, debounced filtering, pagination, row selection via context, and abortable async fetching. There are no classes. The type surface is 1 type alias (SortDirection) and 6 exported interfaces (SortState, ColumnDef, PaginationState, FetchResult, UseDataFetchOptions, DataTableProps), plus an internal SelectionCtx interface. useDataFetch runs an effect that aborts the previous request, uses a local 'ok' flag to guard against stale state updates, and swallows AbortError. Sorting is client-side with a custom sortFn or a null-aware compareValues fallback. Rendering has multiple branches for error, loading, empty and data states, and the pagination window shows up to 5 pages. The component includes ARIA attributes and keyboard support for sortable headers. Some code is dense, such as comma-expression short-circuiting, and the row-index calculation assumes server-side pagination while sorting locally. Exports: default DataTable, plus named useDataFetch, useTableSelection and useDebounce.\"}",
+  "ran_at": "2026-09-28T23:44:55.337523+00:00"
+}

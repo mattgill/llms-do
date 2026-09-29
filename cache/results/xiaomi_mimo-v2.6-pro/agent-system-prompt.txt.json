@@ -1,0 +1,17 @@
+{
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "fixture_name": "agent-system-prompt.txt",
+  "fixture_category": "prose",
+  "fixture_char_count": 28296,
+  "fixture_byte_count": 28296,
+  "generation_id": "gen-1790639348-Q6RENg9R4JRrMLz4KGLf",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 5923,
+  "output_tokens_billed": 288,
+  "reasoning_tokens": 21,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.002827065,
+  "execution_duration_sec": 8.205,
+  "raw_response": "{\"file_type\": \"markdown_specification\", \"line_count\": 412, \"functions\": [], \"classes\": [], \"imports\": [], \"complexity_notes\": \"Not source code. This is a system prompt / agent specification document for 'DevBot', an autonomous software engineering agent. Structure: delimited by '=' rule lines with uppercase section headers. Sections in order: CORE PRINCIPLES (7 numbered principles), TOOL DESCRIPTIONS (8 tools: read_file, write_file, search_codebase, run_tests, git_commit, deploy_preview, query_database, fetch_docs with parameter/behavior/usage subsections), CODE STYLE GUIDELINES (Naming, Imports and Dependencies, Error Handling, Testing Requirements), SECURITY RULES (Never Log Secrets, Validate All Inputs, Sanitize All Outputs, Additional Security), FRAMEWORK-SPECIFIC INSTRUCTIONS (React Patterns, FastAPI Patterns, Database Migration Rules), REVIEW CHECKLIST BEFORE SUBMITTING CODE (12 checkbox items), OUTPUT FORMAT REQUIREMENTS (work item block template), FALLBACK BEHAVIORS FOR AMBIGUITY (5-level hierarchy), COMMON ANTI-PATTERNS TO AVOID (AP-01 through AP-17), SESSION METADATA, FINAL REMINDER. No executable logic; prose, rules, and example snippets only.\"}",
+  "ran_at": "2026-09-28T23:49:16.523861+00:00"
+}

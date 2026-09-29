@@ -1,0 +1,17 @@
+{
+  "model_id": "qwen/qwen3.8-27b",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1790639199-tC5OUbFVpYiBVGrfe6Fg",
+  "provider_served": "Darkbloom",
+  "input_tokens_billed": 5643,
+  "output_tokens_billed": 1261,
+  "reasoning_tokens": 1100,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00305635,
+  "execution_duration_sec": 26.026,
+  "raw_response": "\n\n{\n  \"file_type\": \"openapi-json\",\n  \"line_count\": 1,\n  \"functions\": [],\n  \"classes\": [],\n  \"imports\": [],\n  \"complexity_notes\": \"OpenAPI 3.1.0 specification for the Task Manager API v2.4.1. It defines three servers, bearerAuth and apiKey security schemes, five tags, and paths for task CRUD, assignment, comments, attachments, search, and batch operations. Components include reusable schemas for TaskStatus, Priority, User, Task, TaskCreateRequest, TaskUpdateRequest, Comment, Attachment, Pagination, ErrorResponse, TaskListResponse, and CommentListResponse, plus shared error responses. No executable functions, classes, or imports are present.\"\n}",
+  "ran_at": "2026-09-28T23:47:05.521505+00:00"
+}

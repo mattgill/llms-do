@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-sol",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1790638968-tBWyfashsmrxeO8expBZ",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 10246,
+  "output_tokens_billed": 3589,
+  "reasoning_tokens": 3435,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.0615035,
+  "execution_duration_sec": 42.393,
+  "raw_response": "{\"file_type\":\"Markdown technical architecture document\",\"line_count\":930,\"functions\":[\"applyOperation (embedded pseudocode for CRDT operation merging)\"],\"classes\":[],\"imports\":[],\"sections\":[\"System Overview and Design Goals\",\"High-Level Architecture\",\"Data Model\",\"Conflict Resolution: CRDT Algorithm\",\"API Design\",\"Authentication and Authorization\",\"Infrastructure\",\"Performance Benchmarks and Scaling Strategy\",\"Disaster Recovery and Backup Strategy\",\"Monitoring and Observability\"],\"complexity_notes\":\"Contains architecture diagrams, database schemas, API and WebSocket examples, operational procedures, and embedded code snippets. The CRDT description says it avoids tombstones, but the merge pseudocode uses them. The multi-region deployment is described as active-active while PostgreSQL remains single-writer.\"}",
+  "ran_at": "2026-09-28T23:43:30.817395+00:00"
+}

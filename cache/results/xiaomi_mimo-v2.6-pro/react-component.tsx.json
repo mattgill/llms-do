@@ -1,0 +1,17 @@
+{
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1790639356-FXDRPk6QDFwvCdkjhSIn",
+  "provider_served": "DeepInfra",
+  "input_tokens_billed": 3047,
+  "output_tokens_billed": 440,
+  "reasoning_tokens": 6,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00169301,
+  "execution_duration_sec": 22.712,
+  "raw_response": "{\"file_type\": \"TypeScript React component module (DataTable)\", \"line_count\": 262, \"functions\": [\"useDebounce\", \"useDataFetch\", \"useTableSelection\", \"compareValues\", \"DataTableComponent\", \"body (render helper inside DataTableComponent)\", \"handleSort (callback inside DataTableComponent)\", \"ariaSort (render helper)\", \"sortMark (render helper)\"], \"classes\": [], \"imports\": [\"react (default as React, named: createContext, useCallback, useContext, useEffect, useMemo, useRef, useState)\"], \"complexity_notes\": \"Generic TypeScript React data table module (~262 lines) providing: (1) useDebounce hook for value debouncing; (2) useDataFetch hook wiring sorting/filtering/pagination with AbortController-based cancellation, debounced filters (default 300ms), and stale-response guarding via an 'ok' flag set in effect cleanup; (3) SelectionContext + useTableSelection hook for row selection (Set<string>-based toggle/toggleAll); (4) compareValues generic comparator with null handling and string/number/fallback comparisons; (5) DataTableComponent with client-side sorting (custom sortFn or generic extractor), ARIA grid semantics (aria-sort, aria-selected, aria-busy, aria-rowcount, role=grid), keyboard-accessible sortable headers, and a sliding-window pagination bar (max 5 page buttons). Exports default DataTable augmented with static hooks (useDataFetch, useTableSelection) plus named exports. Moderate-to-high complexity: heavy use of generics (TData, TFilters, TColumn), memoized derived state, effect cleanup race-prevention pattern, and inline JSX render helpers. Notable patterns: comma/short-circuit expressions (ok || (setData(...))) for stale-response suppression, ternary-based mutation in toggle, and a closure-based body() render function. No classes; all functional components and hooks. Potential concerns: effect dependency array omits pagination.total setter stability but is otherwise complete; inline style objects recreated per render; body() called during render rather than as a component.\"}",
+  "ran_at": "2026-09-28T23:49:39.559929+00:00"
+}

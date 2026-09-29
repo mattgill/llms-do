@@ -1,0 +1,17 @@
+{
+  "model_id": "anthropic/claude-sonnet-5.5",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1790639079-AyXpHmVEZzMsLNjnx0lP",
+  "provider_served": "Claude Platform on AWS",
+  "input_tokens_billed": 5969,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 3403,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.052898,
+  "execution_duration_sec": 23.058,
+  "raw_response": "{\"file_type\": \"Python source code (FastAPI async REST + WebSocket backend)\", \"line_count\": 454, \"functions\": [\"Base.__tablename__\", \"get_db\", \"create_access_token\", \"decode_access_token\", \"get_current_user\", \"notify_project_created\", \"ConnectionManager.__init__\", \"ConnectionManager.connect\", \"ConnectionManager.disconnect\", \"ConnectionManager.broadcast\", \"global_exception_handler\", \"login\", \"create_project\", \"list_projects\", \"read_project\", \"update_project\", \"delete_project\", \"websocket_project\"], \"classes\": [\"Base\", \"ProjectStatus\", \"User\", \"Project\", \"ProjectCreate\", \"ProjectRead\", \"ProjectUpdate\", \"PaginatedResponse\", \"TokenResponse\", \"ConnectionManager\"], \"imports\": [\"__future__.annotations\", \"asyncio\", \"logging\", \"datetime (UTC, datetime, timedelta)\", \"enum.StrEnum\", \"typing (Annotated, Any, Sequence)\", \"jwt\", \"fastapi (BackgroundTasks, Depends, FastAPI, HTTPException, Query, Request, WebSocket, WebSocketDisconnect, status)\", \"fastapi.encoders.jsonable_encoder\", \"fastapi.middleware.cors.CORSMiddleware\", \"fastapi.responses.JSONResponse\", \"passlib.context.CryptContext\", \"pydantic (BaseModel, ConfigDict, Field)\", \"sqlalchemy (Boolean, Column, DateTime, Enum, ForeignKey, Integer, String, Text, create_engine, select)\", \"sqlalchemy.ext.asyncio (AsyncSession, create_async_engine)\", \"sqlalchemy.orm (DeclarativeBase, Mapped, declared_attr, mapped_column, relationship, sessionmaker)\"], \"complexity_notes\": \"Moderate complexity, with a single-module layout: config, SQLAlchemy 2.0 models (User, Project), Pydantic v2 schemas, JWT auth depend",
+  "ran_at": "2026-09-28T23:45:02.176499+00:00"
+}

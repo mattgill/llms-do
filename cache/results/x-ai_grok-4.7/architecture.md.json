@@ -1,0 +1,17 @@
+{
+  "model_id": "x-ai/grok-4.7",
+  "fixture_name": "architecture.md",
+  "fixture_category": "markdown",
+  "fixture_char_count": 38413,
+  "fixture_byte_count": 44403,
+  "generation_id": "gen-1790639102-Pl3Vln3p6fMZjhIdgZc2",
+  "provider_served": "xAI",
+  "input_tokens_billed": 11596,
+  "output_tokens_billed": 22109,
+  "reasoning_tokens": 21820,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.154118,
+  "execution_duration_sec": 195.556,
+  "raw_response": "{\"file_type\":\"markdown\",\"line_count\":932,\"functions\":[\"applyOperation\"],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Not executable source. Markdown technical architecture doc (CollabSync v2.4.0, Production, Platform Engineering, updated 2026-07-15). 10 numbered sections plus footer: (1) overview and design goals, (2) topology and service descriptions, (3) data model and table definitions, (4) RGA/LSEQ CRDT and merge pseudocode, (5) REST and WebSocket API, (6) JWT auth and RBAC, (7) Kubernetes and data stores, (8) benchmarks and scaling, (9) DR/backup and chaos, (10) metrics, tracing, logging, alerts, dashboards. Structure is heading hierarchy (H1/H2/H3/H4), markdown tables, bullet lists, numbered procedures, and fenced blocks (ASCII diagrams, TypeScript op types, JS-like merge function, JSON/JSONC messages, bash recovery, PromQL, k6 options). Only illustrative function is applyOperation; referenced helpers (hash, binarySearchByPosition, findPositionIndex, mergeAttributes, splicePositions) are not defined. No classes or imports. High document complexity from multi-tier diagrams, schema tables, and embedded protocol samples rather than code complexity.\"}",
+  "ran_at": "2026-09-28T23:48:18.351206+00:00"
+}

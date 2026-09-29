@@ -1,0 +1,17 @@
+{
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "fixture_name": "openapi-spec.json",
+  "fixture_category": "json",
+  "fixture_char_count": 21715,
+  "fixture_byte_count": 21719,
+  "generation_id": "gen-1790639328-dvdchdffGsZ4TMWiaJ1F",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 5600,
+  "output_tokens_billed": 324,
+  "reasoning_tokens": 20,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.00271788,
+  "execution_duration_sec": 22.334,
+  "raw_response": "{\"file_type\":\"OpenAPI 3.1.0 specification (JSON)\",\"line_count\":1,\"functions\":[],\"classes\":[],\"imports\":[],\"complexity_notes\":\"Single-line JSON document defining the 'Task Manager API' v2.4.1. Structure: info (title, description, contact, MIT license), 3 servers (production, staging, local dev), 2 security schemes (bearerAuth JWT, apiKey header), 5 tags (Tasks, Assignments, Comments, Attachments, Search & Batch). 9 path items with 14 operations: /tasks (GET listTasks with filtering/pagination, POST createTask), /tasks/{task_id} (GET getTask, PATCH updateTask with 409 conflict handling, DELETE deleteTask), /tasks/{task_id}/assign (PATCH assignTask), /tasks/{task_id}/comments (GET listComments, POST createComment with threaded replies), /tasks/{task_id}/attachments (GET listAttachments, POST uploadAttachment multipart with 25MB limit), /tasks/search (POST searchTasks full-text), /tasks/batch (POST batchTasks up to 50 operations). Components define 12 schemas (TaskStatus, Priority, User, Task, TaskCreateRequest, TaskUpdateRequest, Comment, Attachment, Pagination, ErrorResponse, TaskListResponse, CommentListResponse), 4 reusable responses (BadRequest, Unauthorized, NotFound, InternalError), and extensive request/response examples throughout. Not executable code.\"}",
+  "ran_at": "2026-09-28T23:49:11.047027+00:00"
+}

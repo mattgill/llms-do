@@ -1,0 +1,17 @@
+{
+  "model_id": "xiaomi/mimo-v2.6-pro",
+  "fixture_name": "backend-api.py",
+  "fixture_category": "python",
+  "fixture_char_count": 15571,
+  "fixture_byte_count": 15577,
+  "generation_id": "gen-1790639351-7yUBdcoudC8ffOUAWlwb",
+  "provider_served": "GMICloud",
+  "input_tokens_billed": 3295,
+  "output_tokens_billed": 4096,
+  "reasoning_tokens": 4098,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.004996845,
+  "execution_duration_sec": 40.862,
+  "raw_response": null,
+  "ran_at": "2026-09-28T23:49:52.068191+00:00"
+}

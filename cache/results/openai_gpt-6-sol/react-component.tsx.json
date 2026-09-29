@@ -1,0 +1,17 @@
+{
+  "model_id": "openai/gpt-6-sol",
+  "fixture_name": "react-component.tsx",
+  "fixture_category": "typescript",
+  "fixture_char_count": 12332,
+  "fixture_byte_count": 12338,
+  "generation_id": "gen-1790638985-EPEE1bv6MvU70tMVqUWf",
+  "provider_served": "OpenAI",
+  "input_tokens_billed": 3129,
+  "output_tokens_billed": 1197,
+  "reasoning_tokens": 1064,
+  "tokenizer_used": null,
+  "total_cost_billed": 0.019791,
+  "execution_duration_sec": 13.14,
+  "raw_response": "{\"file_type\":\"TypeScript React component (TSX)\",\"line_count\":252,\"functions\":[\"useDebounce\",\"useDataFetch\",\"useTableSelection\",\"compareValues\",\"DataTableComponent\",\"handleSort\",\"ariaSort\",\"sortMark\",\"body\"],\"classes\":[],\"imports\":[\"React\",\"createContext\",\"useCallback\",\"useContext\",\"useEffect\",\"useMemo\",\"useRef\",\"useState\"],\"complexity_notes\":\"Generic data table with client-side sorting, row selection, accessible controls, and pagination. useDataFetch adds debounced filters and abortable asynchronous fetching. The component contains several memoized callbacks and conditional rendering paths.\"}",
+  "ran_at": "2026-09-28T23:43:18.578005+00:00"
+}
