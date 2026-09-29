@@ -44,11 +44,11 @@ Claude Opus 5,anthropic/claude-opus-5,50.7,78,56.2,5.0,25.0,architecture.md,mark
 Claude Opus 5,anthropic/claude-opus-5,50.7,78,56.2,5.0,25.0,backend-api.py,python,15571,5967,4096,676,10063,0.3832,0.2631,Amazon Bedrock,39.847,0.132235,8.901486,8.901486,13.1407
 Claude Opus 5,anthropic/claude-opus-5,50.7,78,56.2,5.0,25.0,openapi-spec.json,json,21715,9387,4096,171,13483,0.4323,0.1886,Amazon Bedrock,36.972,0.149335,7.209775,7.209775,11.0758
 Claude Opus 5,anthropic/claude-opus-5,50.7,78,56.2,5.0,25.0,react-component.tsx,typescript,12332,5043,4096,396,9139,0.4089,0.3321,Amazon Bedrock,39.789,0.127615,10.845682,10.845682,13.9638
-anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,,,,0.0,0.0,agent-system-prompt.txt,prose,28296,9717,3967,2084,13684,0.3434,0.1402,Claude Platform on AWS,35.848,0.118208,4.38048,0.0,8.6384
-anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,,,,0.0,0.0,architecture.md,markdown,38413,16133,2140,535,18273,0.42,0.0557,Claude Platform on AWS,19.7,0.107332,2.534643,0.0,5.8738
-anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,,,,0.0,0.0,backend-api.py,python,15571,5969,4096,3182,10065,0.3833,0.2631,Claude Platform on AWS,32.986,0.105796,7.121727,0.0,10.5113
-anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,,,,0.0,0.0,openapi-spec.json,json,21715,9389,2356,1419,11745,0.4324,0.1085,Claude Platform on AWS,23.916,0.084676,4.08809,0.0,7.2095
-anthropic/claude-opus-5.5,anthropic/claude-opus-5.5,,,,0.0,0.0,react-component.tsx,typescript,12332,5045,4096,2296,9141,0.4091,0.3321,Claude Platform on AWS,34.098,0.1021,8.677226,0.0,11.1695
+Anthropic: Claude Opus 5.5,anthropic/claude-opus-5.5,57.6,,,4.0,20.0,agent-system-prompt.txt,prose,28296,9717,3967,2084,13684,0.3434,0.1402,Claude Platform on AWS,35.848,0.118208,4.38048,4.38048,8.6384
+Anthropic: Claude Opus 5.5,anthropic/claude-opus-5.5,57.6,,,4.0,20.0,architecture.md,markdown,38413,16133,2140,535,18273,0.42,0.0557,Claude Platform on AWS,19.7,0.107332,2.534643,2.534643,5.8738
+Anthropic: Claude Opus 5.5,anthropic/claude-opus-5.5,57.6,,,4.0,20.0,backend-api.py,python,15571,5969,4096,3182,10065,0.3833,0.2631,Claude Platform on AWS,32.986,0.105796,7.121727,7.121727,10.5113
+Anthropic: Claude Opus 5.5,anthropic/claude-opus-5.5,57.6,,,4.0,20.0,openapi-spec.json,json,21715,9389,2356,1419,11745,0.4324,0.1085,Claude Platform on AWS,23.916,0.084676,4.08809,4.08809,7.2095
+Anthropic: Claude Opus 5.5,anthropic/claude-opus-5.5,57.6,,,4.0,20.0,react-component.tsx,typescript,12332,5045,4096,2296,9141,0.4091,0.3321,Claude Platform on AWS,34.098,0.1021,8.677226,8.677226,11.1695
 Anthropic: Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,30.5,63,33.1,3.0,15.0,agent-system-prompt.txt,prose,28296,6634,215,0,6849,0.2345,0.0076,Anthropic,5.783,0.023127,0.857026,0.857026,3.3767
 Anthropic: Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,30.5,63,33.1,3.0,15.0,architecture.md,markdown,38413,12372,1143,0,13515,0.3221,0.0298,Anthropic,19.438,0.054261,1.281372,1.281372,4.0149
 Anthropic: Claude Sonnet 4.6,anthropic/claude-sonnet-4.6,30.5,63,33.1,3.0,15.0,backend-api.py,python,15571,4222,1477,0,5699,0.2711,0.0949,Anthropic,22.499,0.034821,2.343999,2.343999,6.11
@@ -59,11 +59,11 @@ Anthropic: Claude Sonnet 5,anthropic/claude-sonnet-5,38.4,71.5,44.3,2.0,10.0,arc
 Anthropic: Claude Sonnet 5,anthropic/claude-sonnet-5,38.4,71.5,44.3,2.0,10.0,backend-api.py,python,15571,5967,1869,0,7836,0.3832,0.12,Amazon Bedrock,14.525,0.030624,2.061475,2.061475,3.9081
 Anthropic: Claude Sonnet 5,anthropic/claude-sonnet-5,38.4,71.5,44.3,2.0,10.0,openapi-spec.json,json,21715,9387,949,0,10336,0.4323,0.0437,Amazon Bedrock,12.923,0.028264,1.364563,1.364563,2.7345
 Anthropic: Claude Sonnet 5,anthropic/claude-sonnet-5,38.4,71.5,44.3,2.0,10.0,react-component.tsx,typescript,12332,5043,768,0,5811,0.4089,0.0623,Amazon Bedrock,9.138,0.017766,1.509888,1.509888,3.0573
-anthropic/claude-sonnet-5.5,anthropic/claude-sonnet-5.5,,,,0.0,0.0,agent-system-prompt.txt,prose,28296,9717,2492,1953,12209,0.3434,0.0881,Claude Platform on AWS,16.639,0.044354,1.643644,0.0,3.6329
-anthropic/claude-sonnet-5.5,anthropic/claude-sonnet-5.5,,,,0.0,0.0,architecture.md,markdown,38413,16133,997,448,17130,0.42,0.026,Claude Platform on AWS,7.57,0.042236,0.997402,0.0,2.4656
-anthropic/claude-sonnet-5.5,anthropic/claude-sonnet-5.5,,,,0.0,0.0,backend-api.py,python,15571,5969,4096,3403,10065,0.3833,0.2631,Claude Platform on AWS,23.058,0.052898,3.560864,0.0,5.2556
-anthropic/claude-sonnet-5.5,anthropic/claude-sonnet-5.5,,,,0.0,0.0,openapi-spec.json,json,21715,9389,1973,1261,11362,0.4324,0.0909,Claude Platform on AWS,13.66,0.038508,1.859136,0.0,3.3892
-anthropic/claude-sonnet-5.5,anthropic/claude-sonnet-5.5,,,,0.0,0.0,react-component.tsx,typescript,12332,5045,2458,1953,7503,0.4091,0.1993,Claude Platform on AWS,13.806,0.03467,2.946517,0.0,4.6208
+Anthropic: Claude Sonnet 5.5,anthropic/claude-sonnet-5.5,,,,2.0,10.0,agent-system-prompt.txt,prose,28296,9717,2492,1953,12209,0.3434,0.0881,Claude Platform on AWS,16.639,0.044354,1.643644,1.643644,3.6329
+Anthropic: Claude Sonnet 5.5,anthropic/claude-sonnet-5.5,,,,2.0,10.0,architecture.md,markdown,38413,16133,997,448,17130,0.42,0.026,Claude Platform on AWS,7.57,0.042236,0.997402,0.997402,2.4656
+Anthropic: Claude Sonnet 5.5,anthropic/claude-sonnet-5.5,,,,2.0,10.0,backend-api.py,python,15571,5969,4096,3403,10065,0.3833,0.2631,Claude Platform on AWS,23.058,0.052898,3.560864,3.560864,5.2556
+Anthropic: Claude Sonnet 5.5,anthropic/claude-sonnet-5.5,,,,2.0,10.0,openapi-spec.json,json,21715,9389,1973,1261,11362,0.4324,0.0909,Claude Platform on AWS,13.66,0.038508,1.859136,1.859136,3.3892
+Anthropic: Claude Sonnet 5.5,anthropic/claude-sonnet-5.5,,,,2.0,10.0,react-component.tsx,typescript,12332,5045,2458,1953,7503,0.4091,0.1993,Claude Platform on AWS,13.806,0.03467,2.946517,2.946517,4.6208
 Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,10.9,25.8,1.2,0.25,0.8,agent-system-prompt.txt,prose,28296,5730,857,301,6587,0.2025,0.0303,Arcee AI,4.09,0.0021181,0.078491,0.078491,0.3216
 Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,10.9,25.8,1.2,0.25,0.8,architecture.md,markdown,38413,9618,4096,4244,13714,0.2504,0.1066,Arcee AI,12.335,0.0056813,0.134164,0.134164,0.4143
 Arcee AI: Trinity Large Thinking,arcee-ai/trinity-large-thinking,10.9,25.8,1.2,0.25,0.8,backend-api.py,python,15571,3224,4096,4128,7320,0.2071,0.2631,Arcee AI,11.636,0.0040828,0.274836,0.274836,0.5578
@@ -309,16 +309,16 @@ OpenAI: GPT-6 Astra,openai/gpt-6-astra,52.8,76.9,51.5,10.0,50.0,architecture.md,
 OpenAI: GPT-6 Astra,openai/gpt-6-astra,52.8,76.9,51.5,10.0,50.0,backend-api.py,python,15571,3293,3083,1552,6376,0.2115,0.198,OpenAI,41.137,0.195305,13.147085,12.593413,30.6313
 OpenAI: GPT-6 Astra,openai/gpt-6-astra,52.8,76.9,51.5,10.0,50.0,openapi-spec.json,json,21715,5528,1048,397,6576,0.2546,0.0483,OpenAI,19.41,0.1214925,5.865561,5.198705,18.4751
 OpenAI: GPT-6 Astra,openai/gpt-6-astra,52.8,76.9,51.5,10.0,50.0,react-component.tsx,typescript,12332,3129,1278,735,4407,0.2537,0.1036,OpenAI,22.853,0.103005,8.754139,8.089962,23.373
-openai/gpt-6-luna,openai/gpt-6-luna,,,,0.0,0.0,agent-system-prompt.txt,prose,28296,5872,995,921,6867,0.2075,0.0352,OpenAI,7.926,0.001231425,0.045633,0.0,0.1793
-openai/gpt-6-luna,openai/gpt-6-luna,,,,0.0,0.0,architecture.md,markdown,38413,10246,1162,1057,11408,0.2667,0.0303,OpenAI,10.921,0.001861675,0.043963,0.0,0.1632
-openai/gpt-6-luna,openai/gpt-6-luna,,,,0.0,0.0,backend-api.py,python,15571,3293,2173,1941,5466,0.2115,0.1396,OpenAI,12.35,0.00149805,0.100842,0.0,0.2741
-openai/gpt-6-luna,openai/gpt-6-luna,,,,0.0,0.0,openapi-spec.json,json,21715,5528,306,204,5834,0.2546,0.0141,OpenAI,3.855,0.000843925,0.040744,0.0,0.1447
-openai/gpt-6-luna,openai/gpt-6-luna,,,,0.0,0.0,react-component.tsx,typescript,12332,3129,1324,1193,4453,0.2537,0.1074,OpenAI,8.697,0.00105305,0.089496,0.0,0.2365
-openai/gpt-6-sol,openai/gpt-6-sol,,,,0.0,0.0,agent-system-prompt.txt,prose,28296,5872,1540,1442,7412,0.2075,0.0544,OpenAI,16.342,0.0300785,1.114631,0.0,4.0581
-openai/gpt-6-sol,openai/gpt-6-sol,,,,0.0,0.0,architecture.md,markdown,38413,10246,3589,3435,13835,0.2667,0.0934,OpenAI,42.393,0.0615035,1.452404,0.0,4.4455
-openai/gpt-6-sol,openai/gpt-6-sol,,,,0.0,0.0,backend-api.py,python,15571,3293,2025,1766,5318,0.2115,0.13,OpenAI,21.372,0.028481,1.917217,0.0,5.3556
-openai/gpt-6-sol,openai/gpt-6-sol,,,,0.0,0.0,openapi-spec.json,json,21715,5528,231,140,5759,0.2546,0.0106,OpenAI,4.087,0.0161285,0.778671,0.0,2.8006
-openai/gpt-6-sol,openai/gpt-6-sol,,,,0.0,0.0,react-component.tsx,typescript,12332,3129,1197,1064,4326,0.2537,0.0971,OpenAI,13.14,0.019791,1.681988,0.0,4.5749
+OpenAI: GPT-6 Luna,openai/gpt-6-luna,37.3,,,0.1,0.5,agent-system-prompt.txt,prose,28296,5872,995,921,6867,0.2075,0.0352,OpenAI,7.926,0.001231425,0.045633,0.040196,0.1793
+OpenAI: GPT-6 Luna,openai/gpt-6-luna,37.3,,,0.1,0.5,architecture.md,markdown,38413,10246,1162,1057,11408,0.2667,0.0303,OpenAI,10.921,0.001861675,0.043963,0.037916,0.1632
+OpenAI: GPT-6 Luna,openai/gpt-6-luna,37.3,,,0.1,0.5,backend-api.py,python,15571,3293,2173,1941,5466,0.2115,0.1396,OpenAI,12.35,0.00149805,0.100842,0.095306,0.2741
+OpenAI: GPT-6 Luna,openai/gpt-6-luna,37.3,,,0.1,0.5,openapi-spec.json,json,21715,5528,306,204,5834,0.2546,0.0141,OpenAI,3.855,0.000843925,0.040744,0.034075,0.1447
+OpenAI: GPT-6 Luna,openai/gpt-6-luna,37.3,,,0.1,0.5,react-component.tsx,typescript,12332,3129,1324,1193,4453,0.2537,0.1074,OpenAI,8.697,0.00105305,0.089496,0.082854,0.2365
+OpenAI: GPT-6 Sol,openai/gpt-6-sol,47.5,,,2.0,10.0,agent-system-prompt.txt,prose,28296,5872,1540,1442,7412,0.2075,0.0544,OpenAI,16.342,0.0300785,1.114631,1.005886,4.0581
+OpenAI: GPT-6 Sol,openai/gpt-6-sol,47.5,,,2.0,10.0,architecture.md,markdown,38413,10246,3589,3435,13835,0.2667,0.0934,OpenAI,42.393,0.0615035,1.452404,1.33146,4.4455
+OpenAI: GPT-6 Sol,openai/gpt-6-sol,47.5,,,2.0,10.0,backend-api.py,python,15571,3293,2025,1766,5318,0.2115,0.13,OpenAI,21.372,0.028481,1.917217,1.806483,5.3556
+OpenAI: GPT-6 Sol,openai/gpt-6-sol,47.5,,,2.0,10.0,openapi-spec.json,json,21715,5528,231,140,5759,0.2546,0.0106,OpenAI,4.087,0.0161285,0.778671,0.6453,2.8006
+OpenAI: GPT-6 Sol,openai/gpt-6-sol,47.5,,,2.0,10.0,react-component.tsx,typescript,12332,3129,1197,1064,4326,0.2537,0.0971,OpenAI,13.14,0.019791,1.681988,1.549152,4.5749
 Perceptron: Perceptron Mk1,perceptron/perceptron-mk1,,,,0.15,1.5,agent-system-prompt.txt,prose,28296,6137,181,0,6318,0.2169,0.0064,Perceptron,4.201,0.00119205,0.044174,0.044174,0.1887
 Perceptron: Perceptron Mk1,perceptron/perceptron-mk1,,,,0.15,1.5,architecture.md,markdown,38413,11010,390,0,11400,0.2866,0.0102,Perceptron,18.625,0.0022365,0.052815,0.052815,0.1962
 Perceptron: Perceptron Mk1,perceptron/perceptron-mk1,,,,0.15,1.5,backend-api.py,python,15571,3590,386,0,3976,0.2306,0.0248,Perceptron,13.418,0.0011175,0.075225,0.075225,0.2811
@@ -489,11 +489,11 @@ SpaceXAI: Grok 4.6,x-ai/grok-4.6,44.4,76.8,53.4,2.0,6.0,architecture.md,markdown
 SpaceXAI: Grok 4.6,x-ai/grok-4.6,44.4,76.8,53.4,2.0,6.0,backend-api.py,python,15571,4002,6808,6252,10810,0.257,0.4372,xAI,87.766,0.04866,3.27558,3.288505,4.5014
 SpaceXAI: Grok 4.6,x-ai/grok-4.6,44.4,76.8,53.4,2.0,6.0,openapi-spec.json,json,21715,6826,840,645,7666,0.3143,0.0387,xAI,14.484,0.0185,0.893165,0.902435,2.4133
 SpaceXAI: Grok 4.6,x-ai/grok-4.6,44.4,76.8,53.4,2.0,6.0,react-component.tsx,typescript,12332,3502,4605,4432,8107,0.284,0.3734,xAI,62.717,0.034442,2.92714,2.943458,4.2484
-x-ai/grok-4.7,x-ai/grok-4.7,,,,0.0,0.0,agent-system-prompt.txt,prose,28296,7196,10547,10283,17743,0.2543,0.3727,xAI,91.465,0.075946,2.814361,0.0,4.2803
-x-ai/grok-4.7,x-ai/grok-4.7,,,,0.0,0.0,architecture.md,markdown,38413,11596,22109,21820,33705,0.3019,0.5756,xAI,195.556,0.154118,3.639494,0.0,4.5726
-x-ai/grok-4.7,x-ai/grok-4.7,,,,0.0,0.0,backend-api.py,python,15571,5038,8617,8117,13655,0.3236,0.5534,xAI,76.708,0.06005,4.042305,0.0,4.3977
-x-ai/grok-4.7,x-ai/grok-4.7,,,,0.0,0.0,openapi-spec.json,json,21715,7862,959,697,8821,0.3621,0.0442,xAI,9.905,0.01975,0.953514,0.0,2.239
-x-ai/grok-4.7,x-ai/grok-4.7,,,,0.0,0.0,react-component.tsx,typescript,12332,4538,6117,5958,10655,0.368,0.496,xAI,57.516,0.04405,3.7437,0.0,4.1342
+SpaceXAI: Grok 4.7,x-ai/grok-4.7,46.4,,,2.0,6.0,agent-system-prompt.txt,prose,28296,7196,10547,10283,17743,0.2543,0.3727,xAI,91.465,0.075946,2.814361,2.878396,4.2803
+SpaceXAI: Grok 4.7,x-ai/grok-4.7,46.4,,,2.0,6.0,architecture.md,markdown,38413,11596,22109,21820,33705,0.3019,0.5756,xAI,195.556,0.154118,3.639494,3.6803,4.5726
+SpaceXAI: Grok 4.7,x-ai/grok-4.7,46.4,,,2.0,6.0,backend-api.py,python,15571,5038,8617,8117,13655,0.3236,0.5534,xAI,76.708,0.06005,4.042305,4.158627,4.3977
+SpaceXAI: Grok 4.7,x-ai/grok-4.7,46.4,,,2.0,6.0,openapi-spec.json,json,21715,7862,959,697,8821,0.3621,0.0442,xAI,9.905,0.01975,0.953514,1.036941,2.239
+SpaceXAI: Grok 4.7,x-ai/grok-4.7,46.4,,,2.0,6.0,react-component.tsx,typescript,12332,4538,6117,5958,10655,0.368,0.496,xAI,57.516,0.04405,3.7437,3.890559,4.1342
 SpaceXAI: Grok Build 0.1,x-ai/grok-build-0.1,,51.5,,1.0,2.0,agent-system-prompt.txt,prose,28296,5977,8695,8513,14672,0.2112,0.3073,xAI,44.687,0.0232646,0.862125,0.86592,1.5856
 SpaceXAI: Grok Build 0.1,x-ai/grok-build-0.1,,51.5,,1.0,2.0,architecture.md,markdown,38413,10051,13670,13549,23721,0.2617,0.3559,xAI,67.464,0.0372886,0.88057,0.882988,1.572
 SpaceXAI: Grok Build 0.1,x-ai/grok-build-0.1,,51.5,,1.0,2.0,backend-api.py,python,15571,3429,19605,19322,23034,0.2202,1.2591,xAI,99.868,0.0425366,2.863379,2.870272,1.8467
@@ -504,11 +504,11 @@ Xiaomi: MiMo-V2.5,xiaomi/mimo-v2.5,22.3,56.8,17.4,0.14,0.28,architecture.md,mark
 Xiaomi: MiMo-V2.5,xiaomi/mimo-v2.5,22.3,56.8,17.4,0.14,0.28,backend-api.py,python,15571,3295,4096,4022,7391,0.2116,0.2631,DigitalOcean,182.079,0.001485463,0.099995,0.108256,0.201
 Xiaomi: MiMo-V2.5,xiaomi/mimo-v2.5,22.3,56.8,17.4,0.14,0.28,openapi-spec.json,json,21715,5600,3170,2989,8770,0.2579,0.146,DigitalOcean,129.316,0.0014756,0.071241,0.080704,0.1683
 Xiaomi: MiMo-V2.5,xiaomi/mimo-v2.5,22.3,56.8,17.4,0.14,0.28,react-component.tsx,typescript,12332,3047,4096,4062,7143,0.2471,0.3321,DigitalOcean,164.041,0.001459423,0.124033,0.133724,0.2043
-xiaomi/mimo-v2.6-pro,xiaomi/mimo-v2.6-pro,,,,0.0,0.0,agent-system-prompt.txt,prose,28296,5923,288,21,6211,0.2093,0.0102,GMICloud,8.205,0.002827065,0.104764,0.0,0.4552
-xiaomi/mimo-v2.6-pro,xiaomi/mimo-v2.6-pro,,,,0.0,0.0,architecture.md,markdown,38413,10487,423,18,10910,0.273,0.011,GMICloud,11.136,0.004929855,0.116418,0.0,0.4519
-xiaomi/mimo-v2.6-pro,xiaomi/mimo-v2.6-pro,,,,0.0,0.0,backend-api.py,python,15571,3295,4096,4098,7391,0.2116,0.2631,GMICloud,40.862,0.004996845,0.336366,0.0,0.6761
-xiaomi/mimo-v2.6-pro,xiaomi/mimo-v2.6-pro,,,,0.0,0.0,openapi-spec.json,json,21715,5600,324,20,5924,0.2579,0.0149,GMICloud,22.334,0.00271788,0.131217,0.0,0.4588
-xiaomi/mimo-v2.6-pro,xiaomi/mimo-v2.6-pro,,,,0.0,0.0,react-component.tsx,typescript,12332,3047,440,6,3487,0.2471,0.0357,DeepInfra,22.712,0.00169301,0.143885,0.0,0.4855
+Xiaomi: MiMo-V2.6-Pro,xiaomi/mimo-v2.6-pro,46.3,,,0.435,0.87,agent-system-prompt.txt,prose,28296,5923,288,21,6211,0.2093,0.0102,GMICloud,8.205,0.002827065,0.104764,0.104764,0.4552
+Xiaomi: MiMo-V2.6-Pro,xiaomi/mimo-v2.6-pro,46.3,,,0.435,0.87,architecture.md,markdown,38413,10487,423,18,10910,0.273,0.011,GMICloud,11.136,0.004929855,0.116418,0.116418,0.4519
+Xiaomi: MiMo-V2.6-Pro,xiaomi/mimo-v2.6-pro,46.3,,,0.435,0.87,backend-api.py,python,15571,3295,4096,4098,7391,0.2116,0.2631,GMICloud,40.862,0.004996845,0.336366,0.336366,0.6761
+Xiaomi: MiMo-V2.6-Pro,xiaomi/mimo-v2.6-pro,46.3,,,0.435,0.87,openapi-spec.json,json,21715,5600,324,20,5924,0.2579,0.0149,GMICloud,22.334,0.00271788,0.131217,0.131217,0.4588
+Xiaomi: MiMo-V2.6-Pro,xiaomi/mimo-v2.6-pro,46.3,,,0.435,0.87,react-component.tsx,typescript,12332,3047,440,6,3487,0.2471,0.0357,DeepInfra,22.712,0.00169301,0.143885,0.14518,0.4855
 Z.ai: GLM 4.7 Flash,z-ai/glm-4.7-flash,,,,0.0605,0.4,agent-system-prompt.txt,prose,28296,5854,423,354,6277,0.2069,0.0149,DeepInfra,3.723,0.00051724,0.019168,0.019395,0.0824
 Z.ai: GLM 4.7 Flash,z-ai/glm-4.7-flash,,,,0.0605,0.4,architecture.md,markdown,38413,10316,2344,2405,12660,0.2686,0.061,DeepInfra,28.86,0.00155336,0.036683,0.03688,0.1227
 Z.ai: GLM 4.7 Flash,z-ai/glm-4.7-flash,,,,0.0605,0.4,backend-api.py,python,15571,3256,4096,4308,7352,0.2091,0.2631,DeepInfra,50.203,0.00183056,0.123225,0.12355,0.249
